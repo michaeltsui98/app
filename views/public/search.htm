@@ -1,0 +1,31 @@
+<div class="logo_search">
+  <div class="warp">
+       <div class="logo f-fl"><a href="/" title="dodo资源中心"></a></div>
+       <div class="search f-fl">
+          <div class="input" style="position:relative;">
+		  <input type="text" placeholder="资源关键字" value="{$key}"  class="f-fl" id="search">
+		  <a href="javascrtip:;" id="a_search" class="f-fl">搜索</a>
+		  <div id="search-hotword" style="display: block; " class="close"></div>
+		  <div class="f-cb"></div>  
+		  <ul class="associateWrap hot-keyword" id="suggest-search" style="display: none; "></ul>         
+          </div>
+          <div class="radio">
+            <ul>
+              <li><input type="radio" name="tstradio" value="0" id="radio0" {if !$type}checked="checked"{/if}><label for="radio0">全部</label> </li>
+			  {loop $resource_type $k $v}
+              <li><input type="radio" name="tstradio" value="{$k}" {if $type==$k}checked="checked"{/if} id="radio{$k}"><label for="radio{$k}">{$v}</label> </li>
+			  {/loop}
+            </ul>
+          </div>
+       </div>
+       <div class="uploadBtn f-fr">
+       	 {if isset($user_info['user_id']) and  $user_info['user_id']}
+         <a href="/upload" id="a_upload"></a>
+		 {else}
+         <a href="javascript:;"  onclick="loginDialog()" id="a_upload"></a>
+		 {/if}
+       </div>
+        <div class="f-cb"></div>
+   </div>
+   <div class="f-cb"></div>
+ </div>

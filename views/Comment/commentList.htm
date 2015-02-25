@@ -1,0 +1,42 @@
+              <!--添加评论-->
+			  {if $comment_text_box}
+			  <div class="ct">
+				  <textarea name="comment_content"  cols="30" rows="10"></textarea>
+				  <div class="send clearfix">
+					  <p class="f-fl">文明上网，从我做起！请勿发表不良言论</p>
+					  <div class="f-fr" name="add_comment"><a href="javascript:;"></a></div>
+				  </div>
+			  </div>
+			  {/if}
+
+				<!--评论列表-->
+                <div class="ft" name='all_comment'>
+                    <ul>
+                	{if !empty($comment_list)}
+ 							{loop $comment_list $k $v}
+							<li>
+		                        <div class="avarter">
+		                        <img src="{$v['icon']}" alt="" width="32px">
+		                        </div>
+		                        <div class="name"><a target="_blank" href="{DOMAIN_NAME}/{$v['user_id']}/Space/index">{$v['real_name']}</a><span class="time f-pl10">{date('Y-m-d H:i',$v['comment_time'])}</span>
+		                          {if isset($v['del_status']) && !empty($v['del_status'])}
+								  <a href="javascript:;" val="{$v['comment_id']}" name="del_comment" class="close f-fr">删除</a>
+								  {/if}
+		                        </div>
+		                        <div class="con">{$v['comment_content']}</div> 
+		                    </li>
+ 							{/loop}	
+                	{/if}
+					
+					
+                    </ul>
+                    {if isset($page)}
+						<div class="page" name="page">
+							{$page}
+						</div>	
+                    {/if}  
+                     
+                </div>
+            
+			
+       

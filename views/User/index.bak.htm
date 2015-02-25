@@ -1,0 +1,88 @@
+
+<script> 
+	var sid = "{$sid}";
+	var file_type = "{$file_type}";
+</script>
+ <!--主内容开始-->
+ <div class="main">
+      <div class="warp">  
+      <div class="g-bd">  
+          <div class="wk_classList">
+              <div class="sidebar width252 f-fl"> 
+
+                    <div class="m-ulWrap s-bsdStyle1 f-mb10">
+                    <div class="m-ui clearfix">
+                        <div class="uf f-fl">
+                        <a href="{HTTP_DODOEDU}/{$user_info['user_id']}/Space/index" title="" target="_blank">
+                        	<img src="{$user_info['user_avatar_160']}" width="72"></a>
+                        </div>
+                        <ul class="uilst f-fl">
+                            <li class="item"><a href="{HTTP_DODOEDU}/{$user_info['user_id']}/Space/index" title="" target="_blank">
+                            	<strong class="f-fs14 f-vam f-mr10">{$user_info['user_realname']}</strong></a>
+								<i class="icon-level" title="目前等级{$user_info['user_level']}级"><i class="num{$user_info['user_level']}"></i></i>
+								</li>
+                            <li class="item"><a href="{HTTP_DODOEDU}/school/{$user_info['school_id']}" title="" target="_blank" class="a-thil">{$user_info['school_name']}</a></li>
+                        </ul>
+                        <div class="f-cb"></div>
+                    </div>
+                    <div class="BVer"> 
+                    <strong> </strong> 
+                    </div>
+                      <ul class="m-ullst s-fcGray">
+                        <li class="item"><a {if $s =='upload'} class="select"{/if}  href="/user/index/s/upload?type={$type}">我上传的资源&nbsp;&nbsp;[{$upload_count}]</a></li>
+                        <li class="item"><a {if $s == 'down'} class="select"{/if} href="/user/index/s/down?type={$type}">我下载的资源&nbsp;&nbsp;[<!--{eval echo (int)$myDown['total']}-->]</a></li>
+                        <li class="item"><a {if $s == 'fav'} class="select"{/if} href="/user/index/s/fav?type={$type}">我收藏的资源&nbsp;&nbsp;[<!--{eval echo (int)$myFav['total']}-->]</a></li>
+                      </ul>
+                    </div>
+
+
+                    <div class="m-ulWrap s-bsdStyle1 f-mb10" style="background: none;">
+                          <div class="otherChoose resource-search-area">
+                              <div class="f-fs14">搜索我的资源</div>
+                              <input type="text" name="txt_my_search" value="{$key}" class="text">
+                              <input type="button" name="btn_my_search" data-url= "/user/index/key/" value="搜索" class="customBtn colourDarkGreen customBtnNormal f-mr10">
+                          </div>
+                    </div>
+
+              </div>
+
+              <div class="g-mn f-fr">
+              <div class="main"> 
+                      <div class="tab1Menu">
+                          <div class="leftInfo f-fs14 f-fl">
+                              <strong {if $type==0} class="cur" {/if}><a href="?type=0">全部</a></strong>
+                              <strong  {if $type==1}class="cur"{/if}><a href="?type=1">教案</a></strong>
+                              <strong {if $type==2}class="cur"{/if}><a href="?type=2">课件</a></strong>
+                              <strong {if $type==3}class="cur"{/if}><a href="?type=3">试卷</a></strong>
+                              <div class="f-cb"></div>
+                          </div>
+                          <div class="rightInfo f-fr">
+                          
+                          </div>  
+                          </div>
+                      </div>
+                      <div class="con">
+                          <div class="wk_docCell wk_doclist">
+
+                              <!-- txt-->
+                               {$resource_list}
+                              <!-- ==txt==-->  
+
+                          </div>
+
+                            <div id="pageNum" class="page">
+                                 {$page_html}
+                            </div>    
+                    
+                      </div>
+                  </div>
+              </div>
+              <div class="f-cb">
+              </div>
+              </div>
+          </div>
+      </div>
+      <div class="f-cb f-mb10"></div> 
+      </div> 
+ </div>
+<!--主内容结束-->

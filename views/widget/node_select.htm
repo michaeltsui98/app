@@ -1,0 +1,115 @@
+<!--{eval 
+	$x = v('x');
+	$l = v('l');
+	$g = v('g');
+	$b = v('b');
+	$s = v('s');
+	$n = v('n');
+	$hh = v('hh');
+}-->
+{if $hh<=0}
+<div id="add_body">
+{/if}
+学段：
+<select name="x" class="add_select">
+	<option value="">请选择
+	 {loop $xd $v}
+		<option value="{$v['id']}" {if $x==$v['id'] }selected="selected"{/if}>{$v['base_title']}</option>
+	 {/loop}
+</select>
+<br>
+{if $x>0}
+<br>
+学科：
+<select name="l" class="add_select">
+	<option value="">请选择
+	 {loop $xk $v}
+		<option value="{$v['id']}" {if $l==$v['id'] }selected="selected"{/if}>{$v['base_title']}</option>
+	 {/loop}
+</select>
+<br>
+{/if}
+ 
+{if $l>0}
+<br>
+年级：
+<select name="g" class="add_select">
+	<option value="">请选择
+	 {loop $nj $v}
+		<option value="{$v['id']}" {if $g==$v['id'] }selected="selected"{/if}>{$v['base_title']}</option>
+	 {/loop}
+</select>
+<br>
+{/if}
+{if $g>0}
+<br>
+版本：
+<select name="b" class="add_select">
+	<option value="">请选择
+	 {loop $bb $v}
+		<option value="{$v['id']}" {if $b==$v['id'] }selected="selected"{/if}>{$v['base_title']}</option>
+	 {/loop}
+</select>
+{/if}
+
+{if $special}
+<br>
+专题：
+<select name="s" class="add_select">
+	<option value="">请选择
+	 {loop $special $v}
+		<option value="{$v['id']}" {if $s==$v['id'] }selected="selected"{/if}>{$v['sp_name']}</option>
+	 {/loop}
+</select>
+{/if}
+<br>
+{if $know}
+<br>
+知识节点：
+<select name="n">
+	<option value="">请选择
+	 {loop $know $v}
+		<option value="{$v['id']}" {if $n==$v['id'] }selected="selected"{/if}>{$v['ext']}{$v['node_title']}</option>
+	 {/loop}
+</select>
+{/if}
+<script>
+	var x_id = '<?=$x?>';
+	var l_id = '<?=$l?>';
+	var g_id = '<?=$g?>';
+	var b_id = '<?=$b?>';
+	var s_id = '<?=$s?>';
+	var n_id = '<?=$n?>';
+</script>
+{if $hh<=0}
+</div>
+<script>
+$(".add_select").die().live("change",function(){
+	var url = {BASE_PATH}'/Widget/node_select?hh=1';
+	var obj = $(this).attr("name");
+		if(obj =='x') {
+			x_id = $(this).val();
+			url = url +"&x="+ x_id;
+		}
+		if(obj =='l') {
+			l_id = $(this).val();
+			url =url +"&x="+ x_id+ "&l="+ l_id
+		}
+		if(obj =='g') {
+			g_id = $(this).val();
+			url =url +"&x="+ x_id+ "&l="+ l_id + "&g="+ g_id
+		}
+		if(obj =='b') {
+			b_id = $(this).val();
+			
+			url =url +"&x="+ x_id+ "&l="+ l_id + "&g="+ g_id + "&b="+ b_id
+		}
+		if(obj =='s') {
+			s_id = $(this).val();
+			url =url +"&x="+ x_id+ "&l="+ l_id + "&g="+ g_id + "&b="+ b_id + "&s="+ s_id
+		}
+		$("#add_body").load(url);
+	
+}); 
+</script>
+{/if}

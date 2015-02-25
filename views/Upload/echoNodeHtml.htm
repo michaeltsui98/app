@@ -1,0 +1,8 @@
+{if $data}
+<li class="js-category-item" style="display: block; ">
+{loop $data $k $v}
+  <p {if $v['state']=='open'}class="last"{/if} data-cid="{$v['id']}" data-level="{$v['level']}" title="{$v['name']}">{$v['name']}</p>
+{/loop}
+</li>
+{/if}
+

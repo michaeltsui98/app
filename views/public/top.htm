@@ -1,0 +1,20 @@
+ <div class="top">
+      <div class="warp">
+           <a href="http://mobile.dodoedu.com" class="app f-fl" target="_blank"></a>
+           <ul class="f-fr">
+               
+               <li><a href="/">首页</a></li>
+               <li><span>|</span></li>
+			   
+			   {if $user_info}
+               <li><a href="{HTTP_DODOEDU}/{$user_info['user_id']}/Space/Index" target="_blank">欢迎您：{$user_info['user_realname']}</a></li>
+               <li><a href="/sign/out">退出</a></li>
+			   {else}
+               <li><a href="javascript:;" onclick="loginDialog()">登录</a></li>
+               <li><span>|</span></li>
+               <li><a  href="{HTTP_DODOEDU}/UserSignUp/signUp"   target="_blank" >注册</a></li>
+			   {/if}
+           </ul>
+           <div class="f-cb"></div>
+      </div>
+ </div>

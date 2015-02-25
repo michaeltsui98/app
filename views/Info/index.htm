@@ -1,0 +1,222 @@
+ <script>
+	    var uid = "{$uuid}";
+	    var id = "{$info['doc_id']}";
+	    var file_key = "{$info['file_key']}";
+    {if $is_yun}
+        var perview_type = "is_yun";
+    {else}
+        var perview_type = "{$perview_type}";
+    {/if}
+        var swf_key = "{$info['doc_swf_key']}";
+	    var ext = "{$info['doc_ext_name']}";
+</script>
+{if $perview_type=='isTxt' or $perview_type=='isPpt'}
+<link rel="stylesheet" type="text/css" href="{STATIC_PATH}/static/flexpaper/flexpaper.css" />
+<script  src="{STATIC_PATH}/static/flexpaper/flexpaper.js"></script>
+<script  src="{STATIC_PATH}/static/flexpaper/flexpaper_handlers.js"></script>
+<script  src="{STATIC_PATH}/static/fpaper/swfobject.js"></script>
+{/if}
+
+ <!--主内容开始-->
+ <div class="main">
+      <div class="warp"> 
+          <div class="wk_docPreview f-pt20">
+
+            <!--左边内容 开始-->
+            <div class="main width747 f-fl" style=" margin-left: 5px; ">
+			    <div style="position: relative;">
+                <div class="resource-operate">
+
+                    <div class="recommend_btn">
+                        <a href="{$share_url}" target="_blank" class="spread">推荐到：<span></span></a>
+                    </div>
+				 <div class="bdsharebuttonbox">
+				 	<a href="#" class="bds_more" data-cmd="more"></a>
+					<a href="#" class="bds_qzone" data-cmd="qzone"></a>
+					<a href="#" class="bds_tsina" data-cmd="tsina"></a>
+					<a href="#" class="bds_tqq" data-cmd="tqq"></a>
+					<a href="#" class="bds_renren" data-cmd="renren"></a>
+					<a href="#" class="bds_weixin" data-cmd="weixin"></a>
+
+				 </div>
+<script>
+	window._bd_share_config={"common":{"bdSnsKey":{},"bdText":"{$info['doc_title']}","bdDesc":"{$top_desc}","bdMini":"2","bdPic":"{$pics}","bdStyle":"0","bdSize":"16"},"share":{},"image":{"viewList":["qzone","tsina","tqq","renren","weixin"],"viewText":"分享到：","viewSize":"16"},"selectShare":{"bdContainerClass":null,"bdSelectMiniList":["qzone","tsina","tqq","renren","weixin"]}};with(document)0[(getElementsByTagName('head')[0]||body).appendChild(createElement('script')).src='http://bdimg.share.baidu.com/static/api/js/share.js?v=89860593.js?cdnversion='+~(-new Date()/36e5)];</script>
+                </div>
+                <h1 class="docTitle" style="height:auto;">
+                    <i class="iconL_{$info['doc_ext_name']}"></i>{$info['doc_title']}
+                    {if $info['attr']==2}
+                        <span class="tag" >正版
+                            <div class="tag_dia" style="display: none"><i></i>
+                                本文档版权归湖北博盛数字教育服务有限公司所有，并保留一切权利。未经书面许可，任何公司和个人不得将此文档中的任何部分修改、转载或用于其他商业行为。
+                            </div>
+                        </span>
+                    {/if}
+
+                </h1>
+
+
+
+                <p class="docTag f-mt10 f-mb10">
+                {if $info['xd']}
+                {$base_node[$info['xd']]} | 
+				{$base_node[$info['xk']]} | 
+				{if isset($info['bb']) }{$base_node[$info['bb']]}  {/if} | 
+				{if isset($base_node[$info['nj']]) }{$base_node[$info['nj']]}  {/if}| 
+				{/if}
+				{if $cate_name}
+				 {$cate_name}  
+				{/if} 
+				{$resource_type[$info['cate_id']]} </p>
+                </div>
+                    <div style="position:relative;top:0px;text-align: center" onclick="">
+
+                    {if !$is_yun}
+
+                    {if $perview_type=='isVideo'}
+                    <script  src="{STATIC_PATH}/static/ckplayer/ckplayer.js"></script>
+                    <script  src="{STATIC_PATH}/static/ckplayer/offlights.js"></script>
+                    {/if}
+                    <div id="documentViewer" class="flexpaper_viewer" style="width:100%;height:700px;background-color:#f2f2f2;"></div>
+                    {else}
+
+                        <script  src="{STATIC_PATH}/static/polyvVedio/polyv.js"></script>
+                        <link rel="stylesheet" type="text/css" href="{STATIC_PATH}/static/polyvVedio/polvy.css" />
+
+                        <object classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000" width="680" height="400" id="polyvplayer">
+                            <param name="movie" value="http://player.polyv.net/player_polyv_20141126.swf?vid={$video_info['vid']}"/>
+                            <param name="allowscriptaccess" value="always"/>
+                            <param name="allowFullScreen" value="true" />
+                            <param name="womde" value="transparent"/>
+                            <param name="flashvars" value="skin_type=skin_ata">
+                            <embed src="http://player.polyv.net/player_polyv_20141126.swf?vid={$video_info['vid']}" width="680" height="400"  TYPE="application/x-shockwave-flash" allowscriptaccess="always" name="polyvplayer" allowFullScreen="true" womde="transparent" flashvars="skin_type=skin_ata"/>
+                            </embed>
+                        </object>
+                        <div class="TM">
+                            <form action="#" method="post" id="TM-form">
+                                <span class="TM-btn">弹幕设置</span>
+                                <div class="TM-wrap">
+                                    <span class="TM-wrapinner">|||</span>
+                                </div>
+                                <div class="TM-pop">
+                                    <div class="TM-pop-cont">
+                                        <label for="fontSize">字号 :</label>
+                                        <select id="fontSize" name="fontSize">
+                                            <option value="16">16号</option>
+                                            <option value="18">18号</option>
+                                            <option value="24" selected="selected">24号</option>
+                                            <option value="36">36号</option>
+                                            <option value="48">48号</option>
+                                            </select><br/>
+                                                <label for="fontMode">状态 :</label>
+                                                <select id="fontMode" name="fontMode">
+                                                    <option value="top">顶部</option>
+                                                    <option value="bottom">底部</option>
+                                                    <option value="roll" selected="selected">滚动</option>
+                                                    </select><br/>
+                                                        <label for="fontColor">颜色 :</label>
+                                                        <select id="fontColor" name="fontColor">
+                                                            <option value="0xFF0000">红色</option>
+                                                            <option value="0x0000FF">蓝色</option>
+                                                            <option value="0x00FF00">绿色</option>
+                                                            <option value="0xFFFF00">黄色</option>
+                                                            <option value="0xFFFFFF" selected="selected">白色</option>
+                                                            <option value="0x000000">黑色</option>
+                                                            </select>
+                                    </div>
+                                </div>
+                                <input type="text" placeholder="可以在这里输入弹幕哦！" id="msg" name="msg"/>
+        		<span class="TM-send" data-vid="{$video_info['vid']}">
+        			发 送
+        		</span>
+        		<span class="TM-smile">
+        		</span>
+                            </form>
+                        </div>
+                    {/if}
+
+
+
+                </div>
+
+            <!--评论 开始-->
+                 <div class="wk_docCommet m-videoCommet f-fl">
+		            <div class="tt">
+		                <ul class="tab3Menu">
+		                    <li class="menuCell tabMenuCurrent f-fl">
+		                        <a href="javascript:void(0)" title="" class="tabLink">资源评论</a>
+		                    </li>
+		                    <li class="f-cb"></li>
+		                </ul>
+		            </div>
+					<div class="ct">
+						<div name="get_comment_list" comment_number = "5" comment_type="resource" comment_type_id="{$info['doc_id']}" style="padding:10px;width:inherit;"></div>
+					</div>
+				</div>
+            <!--评论 结束-->
+            </div>
+             <!--左边内容 结束-->
+             <!--右侧内容 开始-->
+            <div class="sidebar width200 f-mb10 f-fr module_titLine">
+                <h2 class="wk_titleIndex"><span>上传者信息</span></h2>
+                <div class="userInfo">
+                    <img src="{$user_info['icon']}" alt="" class="f-fl">
+                    <dl class="f-fl f-ml10">
+                        <dt class="grayTxt2"> <strong class="font14"><a href="{HTTP_DODOEDU}/{$user_info['user_id']}/Space/Index" target="_blank">{$user_info['real_name']}</a></strong> 
+                            
+                        </dt>
+                        <dd>{$user_info['role_name']}</dd>
+                        <dd class="greenTxt"></dd>
+                    </dl>
+                    <div class="f-cb "></div>
+                </div>
+                <h2 class="wk_titleIndex"><span>资源信息</span></h2>
+                <div class="docInfoWrap f-mt10">
+                    <div class="docRate greenTxt">
+                        {$doc_star}
+						<em class="font25">{$info['doc_remarks']}人评价</em>
+                    </div>
+                    <div class="docOperate"> 
+                        <a href="javascript:;" id="fav" data-id="{$info['doc_id']}" data-uid="{$uuid}"  class="btn1 f-fl f-mr10"></a>
+                        <a href="javascript:;" id="remark" data-id="{$info['doc_id']}" data-uid="{$uuid}"  class="btn2 f-fl"></a>
+                        <div class="f-cb "></div> 
+                        <ul class="docInfo">
+                            {if $unit_name}
+							<li>资源章节：<strong>{$unit_name}</strong></li>
+							{/if}
+                            <li>上传时间：<strong>{date('Y-m-d',$info['on_time'])}</strong></li>
+                            <li>资源大小：<strong><!--{eval echo Models_Resource::init()->bytesToSize($info['file_size'])}--></strong></li>
+                            <li>浏览次数：<strong>{$info['doc_views']}</strong></li>
+                            <li>下载次数：<strong>{$info['doc_downs']}</strong></li>
+                            {if !$is_yun or $perview_type != 'isVideo' }
+                                <li class="downLoadWrap">
+                                    <a href="javascript:;" data-uid="{$uuid}" class="btn3" data-url="{$info['doc_id']}"></a>
+                                </li>
+                            {/if}
+                            
+                        </ul>
+                    </div>
+                    <h2 class="wk_titleIndex"><span>免责声明</span></h2>
+                    <div class="f-fs14" style="padding:3px 0 18px 0;">
+                        多多资源中心是一个用户分享教育资源的平台，本资源由用户上传，如果本资源内容违规或损害了您的权益，请和我们联系反馈。
+                    </div>
+                    <h2 class="wk_titleIndex"><span>相关资源推荐</span></h2>
+                    {loop $relate_resource $v}
+	                    <dl class="docRec">
+	                        <dt>
+	                            <i class="icon_{$v['file_type']}"></i>
+	                            <a href="/info/{$v['id']}" target="_blank" title="{$v['title']}" class="font14">{$v['title']}</a>
+	                        </dt>
+	                        <div class="f-cb "></div>
+	                    </dl>
+					{/loop}
+                     
+                     
+                </div> 
+           </div> 
+           <!--右侧内容 结束--> 
+           <div class="f-cb"></div> 
+    </div>
+       
+      </div> 
+ </div>
+<!--主内容结束-->

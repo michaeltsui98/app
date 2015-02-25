@@ -1,0 +1,15 @@
+<select name="ct0" id="slt_ct0">
+	<option>选择学段</option>
+	{loop $vars['ct0_arr'] $v}
+	<option value="{$v['id']}" {if $v['id'] == $vars['ct0']} selected="selected" {/if}>{$v['base_title']}</option>
+	{/loop}
+</select>
+<select name="ct1" id="slt_ct1">
+	{if $vars['ct1']}
+		{loop $vars['ct1_arr'] $v}
+		<option value="{$v['id']}" {if $v['id'] == $vars['ct1']} selected="selected" {/if}>{$v['base_title']}</option>
+		{/loop}
+	{else}
+		<option>先选择学段</option>
+	{/if}
+</select>

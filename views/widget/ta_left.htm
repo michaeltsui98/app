@@ -1,0 +1,33 @@
+<div class="sidebar width250 borderRBlue1 floatL">
+    <div class="userInfo blueTxt">
+        <dl>
+            <dt>
+                <img src="{$user_info['icon160']}" width="160">
+            </dt>
+            <dd class="font14">
+                <strong>{$user_info['real_name']}({$user_info['level']}级)</strong>
+            </dd>
+            <dd>
+                
+            </dd>
+        </dl>
+    </div>
+    <ul class="userMenu font14">
+        <li {if $path['action']=="indexAction"}class="current"{/if}>
+        	{if $path['action']=="indexAction"}
+			<i class="icon_library"></i>他的文库
+			{else}
+            <a href="{BASE_PATH}/ta/{$vars['uid']}" title="他的文库"><i class="icon_library"></i>他的文库</a>
+			{/if}
+        </li>
+		
+        <li {if $path['action']=="albumAction"}class="current"{/if}>
+        	{if $path['action']=="albumAction"}
+			<i class="icon_corpus"></i>他的文集
+			{else}
+            <a href="{BASE_PATH}/ta/album/{$vars['uid']}" title="他的文集"><i class="icon_corpus"></i>他的文集</a>
+			{/if}
+        </li>
+        
+    </ul>
+</div>

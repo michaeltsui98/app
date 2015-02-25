@@ -1,0 +1,22 @@
+<div class="wk_header">
+	<div class="leftInfo floatL"><a href="{BASE_PATH}/Index"><h1 class="logo floatL"></h1></a><a href="{HTTP_DODOEDU}" title="多多社区" class="font18">多多社区</a><div class="clearFloat"></div></div>
+    <div class="rightInfo floatR">
+    	<form action="{BASE_PATH}/Search" method="get">
+			<div class="searchBox floatL"><input name="q" type="text" class="searchTxt grayTxt1" value="<!--{eval echo v('q')}-->" /><label class="searchBtn cursorHand"><input name="" type="submit" value="" /></label></div>
+		</form>
+        <a href="{BASE_PATH}/Search" class="grayA font14"><strong>高级搜索</strong></a><a href="{BASE_PATH}/Upload" title="上传文档" class="uploadBtn whiteA font14"><strong>上传文档</strong></a>{if !is_login()}<a href="{$url}" title="登录" target="_blank" class="loginBtn blueBtn font14"><strong>登录</strong></a>{else}<span class="userInfo">
+			<i class="icon_arrDown1 floatR"></i><img src="{$_SESSION['user']['icon']}" width="18" ><span>{$_SESSION['user']['user_name']}</span>
+        <ul class="userInfoList">
+        	<li><a href="{BASE_PATH}/User"  class="grayA">我的文库</a></li>
+            <li><a href="{HTTP_DODOEDU}"  target="_blank" class="grayA">多多社区</a></li>
+            <li><a href="{HTTP_DODOXUE}"  target="_blank" class="grayA">多多学堂</a></li>
+			{if  $_SESSION['is_admin']}
+            <li><a href="{BASE_PATH}/admin/sign"  target="_blank" class="grayA">管理中心</a></li>
+			{/if}
+            <li><a href="{BASE_PATH}/Index/out"  class="grayA">退出帐号</a></li>
+        </ul>
+        </span>
+		{/if}
+    </div>
+    <div class="clearFloat"></div>
+</div>

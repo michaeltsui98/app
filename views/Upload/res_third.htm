@@ -1,0 +1,133 @@
+<script> 
+var sid = "{$vars['sid']}";
+var obj_type = "{$vars['obj_type']}";
+var obj_id = "{$vars['obj_id']}";
+var ct0 = "{$vars['ct0']}";
+var ct1 = "{$vars['ct1']}";
+var file_type = {$file_type};
+</script>
+
+<link href="{BASE_PATH}/statics/thirdUp/css/uploader-thirdCss.css" rel="stylesheet" type="text/css" />
+<script src='{BASE_PATH}/statics/script/jquery.js'></script>
+<script src='{BASE_PATH}/statics/script/app.js'></script>
+<script src="{BASE_PATH}/statics/script/third.js"></script>
+
+ 
+<script type="text/javascript" src="{BASE_PATH}/statics/script/common.js"></script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/jscroll.js"></script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/resUpload.js"></script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/syup/syup.js"></script>
+
+<script type="text/javascript" src="{BASE_PATH}/statics/script/Dialog/artDialog.js?skin=default"></script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/Dialog/iframeTools.js"></script>
+
+<div class="m-upload">
+     
+    <form class="formStyle" name="frm1" method="post" action="/Upload/resUploadPost" >
+    <div class="W-form">
+        	<input type="hidden" name="data[obj_type]" value="{$vars['obj_type']}"/>
+			<input type="hidden" name="data[obj_id]" value="{$vars['obj_id']}"/>
+			<input type="hidden" name="t" value="{$vars['t']}"/>
+            <fieldset>
+                <!-- 上传/选择文件 -->
+                <div class="formStyle-item">
+                    <label for="" class="formStyle-label">
+                        <span class="formStyle-required">*</span>标题：
+                    </label>
+                   <input type="text" name="data[doc_title]"  class="customForm_inputBoxDefault customForm_txtInput width330" />
+                </div>
+                <!-- ==上传/选择文件== -->
+
+                <!-- 选择类型 -->
+                <div class="formStyle-item ">
+                    <label for="" class="formStyle-label">
+                        <span class="formStyle-required">*</span>资源类型：
+                    </label>
+                    <select name="data[cate_id]" id="select_cate">
+                    		{loop $cate_arr $k $v}
+							 <option value="{$k}">{$v}</option>
+							{/loop}
+                    </select>
+                </div>
+                <!-- ==选择类型== -->
+				<span class="formStyle-item">
+					<input type="hidden"  name="data[file]" id="input2" />
+						<input type="hidden"  name="data[file_size]" id="file_size" />
+						<DIV id="demo2"></DIV><div id="tip2"></div>
+				</span>
+                <!-- 选择类型 -->
+                <div class="formStyle-item">
+                    <label for="" class="formStyle-label">
+                        <span class="formStyle-required">*</span>选择分类：
+                    </label>
+					<select name="data[xd]" id="slt_xd">
+                    		<option value="">请选择</option>
+                    		{loop $xd_arr $k $v}
+							 <option id="{$v['id']}" value="{$v['code']}" {if $init_xd==$v['code']} selected="selected"{/if} >{$xd_name[$v['code']]}</option>
+							{/loop}
+                    	</select>
+                    	<select name="data[xk]" id="slt_xk">
+                    		<option value="">请选择</option>
+                    		{loop $xk_arr $k $v}
+							 <option id="{$v['id']}" value="{$v['code']}" {if $init_xk==$v['code']} selected="selected"{/if}>{$xd_name[$v['code']]}</option>
+							{/loop}
+                    	</select>
+                    	<select name="data[bb]" id="slt_bb">
+                    		<option value="">请选择</option>
+                    		{loop $bb_arr $k $v}
+							 <option id="{$v['id']}" value="{$v['code']}">{$xd_name[$v['code']]}</option>
+							{/loop}
+                    	</select>
+                    	<select name="data[nj]" id="slt_nj">
+                    		<option value="">请选择</option>
+                    		{loop $nj_arr $k $v}
+							 <option id="{$v['id']}" value="{$v['code']}">{$xd_name[$v['code']]}</option>
+							{/loop}
+                    	</select>
+						<select name="data[zs]" id="slt_zs">
+                    		 <option value="">请选择</option>
+                    	</select>
+						 
+                </div>
+                
+
+                <!-- 简介 -->
+                <div class="formStyle-item">
+                    <label for="" class="formStyle-label">
+                        <span class="formStyle-required"></span>简介：
+                    </label>
+                    <textarea class="customForm_textarea customForm_inputBoxDefault width330" name="data[doc_summery]" data-default ="非必填项，最多200字。" placeholder="非必填项，最多200字。" maxLength="200"></textarea>
+                    <p class="formStyle-explain"></p>
+                </div>
+                <!-- ==简介== -->
+
+                <!-- 标签 -->
+                <div class="formStyle-item">
+                    <label for="" class="formStyle-label">
+                        <span class="formStyle-required"></span>标签：
+                    </label>
+                    
+                         <script type="text/javascript" src="{HTTP_APP_IMG}shequPage/tag/tag.public.js"></script>
+						  <div data-target="doc" name="data[doc_tag]" class='input-tags'> </div>
+						  <div name="tag_content"></div>
+                 
+                </div>
+                <!-- ==标签== -->
+
+                <!-- 标签 -->
+                <div class="formStyle-item">
+                    <label><input  type="checkbox" name="data[doc_source]" value="2" checked="checked"/>转载？ </label> 
+                </div>
+                <!-- ==标签== -->
+            </fieldset>
+        
+    </div>
+    <!-- 底部文件 -->
+    <div class="m-ftc">
+        <div class="w-btn">
+            <input type="submit" class="customBtn colourDarkGreen customBtnNormal f-mr10 " value="上传">    
+            <input type="button" class="customBtn colourLightGray customBtnNormal" value="取消">
+        </div>
+    </div>
+</form>
+</div>

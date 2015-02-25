@@ -1,0 +1,854 @@
+﻿/*reset*/
+html, body, h1, h2, h3, h4, h5, h6, div, dl, dt, dd, ul, ol, li, p, blockquote, pre, hr, figure, table, caption, th, td, form, fieldset, legend, input, button, textarea, menu {
+  margin: 0;
+  padding: 0;
+}
+div,h1,h2,h3,h4,h5,h6,ol,ul,li,dl,dt,dd,form,input,select,textarea {
+  text-align: left;
+}
+header, footer, section, article, aside, nav, hgroup, address, figure, figcaption, menu, details {
+  display: block;
+}
+caption, th {
+  font-weight: normal;
+}
+html, body, fieldset, img, iframe, abbr {
+  border: 0;
+}
+i, cite, em, var, address, dfn {
+  font-style: normal;
+}
+[hidefocus], summary {
+outline:0;
+}
+ol,ul {
+  list-style: none;
+}
+h1, h2, h3, h4, h5, h6, small {
+  font-size: 100%;
+}
+textarea {
+  overflow: auto;
+  resize: none;
+}
+label, summary {
+  cursor: default;
+}
+a, button {
+  cursor: pointer;
+}
+h1, h2, h3, h4, h5, h6, strong, b {
+  font-weight: bold;
+}
+del, ins, u, s, a, a:hover {
+  text-decoration: none;
+}
+body, textarea, input, button, select, keygen, legend {
+  color: #000;
+  outline:none;
+}
+body {
+  background: #fff;
+}
+a, a:hover {
+  color: #000;
+}
+img {
+  vertical-align:middle;
+  border:none;
+  background-color: #FAFAFA;
+}
+ 
+
+/*浮动*/
+.f-fl ,.floatL{
+  float:left;
+}
+
+.f-fr ,.floatR{
+  float:right;
+}
+
+.f-cb ,.clear{
+  clear:both;
+  height:0;
+  line-height:0;
+  font-size:0;
+  overflow:hidden;
+}
+.clearfix{*zoom:1}
+.clearfix:before,.clearfix:after{display:table;line-height:0;content:""}
+.clearfix:after{clear:both} 
+.m-upload{
+  /*width: 600px;*/
+  position: absolute;
+  background-color: #fff;
+  z-index: 100;
+  padding:0 20px; 
+  box-shadow: 0 0 9px #666;
+  background:#fff url(../images/login/dialog-top-bg.jpg) repeat-x 0 0;
+}
+.m-upload .hd{
+  color: #fff;
+  display: inline-block;
+  padding: 5px 0px;
+  font-weight: bolder;
+  width: 100%; 
+  /*border-bottom: 2px solid #e6e8e9;*/
+}
+.m-upload .hd strong{
+  color: #333333;
+  display: inline-block;
+  vertical-align: middle;
+  font-weight: bold;
+  float: left;
+  font-size: 18px;
+  /*border-left: 4px solid #96a6a6;*/
+  padding-left: 8px;
+} 
+.m-upload .icon-close, .m-upload .icon-id,.m-upload .icon-pd {
+display: inline-block;
+width: 28px;
+height: 18px;
+_height: 24px;
+line-height: 0;
+font-size: 0;
+vertical-align: middle;
+background: url(../images/login/publicSpr.png) no-repeat 5px 0;
+}
+.m-upload .icon-close {
+  background-position: -60px 0;
+}
+.m-upload a.upload-close:link {
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+  cursor: pointer;
+  vertical-align: middle;
+  text-align: center;
+}
+.m-upload a.upload-close:hover {
+  background-position: -90px 0;
+}
+
+
+
+
+.m-resource-upload-subFrom ,.m-resource-upload-subFrom,.m-resource-upload-listFrom{
+  color: #606A7A;
+  font-size: 12px;
+  line-height: 1.5;
+  font-family: Arial,Helvetica,'Microsoft YaHei','simsun';
+}
+.m-resource-upload-subFrom .width252,.m-resource-upload-subFrom .width252,.m-resource-upload-listFrom .width252{
+  width: 252px;
+}
+
+.m-resource-upload-subFrom.subFrom textarea,
+.m-resource-upload-subFrom.subFrom  input[type="text"],
+.m-resource-upload-subFrom.subFrom  input[type="password"],
+.m-resource-upload-subFrom.subFrom  input[type="datetime"],
+.m-resource-upload-subFrom.subFrom  input[type="datetime-local"],
+.m-resource-upload-subFrom.subFrom  input[type="date"],
+.m-resource-upload-subFrom.subFrom  input[type="month"],
+.m-resource-upload-subFrom.subFrom  input[type="time"],
+.m-resource-upload-subFrom.subFrom  input[type="week"],
+.m-resource-upload-subFrom.subFrom  input[type="number"],
+.m-resource-upload-subFrom.subFrom  input[type="email"],
+.m-resource-upload-subFrom.subFrom  input[type="url"],
+.m-resource-upload-subFrom.subFrom  input[type="search"],
+.m-resource-upload-subFrom.subFrom  input[type="tel"],
+.m-resource-upload-subFrom.subFrom  input[type="color"]{
+    font-size: 16px;
+    background-color: #fbfbfc;
+    border: 1px solid #ddd;
+    box-shadow: inset 0 1px 1px rgba(0, 0, 0, .075);
+    color: #5f5f5f;
+}
+.m-resource-upload-listFrom .customForm_txtInput,
+.m-resource-upload-subFrom  .customForm_txtInput,
+.m-resource-upload-subFrom  .customForm_funcTxtInput {
+  outline: none;
+  height: 12px;
+  line-height: 12px;
+  padding:12px;
+  overflow: hidden;
+  vertical-align: middle;
+}
+  .m-resource-upload-subFrom.subFrom { 
+    margin-bottom: 20px;
+    width: 762px
+}
+
+ .m-resource-upload-subFrom.subFrom .operate {
+        padding-top: 10px;
+        width: 100%;
+        text-align: right;
+    }
+
+      .m-resource-upload-subFrom.subFrom .operate a {
+            display: inline-block;
+            margin-left: 10px;
+            color: #898989;
+        }
+
+       .m-resource-upload-subFrom.subFrom .operate a:hover {
+                color: #ec6941;
+            }
+
+     .m-resource-upload-subFrom.subFrom .operate .close {
+            margin-right: 25px;
+            width: 16px;
+            height: 16px;
+            background: url(../images/upload.jpg) no-repeat -180px -10px;
+        }
+
+     .m-resource-upload-subFrom.subFrom .operate .close:hover {
+                background-position: -180px -43px;
+            }
+
+     .m-resource-upload-subFrom.subFrom .operate .open,
+     .m-resource-upload-subFrom.subFrom .operate .hide {
+            padding-left: 25px;
+            position: relative;
+            z-index: 1;
+        }
+
+        .m-resource-upload-subFrom.subFrom .operate .open i, 
+        .m-resource-upload-subFrom.subFrom .operate .hide i {
+                position: absolute;
+                z-index: 5;
+                top: 5px;
+                display: inline-block;
+                width: 20px;
+                height: 10px;
+                left: 0px;
+                background: url(../images/upload.jpg) no-repeat 0 0;
+            }
+
+          .m-resource-upload-subFrom.subFrom .operate .open i {
+                background-position: -145px -14px;
+            }
+
+         .m-resource-upload-subFrom.subFrom .operate .open:hover i {
+                color: #f16f3b;
+                background-position: -145px -47px;
+            }
+
+            .m-resource-upload-subFrom.subFrom .operate .hide i {
+                background-position: -145px -72px;
+            }
+
+            .m-resource-upload-subFrom.subFrom .operate .hide:hover i {
+                color: #f16f3b;
+                background-position: -145px -95px;
+            }
+
+    /*table样式*/
+    .m-resource-upload-subFrom.subFrom .content { 
+         border: 1px solid #bccbd2; 
+    }
+
+        .m-resource-upload-subFrom.subFrom .content .num {
+            float: left;
+            width: 60px;
+            height: 30px;
+            line-height: 30px;
+            text-align: center;
+            color: #fff;
+            background-color: #d2d2d2;
+        }
+
+       .m-resource-upload-subFrom.subFrom .content .form {
+            float: left;
+            width:762px; 
+            margin-bottom: 10px;
+        }
+
+           .m-resource-upload-subFrom.subFrom .content .form table {
+                width: 365px;
+                float: left;
+                table-layout: fixed;
+            }
+
+            .m-resource-upload-subFrom.subFrom .content .form td {
+                padding: 10px 5px;
+                font-size: 14px;
+                color: #727272;
+                vertical-align: top;
+            }
+
+            .m-resource-upload-subFrom.subFrom .content .form .formTit {
+                width: 85px;
+                _width: 65px;
+                text-align: right;
+            }
+
+               .m-resource-upload-subFrom.subFrom .content .form .formTit span {
+                    display: inline-block;
+                    color: #ec6941;
+                }
+
+            .m-resource-upload-subFrom.subFrom .content .form li label {
+                color: #333333;
+                padding: 0 35px 0 0;
+            }
+
+            .m-resource-upload-subFrom.subFrom .content .form li {
+                margin-bottom: 15px;
+            }
+
+            .m-resource-upload-subFrom.subFrom .content .form .singleSub {
+                width: 124px;
+                height: 40px;
+                float: right;
+                display: inline-block;
+                background: url(../images/upload.jpg) no-repeat -144px -233px;
+            }
+
+              .m-resource-upload-subFrom.subFrom .content .form .singleSub:hover {
+                    background-position: -144px -184px;
+                }
+
+              .m-resource-upload-subFrom.subFrom .content .form .singleSub:active {
+                    background-position: -144px -292px;
+                }
+
+           .m-resource-upload-subFrom.subFrom .content .form .uploaded, 
+           .m-resource-upload-subFrom.subFrom .content .form .addBtn {
+                width: 120px;
+                height: 30px;
+                background: #d2d2d2;
+                color: #fff;
+                text-align: center;
+                line-height: 30px;
+                display: inline-block;
+            }
+
+            .m-resource-upload-subFrom.subFrom .content .form .addBtn {
+                background: #ec6941;
+                color: #fff;
+            }
+
+               .m-resource-upload-subFrom.subFrom .content .form .addBtn:hover {
+                    background: #eb967b;
+                    text-decoration: none;
+                }
+
+              .m-resource-upload-subFrom.subFrom .content .form .addBtn:active {
+                    background: #dc4b1f;
+                    text-decoration: none;
+                }
+    /*==table样式==*/
+    /*表格样式调整*/
+    .m-resource-upload-subFrom.subFrom .formItemClose {
+        position: relative;
+        z-index: 1;
+    }
+
+       .m-resource-upload-subFrom.subFrom .formItemClose .operate {
+            position: absolute;
+            z-index: 10;
+            top: 0px;
+            right: 0px;
+            width: 40%;
+        }
+
+.reloadingImg {
+    padding: 10px 0;
+    width: 100%;
+    height: 30px;
+    background: url(../images/loading.gif) no-repeat center center;
+}
+.m-resource-upload-subFrom.subFrom  select {
+  position: relative;
+  font-size: 14px;
+  width: 252px;
+  line-height: 14px;
+  color: #333;
+  margin: 0;
+  padding: 1px;
+  height: 24px;
+  line-height: 24px;
+  border: 1px solid #D5CFCF;
+  border-width: 1px;
+}
+.m-resource-upload-subFrom .customForm_textarea {
+  outline: none;
+  padding: 6px;
+  overflow-y: auto;
+  height: 60px;
+}
+/*资源分类*/
+.m-resource-upload-subFrom .form{
+  position: relative;
+  z-index: 5;
+}
+.m-resource-upload-subFrom .form  .btn-price, 
+.m-resource-upload-subFrom .form .btn-category, 
+.m-resource-upload-subFrom .form  .btn-favorites,
+.m-resource-upload-subFrom .form  .btn-lec-version, 
+.m-resource-upload-subFrom .form .btn-lec-school { 
+  display: inline-block;
+  height: 29px;
+  line-height: 29px;
+  padding: 0 10px;
+  border: 1px solid #C1C1C1;
+  cursor: pointer;
+  outline: 0;
+  color: #333;
+  font-size: 14px;
+  cursor: pointer;
+} 
+ 
+.m-resource-upload-subFrom  .form .category-text,
+.m-resource-upload-subFrom  .form .price-text,
+.m-resource-upload-subFrom  .form  .favorites-text {
+  _position: relative;
+  _top: 2px;
+}
+.m-resource-upload-subFrom .ic {
+  display: -moz-inline-stack;
+  display: inline-block;
+  padding: 0;
+  vertical-align: -2px;
+  font-size: 0;
+  line-height: 9999em;
+  overflow: hidden;
+  position: relative;
+  width: 16px;
+height: 16px;
+}
+.m-resource-upload-subFrom .form  .ic-btn {
+  background: url(../images/bar_arrow_1a64dbfb.png) no-repeat;
+  height: 23px;
+  width: 24px;
+  vertical-align: -7px;
+  margin-left: 25px;
+}
+.m-resource-upload-subFrom .form  .category-panel {
+  position: absolute;
+  top: 29px;
+  left: 111px;
+  z-index: 2;
+  box-shadow: 3px 3px 5px rgba(0, 0, 0, 0.1);
+}
+.m-resource-upload-subFrom .form .category-panel,
+.m-resource-upload-subFrom .form .price-panel,
+.m-resource-upload-subFrom .form  .favorites-panel, 
+.m-resource-upload-subFrom .form  .lec-version-panel {
+  position: absolute;
+  top: 230px;
+  left: 100px;
+  _left: 95px; 
+  z-index: 10;
+  outline: 0;
+  border: 1px solid #AAA;
+  background: white;
+}
+ @media screen and (-webkit-min-device-pixel-ratio:0) { 
+.m-resource-upload-subFrom .form .category-panel,
+ .m-resource-upload-subFrom .form .price-panel,
+ .m-resource-upload-subFrom  .form   .favorites-panel,
+ .m-resource-upload-subFrom   .form  .lec-version-panel {   
+  top:166px; }
+ }
+.m-resource-upload-subFrom .ui-category li { 
+  height: 170px;
+  float: left;
+  margin-right: 5px;
+  overflow-y: scroll;
+  overflow-x: hidden;
+  background: white;
+  border: 1px solid #B8CDC6;
+  }
+.m-resource-upload-subFrom .form  .category-panel .ui-category li {
+  margin-right: 0;
+  width: 118px;
+  border: 0;
+  margin-bottom: 0px;
+}
+.m-resource-upload-subFrom .ui-category li p {
+  padding: 0 5px;
+  height: 24px;
+  line-height: 24px;
+  cursor: default;
+  font-size: 12px;
+  cursor: pointer;
+}
+.m-resource-upload-subFrom .form  .category-panel p{
+   white-space:nowrap;
+   overflow: hidden;
+}
+.m-resource-upload-subFrom .form  .category-panel p.selected { 
+  color: #fff;
+  background: #ec6941 url(../images/spr_upload_e112e563.png) no-repeat 69px -350px;
+}
+.m-resource-upload-subFrom .form  .category-panel  p.last{
+  background-image: none;  
+}
+/*==资源分类==*/
+
+.m-resource-upload-subFrom .popbutn{
+  height: 26px;
+  line-height: 26px; 
+  padding: 5px 0 0 10px; 
+  text-align: right;
+}
+.m-resource-upload-listFrom  .colourDarkGreen,
+ .m-resource-upload-listFrom .colourDarkGreen:link,
+ .m-resource-upload-listFrom  .colourDarkGreen:visited,
+.m-resource-upload-subFrom  .colourDarkGreen,
+ .m-resource-upload-subFrom .colourDarkGreen:link,
+ .m-resource-upload-subFrom  .colourDarkGreen:visited
+ {
+  color: #fff;
+	
+	background-color: #fba419;
+	border-color: #e7671c;
+  text-align: center;
+  display: inline-block;
+  line-height: 18px;
+  padding: 3px 12px;
+  vertical-align: middle;
+  border-radius: 2px;
+  cursor: pointer;
+  border-width: 1px;
+  border-style: solid;
+}
+ .m-resource-upload-listFrom .colourDarkGreen:hover{
+  color:#fff;
+  text-decoration:none;
+  background-color: #ee812e;
+  border-color: #e6661d;
+}
+
+ .m-resource-upload-listFrom .colourDarkGreen:active {
+  text-decoration:none;
+  background-color: #ee812e;
+  border-color: #e6661d;
+  box-shadow:inset 0 2px 3px #885223;
+}
+.m-resource-upload-tab.tab-resource{
+  width: 762px;
+  height: 32px;
+  
+}
+.m-resource-upload-tab.tab-resource li{
+  float: left;
+}
+.m-resource-upload-tab.tab-resource a{
+  width: 78px;
+  line-height: 31px;
+  border: 1px solid #bccbd2;
+  border-radius: 3px 3px 0 0; 
+  border-bottom: 0px none;
+  text-align: center;
+  margin-right: 5px;
+  color: #566173;
+  display: inline-block;
+  font-size: 14px;
+}
+.m-resource-upload-tab.tab-resource a:hover,
+.m-resource-upload-tab.tab-resource a.current{
+  background: #eeeeee;
+  text-decoration: none;
+}
+/*列表*/
+.m-resource-upload-listFrom.listFrom{
+  padding: 10px 0 0 0;
+  width: 762px;
+  border: 1px solid #bccbd2;
+}
+.m-resource-upload-listFrom.listFrom .listFormBor{
+  padding: 0px 10px;
+}
+/*资源列表图标库*/
+.m-resource-upload-listFrom    .icon_tc1 ,
+.m-resource-upload-listFrom    .icon_tc2 ,
+.m-resource-upload-listFrom    .icon_tc3 ,
+.m-resource-upload-listFrom    .icon_tc4 ,
+.m-resource-upload-listFrom    .icon_doc ,
+.m-resource-upload-listFrom    .icon_docx ,
+.m-resource-upload-listFrom    .icon_ppt ,
+.m-resource-upload-listFrom    .icon_pptx ,
+.m-resource-upload-listFrom    .icon_xls ,
+.m-resource-upload-listFrom    .icon_xlsx ,
+.m-resource-upload-listFrom    .icon_vsd ,
+.m-resource-upload-listFrom  .icon_pot ,
+.m-resource-upload-listFrom    .icon_pps ,
+.m-resource-upload-listFrom    .icon_rtf ,
+.m-resource-upload-listFrom    .icon_wps ,
+.m-resource-upload-listFrom    .icon_et ,
+.m-resource-upload-listFrom    .icon_dps ,
+.m-resource-upload-listFrom    .icon_pdf ,
+.m-resource-upload-listFrom    .icon_txt ,
+.m-resource-upload-listFrom    .icon_epub ,
+.m-resource-upload-listFrom    .icon_jpg ,
+.m-resource-upload-listFrom    .icon_epub ,
+.m-resource-upload-listFrom    .icon_jpeg ,
+.m-resource-upload-listFrom    .icon_rar ,
+.m-resource-upload-listFrom    .icon_zip ,
+.m-resource-upload-listFrom    .icon_png ,
+.m-resource-upload-listFrom    .icon_gif ,
+.m-resource-upload-listFrom    .icon_swf ,
+.m-resource-upload-listFrom    .icon_mp4 ,
+.m-resource-upload-listFrom    .icon_mpeg ,
+.m-resource-upload-listFrom    .icon_avi ,
+.m-resource-upload-listFrom    .icon_flv{
+    display:inline-block;
+    width:20px;
+    height:20px;
+    line-height:0;
+    font-size:0;
+    vertical-align:middle;
+    background:url(../images/file_type_sprite.png) no-repeat 0px 0px;
+    /*正式发布时，生成ie6拼图*/
+    _background:url(../images/file_type_sprite.gif) no-repeat 0 2px;  
+  }
+ .m-resource-upload-listFrom   .icon_tc1{background-position: 0px -2px;}
+  /*空星星*/
+ .m-resource-upload-listFrom   .icon_tc2{background-position: -20px -2px;}
+  /*满星星*/
+ .m-resource-upload-listFrom   .icon_tc3{background-position: -40px -2px;}
+  /*半星星*/
+.m-resource-upload-listFrom    .icon_tc4{background-position: -60px -2px;}
+  /*文档为一个类型*/
+ .m-resource-upload-listFrom   .icon_doc{background-position: -60px -40px;}
+ .m-resource-upload-listFrom   .icon_docx {background-position: -60px -40px;}
+  /*ppt为一个类型*/
+ .m-resource-upload-listFrom   .icon_ppt{background-position: -79px -59px;} 
+.m-resource-upload-listFrom    .icon_pptx{background-position: -79px -59px;}
+ .m-resource-upload-listFrom   .icon_pot{background-position: -79px -59px;}
+.m-resource-upload-listFrom    .icon_pps{background-position: -79px -59px;}
+  /*excel为一个类型 */
+ .m-resource-upload-listFrom   .icon_xls {background-position: -40px -40px;}
+  .icon_xlsx{background-position: -40px -40px;} 
+  /*vsd*/
+ .m-resource-upload-listFrom   .icon_vsd {background-position: -80px -40px;}
+  /*通讯录*/
+.m-resource-upload-listFrom    .icon_rtf{background-position: -39px -60px;}
+.m-resource-upload-listFrom    .icon_wps{background-position: 0 -20px;}
+  /*e*/
+ .m-resource-upload-listFrom   .icon_et{background-position: -60px -20px;}
+ .m-resource-upload-listFrom   .icon_dps{background-position: -60px -20px;}
+  /*pdf*/
+ .m-resource-upload-listFrom   .icon_pdf{background-position: -20px -40px;}
+  /*txt*/
+ .m-resource-upload-listFrom   .icon_txt{background-position: -80px -20px;}
+  /*e*/
+ .m-resource-upload-listFrom   .icon_epub{background-position: -60px -60px;}
+  /*图片都为一个类型*/
+ .m-resource-upload-listFrom   .icon_jpg{background-position: -20px -60px;}
+ .m-resource-upload-listFrom   .icon_jpeg{background-position: -20px -60px;}
+.m-resource-upload-listFrom    .icon_png{background-position: -20px -60px;}
+.m-resource-upload-listFrom    .icon_gif{background-position: -20px -60px;}
+  /*压缩文件一个类型*/
+.m-resource-upload-listFrom    .icon_rar{background-position: 0 -79px;}
+ .m-resource-upload-listFrom   .icon_zip{background-position: 0 -79px;}
+  /*flash单独一个类型*/
+.m-resource-upload-listFrom    .icon_swf{background-position: -20px -80px;}
+  /*视频单独一个类型*/
+ .m-resource-upload-listFrom   .icon_mp4{background-position: 0 -40px;}
+ .m-resource-upload-listFrom   .icon_mpeg{background-position: 0 -40px;}
+ .m-resource-upload-listFrom   .icon_avi{background-position: 0 -40px;}
+ .m-resource-upload-listFrom   .icon_flv{background-position: 0 -40px;}
+
+  /*大图标*/
+  .m-resource-upload-listFrom  .iconL_bkj,
+  .m-resource-upload-listFrom  .iconL_doc ,
+  .m-resource-upload-listFrom  .iconL_docx ,
+  .m-resource-upload-listFrom  .iconL_ppt ,
+  .m-resource-upload-listFrom  .iconL_pptx ,
+  .m-resource-upload-listFrom  .iconL_xls ,
+  .m-resource-upload-listFrom  .iconL_xlsx ,
+  .m-resource-upload-listFrom  .iconL_vsd ,
+  .m-resource-upload-listFrom  .iconL_pot ,
+  .m-resource-upload-listFrom  .iconL_pps ,
+  .m-resource-upload-listFrom  .iconL_rtf ,
+ .m-resource-upload-listFrom   .iconL_wps ,
+  .m-resource-upload-listFrom  .iconL_et ,
+  .m-resource-upload-listFrom  .iconL_dps ,
+  .m-resource-upload-listFrom  .iconL_pdf ,
+  .m-resource-upload-listFrom  .iconL_txt ,
+  .m-resource-upload-listFrom  .iconL_epub ,
+  .m-resource-upload-listFrom  .iconL_jpg ,
+ .m-resource-upload-listFrom   .iconL_epub ,
+ .m-resource-upload-listFrom   .iconL_jpeg ,
+ .m-resource-upload-listFrom   .iconL_rar ,
+ .m-resource-upload-listFrom   .iconL_zip ,
+ .m-resource-upload-listFrom   .iconL_png ,
+ .m-resource-upload-listFrom   .iconL_gif ,
+ .m-resource-upload-listFrom   .iconL_swf ,
+ .m-resource-upload-listFrom   .iconL_mp4 ,
+ .m-resource-upload-listFrom   .iconL_mpeg ,
+ .m-resource-upload-listFrom   .iconL_avi ,
+ .m-resource-upload-listFrom   .iconL_flv{
+    display:inline-block;
+    width:30px;
+    height:30px;
+    line-height:0;
+    font-size:0;
+    vertical-align:middle;
+    background:url(../images/file_type_sprite_large.png) no-repeat 0px -3px;
+    /*正式发布时，生成ie6拼图*/
+    _background:url(../images/file_type_sprite_large.gif) no-repeat 0 -3px; 
+  }
+  /*文档为一个类型*/
+  .m-resource-upload-listFrom  .iconL_doc{background-position: 0px 0px;}
+ .m-resource-upload-listFrom   .iconL_docx {background-position: 0px 0px;}
+  /*ppt为一个类型*/
+ .m-resource-upload-listFrom   .iconL_ppt{background-position: -120px -60px;} 
+ .m-resource-upload-listFrom   .iconL_pptx{background-position: -120px -60px;}
+ .m-resource-upload-listFrom   .iconL_pot{background-position: -120px -60px;}
+ .m-resource-upload-listFrom   .iconL_pps{background-position: -120px -60px;}
+ .m-resource-upload-listFrom   .iconL_bkj{background-position: -152px -2px;}
+  /*excel为一个类型 */
+  .m-resource-upload-listFrom  .iconL_xls {background-position: -60px -30px;}
+ .m-resource-upload-listFrom   .iconL_xlsx{background-position: -60px -30px;} 
+  /*vsd*/
+ .m-resource-upload-listFrom   .iconL_vsd {background-position: -120px -30px;}
+  /*通讯录*/
+ .m-resource-upload-listFrom   .iconL_rtf{background-position: -60px -60px;}
+ .m-resource-upload-listFrom   .iconL_wps{background-position: -63px -92px;}
+  /*e*/
+ .m-resource-upload-listFrom   .iconL_et{background-position: -90px -60px;}
+.m-resource-upload-listFrom    .iconL_dps{background-position: -90px -60px;}
+  /*pdf*/
+ .m-resource-upload-listFrom   .iconL_pdf{background-position: -30px -30px;}
+  /*txt*/
+ .m-resource-upload-listFrom   .iconL_txt{background-position: -120px 0px;}
+  /*e*/
+ .m-resource-upload-listFrom   .iconL_epub{background-position: -90px 0px;}
+  /*图片都为一个类型*/
+ .m-resource-upload-listFrom   .iconL_jpg{background-position: -30px -60px;}
+ .m-resource-upload-listFrom   .iconL_epub{background-position: -30px -60px;}
+.m-resource-upload-listFrom    .iconL_jpeg{background-position: -30px -60px;}
+ .m-resource-upload-listFrom   .iconL_png{background-position: -30px -60px;}
+ .m-resource-upload-listFrom   .iconL_gif{background-position: -30px -60px;}
+  /*压缩文件一个类型*/
+ .m-resource-upload-listFrom   .iconL_rar{background-position: 0px -90px;}
+ .m-resource-upload-listFrom   .iconL_zip{background-position: 0px -90px;}
+  /*flash单独一个类型*/
+ .m-resource-upload-listFrom   .iconL_swf{background-position: -30px -90px;}
+  /*视频单独一个类型*/
+.m-resource-upload-listFrom    .iconL_mp4{background-position: 0px -30px;}
+.m-resource-upload-listFrom    .iconL_mpeg{background-position: 0px -30px;}
+ .m-resource-upload-listFrom   .iconL_avi{background-position: 0px -30px;}
+.m-resource-upload-listFrom    .iconL_flv{background-position: 0px -30px;}
+/*==资源列表图标库==*/
+.m-resource-upload-listFrom .m-search .customForm_txtInput {
+ padding: 6px;
+}
+.m-resource-upload-listFrom  .doclist1 {
+width: 100%;
+display: block;
+position: relative;
+}
+.m-resource-upload-listFrom  .doclist1 ul{
+  height: 205px;
+  overflow-y: auto;
+}
+.m-resource-upload-listFrom  .doclist1 ul li {
+position: relative;
+z-index: 1;
+height: auto;
+position: relative;
+padding: 5px 0px 5px 76px;
+border-bottom: 1px dashed #dedbdb;
+}
+.m-resource-upload-listFrom  .doc_typeIcon {
+width: 38px;
+height: 38px;
+display: block;
+/*background-color: #EBEBEB;*/
+position: absolute;
+top: 10px;
+left: 0px;
+}
+.m-resource-upload-listFrom  .doc_typeIcon i {
+position: absolute;
+z-index: 5;
+bottom: 14px;
+right: 5px;
+}
+.m-resource-upload-listFrom  .doc_name {
+width: 100%;
+height: 22px;
+font-size: 16px;
+overflow: hidden;
+margin-bottom: 6px;
+}
+.m-resource-upload-listFrom  .doc_desc {
+font-size: 12px;
+height: 22px;
+overflow: hidden;
+color: #666;
+}
+.m-resource-upload-listFrom  .doc_date{
+  position: absolute;
+  z-index: 5;
+  top: 17px;
+  left: 550px; 
+}
+/*分页*/
+.m-resource-upload-listFrom  .m-page div{ 
+  width: auto;
+  overflow: hidden;
+  text-align: center;
+  clear: both;
+  margin: 10px 0;
+  padding: 5px 0;
+  background: #FAFAFA;
+}
+.m-resource-upload-listFrom  .m-page div{ 
+  width: auto;
+  overflow: hidden;
+  text-align: center;
+  clear: both;
+  margin: 15px 0;
+  padding: 5px 0;
+  background: #FAFAFA;
+}
+
+.m-resource-upload-listFrom  .m-page a{ 
+  font-family: 'simsun';
+  color: #505050;
+  display: inline-block;
+  padding: 4px 9px;
+  margin: 0 3px;
+  border: 1px solid #e7e7e7;
+  background: #EEE;
+  vertical-align: middle;
+}
+.m-resource-upload-listFrom  .m-page a:hover{ 
+  text-decoration: none;
+  color: #fff;
+background: #ec6941;
+border: 1px solid #c24a25;
+}
+.m-resource-upload-listFrom  .m-page b{ 
+  padding: 5px 9px;
+  margin: 0 3px; 
+border: 1px solid #B8BFC4;
+vertical-align: middle;
+background: #B8BFC4;
+  color: #fff;
+}
+/*==分页==*/
+.m-resource-upload-listFrom  .m-list-title{
+  width: 100%;
+  height: 30px;
+  line-height: 28px;
+  color: #566173;
+  font-size: 14px;
+  margin:10px 0 0 0; 
+  border-bottom: 1px solid #bccbd2;
+}
+.m-resource-upload-listFrom  .m-list-title .ico{
+  width: 76px;
+}
+.m-resource-upload-listFrom  .m-list-title .type{
+  width: 472px;
+}
+/*列表*/

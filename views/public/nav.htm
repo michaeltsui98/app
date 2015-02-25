@@ -1,0 +1,17 @@
+ <div class="nav">
+   <div class="warp">
+     <ul class="f-fl">
+       <li><a href="/" {if $c=='Controllers_Index'} class="cur" {/if}>首页</a></li>
+       <li><a href="/xiaoxue/id/1" {if $id == "1"} class="cur" {/if} >小学</a></li> 
+       <li><a href="/chuzhong/id/2" {if $id == "2"} class="cur" {/if}>初中</a></li>
+       <li><a href="/gaozhong/id/3" {if $id == "3"} class="cur" {/if}>高中</a></li>
+       <li><a href="/professional/id/80001" {if $id == "80001"} class="cur" {/if}>专业资源</a></li>
+     </ul>
+	  {if $user_info}
+      <a href="/user" class="my f-fr">我的资源</a>
+	  {else}
+      <a href="javascript:;" onclick="loginDialog()" class="my f-fr">我的资源</a>
+	  {/if}
+      <div class="f-cb"></div>
+   </div>
+ </div>

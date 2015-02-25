@@ -1,0 +1,53 @@
+
+
+<!--{loop $data['rows'] $key $value}-->
+	<!--{eval $data['rows'][$key]['trindex']=$key+1;}-->
+	<!--{eval $data['rows'][$key]['trid']=$value['doc_id'];}-->
+	
+<!--{if $value['doc_status']==1 }-->
+	<!--{eval $data['rows'][$key]['status']="<a href=\"javascript:;\" ><span class=\"icon-table icon-ok\"></span>{$status[$value['doc_status']]}</a>";}-->
+<!--{elseif $value['doc_status']==3}-->
+	<!--{eval $data['rows'][$key]['status']="<a href=\"javascript:;\" ><span class=\"icon-table icon-undo\"></span>{$status[$value['doc_status']]}</a>";}-->
+<!--{elseif $value['doc_status']==2}-->
+	<!--{eval $data['rows'][$key]['status']="<a href=\"javascript:;\" ><span class=\"icon-table icon-no\"></span>{$status[$value['doc_status']]}</a>";}-->
+<!--{else}-->
+	<!--{eval $data['rows'][$key]['status']="<a href=\"javascript:;\" ><span class=\"icon-table icon-lock\"></span>{$status[$value['doc_status']]}</a>";}-->
+<!--{/if}-->
+
+
+<!--{eval $data['rows'][$key]['attr']= "<span style=\"color:{$colors[$value['attr']]} \">{$attr_arr[$value['attr']]}</span>";}-->
+
+{if $value['is_ok']==2}
+<!--{eval $msg = "title=\"未通过原因:{$value['msg']}\""}-->
+{/if}
+
+<!--{eval $data['rows'][$key]['is_ok']= "<span style=\"color:{$colors[$value['is_ok']]} \" {$msg}>{$is_ok_arr[$value['is_ok']]}</span>";}-->
+
+
+  
+<!--{eval $data['rows'][$key]['title']= "<a href=\"/info/{$value['doc_id']}\" target=\"_blank\">{$value['doc_title']}</a>";}-->
+<!--{eval $data['rows'][$key]['cate_name']= $cate_name[$value['cate_id']];}-->
+<!--{eval $data['rows'][$key]['file_size']= Models_Resource::init()->bytesToSize($value['file_size']);}-->
+
+<!--{eval $data['rows'][$key]['on_time']= date('Y-m-d H:i:s',$value['on_time']);}-->
+
+<!--{eval $data['rows'][$key]['cz']=
+"<a href=\"javascript:;\"    onclick=\"javascript:ui_dialog('{$editUrl}?id={$value['doc_id']}',this);\">
+ <span class=\"icon-table icon-edit\"></span>
+修改</a>";}-->
+ 
+
+<!--{eval $data['rows'][$key]['cz'].=" <a href=\"javascript:;\"  onclick=\"javascript:ui_qr('{$delUrl}?id={$value['doc_id']}',this,false);\">
+<span class=\"icon-table icon-cancel\"></span>删除</a>";}-->
+
+
+{if $value['is_ok']==0 and $value['doc_status']>0}
+<!--{eval $data['rows'][$key]['cz'].=" <a href=\"javascript:;\"  onclick=\"javascript:ui_qr('{$auditUrl}?doc_id={$value['doc_id']}&is_ok=1',this,false);\"><span class=\"icon-table icon-ok\"></span>通过</a>";}-->
+<!--{eval $data['rows'][$key]['cz'].=" <a href=\"javascript:;\"  onclick=\"javascript:prompt1('{$auditUrl}?doc_id={$value['doc_id']}&is_ok=2');\"><span class=\"icon-table icon-no\"></span>不通过</a>";}-->
+
+{/if}
+
+
+<!--{/loop}-->
+ 
+<!--{eval echo json_encode($data)}-->

@@ -1,0 +1,250 @@
+ <script type="text/javascript" src="{BASE_PATH}/static/syup/syup.js"></script>
+        <script>
+            var writetoken = 'Rg777U73S2rcefA-udc09iQ94WStov8r';
+            var readtoken = 'j0kvE6vcZc-10xumNmVi1-rm1UjftGnZ';
+        </script>
+  
+		demo1:<br>
+	<input type="text" value="" name="input1" id="input1" />
+	<DIV style="position: relative;">
+	<span id="span_id">上传</span>
+	<DIV style="position: absolute;left: 0px;top: 0px">
+	<DIV id="tip1"></DIV>
+	<DIV id="demo1"></DIV>
+	<script>
+		//var title = file.name;
+        setPostParams ={ 
+			writetoken: writetoken, 
+			cataid:'1411522972608',
+			"JSONRPC" : '{"Filedata.filename":"dddd", "tag": "", "description": ""}'
+		 };
+		 var jsonrpc = '{"Filedata.filename":"dddd", "tag": "", "description": ""}';
+	new syup({
+		 path: '/static/',
+		div_id:'demo1',//上传flash元素id
+		form_id:'input1',//上传表单元素id
+		tip_id:'tip1',//上传提示元素id
+		botton_id:'span_id',//上传提示元素id
+		botton_class:'over',//上传提示元素id
+		up_text: '上传图片',//上传按钮名称
+		up_max: 1,//允许上传是文件数量 默认1个
+		up_maxsize: 1024*1024*100,//允许文件大小默认10M
+		up_filter: '*.mp4;*.avi;*.mpeg;*.rm;',//上传类型限制
+		up_imageWidth: 250,//上传图片宽度
+		up_imageHeight: 720,//上传图片高度
+		up_imageMode: 0,
+		up_imageQuelity:100,
+		upImageFile: 1,
+		//上传模式：0:智能缩小(不变形);1:强制改变大小、可能会变形;2:横向缩小;3:纵向缩小;
+		up_url: 'http://v.polyv.net/uc/services/rest?method=uploadfile&writetoken='+writetoken+'&JSONRPC='+jsonrpc,//上传保存地址
+		up_slt_array:'{width:80,height:80};{width:200,height:200}',//缩略图数组
+		up_hidden:1,//是否隐藏0:不隐藏;1:隐藏;
+		up_action:0,//是否直接上传0:不是自己上传;1:直接上传;
+		up_gifMode:3, //gif图压缩模式：0:缩略图、原图、缩略图转化为静态图;1:缩略图为静态图、原图直接上传;2:缩略图为动态图、原图直接上传;3:缩略图、原图为动态图;
+		up_bmpMode:0, //bmp图压缩模式0: 为压缩; 1:不压缩32 bit 保存;
+		skin:'/static/syup/skin/green', //皮肤 red blue green
+		up_callback:'upCallback' //上传回调函数
+	}).show();
+	function upCallback(up_obj, type, str){
+		//alert(type);
+		if (type == 'file_select') {
+            //document.getElementById(up_obj.form_id).value = str;
+        }
+        if (type == 'one_complete') {
+			//alert(type);
+            //var data = eval('(' + str + ')');
+            //for (var key in data) {
+            //    document.getElementById(up_obj.form_id).value = key + "," + data[key];
+            //    $("input[name='data[doc_title]']").val(data[key]);
+            //}
+           // document.getElementById(up_obj.form_id).value = data.file_path + "," + data.file_name;
+           // document.getElementById("file_size").value = data.size;
+           // $("input[name='data[doc_title]").val(data.file_name);
+            //var obj = document.getElementById(up_obj.tip_id);
+            //obj.innerHTML = "上传成功";
+        }
+        if (type == 'progress') {
+            var obj = document.getElementById('tip1');
+            obj.innerHTML = str;
+        }
+        if (type == 'error') {
+            //var obj = document.getElementById(up_obj.tip_id);
+            //obj.innerHTML = str;
+        }
+        if (type == 'start') {
+
+        }
+	}
+	</script>
+	</DIV>
+	</DIV>
+	<a href="#" onclick="update('demo1');">上传</a>
+	<div id="tip1"></div>
+	<br>
+		
+	<script src='http://static.polyv.net/file/caret/v_uploader.js'></script>      	
+		
+		
+		<script type="text/javascript" src="{BASE_PATH}/statics/script/swfupload/swfupload.js"></script>
+		<h1>api 接口上传测试</h1>
+		 
+			<input type="hidden"  name="data[file]" id="input2" />
+			<input type="hidden"  name="data[file_size]" id="file_size" />
+			<DIV id="spanSWFUploadButton"></DIV>
+			<div id="tip2"></div>
+			
+		<h1>视频播放</h1>
+	<!--<object width="680" height="416" classid="clsid:D27CDB6E-AE6D-11cf-96B8-444553540000">
+		<param name="movie" value="http://play.polyv.net/videos/{$id}.swf">
+		<param name="allowscriptaccess" value="always">
+		<param name="allowFullScreen" value="true">
+		<param name="flashVars" value="start=20&amp;end=50">
+		<embed allowfullscreen="true" allowscriptaccess="always" flashvars="start=20&amp;end=50" height="416" 
+		src="http://play.polyv.net/videos/{$id}.swf" type="application/x-shockwave-flash" width="680"></object>
+		
+				 
+				<script> var writetoken = 'Rg777U73S2rcefA-udc09iQ94WStov8r';var readtoken = 'j0kvE6vcZc-10xumNmVi1-rm1UjftGnZ';</script>
+				<script src='http://static.polyv.net/caret/v_uploader.js'></script>
+			-->	 
+<script>
+	var commonParams={
+		jcDevPath:'http://dev-jc.dodoedu.com'
+	};
+	//var JSONRPC = '{"title": "这里是标题", "tag": "标签", "desc": "视频文档描述"}';
+	var swfu;
+   $(function () {
+    swfu = new SWFUpload({
+        upload_url: "http://v.polyv.net/uc/services/rest?method=uploadfile",
+        flash_url: "/statics/script/swfupload/swfupload.swf",
+        file_size_limit: "100 MB",
+        file_types: "*.mp4;*.avi;*.mpeg",
+        file_types_description: "All Files",
+      /*
+  file_post_name : "Filedata",
+            post_params : {
+           "writetoken" : writetoken,
+           "JSONRPC" : '{"Filedata.filename":"", "tag": "", "description": ""}'
+            }, 
+*/
+        file_queue_limit: 1,
+
+        button_placeholder_id: "spanSWFUploadButton",
+        button_image_url: "/statics/images/star_flash_bg.png",
+        button_width: 200,
+        button_height: 42,
+        button_text_left_padding: 30,
+        button_text_top_padding: 2,
+        button_cursor: SWFUpload.CURSOR.HAND,
+        button_window_mode: "transparent",
+
+        file_queued_handler: Uploader.Handler.fileQueued,
+        file_queue_error_handler: Uploader.Handler.fileQueueError,
+        upload_complete_handler: Uploader.Handler.uploadComplete,
+        upload_start_handler: Uploader.Handler.uploadStart,
+        upload_progress_handler: Uploader.Handler.uploadProgress,
+        upload_success_handler: Uploader.Handler.uploadSuccess
+    });
+});
+var Uploader = {
+    getFileSize: function (num) {
+        if (isNaN(num)) {
+            return false;
+        }
+        num = parseInt(num);
+        var units = [" B", " KB", " MB", " GB"];
+        for (var i = 0; i < units.length; i += 1) {
+            if (num < 1024) {
+                num = num + "";
+                if (num.indexOf(".") != -1 && num.indexOf(".") != 3) {
+                    num = num.substring(0, 4);
+                } else {
+                    num = num.substring(0, 3);
+                }
+                break;
+            } else {
+                num = num / 1024;
+            }
+        }
+        return num + units[i];
+    },
+
+    updateStatus: function (fileId, html) {
+        fileId;
+        html;
+    },
+
+    updateOpt: function (fileId, html) {
+        fileId;
+        html;
+    },
+
+    Handler: {
+        fileQueued: function (file) {
+            
+            this.startUpload();
+        },
+
+        uploadComplete: function (file) {
+            //递归实现自动批量上传
+            this.startUpload();
+        },
+
+        uploadStart: function (file) {
+			//alert(file.name);
+			var title = file.name;
+            swfu.setPostParams({ 
+				writetoken: writetoken, 
+				cataid:'1411522972608',
+				"JSONRPC" : '{"Filedata.filename":"'+title+'", "tag": "", "description": ""}'
+			 });
+            //开始上传此文件
+            Uploader.updateStatus(file.id, "开始上传");
+        },
+
+        uploadProgress: function (file, bytesLoaded, bytesTotal) {
+            var percent = Math.ceil((bytesLoaded / bytesTotal) * 100);
+            
+            $("#tip2").html(percent + "%");
+        },
+
+        uploadSuccess: function (file, serverData) {
+            try {
+                var data = eval("(" + serverData + ")");
+				alert(data);
+                if (data.error == -1) {
+                    art.dialog({
+                        time: 2,
+                        icon: 'error',
+                        content: data.msg
+                    });
+                }
+                return;
+            }
+            catch (e) {
+                var formHTML = serverData;
+                 
+            }
+        },
+
+        fileQueueError: function (file, errorCode, message) {
+            if (errorCode == -100) {
+                art.dialog({
+                    time: 2,
+                    icon: 'error',
+                    content: "最多一次添加5篇"
+                });
+            }
+            else if (errorCode == -110) {
+                art.dialog({
+                    time: 2,
+                    icon: 'error',
+                    content: "每份文档不超过20M（TXT不超过10M）"
+                });
+            }
+        }
+    }
+};
+ 
+	</script>		
+ 
+ 

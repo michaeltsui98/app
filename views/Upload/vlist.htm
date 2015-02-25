@@ -1,0 +1,50 @@
+
+  <div class="listFormBor"> 
+  <form action="{STATIC_PATH}/upload/vlist" id="frm_vlist">
+  	<input type="hidden" name="obj_id" id="obj_id" value="{$obj_id}"/>
+  	<input type="hidden" name="obj_type" id="obj_type" value="{$obj_type}"/>
+  	<input type="hidden" name="page" id="page" value="{$page}"/>
+    <div class="m-search">
+      <input type="text" name="key" value="{$key}" class="customForm_inputBoxDefault customForm_txtInput width252">
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="colourDarkGreen" href="javascript:;" name="confirm" style="display:undefined;">搜索</a>
+      &nbsp;&nbsp;&nbsp;&nbsp;
+      <a class="colourDarkGreen" href="javascript:;" name="returnlist" style="display:undefined;">返回列表</a>
+    </div>
+  </form>
+
+  <div class="m-listitem">
+    <div class="doclist1">
+    <div class="m-list-title">
+       <dl>
+         <dd class="ico f-fl">资源类型</dd>
+         <dd class="type f-fl">资源名称</dd>
+         <dd class="f-fl">上传时间</dd>
+         <dd class="clear"></dd>
+       </dl>
+
+    </div>
+  <ul>
+  	{loop $data $k $v}
+    <li>
+      <div class="doc_typeIcon">
+        <a href="{STATIC_PATH}/info/{$v['doc_id']}" target="_blank"> <i class="iconL_{$v['doc_ext_name']}"></i>
+        </a>
+      </div>
+      <div class="doc_name">
+        <a href="{STATIC_PATH}/info/{$v['doc_id']}" target="_blank">{$v['doc_title']}</a> 
+		{$status[$v['doc_status']]}
+      </div>
+     
+      <div class="doc_date">{date('Y-m-d',$v['on_time'])}</div>
+    </li>
+	{/loop} 
+  </ul>
+  </div>
+  </div>
+  </div>
+  <div class="m-page" id="m-pageNum">
+        {$pagehtml}
+  </div>
+
+<!--列表结束 -->

@@ -1,0 +1,158 @@
+<div class="subFrom">
+<div class="formItem">
+    <script>
+        var file_type = "{$file_type}";
+    </script>
+                         <div class="content"> 
+                    
+                    <div class="form">
+                    <div name="item-category-1" class="category-panel visuallyhidden" tabindex="17" hidefocus="true">
+                          <div name="wkCategory" class="clearfix ui-category">
+                          <ul style="display: none; ">
+                              <li class="js-category-item" style="display: block; ">
+                                  {loop $data $k $v}
+									  <p class="{if $select==$v['id']}selected{/if} {if $v['state']=='open'}last{/if}" {if $select ==$v['id']}check="yes"{/if}  data-cid="{$v['id']}"  data-level="{$v['level']}">{$v['name']}</p>
+								 {/loop}
+                              </li>
+							  {if $data1}
+                              <li class="js-category-item" style="display: block; ">
+                                  {loop $data1 $k $v}
+									  <p class="{if $select1==$v['id']}selected{/if} {if $v['state']=='open'}last{/if}" {if $select1 ==$v['id']}check="yes"{/if} data-cid="{$v['id']}"  data-level="{$v['level']}">{$v['name']}</p>
+								 {/loop}
+                              </li>
+							  {/if}
+							  {if $data2}
+                              <li class="js-category-item" style="display: block; ">
+                                  {loop $data2 $k $v}
+									  <p class="{if $select2==$v['id']}selected{/if} {if $v['state']=='open'}last{/if}" {if $select2 ==$v['id']}check="yes"{/if} data-cid="{$v['id']}"  data-level="{$v['level']}">{$v['name']}</p>
+								 {/loop}
+                              </li>
+							  {/if}
+							  {if $data3}
+                              <li class="js-category-item" style="display: block; ">
+                                  {loop $data3 $k $v}
+									  <p class="{if $select3==$v['id']}selected{/if} {if $v['state']=='open'}last{/if}" {if $select3 ==$v['id']}check="yes"{/if} data-cid="{$v['id']}"  data-level="{$v['level']}">{$v['name']}</p>
+								 {/loop}
+                              </li>
+							  {/if}
+                          </ul>
+                          </div>
+					</div> 	
+                    <form action="/user/editPost" method="post" name="{$vars['frm_id']}" >
+                    	
+                    <input type="hidden"  name="id" value="{$id}"  />
+                      <table name="tbl1" cellpadding="0"  cellspacing="0" width="">
+                          <tr style="display:;" name="tr_cate">
+                              <td class="formTit">资源类型<span></span>：</td>
+                              <td>
+                                  <select name="data[cate_id]">
+                                      <option value="">请选择</option>
+                                      {loop $resource_type $k $v}
+                                      {if $k<4}
+                                      <option value="{$k}" {if $k==$info['cate_id']} selected="selected" {/if}  >{$v}</option>
+                                      {/if}
+                                      {/loop}
+                                  </select>
+
+                              </td>
+                          </tr>
+                          <tr>
+                          <td class="formTit">资源文件<span></span>：</td>
+                          <td>
+                          	
+                             <input type="hidden"  name="file[file_name]" id="file_name" />
+                             <input type="hidden"  name="file[file_path]" id="file_path" />
+							 <input type="hidden"  name="file[file_size]" id="file_size" />
+							 <input type="hidden"  name="data[uid]" value="{$uid}" id="uid" />
+							 <input type="hidden"  name="data[user_name]" value="{$user_name}" id="user_name" />
+							 <div id="demo2"></div><div id="tip2"></div>
+                          </td> 
+                        </tr>
+                        <tr> 
+                          <td class="formTit">资源标题<span></span>：</td>
+                          <td>
+                              <input type="text" name="data[doc_title]" value="{$info['doc_title']}" class="customForm_inputBoxDefault customForm_txtInput width330" datatype="*">
+                          </td> 
+                        </tr>
+                        <tr>
+                          <td  class="formTit">资源简介：</td>
+                          <td >
+                            <textarea class="customForm_textarea customForm_inputBoxDefault width330" name="data[doc_summery]" data-default="非必填项，最多200字。" placeholder="非必填项，最多200字。" maxlength="200">{$info['doc_summery']}</textarea>
+                          </td>  
+                        </tr> 
+                        
+                        <tr>
+                          <td class="formTit">资源分类<span>*</span>：</td>
+                          <td class="mod-upload">
+							 <input type="hidden" name="data[node_id]" value="{$info['node_id']}" >
+                             <span class="btn-category" tabindex="-1" hidefocus="true" >
+                             	<span class="category-text">{$node_name}</span>
+								<b class="ic ic-btn"></b></span>
+
+                                                    
+                          </td> 
+                        </tr>
+						
+
+						 
+                        <tr>
+                         <td class="formTit">资源标签：</td>
+                          <td>
+                              <script type="text/javascript" src="{HTTP_UI}/tag/tag.public.js"></script>
+							  <div data-target="doc" data-autorender="false" name="data[doc_tag]" data-targetid="{$info['doc_id']}" class="input-tags">
+							  	<div style="width:330px;" class="tagBox floatL">
+								<div class="recText floatL">
+									<input name="blogTag" type="text" autocomplete="off" style="width: 100%; display: inline-block;"></div>
+									<ul class="associateWrap" style="display: none;"></ul></div><span class="clearFloat"><div></div><span style="display: inline;padding: 0;" class="recTag"></span></span></div>
+							  <div name="tag_content"></div>
+                          </td>  
+                        </tr> 
+                      </table>
+                      <table name="tbl2" cellpadding="0" cellspacing="0">
+                        <tr> 
+                          <td  class="formTit">分类：</td>
+                          <td  rowspan="2" width="284">
+                             <ul>
+                                <li>
+                                   <label > <input type="radio" name="data[is_hidden]" value="0" {if !$info['is_hidden']} checked="checked" {/if}>&nbsp;&nbsp;普通资源</label><span>任何人可以搜索预览</span>
+                                </li> 
+                                 <li>
+                                   <label> <input type="radio" name="data[is_hidden]" value="1" {if $info['is_hidden']} checked="checked" {/if}>&nbsp;&nbsp;私有资源</label><span>仅自己可见</span>
+                                </li> 
+                            </ul> 
+                          </td>
+                        </tr> 
+                         <tr><td>&nbsp;</td></tr>
+                        <tr>
+                          <td class="formTit">积分：</td>
+                          <td> 
+                              <select name="data[doc_credit]">
+                                    <option value="0">请选择</option>
+                                    <option value="1" >1 分</option>
+                                    <option value="5">5 分</option>
+                                    <option value="10">10 分</option>
+                              </select>   
+                          </td> 
+                        </tr> 
+                         <td  class="formTit">来源：</td>
+                          <td  rowspan="2">
+                            <ul>
+                                <li>
+                                   <label> <input type="radio" name="data[doc_source]" value="1" {if $info['doc_source']==1}checked="checked" {/if}>&nbsp;&nbsp;原创资源</label>
+                                </li> 
+                                 <li>
+                                   <label> <input type="radio" name="data[doc_source]" value="2" {if $info['doc_source']==2 or !$info['doc_source']}checked="checked" {/if}>&nbsp;&nbsp;转载资源</label>
+                                </li> 
+                            </ul>
+                          </td>
+                        </tr> 
+                        <tr><td>&nbsp;</td></tr>
+                        <tr><td>&nbsp;</td> <td rowspan="2"><a href="javascript:void(0)" class="singleSub" name="a_submit"></a></td></tr>
+                        <tr><td>&nbsp;</td></tr>
+                      </table>
+					  </form> 
+                    </div> 
+                    <div class="f-cb"></div> 
+               </div>
+</div>
+</div>

@@ -1,0 +1,27 @@
+<div class="sidebar width250 borderRBlue1 floatL">
+	<div class="userInfo blueTxt">
+		<dl>
+			<dt><img width="160" alt="" src="$user_info['icon160']"></dt>
+			<dd class="font14"><strong>{$user_info['user_realname']}({$user_info['user_level']}级)</strong></dd>
+		</dl>
+	</div>
+	<ul class="userMenu font14">
+		
+		<li {if $path['action']=="indexAction" or $path['action']=="MydocAction" }class="current"{/if}>
+		
+		{if $path['action']!="indexAction" and $path['action']!="MydocAction" }<a title="我的文档" href="{BASE_PATH}/User/Mydoc">{/if}<i class="icon_myDoc"></i>我的文档{if $path['action']!="indexAction"  and $path['action']!="MydocAction" }</a>{/if}
+		</li>
+		<li {if $path['action']=="MyablumAction" }class="current"{/if}>
+			{if $path['action']!="MyablumAction" }
+			<a title="我的文集" href="{BASE_PATH}/User/Myablum">
+			{/if}
+				<i class="icon_corpus"></i>我的文集
+			{if $path['action']!="MyablumAction" }
+			</a>{/if}
+		</li>
+		<li {if $path['action']=="MyfavAction" }class="current"{/if}>{if $path['action']!="MyfavAction" }<a title="我的收藏" href="{BASE_PATH}/User/Myfav">{/if}<i class="icon_collect"></i>我的收藏{if $path['action']!="MyfavAction" }</a>{/if}</li>
+		<li {if $path['action']=="MydownAction" }class="current"{/if}>{if $path['action']!="MydownAction" }<a title="我的下载" href="{BASE_PATH}/User/Mydown">{/if}<i class="icon_downLoad"></i>我的下载{if $path['action']!="MydownAction" }</a>{/if}</li>
+	</ul>
+</div>
+<link href="{BASE_PATH}/statics/script/Dialog/skins/default.css" rel="stylesheet" type="text/css" />
+

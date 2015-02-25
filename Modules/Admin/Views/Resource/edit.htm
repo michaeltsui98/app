@@ -1,0 +1,87 @@
+<form action="<!--{$editDoUrl}-->" method="post" id="resource_edit_form" name="resource_edit_form" class="ui-form">
+ 
+		<input type="hidden" id="id" name="id" value="<!--{$id}-->"  />
+		<input type="hidden" id="file_id" name="file_id" value="<!--{$info['file_id']}-->"  />
+		
+	    <div class="form_row">
+                <label><span class="ui-form-required">*</span>基础节点：</label>
+					<select name="node_id" id="node_id" onchange="changeNid(this.value)">
+					{loop $node_arr $v}
+						{$v['option']}
+					{/loop}
+					</select>
+				<div class="info"><span class="ui-form-other"></span></div>
+         </div>
+		<script>
+			function changeNid(node_id){
+				var url = '{$get_unit_url}?node_id='+node_id;
+				$.getJSON(url,function(data){
+					var	html='';
+					//alert(typeof(data.rows));
+					if(typeof(data.rows)=='object'){
+						for(var i=0;i<data.rows.length;i++){
+							html+='<option value="'+data.rows[i].id+'">'+data.rows[i].ext+data.rows[i].node_title+'</option>';
+						}
+						$("#nid").html(html);
+					}else{
+						$("#nid").html('');
+					}
+				});
+			}
+		</script>
+		 
+	    <div class="form_row">
+                <label><span class="ui-form-required"></span>知识节点：</label>
+				<select name="data[nid]" id="nid">
+					 
+						{loop $unit_arr $v}
+							{$v['option']}
+						{/loop}
+					 
+				</select>
+				<div class="info"><span class="ui-form-other"></span></div>
+         </div>
+		 	
+		<div class="form_row">
+	        <label><span class="ui-form-required">*</span>资源标题：</label>
+			<input type="text" class="form_input_300" id="doc_title" name="data[doc_title]"  value="{$info['doc_title']}" placeholder="标题"  datatype="*"  />			
+			<div class="info"><span class="ui-form-other"></span></div>
+	    </div>
+		{if $info['cate_id']==5 or $info['cate_id']==6}	
+		 <div class="form_row" id="div_vid">
+                <label><span class="ui-form-required">*</span>关联视频Vid：</label>
+				<input type="text" name="vid" id="vid" value="{$info['vid']}"  class="form_input_300" data-default ="必填项，最多34字。" 
+				placeholder="视频Vid" maxLength="34" />
+				<div class="info"><span class="ui-form-other"></span></div>
+         </div>
+		 {/if}
+			
+	      <div class="form_row">
+                <label><span class="ui-form-required"></span>资源描述：</label>
+                <textarea type="text"   rows="5"  cols="40"   id="doc_summery" name="data[doc_summery]"    placeholder="描述" >{$info['doc_summery']}</textarea>
+				<div class="info"><span class="ui-form-other"></span></div>
+           </div>
+		<div class="form_row">
+                <label><span class="ui-form-required"></span>是否为原始：</label>
+				<input type="checkbox"  class=""  name="data[doc_source]">
+				<div class="info"><span class="ui-form-other"></span></div>
+         </div>
+	     
+		  
+	</div>
+
+<div class="ui-form-item">
+        <input type="submit" id="btn_submit" value="保存"/>
+    </div> 
+</form>
+
+
+<script type="text/javascript">
+	$(function(){
+		syform_val('resource_edit_form');
+        SetValue(resource_edit_form["data[is_ok]"],"<!--{$info['is_ok']}-->");
+	});
+</script>
+ 
+
+  

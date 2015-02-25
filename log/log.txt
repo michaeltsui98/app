@@ -1,0 +1,6791 @@
+array (
+  'id' => '222',
+  'teee' => 'xxxx',
+)
+array (
+  'id' => '222',
+  'teee' => 'xxxx',
+)
+array (
+  'id' => '222',
+  'teee' => 'xxxx',
+)2014-09-26 11:11:47
+array (
+  'sign' => '6dab50efa2d13cf01c8c461f521173e9',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af8ab7a336edd57237034a6_c',
+  'df' => '3',
+)2014-11-12 17:20:43
+array (
+  'sign' => '47f6e16960812cbd727c852c4fbde0e0',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33af8ab7a336edd57237034a6_c',
+  'df' => '1',
+)2014-11-12 17:21:16
+array (
+  'sign' => '0a24d5f02f25a455ced1e2c0e20e7426',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af8ab7a336edd57237034a6_c',
+  'df' => '1',
+)2014-11-12 17:21:16
+array (
+  'sign' => '7176d7dc9e2d6f1f9aa04221803a95bf',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af8ab7a336edd57237034a6_c',
+  'df' => '2',
+)2014-11-12 17:21:26
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af8ab7a336edd57237034a6_c',
+  'df' => '-1',
+)2014-11-12 17:24:28
+array (
+  'sign' => 'c082867cb347b0249e19b0eea119bce4',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ad2bf46fde6a8576e6ba871_c',
+)2014-11-12 17:24:59
+array (
+  'sign' => 'ee9ac282c3204d4872197eb8e3e8a045',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad2bf46fde6a8576e6ba871_c',
+  'df' => '2',
+)2014-11-12 17:28:57
+array (
+  'sign' => 'e053be033e7028abf4eaec17eec441aa',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad2bf46fde6a8576e6ba871_c',
+  'df' => '1',
+)2014-11-12 17:36:51
+array (
+  'sign' => '8c9f7135b37676a6309ed3c4697dca92',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ad2bf46fde6a8576e6ba871_c',
+  'df' => '1',
+)2014-11-12 17:36:51
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad2bf46fde6a8576e6ba871_c',
+  'df' => '-1',
+)2014-11-12 17:39:56
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad2bf46fde6a8576e6ba871_c',
+  'df' => '-1',
+)2014-11-12 23:05:48
+array (
+  'sign' => '8aeb0711f8a4311037d0feea23123a59',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ae033f8ae1f60e4379fb649_c',
+)2014-11-24 14:22:16
+array (
+  'sign' => 'a43674cc75f60aa0e23dd425b47cbdd8',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae033f8ae1f60e4379fb649_c',
+  'df' => '2',
+)2014-11-24 14:28:15
+array (
+  'sign' => 'c9cba308c5232438ff2157b2627b1351',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ada2519ab590109ef214e95_c',
+)2014-11-24 14:31:34
+array (
+  'sign' => 'a43c44319174976735af275652c32df8',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ada2519ab590109ef214e95_c',
+  'df' => '2',
+)2014-11-24 14:35:03
+array (
+  'sign' => '3b1e3955e723f5a81c709a29f808d44c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae033f8ae1f60e4379fb649_c',
+  'df' => '1',
+)2014-11-24 15:47:41
+array (
+  'sign' => 'bd93bce26b060ff8b7aae2ee277c9fa9',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ae033f8ae1f60e4379fb649_c',
+  'df' => '1',
+)2014-11-24 15:47:51
+array (
+  'sign' => '3a7fcd0fd37d14ae33f384d19e615645',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a1cdc1831f0cc89cf749fb2_c',
+)2014-11-24 15:49:43
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae033f8ae1f60e4379fb649_c',
+  'df' => '-1',
+)2014-11-24 15:50:00
+array (
+  'sign' => '92edc3ed167c44a3818eae8382e47cea',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ada2519ab590109ef214e95_c',
+  'df' => '1',
+)2014-11-24 15:52:58
+array (
+  'sign' => 'e1629d1bf954cd64ca26c660692be27e',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ada2519ab590109ef214e95_c',
+  'df' => '1',
+)2014-11-24 15:53:06
+array (
+  'sign' => '9bd71941c3dd6605dcdc7c4719b5fb50',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a1cdc1831f0cc89cf749fb2_c',
+  'df' => '2',
+)2014-11-24 15:54:05
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ada2519ab590109ef214e95_c',
+  'df' => '-1',
+)2014-11-24 15:59:59
+array (
+  'sign' => '5d468c1b498f3af64c23970e902451c0',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a1cdc1831f0cc89cf749fb2_c',
+  'df' => '1',
+)2014-11-24 16:00:10
+array (
+  'sign' => '0f001c22333d8436dcf9e64bed436de6',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a1cdc1831f0cc89cf749fb2_c',
+  'df' => '1',
+)2014-11-24 16:00:14
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a1cdc1831f0cc89cf749fb2_c',
+  'df' => '-1',
+)2014-11-24 16:09:52
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a1cdc1831f0cc89cf749fb2_c',
+  'df' => '-1',
+)2014-11-24 16:10:18
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ada2519ab590109ef214e95_c',
+  'df' => '-1',
+)2014-11-24 16:48:25
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae033f8ae1f60e4379fb649_c',
+  'df' => '-1',
+)2014-11-24 16:48:25
+array (
+  'sign' => 'e9e9f32755e554862306137a74dea9d1',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aa89d1b0fa7f91d5c504a38_c',
+)2014-11-26 09:46:54
+array (
+  'sign' => '4cb7c6231510e63c57f3e28e79adfc0d',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aa89d1b0fa7f91d5c504a38_c',
+  'df' => '2',
+)2014-11-26 09:50:16
+array (
+  'sign' => '29b2452e40ae5ccea5a4792ce935fc69',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aa89d1b0fa7f91d5c504a38_c',
+  'df' => '1',
+)2014-11-26 09:55:03
+array (
+  'sign' => '33775b31bc844a8dc4cb33edc363871f',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aa89d1b0fa7f91d5c504a38_c',
+  'df' => '1',
+)2014-11-26 09:55:07
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aa89d1b0fa7f91d5c504a38_c',
+  'df' => '-1',
+)2014-11-26 09:59:51
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aa89d1b0fa7f91d5c504a38_c',
+  'df' => '-1',
+)2014-11-27 15:18:24
+array (
+  'sign' => '48c6afaf6e6249ca40ef05732cd94ef1',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a1e25b0e69518d84adfd51d_c',
+)2014-12-02 17:37:41
+array (
+  'sign' => '7a46ba2088f6437f70b6d8d8287bbb3e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a1e25b0e69518d84adfd51d_c',
+  'df' => '2',
+)2014-12-02 17:40:45
+array (
+  'sign' => '442bedfd9c6369ee9354d006d85dd67b',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a1e25b0e69518d84adfd51d_c',
+  'df' => '1',
+)2014-12-02 17:45:12
+array (
+  'sign' => '9c625893f51535cb2c2ccc9fb62be178',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a1e25b0e69518d84adfd51d_c',
+  'df' => '1',
+)2014-12-02 17:45:24
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a1e25b0e69518d84adfd51d_c',
+  'df' => '-1',
+)2014-12-02 17:46:39
+array (
+  'sign' => 'c95abad10d50d7eab91fd1c0d1ff11a2',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aaad7b24dcebfdc0cbd92b7_c',
+)2014-12-03 16:22:40
+array (
+  'sign' => '990169b359b53cb1c01a751942f58654',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a46aef71f17504d8894b66a_c',
+)2014-12-03 16:37:14
+array (
+  'sign' => 'b31d5c37fb2cf71900f7713c6f024e9a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a46aef71f17504d8894b66a_c',
+  'df' => '2',
+)2014-12-03 16:38:56
+array (
+  'sign' => 'bb2a40d6e0af8b847e990c0cd2e9ea96',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aaad7b24dcebfdc0cbd92b7_c',
+  'df' => '1',
+)2014-12-03 16:42:25
+array (
+  'sign' => '8cd9dcc2b0cf89fd3efb7f272d0cbfbb',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aaad7b24dcebfdc0cbd92b7_c',
+  'df' => '1',
+)2014-12-03 16:42:25
+array (
+  'sign' => 'e79a62528c1862f578a395820afc4dfe',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a46aef71f17504d8894b66a_c',
+  'df' => '1',
+)2014-12-03 16:42:46
+array (
+  'sign' => 'ea43e6b73cb2008baaf12a773370b62d',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a46aef71f17504d8894b66a_c',
+  'df' => '1',
+)2014-12-03 16:42:49
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a46aef71f17504d8894b66a_c',
+  'df' => '-1',
+)2014-12-03 16:50:05
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aaad7b24dcebfdc0cbd92b7_c',
+  'df' => '-1',
+)2014-12-03 16:50:05
+array (
+  'sign' => '9b9ef4e000b8fed5c728cdef296796e0',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a0ea3ee6fdf5fa80d7e0753_c',
+)2014-12-03 17:05:30
+array (
+  'sign' => 'eb5442932907bf8009b0a3926a766099',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a0ea3ee6fdf5fa80d7e0753_c',
+  'df' => '2',
+)2014-12-03 17:08:24
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a0ea3ee6fdf5fa80d7e0753_c',
+  'df' => '-1',
+)2014-12-03 17:30:30
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a0ea3ee6fdf5fa80d7e0753_c',
+  'df' => '-1',
+)2014-12-03 19:26:46
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aaad7b24dcebfdc0cbd92b7_c',
+  'df' => '-1',
+)2014-12-03 19:26:46
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a46aef71f17504d8894b66a_c',
+  'df' => '-1',
+)2014-12-03 19:26:46
+array (
+  'sign' => 'be745d5e1aac2c1688ba04ffe2032ebd',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a4373f7fc466b4c3faf00ca_c',
+)2014-12-04 12:21:31
+array (
+  'sign' => '2735b1acbe3d47323c828aedab72ba8c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4373f7fc466b4c3faf00ca_c',
+  'df' => '2',
+)2014-12-04 12:27:21
+array (
+  'sign' => '2dc7dd73cf084c161ad2f0c983df043d',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4373f7fc466b4c3faf00ca_c',
+  'df' => '1',
+)2014-12-04 12:34:04
+array (
+  'sign' => '3c2ceec400b2e41f4d96248899ef2ae6',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a4373f7fc466b4c3faf00ca_c',
+  'df' => '1',
+)2014-12-04 12:34:09
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4373f7fc466b4c3faf00ca_c',
+  'df' => '-1',
+)2014-12-04 12:39:59
+array (
+  'sign' => '3dc66e00b161f4c84328bd1d3585d547',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a55a1ddd09c5f65e60a8422_c',
+)2014-12-04 12:40:15
+array (
+  'sign' => 'fc89bf2bfaf06ca0b079dcd443432f7f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a55a1ddd09c5f65e60a8422_c',
+  'df' => '2',
+)2014-12-04 12:42:52
+array (
+  'sign' => 'd9721abbc302f85b7ffccf7dbec46c86',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a55a1ddd09c5f65e60a8422_c',
+  'df' => '1',
+)2014-12-04 13:02:54
+array (
+  'sign' => 'a8ea157ab21a3fc08da9a8ba3338c2f4',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a55a1ddd09c5f65e60a8422_c',
+  'df' => '1',
+)2014-12-04 13:02:54
+array (
+  'sign' => 'ec1bac4759c2a6457412f26567ef6d5e',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a95f0a9d9a86517d6758062_c',
+)2014-12-04 13:09:56
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a55a1ddd09c5f65e60a8422_c',
+  'df' => '-1',
+)2014-12-04 13:09:58
+array (
+  'sign' => 'b2e932df0a35c84d75778575db6c2cc6',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a95f0a9d9a86517d6758062_c',
+  'df' => '2',
+)2014-12-04 13:11:54
+array (
+  'sign' => '01b762df4de47db048555cdf289692e6',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a95f0a9d9a86517d6758062_c',
+  'df' => '1',
+)2014-12-04 13:18:53
+array (
+  'sign' => '830bcc5aa02698093e968ff0d91d4a2e',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a95f0a9d9a86517d6758062_c',
+  'df' => '1',
+)2014-12-04 13:18:54
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a95f0a9d9a86517d6758062_c',
+  'df' => '-1',
+)2014-12-04 13:20:33
+array (
+  'sign' => 'ca0754249228b5f65c607fc7badc7f2f',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ad085160d1d87155f4ecfcf_c',
+)2014-12-04 13:35:53
+array (
+  'sign' => 'd8ce1eb6a3cb77cf786eb083b09739fd',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad085160d1d87155f4ecfcf_c',
+  'df' => '2',
+)2014-12-04 13:38:25
+array (
+  'sign' => 'ab94871a7334b26caadfed018de681b7',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad085160d1d87155f4ecfcf_c',
+  'df' => '1',
+)2014-12-04 13:43:27
+array (
+  'sign' => '2d29ba4d309194e54e00b27c131db631',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ad085160d1d87155f4ecfcf_c',
+  'df' => '1',
+)2014-12-04 13:43:31
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad085160d1d87155f4ecfcf_c',
+  'df' => '-1',
+)2014-12-04 13:50:05
+array (
+  'sign' => 'a94c87654a62dea8371e393e3ef64212',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a4f286711b8f0ff08ecacaa_c',
+)2014-12-04 13:57:53
+array (
+  'sign' => '6d65966319e91fd5ad6a6216cf7f9dac',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4f286711b8f0ff08ecacaa_c',
+  'df' => '2',
+)2014-12-04 13:59:45
+array (
+  'sign' => 'b83edff189531c9096dd945f1c5ae7f7',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4f286711b8f0ff08ecacaa_c',
+  'df' => '1',
+)2014-12-04 14:07:41
+array (
+  'sign' => 'd0cd622a5d76081cea014bc0b74c39bb',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a4f286711b8f0ff08ecacaa_c',
+  'df' => '1',
+)2014-12-04 14:07:42
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4f286711b8f0ff08ecacaa_c',
+  'df' => '-1',
+)2014-12-04 14:09:54
+array (
+  'sign' => '213b4d68966901f914090a5c98f081e4',
+  'type' => 'upload',
+  'vid' => 'c15d56f33af92232af18e6c364cbc905_c',
+)2014-12-04 14:27:57
+array (
+  'sign' => 'a651ea7f736faf31b2a1b00439e5858c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af92232af18e6c364cbc905_c',
+  'df' => '2',
+)2014-12-04 14:30:36
+array (
+  'sign' => 'd56d1b5fb20aefcd12181592f43eae33',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af92232af18e6c364cbc905_c',
+  'df' => '1',
+)2014-12-04 14:36:12
+array (
+  'sign' => '2964eb065c749ca91034c389bc932630',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33af92232af18e6c364cbc905_c',
+  'df' => '1',
+)2014-12-04 14:36:17
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af92232af18e6c364cbc905_c',
+  'df' => '-1',
+)2014-12-04 14:41:46
+array (
+  'sign' => 'c9a5031e009bf806e6a8b29b48aceb85',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a21239c54b6d7d43c00b864_c',
+)2014-12-04 15:05:09
+array (
+  'sign' => '50aaef9e07bfc4e099835a2d1f9101eb',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a21239c54b6d7d43c00b864_c',
+  'df' => '2',
+)2014-12-04 15:07:19
+array (
+  'sign' => '9c1b6648f6a1d22077ec3b22cf95320e',
+  'type' => 'upload',
+  'vid' => 'c15d56f33afc1e937bfab806060c2ae3_c',
+)2014-12-04 15:35:28
+array (
+  'sign' => '41f2ff33c238f4a7a32176193429562a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33afc1e937bfab806060c2ae3_c',
+  'df' => '2',
+)2014-12-04 15:37:59
+array (
+  'sign' => 'd029f1ffb9e3022e3dca97f5cb636179',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a21239c54b6d7d43c00b864_c',
+  'df' => '1',
+)2014-12-04 15:41:36
+array (
+  'sign' => 'c812763988461e92a563d117b70dae6d',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a21239c54b6d7d43c00b864_c',
+  'df' => '1',
+)2014-12-04 15:41:51
+array (
+  'sign' => '06a4913a07e15222a1cb088387583ddb',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33afc1e937bfab806060c2ae3_c',
+  'df' => '1',
+)2014-12-04 15:42:57
+array (
+  'sign' => 'fdff075b9089071b1d518b41be793583',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33afc1e937bfab806060c2ae3_c',
+  'df' => '1',
+)2014-12-04 15:42:58
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33afc1e937bfab806060c2ae3_c',
+  'df' => '-1',
+)2014-12-04 15:50:08
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a21239c54b6d7d43c00b864_c',
+  'df' => '-1',
+)2014-12-04 15:50:08
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33afc1e937bfab806060c2ae3_c',
+  'df' => '-1',
+)2014-12-04 16:04:50
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a21239c54b6d7d43c00b864_c',
+  'df' => '-1',
+)2014-12-04 16:04:50
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af92232af18e6c364cbc905_c',
+  'df' => '-1',
+)2014-12-04 16:05:59
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad085160d1d87155f4ecfcf_c',
+  'df' => '-1',
+)2014-12-04 16:05:59
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4f286711b8f0ff08ecacaa_c',
+  'df' => '-1',
+)2014-12-04 16:06:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a95f0a9d9a86517d6758062_c',
+  'df' => '-1',
+)2014-12-04 16:07:16
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a55a1ddd09c5f65e60a8422_c',
+  'df' => '-1',
+)2014-12-04 16:07:16
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4373f7fc466b4c3faf00ca_c',
+  'df' => '-1',
+)2014-12-04 16:07:16
+array (
+  'sign' => '55acaf5bf58c4301f7140dfdeec30e6d',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a987b6be7e473b453746f2a_c',
+)2014-12-04 16:37:17
+array (
+  'sign' => 'f9c31b950b07021071a61560e54e15c4',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a987b6be7e473b453746f2a_c',
+  'df' => '2',
+)2014-12-04 16:43:16
+array (
+  'sign' => '70850ab600f0086ac8536fc3cfa9f6ad',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a96a0f748f710df747df7f1_c',
+)2014-12-04 17:17:47
+array (
+  'sign' => '3727d2f1202f4ed1f3d3a143f007a6ea',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a96a0f748f710df747df7f1_c',
+  'df' => '2',
+)2014-12-04 17:20:30
+array (
+  'sign' => 'c9dd3125a477163d78ecaa33d8f5fa48',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a96a0f748f710df747df7f1_c',
+  'df' => '1',
+)2014-12-04 17:24:49
+array (
+  'sign' => '9597e4a2a5fe37b82cef21b2093f7704',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a96a0f748f710df747df7f1_c',
+  'df' => '1',
+)2014-12-04 17:24:49
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a96a0f748f710df747df7f1_c',
+  'df' => '-1',
+)2014-12-04 17:30:09
+array (
+  'sign' => 'a954cf63d6c006be40a0b2e06241caf5',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a987b6be7e473b453746f2a_c',
+  'df' => '1',
+)2014-12-04 17:36:24
+array (
+  'sign' => '2739c6b195d0e961c05baab8b8b798bc',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a987b6be7e473b453746f2a_c',
+  'df' => '1',
+)2014-12-04 17:36:29
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a987b6be7e473b453746f2a_c',
+  'df' => '-1',
+)2014-12-04 17:40:04
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a96a0f748f710df747df7f1_c',
+  'df' => '-1',
+)2014-12-04 18:12:38
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a987b6be7e473b453746f2a_c',
+  'df' => '-1',
+)2014-12-04 18:12:38
+array (
+  'sign' => 'f8d6845280155d6e198d8cb06308110d',
+  'type' => 'upload',
+  'vid' => 'c15d56f33af4f5c370ce0c0ca5cf5419_c',
+)2014-12-10 15:16:24
+array (
+  'sign' => '89bd7b55738045b2e8343dcd80e3f3bd',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af4f5c370ce0c0ca5cf5419_c',
+  'df' => '2',
+)2014-12-10 15:18:03
+array (
+  'sign' => '18d687de9cdafcca89a229a1544a0f91',
+  'type' => 'upload',
+  'vid' => 'c15d56f33adfa7c2d90ea0e57b287ac5_c',
+)2014-12-10 15:26:39
+array (
+  'sign' => '22236fd2913d6bda2bac93b53029c822',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33adfa7c2d90ea0e57b287ac5_c',
+  'df' => '2',
+)2014-12-10 15:28:38
+array (
+  'sign' => '1f2a99d30d686909d148b3c1cc4e5b12',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af4f5c370ce0c0ca5cf5419_c',
+  'df' => '1',
+)2014-12-10 15:29:28
+array (
+  'sign' => '5ff2d95f2079dada97eab8b20833d4b8',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33af4f5c370ce0c0ca5cf5419_c',
+  'df' => '1',
+)2014-12-10 15:29:41
+array (
+  'sign' => '9eef51d560909ac1d96f8b54aa45a435',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33adfa7c2d90ea0e57b287ac5_c',
+  'df' => '1',
+)2014-12-10 15:29:55
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af4f5c370ce0c0ca5cf5419_c',
+  'df' => '-1',
+)2014-12-10 15:30:04
+array (
+  'sign' => 'ee90aee54b4bf24e65f02da180faed7a',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33adfa7c2d90ea0e57b287ac5_c',
+  'df' => '1',
+)2014-12-10 15:30:25
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33adfa7c2d90ea0e57b287ac5_c',
+  'df' => '-1',
+)2014-12-10 15:40:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33adfa7c2d90ea0e57b287ac5_c',
+  'df' => '-1',
+)2014-12-10 19:46:50
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af4f5c370ce0c0ca5cf5419_c',
+  'df' => '-1',
+)2014-12-10 23:47:46
+array (
+  'sign' => '44f23e24c69c0781648d6ebe10183409',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a0aaa5de197cbf386ce24db_c',
+)2014-12-12 13:34:36
+array (
+  'sign' => '566fd3fe35f10e411b0ab1b82840f394',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a0aaa5de197cbf386ce24db_c',
+  'df' => '2',
+)2014-12-12 13:38:45
+array (
+  'sign' => '3a624ec2a5cfc02f389e3226b3492261',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a0aaa5de197cbf386ce24db_c',
+  'df' => '1',
+)2014-12-12 14:05:54
+array (
+  'sign' => '75d9fe8e126546b75a991d8a0ca270bc',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a0aaa5de197cbf386ce24db_c',
+  'df' => '1',
+)2014-12-12 14:06:01
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a0aaa5de197cbf386ce24db_c',
+  'df' => '-1',
+)2014-12-12 14:10:05
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a0aaa5de197cbf386ce24db_c',
+  'df' => '-1',
+)2014-12-12 14:42:35
+array (
+  'sign' => '46c46581c6ac26c45ee2eac2e7577f1d',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a5e8c33005addbdb9416530_c',
+)2014-12-12 15:17:00
+array (
+  'sign' => '21cde032c57729c550f8af8ce92b3ea2',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a5e8c33005addbdb9416530_c',
+  'df' => '2',
+)2014-12-12 15:19:52
+array (
+  'sign' => '13e0cdb0290a4dde213a3b80ff4f8a47',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a4335883fba3878c706195b_c',
+)2014-12-12 15:32:49
+array (
+  'sign' => 'f12de2d0d27186c04b4d1b339e8cce37',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4335883fba3878c706195b_c',
+  'df' => '2',
+)2014-12-12 15:35:16
+array (
+  'sign' => 'c23c06457dc8ef2be6f0d35c5af9bddd',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a8bec39f87f1d570fce5086_c',
+)2014-12-12 15:55:45
+array (
+  'sign' => '9704e362adcf2b0492e9013616bc47d8',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a8bec39f87f1d570fce5086_c',
+  'df' => '2',
+)2014-12-12 15:59:11
+array (
+  'sign' => '81cd4ad7691be26a67b4f23a1ea7849a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4335883fba3878c706195b_c',
+  'df' => '1',
+)2014-12-12 16:13:53
+array (
+  'sign' => '09aa2acf143c8bed89a9f92de972efe2',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a4335883fba3878c706195b_c',
+  'df' => '1',
+)2014-12-12 16:13:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4335883fba3878c706195b_c',
+  'df' => '-1',
+)2014-12-12 16:20:07
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4335883fba3878c706195b_c',
+  'df' => '-1',
+)2014-12-12 16:20:52
+array (
+  'sign' => 'c325b9ceaf8648aae62e19f48e58ccb3',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a5e8c33005addbdb9416530_c',
+  'df' => '1',
+)2014-12-12 16:22:45
+array (
+  'sign' => '10b40b5219e660b73b783a3db23e42a9',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a5e8c33005addbdb9416530_c',
+  'df' => '1',
+)2014-12-12 16:22:53
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a5e8c33005addbdb9416530_c',
+  'df' => '-1',
+)2014-12-12 16:30:04
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a5e8c33005addbdb9416530_c',
+  'df' => '-1',
+)2014-12-12 16:56:19
+array (
+  'sign' => 'cb8464fd47d4b84252aa9d84472d6cd2',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a8bec39f87f1d570fce5086_c',
+  'df' => '1',
+)2014-12-12 16:59:19
+array (
+  'sign' => 'c9ba56dd72092fba14d2fff9efa80f07',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a8bec39f87f1d570fce5086_c',
+  'df' => '1',
+)2014-12-12 16:59:23
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a8bec39f87f1d570fce5086_c',
+  'df' => '-1',
+)2014-12-12 17:00:08
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a8bec39f87f1d570fce5086_c',
+  'df' => '-1',
+)2014-12-12 17:24:53
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a8bec39f87f1d570fce5086_c',
+  'df' => '-1',
+)2014-12-12 17:25:06
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a8bec39f87f1d570fce5086_c',
+  'df' => '-1',
+)2014-12-12 17:25:08
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a8bec39f87f1d570fce5086_c',
+  'df' => '-1',
+)2014-12-12 17:25:29
+array (
+  'sign' => '305f92f66827624048cdde1796ee97be',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a73e36d473b61c685741be9_c',
+)2014-12-15 09:25:39
+array (
+  'sign' => '6d31a1f2173c6ef781fff4efb7f6fd67',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a73e36d473b61c685741be9_c',
+  'df' => '2',
+)2014-12-15 09:28:16
+array (
+  'sign' => 'af0e1e91b63e0fae8609395dfbcb3cba',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a73e36d473b61c685741be9_c',
+  'df' => '1',
+)2014-12-15 09:36:02
+array (
+  'sign' => '4f404048026e2f814c1d97d77bd99e10',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a73e36d473b61c685741be9_c',
+  'df' => '1',
+)2014-12-15 09:36:05
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a73e36d473b61c685741be9_c',
+  'df' => '-1',
+)2014-12-15 09:40:05
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a73e36d473b61c685741be9_c',
+  'df' => '-1',
+)2014-12-15 10:07:27
+array (
+  'sign' => 'cb8bd4c2aeb2a46efbfb83190bfb2926',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a442f3c145c027d64fa21ee_c',
+)2014-12-16 15:32:24
+array (
+  'sign' => 'b83edff189531c9096dd945f1c5ae7f7',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4f286711b8f0ff08ecacaa_c',
+  'df' => '1',
+)2014-12-16 16:07:20
+array (
+  'sign' => 'd0cd622a5d76081cea014bc0b74c39bb',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a4f286711b8f0ff08ecacaa_c',
+  'df' => '1',
+)2014-12-16 16:07:27
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4f286711b8f0ff08ecacaa_c',
+  'df' => '-1',
+)2014-12-16 16:10:14
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4f286711b8f0ff08ecacaa_c',
+  'df' => '-1',
+)2014-12-16 16:32:08
+array (
+  'sign' => '3a624ec2a5cfc02f389e3226b3492261',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a0aaa5de197cbf386ce24db_c',
+  'df' => '1',
+)2014-12-16 16:37:53
+array (
+  'sign' => '75d9fe8e126546b75a991d8a0ca270bc',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a0aaa5de197cbf386ce24db_c',
+  'df' => '1',
+)2014-12-16 16:40:09
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a0aaa5de197cbf386ce24db_c',
+  'df' => '-1',
+)2014-12-16 16:48:43
+array (
+  'sign' => '892849826ec14ac35e407b1dc719dd17',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a67614bc68ad00aac2ab25a_c',
+)2014-12-16 16:51:28
+array (
+  'sign' => '91820d74920b8a54a402ce76a10be384',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a67614bc68ad00aac2ab25a_c',
+  'df' => '2',
+)2014-12-16 16:51:51
+array (
+  'sign' => 'fbe403e7133d2d6c1773fe52622abf2a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a67614bc68ad00aac2ab25a_c',
+  'df' => '3',
+)2014-12-16 16:51:52
+array (
+  'sign' => '0245b75d26ec869fb01848f72881accf',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a442f3c145c027d64fa21ee_c',
+  'df' => '1',
+)2014-12-16 16:58:26
+array (
+  'sign' => '3ed190521e432e8d54bbef0944c8cf10',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a442f3c145c027d64fa21ee_c',
+  'df' => '1',
+)2014-12-16 16:58:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a442f3c145c027d64fa21ee_c',
+  'df' => '-1',
+)2014-12-16 17:00:03
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a442f3c145c027d64fa21ee_c',
+  'df' => '-1',
+)2014-12-16 17:11:21
+array (
+  'sign' => '0496a7cc81aa0b2d230e27061f0cad03',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a1810d595c187ad6091d4db_c',
+)2014-12-16 17:15:51
+array (
+  'sign' => 'ab48db5a86474bc931bbe98fb38f23f5',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a70d442c28498bb3c3d3461_c',
+)2014-12-16 17:16:10
+array (
+  'sign' => '2dd31355c3203a91d912a6309aaed57c',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ae1e7cd53b5a3609d8def81_c',
+)2014-12-16 17:20:03
+array (
+  'sign' => '5c894d33249c4e1be96d9327505c1bb8',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a69d236c4bc447f9ccbf2d2_c',
+)2014-12-16 17:20:51
+array (
+  'sign' => '4c0de09de9c9fc060ea2c2c9c34b2cc2',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae1e7cd53b5a3609d8def81_c',
+  'df' => '3',
+)2014-12-16 17:21:02
+array (
+  'sign' => '0f8bc6f58b30af9347d9668a535b28d6',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae1e7cd53b5a3609d8def81_c',
+  'df' => '2',
+)2014-12-16 17:22:14
+array (
+  'sign' => 'e229c2bd8a197e46eb2a85b22ff43a46',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a67614bc68ad00aac2ab25a_c',
+  'df' => '1',
+)2014-12-16 17:24:57
+array (
+  'sign' => '95134a74ac41c37e641c968c8da08b61',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a67614bc68ad00aac2ab25a_c',
+  'df' => '1',
+)2014-12-16 17:25:47
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a67614bc68ad00aac2ab25a_c',
+  'df' => '-1',
+)2014-12-16 17:30:05
+array (
+  'sign' => 'd18f8b190b9c64b921ca0f9621ee44e1',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a1810d595c187ad6091d4db_c',
+  'df' => '1',
+)2014-12-16 17:32:25
+array (
+  'sign' => '406c610d532b11570849005d2136436e',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a1810d595c187ad6091d4db_c',
+  'df' => '1',
+)2014-12-16 17:33:03
+array (
+  'sign' => '45f5ac4808863a3877e21430f80ee257',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a70d442c28498bb3c3d3461_c',
+  'df' => '1',
+)2014-12-16 17:33:33
+array (
+  'sign' => '84132d411320c31f462a5d1de5fe87b6',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a70d442c28498bb3c3d3461_c',
+  'df' => '1',
+)2014-12-16 17:33:35
+array (
+  'sign' => '46f54a6040baba7b326f7528b55e7baf',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a69d236c4bc447f9ccbf2d2_c',
+  'df' => '1',
+)2014-12-16 17:34:13
+array (
+  'sign' => '5ede115610f8d82f518bd0acec9740b6',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a69d236c4bc447f9ccbf2d2_c',
+  'df' => '1',
+)2014-12-16 17:34:13
+array (
+  'sign' => '2b696c819906ddcefb05678961d61824',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae1e7cd53b5a3609d8def81_c',
+  'df' => '1',
+)2014-12-16 17:34:27
+array (
+  'sign' => '1289a4f64fc0c0232b332f255e59060d',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ae1e7cd53b5a3609d8def81_c',
+  'df' => '1',
+)2014-12-16 17:34:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a69d236c4bc447f9ccbf2d2_c',
+  'df' => '-1',
+)2014-12-16 17:39:59
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae1e7cd53b5a3609d8def81_c',
+  'df' => '-1',
+)2014-12-16 17:39:59
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a70d442c28498bb3c3d3461_c',
+  'df' => '-1',
+)2014-12-16 17:40:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a1810d595c187ad6091d4db_c',
+  'df' => '-1',
+)2014-12-16 17:40:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae1e7cd53b5a3609d8def81_c',
+  'df' => '-1',
+)2014-12-16 18:05:14
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae1e7cd53b5a3609d8def81_c',
+  'df' => '-1',
+)2014-12-16 18:05:14
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a69d236c4bc447f9ccbf2d2_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a1810d595c187ad6091d4db_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae1e7cd53b5a3609d8def81_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a1810d595c187ad6091d4db_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a67614bc68ad00aac2ab25a_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a70d442c28498bb3c3d3461_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a70d442c28498bb3c3d3461_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae1e7cd53b5a3609d8def81_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a67614bc68ad00aac2ab25a_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a69d236c4bc447f9ccbf2d2_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a1810d595c187ad6091d4db_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a70d442c28498bb3c3d3461_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a67614bc68ad00aac2ab25a_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a67614bc68ad00aac2ab25a_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a70d442c28498bb3c3d3461_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a70d442c28498bb3c3d3461_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a69d236c4bc447f9ccbf2d2_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a69d236c4bc447f9ccbf2d2_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae1e7cd53b5a3609d8def81_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a1810d595c187ad6091d4db_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a1810d595c187ad6091d4db_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae1e7cd53b5a3609d8def81_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a69d236c4bc447f9ccbf2d2_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a69d236c4bc447f9ccbf2d2_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a70d442c28498bb3c3d3461_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a67614bc68ad00aac2ab25a_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a1810d595c187ad6091d4db_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a67614bc68ad00aac2ab25a_c',
+  'df' => '-1',
+)2014-12-16 18:05:15
+array (
+  'sign' => 'a25142300b1056d1748a93ef736b0472',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ad5ac59fa4298ead344aa60_c',
+)2014-12-17 17:24:11
+array (
+  'sign' => '7879f62ec825a7680551bc496d31ba30',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad5ac59fa4298ead344aa60_c',
+  'df' => '2',
+)2014-12-17 17:26:22
+array (
+  'sign' => '1f1f2dbee11518b3907dcd07eee10b9e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad5ac59fa4298ead344aa60_c',
+  'df' => '1',
+)2014-12-17 17:31:37
+array (
+  'sign' => '9c75d5b50fa221992dbf2e3956eaac4e',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ad5ac59fa4298ead344aa60_c',
+  'df' => '1',
+)2014-12-17 17:31:40
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad5ac59fa4298ead344aa60_c',
+  'df' => '-1',
+)2014-12-17 17:40:08
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad5ac59fa4298ead344aa60_c',
+  'df' => '-1',
+)2014-12-18 10:53:15
+array (
+  'sign' => 'cd8e774b68552b9088435704cf0bce35',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a998336f8c273592ef8adbe_c',
+  'df' => '2',
+)2014-12-18 16:22:10
+array (
+  'sign' => '82ad501aa9f59a9fccd4f605dbbabb6a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a998336f8c273592ef8adbe_c',
+  'df' => '1',
+)2014-12-18 16:28:45
+array (
+  'sign' => '0a41cde963627c8a494af10118b9bd8e',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a998336f8c273592ef8adbe_c',
+  'df' => '1',
+)2014-12-18 16:29:40
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a998336f8c273592ef8adbe_c',
+  'df' => '-1',
+)2014-12-18 16:30:26
+array (
+  'sign' => 'a8714c2b1b766d311abd46c1552100aa',
+  'type' => 'upload',
+  'vid' => 'c15d56f33adc3255f464af1d4172bf7b_c',
+)2014-12-19 08:51:28
+array (
+  'sign' => '6d1fe207de1c35a9ee25c000cb9cc216',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33adc3255f464af1d4172bf7b_c',
+  'df' => '2',
+)2014-12-19 08:52:52
+array (
+  'sign' => 'b91ff5d701570a0ec9354790d3568bbe',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33adc3255f464af1d4172bf7b_c',
+  'df' => '1',
+)2014-12-19 08:54:02
+array (
+  'sign' => 'f3819e92d0fc6915affa821f1c66e43c',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33adc3255f464af1d4172bf7b_c',
+  'df' => '1',
+)2014-12-19 08:54:03
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33adc3255f464af1d4172bf7b_c',
+  'df' => '-1',
+)2014-12-19 08:54:59
+array (
+  'sign' => 'e32ef2183e2ab7b5a1e8f1a22bd3331f',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aa0998be6db4da5d9b64cb3_c',
+)2014-12-19 09:07:26
+array (
+  'sign' => '83c635ee9b0fd23fae8b9b76523600be',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aa0998be6db4da5d9b64cb3_c',
+  'df' => '2',
+)2014-12-19 09:11:02
+array (
+  'sign' => '56ce9ca2b611827ca657edd066216c5f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aa0998be6db4da5d9b64cb3_c',
+  'df' => '1',
+)2014-12-19 09:14:15
+array (
+  'sign' => 'c604189af0a0e4d87c9833b6bd63e3d3',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aa0998be6db4da5d9b64cb3_c',
+  'df' => '1',
+)2014-12-19 09:14:20
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aa0998be6db4da5d9b64cb3_c',
+  'df' => '-1',
+)2014-12-19 09:20:01
+array (
+  'sign' => '59b656d21a995d7deb62cb9f51346528',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ab6874be00714b7ce4db3bd_c',
+)2014-12-19 09:23:30
+array (
+  'sign' => 'f3faee5f72b30f248c0c21bfca148ef1',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a3d6a24bb5ed6585f7857c5_c',
+)2014-12-19 10:01:19
+array (
+  'sign' => '700384c8fffdec1dd42851e8a623a993',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3d6a24bb5ed6585f7857c5_c',
+  'df' => '2',
+)2014-12-19 10:06:35
+array (
+  'sign' => 'dc0c023b5b0b703639470d84e2ec2407',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3d6a24bb5ed6585f7857c5_c',
+  'df' => '1',
+)2014-12-19 10:34:08
+array (
+  'sign' => '01967a3d537a352ab4bb4203a98006a9',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a3d6a24bb5ed6585f7857c5_c',
+  'df' => '1',
+)2014-12-19 10:34:08
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3d6a24bb5ed6585f7857c5_c',
+  'df' => '-1',
+)2014-12-19 10:40:02
+array (
+  'sign' => '75c359bf2bc77f8e39f17578a810bd1e',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a91d4c27f5d368667599c83_c',
+)2014-12-19 14:00:30
+array (
+  'sign' => '8a43836cadb34c103ead36c5855d7f26',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a91d4c27f5d368667599c83_c',
+  'df' => '2',
+)2014-12-19 14:02:29
+array (
+  'sign' => '1b55fd5d252159e88e1b8dc4fe212bdf',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a91d4c27f5d368667599c83_c',
+  'df' => '1',
+)2014-12-19 14:24:47
+array (
+  'sign' => 'f006c1dbdfe21827ad1dc3a9cb23f8b7',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a91d4c27f5d368667599c83_c',
+  'df' => '1',
+)2014-12-19 14:24:50
+array (
+  'sign' => 'e70d12ca4d4f5b924381c4b6762c32c3',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a84f61e9478c060c187422b_c',
+)2014-12-19 14:26:20
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a91d4c27f5d368667599c83_c',
+  'df' => '-1',
+)2014-12-19 14:30:07
+array (
+  'sign' => '0aad1ad85cc2607f2e0e97552be4a2bc',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a84f61e9478c060c187422b_c',
+  'df' => '2',
+)2014-12-19 14:31:16
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a91d4c27f5d368667599c83_c',
+  'df' => '-1',
+)2014-12-19 14:39:26
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a91d4c27f5d368667599c83_c',
+  'df' => '-1',
+)2014-12-19 14:40:39
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3d6a24bb5ed6585f7857c5_c',
+  'df' => '-1',
+)2014-12-19 14:40:46
+array (
+  'sign' => 'f0ac6fe3d65b73a1cd8c4dbf5c9e00b9',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a84f61e9478c060c187422b_c',
+  'df' => '1',
+)2014-12-19 15:13:19
+array (
+  'sign' => '0d1da4777a534a89ce2b58b180278af6',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a84f61e9478c060c187422b_c',
+  'df' => '1',
+)2014-12-19 15:13:23
+array (
+  'sign' => '432d3edcaf424d611f0fe1ad36751db3',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ac163d88dbdb8bd76910a42_c',
+)2014-12-19 15:24:39
+array (
+  'sign' => '8c36a3ee9fdc97aab755ebbbe7b3704c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac163d88dbdb8bd76910a42_c',
+  'df' => '2',
+)2014-12-19 15:26:35
+array (
+  'sign' => '5e05e7607c16a2fa8e8c1585056436e1',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac163d88dbdb8bd76910a42_c',
+  'df' => '1',
+)2014-12-19 15:29:57
+array (
+  'sign' => '20ba2f174099a944f0eca54fd7bb4bea',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ac163d88dbdb8bd76910a42_c',
+  'df' => '1',
+)2014-12-19 15:30:00
+array (
+  'sign' => '9f639fc20d8e07987fb3e6f924a05919',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a28d158004b30619678d6ba_c',
+)2014-12-19 15:41:59
+array (
+  'sign' => 'b5f6c1df9c0dcff5707c32cde1dbb0e4',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a28d158004b30619678d6ba_c',
+  'df' => '2',
+)2014-12-19 15:45:14
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac163d88dbdb8bd76910a42_c',
+  'df' => '-1',
+)2014-12-19 15:52:27
+array (
+  'sign' => '8a8fe9cb644a407c52dca9c9c489c826',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a28d158004b30619678d6ba_c',
+  'df' => '1',
+)2014-12-19 15:53:47
+array (
+  'sign' => '6473aea7187c7e0509c5084d38f04a81',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a28d158004b30619678d6ba_c',
+  'df' => '1',
+)2014-12-19 15:53:47
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a28d158004b30619678d6ba_c',
+  'df' => '-1',
+)2014-12-19 15:54:31
+array (
+  'sign' => '3e7ed555ff1b27c1705c37ec3d90ec92',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a7ec13bd6baab25348e26c6_c',
+)2014-12-19 16:12:24
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac163d88dbdb8bd76910a42_c',
+  'df' => '-1',
+)2014-12-19 16:12:56
+array (
+  'sign' => '9cc184f6b13fe0dd116666a861352788',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a7ec13bd6baab25348e26c6_c',
+  'df' => '2',
+)2014-12-19 16:15:33
+array (
+  'sign' => '8a5c06a796bd4e7c28672318093744c4',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a7ec13bd6baab25348e26c6_c',
+  'df' => '1',
+)2014-12-19 16:27:25
+array (
+  'sign' => 'c636c87f07e23157128cfedce9ae6b71',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a7ec13bd6baab25348e26c6_c',
+  'df' => '1',
+)2014-12-19 16:27:25
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a7ec13bd6baab25348e26c6_c',
+  'df' => '-1',
+)2014-12-19 16:29:46
+array (
+  'sign' => '8a8b8ace0f537fcb9b45b2188602bbcb',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a4554b26a0a956d25f65c17_c',
+)2014-12-19 16:32:35
+array (
+  'sign' => 'c352742a059f6da5aa6eda64eb58b947',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4554b26a0a956d25f65c17_c',
+  'df' => '2',
+)2014-12-19 16:35:53
+array (
+  'sign' => '1019b63d68291c35c0c2227020d7bb70',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4554b26a0a956d25f65c17_c',
+  'df' => '1',
+)2014-12-19 16:39:06
+array (
+  'sign' => 'cfda597671b01d9a46c202c090fce1d1',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a4554b26a0a956d25f65c17_c',
+  'df' => '1',
+)2014-12-19 16:39:10
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4554b26a0a956d25f65c17_c',
+  'df' => '-1',
+)2014-12-19 16:42:34
+array (
+  'sign' => '478f977f950fc8858da3b51f3fc2a729',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a0ede793dd42a7359cbcf43_c',
+  'df' => '1',
+)2014-12-19 17:19:22
+array (
+  'sign' => '59408bdabd9ffb9ce3e1836cb4ccd798',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a0ede793dd42a7359cbcf43_c',
+  'df' => '1',
+)2014-12-19 17:19:22
+array (
+  'sign' => '224dbb8b05eeb0bac7b5d8e0343b6fcc',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ad816e99a5c6f93295a5a6d_c',
+)2014-12-19 17:22:35
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a0ede793dd42a7359cbcf43_c',
+  'df' => '-1',
+)2014-12-19 17:25:24
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a0ede793dd42a7359cbcf43_c',
+  'df' => '-1',
+)2014-12-19 17:27:12
+array (
+  'sign' => '60d9bfe62b5c71d57a1b6e2863b08e00',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad816e99a5c6f93295a5a6d_c',
+  'df' => '2',
+)2014-12-19 17:27:15
+array (
+  'sign' => 'f14eb68e7df158b01b431a2bb4e9a7a4',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad816e99a5c6f93295a5a6d_c',
+  'df' => '1',
+)2014-12-19 17:35:14
+array (
+  'sign' => 'd409cd712033216f32162a11fb1ac078',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ad816e99a5c6f93295a5a6d_c',
+  'df' => '1',
+)2014-12-19 17:35:18
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad816e99a5c6f93295a5a6d_c',
+  'df' => '-1',
+)2014-12-19 17:40:07
+array (
+  'sign' => 'd008d71163ac82110ed661be5e4a7dfd',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ae91de169e6640c67840170_c',
+)2014-12-19 17:51:46
+array (
+  'sign' => '5f355f331cf8ce2646c4a26491522e78',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae91de169e6640c67840170_c',
+  'df' => '2',
+)2014-12-19 17:57:37
+array (
+  'sign' => 'b3574de90a93e19c5c5ff57334d6e18c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae91de169e6640c67840170_c',
+  'df' => '1',
+)2014-12-19 19:34:18
+array (
+  'sign' => '633e939e291166cd424e29328f1f3e30',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ae91de169e6640c67840170_c',
+  'df' => '1',
+)2014-12-19 19:34:22
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae91de169e6640c67840170_c',
+  'df' => '-1',
+)2014-12-19 19:35:08
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad816e99a5c6f93295a5a6d_c',
+  'df' => '-1',
+)2014-12-19 22:29:12
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae91de169e6640c67840170_c',
+  'df' => '-1',
+)2014-12-19 22:29:12
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a0ede793dd42a7359cbcf43_c',
+  'df' => '-1',
+)2014-12-19 22:29:12
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4554b26a0a956d25f65c17_c',
+  'df' => '-1',
+)2014-12-20 11:49:51
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac163d88dbdb8bd76910a42_c',
+  'df' => '-1',
+)2014-12-20 11:49:51
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a84f61e9478c060c187422b_c',
+  'df' => '-1',
+)2014-12-20 11:50:53
+array (
+  'sign' => '4a96c48e2de1adca6adc8b076b077487',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a645b31bffc0db70707a690_c',
+)2014-12-22 08:46:19
+array (
+  'sign' => '928b070e7351226271a3e87d285b9706',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a645b31bffc0db70707a690_c',
+  'df' => '2',
+)2014-12-22 08:50:40
+array (
+  'sign' => 'a88d3cfd103816f726615910fc1faf67',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ac4ef31d163a23746a3d373_c',
+)2014-12-22 08:52:35
+array (
+  'sign' => '33e01c59bc4c4e3b3f2f42a80e9d5caf',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac4ef31d163a23746a3d373_c',
+  'df' => '2',
+)2014-12-22 08:54:14
+array (
+  'sign' => '8f58a57636369eb1c347ed67f2e9f602',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a645b31bffc0db70707a690_c',
+  'df' => '1',
+)2014-12-22 08:57:36
+array (
+  'sign' => 'a901b5d47f7540d2c9665ff226f597b3',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a645b31bffc0db70707a690_c',
+  'df' => '1',
+)2014-12-22 08:57:41
+array (
+  'sign' => 'f1c4dc686c278c8b7ab07ec417e0fb16',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac4ef31d163a23746a3d373_c',
+  'df' => '1',
+)2014-12-22 08:58:00
+array (
+  'sign' => '4c94854958c1437db596801c9daf0dcc',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ac4ef31d163a23746a3d373_c',
+  'df' => '1',
+)2014-12-22 08:58:02
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac4ef31d163a23746a3d373_c',
+  'df' => '-1',
+)2014-12-22 08:59:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a645b31bffc0db70707a690_c',
+  'df' => '-1',
+)2014-12-22 08:59:57
+array (
+  'sign' => 'b7d422dafd5e622c53dd738765d83d7d',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a39023fbc2570ab6ffc68ef_c',
+)2014-12-22 09:08:22
+array (
+  'sign' => '1490d93ecb723222b6ca59a38ee39be2',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a39023fbc2570ab6ffc68ef_c',
+  'df' => '2',
+)2014-12-22 09:11:32
+array (
+  'sign' => '994c6efffba509e0ddf8a1672e34f663',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a39023fbc2570ab6ffc68ef_c',
+  'df' => '1',
+)2014-12-22 09:17:26
+array (
+  'sign' => '8b21220bc0164d53aa9e4cf1052935fb',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a39023fbc2570ab6ffc68ef_c',
+  'df' => '1',
+)2014-12-22 09:17:29
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a39023fbc2570ab6ffc68ef_c',
+  'df' => '-1',
+)2014-12-22 09:20:01
+array (
+  'sign' => '96aab6f165bd85e217b0be242c293e1e',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ac9ef2952a4999f77952613_c',
+)2014-12-22 09:35:23
+array (
+  'sign' => 'a42fc63598a3cd06b6afb5bb15b413e1',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac9ef2952a4999f77952613_c',
+  'df' => '2',
+)2014-12-22 09:37:08
+array (
+  'sign' => 'f825601e6dd42fe7d1d073096cd757d2',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac9ef2952a4999f77952613_c',
+  'df' => '1',
+)2014-12-22 09:47:09
+array (
+  'sign' => 'd524b155df82cd2e839e8fc2e2b962e2',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ac9ef2952a4999f77952613_c',
+  'df' => '1',
+)2014-12-22 09:47:31
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac9ef2952a4999f77952613_c',
+  'df' => '-1',
+)2014-12-22 09:49:58
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac9ef2952a4999f77952613_c',
+  'df' => '-1',
+)2014-12-22 09:50:39
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a39023fbc2570ab6ffc68ef_c',
+  'df' => '-1',
+)2014-12-22 09:56:25
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac4ef31d163a23746a3d373_c',
+  'df' => '-1',
+)2014-12-22 09:56:25
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a645b31bffc0db70707a690_c',
+  'df' => '-1',
+)2014-12-22 09:56:25
+array (
+  'sign' => 'ea1c1f8cb81aad861e0c86a56a88c747',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a615f454324030c1ba911e5_c',
+)2014-12-22 09:58:10
+array (
+  'sign' => '31eff16f4ce5e9cdbb386a736f3270e7',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a615f454324030c1ba911e5_c',
+  'df' => '2',
+)2014-12-22 10:03:16
+array (
+  'sign' => '1750f66e58a77ef31cb7124b69ea18c6',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a615f454324030c1ba911e5_c',
+  'df' => '1',
+)2014-12-22 10:07:22
+array (
+  'sign' => 'b1ab1fa420515b7a31dd8648fe001e81',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a615f454324030c1ba911e5_c',
+  'df' => '1',
+)2014-12-22 10:07:26
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a615f454324030c1ba911e5_c',
+  'df' => '-1',
+)2014-12-22 10:09:59
+array (
+  'sign' => 'd2a4e67c78982859009ee9fe35af7977',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a87845f258cd2552e95619f_c',
+)2014-12-22 10:21:17
+array (
+  'sign' => '72e4949b91f5440b3f0e14a39aab521c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a87845f258cd2552e95619f_c',
+  'df' => '2',
+)2014-12-22 10:22:36
+array (
+  'sign' => '1869482534375ed1eea0a3b5a4bfaed5',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a87845f258cd2552e95619f_c',
+  'df' => '1',
+)2014-12-22 10:28:08
+array (
+  'sign' => '76eda8d1c7f624c4ebfa5262be7ff3e6',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a87845f258cd2552e95619f_c',
+  'df' => '1',
+)2014-12-22 10:28:08
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a87845f258cd2552e95619f_c',
+  'df' => '-1',
+)2014-12-22 10:30:07
+array (
+  'sign' => 'de01f2cbdc24c877fc8b81c265162b1e',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a41fda48a487af7a1c141c7_c',
+)2014-12-22 10:36:00
+array (
+  'sign' => '694316cf2eac80ab31e6dc94df57a5b8',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a41fda48a487af7a1c141c7_c',
+  'df' => '2',
+)2014-12-22 10:38:30
+array (
+  'sign' => '8560f4f811f68b66271720cc68746781',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a41fda48a487af7a1c141c7_c',
+  'df' => '1',
+)2014-12-22 10:47:08
+array (
+  'sign' => '869778c717d1040de86ffdb6e7f1fbfc',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a41fda48a487af7a1c141c7_c',
+  'df' => '1',
+)2014-12-22 10:47:11
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a41fda48a487af7a1c141c7_c',
+  'df' => '-1',
+)2014-12-22 10:50:36
+array (
+  'sign' => '64868e414913018757aa4105bff51609',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ad37b5a3a463bfca57db6f7_c',
+)2014-12-22 11:10:14
+array (
+  'sign' => 'd87591cdb349b37ff539fa065a88a285',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad37b5a3a463bfca57db6f7_c',
+  'df' => '2',
+)2014-12-22 11:13:24
+array (
+  'sign' => '779cfca5023795a7781245faf9ca1030',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad37b5a3a463bfca57db6f7_c',
+  'df' => '1',
+)2014-12-22 11:20:29
+array (
+  'sign' => '4a72d5c024147793cf6e23c166a5933c',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ad37b5a3a463bfca57db6f7_c',
+  'df' => '1',
+)2014-12-22 11:20:33
+array (
+  'sign' => '0e9d1fedf58f7e7363cab0ed3b188649',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aae18d5134078668d0375a8_c',
+)2014-12-22 11:23:52
+array (
+  'sign' => 'ab9c0158d42842bc2dc7be3ecd0751c7',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aae18d5134078668d0375a8_c',
+  'df' => '2',
+)2014-12-22 11:26:57
+array (
+  'sign' => '33ac92e6a8edc82f81851b79b17de38d',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aae18d5134078668d0375a8_c',
+  'df' => '1',
+)2014-12-22 11:29:22
+array (
+  'sign' => '0c699a3b7e57325e41a9f582adbc7f4a',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aae18d5134078668d0375a8_c',
+  'df' => '1',
+)2014-12-22 11:29:25
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aae18d5134078668d0375a8_c',
+  'df' => '-1',
+)2014-12-22 11:29:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad37b5a3a463bfca57db6f7_c',
+  'df' => '-1',
+)2014-12-22 11:29:58
+array (
+  'sign' => '5ee3eda1f0405b920c74fe43d21a5413',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a4078434babd50a28546a1f_c',
+)2014-12-22 11:38:02
+array (
+  'sign' => '09673004cf6ebaba0d314e2eaec30b03',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4078434babd50a28546a1f_c',
+  'df' => '2',
+)2014-12-22 11:39:53
+array (
+  'sign' => '9c85e2b6b4927099f72fc7bf9ca860ec',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a4078434babd50a28546a1f_c',
+  'df' => '1',
+)2014-12-22 11:47:26
+array (
+  'sign' => '5cf8919ea96653aa883f5287799f843f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4078434babd50a28546a1f_c',
+  'df' => '1',
+)2014-12-22 11:47:27
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4078434babd50a28546a1f_c',
+  'df' => '-1',
+)2014-12-22 11:49:59
+array (
+  'sign' => '5be0aa5db4b80171e3063841a24c51cb',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a172d43c4c67dade2c3832a_c',
+)2014-12-22 12:34:42
+array (
+  'sign' => '2840ceebd21eaeb9b9276cdb991669f0',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a172d43c4c67dade2c3832a_c',
+  'df' => '2',
+)2014-12-22 12:38:14
+array (
+  'sign' => 'f698f370aa78b0faa23122480953b4e6',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a172d43c4c67dade2c3832a_c',
+  'df' => '1',
+)2014-12-22 12:41:40
+array (
+  'sign' => 'cbde9a213b6c18d822b6e68e0750d2f4',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a172d43c4c67dade2c3832a_c',
+  'df' => '1',
+)2014-12-22 12:41:43
+array (
+  'sign' => '7cf667b3dada4e7454b28c52187fdf08',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a22e66ee1bc7e254d309c1d_c',
+)2014-12-22 12:45:36
+array (
+  'sign' => '2c3fa8649b1d7f13b404a1af6723d272',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a22e66ee1bc7e254d309c1d_c',
+  'df' => '2',
+)2014-12-22 12:46:53
+array (
+  'sign' => '722deca180f6f993c3675b893722fdba',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a22e66ee1bc7e254d309c1d_c',
+  'df' => '1',
+)2014-12-22 12:49:20
+array (
+  'sign' => '0341c414d583e7745a7e5f552f209132',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a22e66ee1bc7e254d309c1d_c',
+  'df' => '1',
+)2014-12-22 12:49:22
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a22e66ee1bc7e254d309c1d_c',
+  'df' => '-1',
+)2014-12-22 12:49:58
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a172d43c4c67dade2c3832a_c',
+  'df' => '-1',
+)2014-12-22 12:50:32
+array (
+  'sign' => '07ef45efc3d36fa38a782f9a46317750',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ac35ac7d252a13a41bc988f_c',
+)2014-12-22 12:59:43
+array (
+  'sign' => '2f526528b21b358412d266681e474827',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac35ac7d252a13a41bc988f_c',
+  'df' => '2',
+)2014-12-22 13:00:56
+array (
+  'sign' => '87edcc57fbea15ab8ca0319fdc3a4d82',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac35ac7d252a13a41bc988f_c',
+  'df' => '1',
+)2014-12-22 13:04:44
+array (
+  'sign' => 'bfe777be00c9dd178b11310b52011d8c',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ac35ac7d252a13a41bc988f_c',
+  'df' => '1',
+)2014-12-22 13:04:48
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac35ac7d252a13a41bc988f_c',
+  'df' => '-1',
+)2014-12-22 13:09:57
+array (
+  'sign' => 'da7d3d3cf352869f6518fc0d09751351',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a9494233a6ddc7ac543044c_c',
+)2014-12-22 13:10:26
+array (
+  'sign' => 'df369bc5d55e664e78bc90d6cf892fc6',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a9494233a6ddc7ac543044c_c',
+  'df' => '2',
+)2014-12-22 13:12:21
+array (
+  'sign' => 'a5306c6fcc79a7e71128faa032e263d9',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a9494233a6ddc7ac543044c_c',
+  'df' => '1',
+)2014-12-22 13:17:55
+array (
+  'sign' => '0f6d3871eed6ee9ac6408230ad5b3ab1',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a9494233a6ddc7ac543044c_c',
+  'df' => '1',
+)2014-12-22 13:17:59
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a9494233a6ddc7ac543044c_c',
+  'df' => '-1',
+)2014-12-22 13:19:57
+array (
+  'sign' => 'dbb669ee4592509600218e67b099f661',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a471caf4aaac6e22c6b505a_c',
+)2014-12-22 13:26:07
+array (
+  'sign' => 'a764325a3f2ca5b06f97acf3ac4fce0f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a471caf4aaac6e22c6b505a_c',
+  'df' => '2',
+)2014-12-22 13:30:30
+array (
+  'sign' => 'c118a7a0fbec7a44bd970c4635fdc611',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a471caf4aaac6e22c6b505a_c',
+  'df' => '1',
+)2014-12-22 13:33:54
+array (
+  'sign' => '23adf6be31ff4dc8afe6b8d5ea1ce9f0',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a471caf4aaac6e22c6b505a_c',
+  'df' => '1',
+)2014-12-22 13:33:59
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a471caf4aaac6e22c6b505a_c',
+  'df' => '-1',
+)2014-12-22 13:39:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a471caf4aaac6e22c6b505a_c',
+  'df' => '-1',
+)2014-12-22 14:07:31
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a9494233a6ddc7ac543044c_c',
+  'df' => '-1',
+)2014-12-22 14:08:12
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a22e66ee1bc7e254d309c1d_c',
+  'df' => '-1',
+)2014-12-22 14:08:12
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a172d43c4c67dade2c3832a_c',
+  'df' => '-1',
+)2014-12-22 14:08:12
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4078434babd50a28546a1f_c',
+  'df' => '-1',
+)2014-12-22 14:08:12
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac35ac7d252a13a41bc988f_c',
+  'df' => '-1',
+)2014-12-22 14:08:13
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad37b5a3a463bfca57db6f7_c',
+  'df' => '-1',
+)2014-12-22 14:08:14
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a41fda48a487af7a1c141c7_c',
+  'df' => '-1',
+)2014-12-22 14:08:14
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aae18d5134078668d0375a8_c',
+  'df' => '-1',
+)2014-12-22 14:08:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a615f454324030c1ba911e5_c',
+  'df' => '-1',
+)2014-12-22 14:08:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a87845f258cd2552e95619f_c',
+  'df' => '-1',
+)2014-12-22 14:08:16
+array (
+  'sign' => '3fdc1070cbf34085a71ea6732c5d29d4',
+  'type' => 'upload',
+  'vid' => 'c15d56f33af0567706e54a4f20054a94_c',
+)2014-12-22 15:40:35
+array (
+  'sign' => '022aa152802b8132b4fabb9df916f1f9',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af0567706e54a4f20054a94_c',
+  'df' => '1',
+)2014-12-22 15:41:03
+array (
+  'sign' => '9e6d0e1be7c7add3e5cd25669b32b02d',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33af0567706e54a4f20054a94_c',
+  'df' => '1',
+)2014-12-22 15:41:04
+array (
+  'sign' => '7f61606e2dc54493336593b572933346',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af0567706e54a4f20054a94_c',
+  'df' => '2',
+)2014-12-22 15:41:20
+array (
+  'sign' => '849921a01389c7c4072c6299f34d7cce',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af0567706e54a4f20054a94_c',
+  'df' => '3',
+)2014-12-22 15:41:54
+array (
+  'sign' => 'd04fcec13a09829a23141b886674eda3',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a3a669c58b7463b147e80e4_c',
+)2014-12-22 15:42:10
+array (
+  'sign' => '7620fdaf953f6b02ceca3cdd41684413',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3a669c58b7463b147e80e4_c',
+  'df' => '1',
+)2014-12-22 15:42:19
+array (
+  'sign' => 'daaaf89aa280312ff9ebb03f960df36b',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a3a669c58b7463b147e80e4_c',
+  'df' => '1',
+)2014-12-22 15:42:19
+array (
+  'sign' => 'aff0f3602f6410a4a8fc375b852dbfff',
+  'type' => 'upload',
+  'vid' => 'c15d56f33afd9cba49cead4379646c8b_c',
+)2014-12-22 15:45:00
+array (
+  'sign' => 'eaddd66e800bb4989109d289ae56b41b',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33afd9cba49cead4379646c8b_c',
+  'df' => '1',
+)2014-12-22 15:45:13
+array (
+  'sign' => 'f78f952e8ac3076238c96423a58241f0',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33afd9cba49cead4379646c8b_c',
+  'df' => '1',
+)2014-12-22 15:45:13
+array (
+  'sign' => '8cfbbd9031a7f451155865e112d9fd1f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33afd9cba49cead4379646c8b_c',
+  'df' => '2',
+)2014-12-22 15:45:21
+array (
+  'sign' => '747c7077ed953f523e9bd2d1cb77a0cd',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33afd9cba49cead4379646c8b_c',
+  'df' => '3',
+)2014-12-22 15:45:50
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33afd9cba49cead4379646c8b_c',
+  'df' => '-1',
+)2014-12-22 15:49:56
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af0567706e54a4f20054a94_c',
+  'df' => '-1',
+)2014-12-22 15:49:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3a669c58b7463b147e80e4_c',
+  'df' => '-1',
+)2014-12-22 15:49:57
+array (
+  'sign' => '820e3da1f99283acf9bb68899fea15f2',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ac4a810b7ec440f0e8bdfe2_c',
+)2014-12-22 16:15:40
+array (
+  'sign' => '0dfad9d96a33e5e04974ccab0c9ca94b',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac4a810b7ec440f0e8bdfe2_c',
+  'df' => '1',
+)2014-12-22 16:16:04
+array (
+  'sign' => 'f44ab4fd6dea50a42db50c13f91c3bc0',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ac4a810b7ec440f0e8bdfe2_c',
+  'df' => '1',
+)2014-12-22 16:16:05
+array (
+  'sign' => 'a8a8bb7dbc791554fc345085554d12c4',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac4a810b7ec440f0e8bdfe2_c',
+  'df' => '2',
+)2014-12-22 16:16:18
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac4a810b7ec440f0e8bdfe2_c',
+  'df' => '-1',
+)2014-12-22 16:19:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac4a810b7ec440f0e8bdfe2_c',
+  'df' => '-1',
+)2014-12-22 16:44:19
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33afd9cba49cead4379646c8b_c',
+  'df' => '-1',
+)2014-12-22 16:44:19
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3a669c58b7463b147e80e4_c',
+  'df' => '-1',
+)2014-12-22 16:44:19
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac4a810b7ec440f0e8bdfe2_c',
+  'df' => '-1',
+)2014-12-22 16:44:22
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33afd9cba49cead4379646c8b_c',
+  'df' => '-1',
+)2014-12-22 16:44:22
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3a669c58b7463b147e80e4_c',
+  'df' => '-1',
+)2014-12-22 16:44:22
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af0567706e54a4f20054a94_c',
+  'df' => '-1',
+)2014-12-22 16:44:22
+array (
+  'sign' => '16ec24ef0714e63226a3c96782e696a4',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ab5ea817b71f678081e9dbb_c',
+)2014-12-25 10:38:15
+array (
+  'sign' => '9690242389aa92685daad6c435d51d2c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ab5ea817b71f678081e9dbb_c',
+  'df' => '2',
+)2014-12-25 10:38:32
+array (
+  'sign' => 'f735d19fcf6efcebdfde20d82b5c5bdc',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ab5ea817b71f678081e9dbb_c',
+  'df' => '3',
+)2014-12-25 10:40:03
+array (
+  'sign' => '6be13618720317335f7842bbbf35dbfd',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ab5ea817b71f678081e9dbb_c',
+  'df' => '1',
+)2014-12-25 10:41:46
+array (
+  'sign' => '0e86281fc134ca961a870b44cb7328aa',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ab5ea817b71f678081e9dbb_c',
+  'df' => '1',
+)2014-12-25 10:41:51
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ab5ea817b71f678081e9dbb_c',
+  'df' => '-1',
+)2014-12-25 10:49:55
+array (
+  'sign' => '37448a70486cddcdfed42c03d19d0e14',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a4cdd03b327b9404b5f6613_c',
+)2014-12-25 11:00:10
+array (
+  'sign' => '097f4343ed6ad4b8b9df71f6efa943c7',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a328320d66a795e48d08647_c',
+)2014-12-25 11:00:28
+array (
+  'sign' => '2668c9e76b3b1f584239da476e7a8c8f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4cdd03b327b9404b5f6613_c',
+  'df' => '1',
+)2014-12-25 11:00:47
+array (
+  'sign' => '08503f8f23d648ddae5492a555127bae',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4cdd03b327b9404b5f6613_c',
+  'df' => '2',
+)2014-12-25 11:00:53
+array (
+  'sign' => '97ea1a3af09ced94420234868a0718d9',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a328320d66a795e48d08647_c',
+  'df' => '2',
+)2014-12-25 11:00:56
+array (
+  'sign' => '14518857c2acd0660d4039b65b4f360a',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a4cdd03b327b9404b5f6613_c',
+  'df' => '1',
+)2014-12-25 11:00:57
+array (
+  'sign' => '7001bf8e81ea9ed54a0bb3a6927c552c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4cdd03b327b9404b5f6613_c',
+  'df' => '3',
+)2014-12-25 11:01:03
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4cdd03b327b9404b5f6613_c',
+  'df' => '-1',
+)2014-12-25 11:10:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a328320d66a795e48d08647_c',
+  'df' => '-1',
+)2014-12-25 11:10:15
+array (
+  'sign' => 'e7236971df7ed632ccb5d71f1d4f52de',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a86a85874d8d1635ace1784_c',
+)2014-12-25 11:12:53
+array (
+  'sign' => '492c0d38db06408ca74db8d477602c32',
+  'type' => 'upload',
+  'vid' => 'c15d56f33af9780f26d894357bbe12da_c',
+)2014-12-25 11:13:10
+array (
+  'sign' => 'c292fd3a801061dd66498c45336c9560',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a86a85874d8d1635ace1784_c',
+  'df' => '2',
+)2014-12-25 11:13:16
+array (
+  'sign' => '1f8d39df223c239a1c1e7a5bfb4d763c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a86a85874d8d1635ace1784_c',
+  'df' => '1',
+)2014-12-25 11:13:19
+array (
+  'sign' => '02008db118dd89bcc332da3568b514ad',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a86a85874d8d1635ace1784_c',
+  'df' => '1',
+)2014-12-25 11:13:19
+array (
+  'sign' => 'b993f08f04a241184684a9f31ceee78e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af9780f26d894357bbe12da_c',
+  'df' => '2',
+)2014-12-25 11:13:24
+array (
+  'sign' => '019ce0503554203613263d47040c1ae6',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ab8cd2bc31e6e63a3ac6b96_c',
+)2014-12-25 11:13:25
+array (
+  'sign' => 'a1b20fefbff2f2d769aa43c20cb20f8f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ab8cd2bc31e6e63a3ac6b96_c',
+  'df' => '2',
+)2014-12-25 11:13:46
+array (
+  'sign' => '6ad3ffb00d5bfca862c28a72b684a330',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af9780f26d894357bbe12da_c',
+  'df' => '1',
+)2014-12-25 11:13:55
+array (
+  'sign' => '8498566d45c5a8e28286f033f865294a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ab8cd2bc31e6e63a3ac6b96_c',
+  'df' => '1',
+)2014-12-25 11:14:17
+array (
+  'sign' => 'be4714084b9b7d6c106c3bf7537892b8',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ab8cd2bc31e6e63a3ac6b96_c',
+  'df' => '1',
+)2014-12-25 11:14:17
+array (
+  'sign' => '80a96651c1c11d3dedeeb230c688bd73',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33af9780f26d894357bbe12da_c',
+  'df' => '1',
+)2014-12-25 11:14:45
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ab8cd2bc31e6e63a3ac6b96_c',
+  'df' => '-1',
+)2014-12-25 11:19:53
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af9780f26d894357bbe12da_c',
+  'df' => '-1',
+)2014-12-25 11:19:53
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a86a85874d8d1635ace1784_c',
+  'df' => '-1',
+)2014-12-25 11:19:53
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af9780f26d894357bbe12da_c',
+  'df' => '-1',
+)2014-12-25 11:23:25
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4cdd03b327b9404b5f6613_c',
+  'df' => '-1',
+)2014-12-25 11:23:25
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a86a85874d8d1635ace1784_c',
+  'df' => '-1',
+)2014-12-25 11:23:25
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ab8cd2bc31e6e63a3ac6b96_c',
+  'df' => '-1',
+)2014-12-25 11:23:25
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a328320d66a795e48d08647_c',
+  'df' => '-1',
+)2014-12-25 11:23:25
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ab5ea817b71f678081e9dbb_c',
+  'df' => '-1',
+)2014-12-25 11:27:18
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ab5ea817b71f678081e9dbb_c',
+  'df' => '-1',
+)2014-12-25 11:27:18
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ab5ea817b71f678081e9dbb_c',
+  'df' => '-1',
+)2014-12-25 11:27:18
+array (
+  'sign' => 'abd481723ae299910725c90af712e245',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a9cbc168e81566b7b39e827_c',
+)2014-12-25 13:44:33
+array (
+  'sign' => '4b9c94df38f4e3d4c5bbbc59613f90f9',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a9cbc168e81566b7b39e827_c',
+  'df' => '1',
+)2014-12-25 13:45:29
+array (
+  'sign' => '184bbac301eb055fddcb3316f7e7beaf',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a9cbc168e81566b7b39e827_c',
+  'df' => '1',
+)2014-12-25 13:45:29
+array (
+  'sign' => 'a1d08585f2910b34d95830d52912a08b',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a9cbc168e81566b7b39e827_c',
+  'df' => '2',
+)2014-12-25 13:45:32
+array (
+  'sign' => 'e97e8d50c68061cc23b9b4343dc4b9bc',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a9cbc168e81566b7b39e827_c',
+  'df' => '3',
+)2014-12-25 13:46:12
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a9cbc168e81566b7b39e827_c',
+  'df' => '-1',
+)2014-12-25 13:49:52
+array (
+  'sign' => 'cf52448c3b20c0d88f4478c096e0bb5e',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a127d3b50c77198ddefca0d_c',
+)2014-12-25 14:09:48
+array (
+  'sign' => 'b43e7b41495caf70f7e596e64723999e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a127d3b50c77198ddefca0d_c',
+  'df' => '2',
+)2014-12-25 14:10:16
+array (
+  'sign' => '38ed544a172b00cea8a0f00efb3b5008',
+  'type' => 'upload',
+  'vid' => 'c15d56f33add3b0d4f7518fa84729bae_c',
+)2014-12-25 14:10:22
+array (
+  'sign' => 'b5ae7fb10a214c1809d01eab079dbf30',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a127d3b50c77198ddefca0d_c',
+  'df' => '1',
+)2014-12-25 14:10:33
+array (
+  'sign' => 'd42faac64567a31d689e7aadd04abe20',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a127d3b50c77198ddefca0d_c',
+  'df' => '1',
+)2014-12-25 14:10:33
+array (
+  'sign' => 'ed39dc98289317e160523b5e69dd53ab',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33add3b0d4f7518fa84729bae_c',
+  'df' => '1',
+)2014-12-25 14:10:44
+array (
+  'sign' => 'd52c49bf30923ab694a80c790ad3bf94',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33add3b0d4f7518fa84729bae_c',
+  'df' => '1',
+)2014-12-25 14:10:44
+array (
+  'sign' => '411a738cf96c431288dea693510a5860',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33add3b0d4f7518fa84729bae_c',
+  'df' => '2',
+)2014-12-25 14:11:10
+array (
+  'sign' => '7efac8461093b7cb1e470c47cbbb411c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33add3b0d4f7518fa84729bae_c',
+  'df' => '3',
+)2014-12-25 14:12:12
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33add3b0d4f7518fa84729bae_c',
+  'df' => '-1',
+)2014-12-25 14:19:53
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a127d3b50c77198ddefca0d_c',
+  'df' => '-1',
+)2014-12-25 14:19:53
+array (
+  'sign' => 'b7f30922d870b80e817eb40ad47d7114',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aef4bfa74996ee708642f35_c',
+)2014-12-25 14:23:39
+array (
+  'sign' => 'f3548560934dbc9022f58246c3f494c2',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aef4bfa74996ee708642f35_c',
+  'df' => '1',
+)2014-12-25 14:24:22
+array (
+  'sign' => 'cd7ffe40868d0157a6863d12a5f74862',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aef4bfa74996ee708642f35_c',
+  'df' => '2',
+)2014-12-25 14:24:31
+array (
+  'sign' => 'b0dcd11e8aa5eb13d892af022ac2fb87',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aef4bfa74996ee708642f35_c',
+  'df' => '1',
+)2014-12-25 14:24:38
+array (
+  'sign' => '7d10a3aa4fe3926572d00ca861b479a9',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a9958b0ae5ab06728646210_c',
+)2014-12-25 14:25:24
+array (
+  'sign' => '305a6b0a56fa53cf9949f7165768dead',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aef4bfa74996ee708642f35_c',
+  'df' => '3',
+)2014-12-25 14:25:42
+array (
+  'sign' => '038ea9b9b7e93fdb0f258bb2f9da3db0',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a9958b0ae5ab06728646210_c',
+  'df' => '1',
+)2014-12-25 14:26:16
+array (
+  'sign' => '002775a81ada063e9e7a31ade0cafeaa',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a9958b0ae5ab06728646210_c',
+  'df' => '1',
+)2014-12-25 14:26:16
+array (
+  'sign' => '59cdaab584a0ca8f24eb48fb4c199ff1',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a9958b0ae5ab06728646210_c',
+  'df' => '2',
+)2014-12-25 14:26:21
+array (
+  'sign' => '2b139d3583a827fc8439ae73cdd1045b',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a699a3ae2f476fe3a0ae59a_c',
+)2014-12-25 14:26:35
+array (
+  'sign' => 'b954ab8301fe481920c278ed7512cd30',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a9958b0ae5ab06728646210_c',
+  'df' => '3',
+)2014-12-25 14:28:03
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a9958b0ae5ab06728646210_c',
+  'df' => '-1',
+)2014-12-25 14:29:52
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aef4bfa74996ee708642f35_c',
+  'df' => '-1',
+)2014-12-25 14:29:52
+array (
+  'sign' => 'b7ee5c6814ea70177895aae68a841cef',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a699a3ae2f476fe3a0ae59a_c',
+  'df' => '1',
+)2014-12-25 14:33:43
+array (
+  'sign' => '9b23136e4c6a0cfe8722db4d35a5efba',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a699a3ae2f476fe3a0ae59a_c',
+  'df' => '1',
+)2014-12-25 14:33:43
+array (
+  'sign' => '53d351cb3047f50d0a85e4d2499061bf',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a699a3ae2f476fe3a0ae59a_c',
+  'df' => '2',
+)2014-12-25 14:35:47
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a699a3ae2f476fe3a0ae59a_c',
+  'df' => '-1',
+)2014-12-25 14:39:52
+array (
+  'sign' => '6895f30f5175885b4d9b5e4a0b47f6c1',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a699a3ae2f476fe3a0ae59a_c',
+  'df' => '3',
+)2014-12-25 14:40:22
+array (
+  'sign' => 'd15f1022066ad2a0d17cb353fa660020',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a2e4e2cfd246b0c0dc81d86_c',
+)2014-12-25 14:58:58
+array (
+  'sign' => 'bab4cede1301a6559f72055919005fc3',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a2e4e2cfd246b0c0dc81d86_c',
+  'df' => '1',
+)2014-12-25 14:59:46
+array (
+  'sign' => 'a6a6d7c7b9fa4ad958e16c8c4e182b5d',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a2e4e2cfd246b0c0dc81d86_c',
+  'df' => '1',
+)2014-12-25 14:59:47
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a2e4e2cfd246b0c0dc81d86_c',
+  'df' => '-1',
+)2014-12-25 14:59:57
+array (
+  'sign' => '92bc84ee7091b83268984b10ca9551ac',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a04e40c800bdb60f9784d31_c',
+)2014-12-25 15:02:30
+array (
+  'sign' => '0684d8c9140b5aa25097e3dfe29c66c0',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a04e40c800bdb60f9784d31_c',
+  'df' => '2',
+)2014-12-25 15:02:41
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a04e40c800bdb60f9784d31_c',
+  'df' => '-1',
+)2014-12-25 15:03:49
+array (
+  'sign' => '93efbcd49d7b91a8f7aa3810892373d8',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a4c5771d1c992fca7fe850f_c',
+)2014-12-25 15:04:21
+array (
+  'sign' => '49783356ad47e3440a28f87918f0c1e1',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a3e8f43a2aa0af6dac3ed9a_c',
+)2014-12-25 15:04:57
+array (
+  'sign' => '2b807da25675e98dfaa9cc0a15f698c6',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3e8f43a2aa0af6dac3ed9a_c',
+  'df' => '1',
+)2014-12-25 15:05:22
+array (
+  'sign' => 'b25307e4b687c24d64dfaa8a1cd4e3a9',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a3e8f43a2aa0af6dac3ed9a_c',
+  'df' => '1',
+)2014-12-25 15:05:32
+array (
+  'sign' => '9a7e5a357ccd3bca699b5c596b273ebd',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4c5771d1c992fca7fe850f_c',
+  'df' => '1',
+)2014-12-25 15:05:54
+array (
+  'sign' => 'e8c872ebbf8aa8d8f3ef49680347f120',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a4c5771d1c992fca7fe850f_c',
+  'df' => '1',
+)2014-12-25 15:05:54
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3e8f43a2aa0af6dac3ed9a_c',
+  'df' => '-1',
+)2014-12-25 15:09:52
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4c5771d1c992fca7fe850f_c',
+  'df' => '-1',
+)2014-12-25 15:09:52
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3e8f43a2aa0af6dac3ed9a_c',
+  'df' => '-1',
+)2014-12-25 15:09:53
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4c5771d1c992fca7fe850f_c',
+  'df' => '-1',
+)2014-12-25 15:09:53
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a2e4e2cfd246b0c0dc81d86_c',
+  'df' => '-1',
+)2014-12-25 23:09:11
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a699a3ae2f476fe3a0ae59a_c',
+  'df' => '-1',
+)2014-12-25 23:09:37
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a9958b0ae5ab06728646210_c',
+  'df' => '-1',
+)2014-12-25 23:09:38
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aef4bfa74996ee708642f35_c',
+  'df' => '-1',
+)2014-12-25 23:09:38
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a699a3ae2f476fe3a0ae59a_c',
+  'df' => '-1',
+)2014-12-25 23:09:40
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a9958b0ae5ab06728646210_c',
+  'df' => '-1',
+)2014-12-25 23:09:40
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aef4bfa74996ee708642f35_c',
+  'df' => '-1',
+)2014-12-25 23:09:40
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33add3b0d4f7518fa84729bae_c',
+  'df' => '-1',
+)2014-12-25 23:10:19
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a127d3b50c77198ddefca0d_c',
+  'df' => '-1',
+)2014-12-25 23:10:19
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a9cbc168e81566b7b39e827_c',
+  'df' => '-1',
+)2014-12-25 23:10:19
+array (
+  'sign' => '00adad86b62c6dbc363e362700e85485',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a5ac9c91d29deb98e3dea63_c',
+)2014-12-26 09:54:15
+array (
+  'sign' => 'c0c8e9c2b6f2b77febd3d2398dd77417',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a5ac9c91d29deb98e3dea63_c',
+  'df' => '2',
+)2014-12-26 09:55:10
+array (
+  'sign' => '14e906d6138eaa0d3f0833bc98973175',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a5ac9c91d29deb98e3dea63_c',
+  'df' => '1',
+)2014-12-26 09:55:23
+array (
+  'sign' => 'c682c5b12753fb4bd7820450bfeb650a',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a5ac9c91d29deb98e3dea63_c',
+  'df' => '1',
+)2014-12-26 09:55:34
+array (
+  'sign' => '4228d8a982211606bdb8737965f17488',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a5ac9c91d29deb98e3dea63_c',
+  'df' => '3',
+)2014-12-26 09:56:33
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a5ac9c91d29deb98e3dea63_c',
+  'df' => '-1',
+)2014-12-26 09:58:16
+array (
+  'sign' => 'e6751493a8fca6eede895ff706abe670',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ac44db25ab30c9f733a6470_c',
+)2014-12-26 10:00:12
+array (
+  'sign' => '244bffff5dd8370b03515b0895e72f65',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac44db25ab30c9f733a6470_c',
+  'df' => '2',
+)2014-12-26 10:00:37
+array (
+  'sign' => 'e0a1eeefe596fba03d464173bcc9ee03',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac44db25ab30c9f733a6470_c',
+  'df' => '1',
+)2014-12-26 10:00:41
+array (
+  'sign' => '546d52d9a1ade1c7c3b56134dd65d5ab',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ac44db25ab30c9f733a6470_c',
+  'df' => '1',
+)2014-12-26 10:00:41
+array (
+  'sign' => 'd09370453e82785f1287e297b239ea18',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac44db25ab30c9f733a6470_c',
+  'df' => '3',
+)2014-12-26 10:00:49
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac44db25ab30c9f733a6470_c',
+  'df' => '-1',
+)2014-12-26 10:09:52
+array (
+  'sign' => '6db698e7183f11f73c6d4e54265dd610',
+  'type' => 'upload',
+  'vid' => 'c15d56f33acb1633882c1c764a4d0c5f_c',
+)2014-12-26 10:17:47
+array (
+  'sign' => 'a1216c7b0e742aeae308cacacaa7bf9b',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33acb1633882c1c764a4d0c5f_c',
+  'df' => '1',
+)2014-12-26 10:18:05
+array (
+  'sign' => '1a02041c5e21d0c7404cc13bd9404bcb',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33acb1633882c1c764a4d0c5f_c',
+  'df' => '1',
+)2014-12-26 10:18:10
+array (
+  'sign' => 'daa1d5d8bf79f4f64e7fa3b9946ea3a8',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33acb1633882c1c764a4d0c5f_c',
+  'df' => '2',
+)2014-12-26 10:18:19
+array (
+  'sign' => 'b757cc80dca86a09b09dde90f85b7e8d',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33acb1633882c1c764a4d0c5f_c',
+  'df' => '3',
+)2014-12-26 10:18:34
+array (
+  'sign' => '66572095e2acea7d9dbd31bc06630db0',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ad733f168228b0c899b097f_c',
+)2014-12-26 10:19:03
+array (
+  'sign' => 'd12a14d7351652f8450e34fcda6f3495',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad733f168228b0c899b097f_c',
+  'df' => '2',
+)2014-12-26 10:19:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33acb1633882c1c764a4d0c5f_c',
+  'df' => '-1',
+)2014-12-26 10:19:51
+array (
+  'sign' => '103f19bdae11970d78c659791362c0bc',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad733f168228b0c899b097f_c',
+  'df' => '3',
+)2014-12-26 10:19:55
+array (
+  'sign' => '49513105fd6f0ee472e080b58861737e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad733f168228b0c899b097f_c',
+  'df' => '1',
+)2014-12-26 10:21:02
+array (
+  'sign' => 'a10548e96a731efa6528dc77f96551f2',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ad733f168228b0c899b097f_c',
+  'df' => '1',
+)2014-12-26 10:21:15
+array (
+  'sign' => '8617d82f0f9b0f297eab84fed27177d2',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a029c5a1ab272d2e7d58d38_c',
+)2014-12-26 10:28:16
+array (
+  'sign' => 'dcd9dfcb1b68aaf6d88d1904223cd5ee',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a029c5a1ab272d2e7d58d38_c',
+  'df' => '2',
+)2014-12-26 10:28:28
+array (
+  'sign' => '6d5267d0cdd56e29ee76880b9c0e0533',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a029c5a1ab272d2e7d58d38_c',
+  'df' => '1',
+)2014-12-26 10:28:30
+array (
+  'sign' => 'd55c273aa242143e69bedd339006728f',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a029c5a1ab272d2e7d58d38_c',
+  'df' => '1',
+)2014-12-26 10:28:36
+array (
+  'sign' => '0d04decb069e85d5447bf0f9d83027cb',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ae30b54f18d980a6bb0c4b7_c',
+)2014-12-26 10:29:24
+array (
+  'sign' => 'f610482b3b60b88940b11ce20b7b202a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae30b54f18d980a6bb0c4b7_c',
+  'df' => '2',
+)2014-12-26 10:29:41
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a029c5a1ab272d2e7d58d38_c',
+  'df' => '-1',
+)2014-12-26 10:29:51
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad733f168228b0c899b097f_c',
+  'df' => '-1',
+)2014-12-26 10:29:53
+array (
+  'sign' => 'b75aaae382fdf2fcafb89174913c9ef2',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ae30b54f18d980a6bb0c4b7_c',
+  'df' => '1',
+)2014-12-26 10:30:09
+array (
+  'sign' => '3f8e6a4f25fe44f7f1e8d77268f5aabc',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae30b54f18d980a6bb0c4b7_c',
+  'df' => '1',
+)2014-12-26 10:30:09
+array (
+  'sign' => 'b4ffabafd008fd336eab0f07fbd234fa',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a029c5a1ab272d2e7d58d38_c',
+  'df' => '3',
+)2014-12-26 10:30:12
+array (
+  'sign' => 'dd17dd8340a3ad258e6ec5986957e87b',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae30b54f18d980a6bb0c4b7_c',
+  'df' => '3',
+)2014-12-26 10:30:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae30b54f18d980a6bb0c4b7_c',
+  'df' => '-1',
+)2014-12-26 10:40:00
+array (
+  'sign' => '27bd014130f375b7a0a576bcdf663204',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ad5bc32fe83409fd4848381_c',
+)2014-12-26 10:47:29
+array (
+  'sign' => 'b7b9267b3722db005655154f392604b8',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad5bc32fe83409fd4848381_c',
+  'df' => '2',
+)2014-12-26 10:48:09
+array (
+  'sign' => '377ada42f8a5fd4b8c85fb8f94203f01',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad5bc32fe83409fd4848381_c',
+  'df' => '1',
+)2014-12-26 10:49:09
+array (
+  'sign' => 'a2f58e6c79503dd4a6bdd48e470c93c2',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ad5bc32fe83409fd4848381_c',
+  'df' => '1',
+)2014-12-26 10:49:10
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad5bc32fe83409fd4848381_c',
+  'df' => '-1',
+)2014-12-26 10:49:51
+array (
+  'sign' => 'aeebb09b511648997a71aec325157603',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a34f6a7bb0ddb2cb64c9cad_c',
+)2014-12-26 10:57:29
+array (
+  'sign' => 'a8efacdfb9c2224f2f4780d679ad3b72',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a34f6a7bb0ddb2cb64c9cad_c',
+  'df' => '1',
+)2014-12-26 10:57:44
+array (
+  'sign' => 'e75ccb306bc0ad253dbf907965ed89fe',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a34f6a7bb0ddb2cb64c9cad_c',
+  'df' => '1',
+)2014-12-26 10:57:45
+array (
+  'sign' => '075919070aa7a0e0264bf6da38d32225',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a34f6a7bb0ddb2cb64c9cad_c',
+  'df' => '2',
+)2014-12-26 10:57:47
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a34f6a7bb0ddb2cb64c9cad_c',
+  'df' => '-1',
+)2014-12-26 11:00:02
+array (
+  'sign' => '03e91d5a5bc407c40c90a7a8c8b2e70c',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a451c1af54eb6edd9d4270d_c',
+)2014-12-26 11:00:45
+array (
+  'sign' => 'cc48395bd2b6b17a5d58d2dcb3ba9a70',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a2f898a93de80c114fa49d4_c',
+)2014-12-26 11:01:05
+array (
+  'sign' => 'c049231450569e4974a2a92bad6eea60',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a2f898a93de80c114fa49d4_c',
+  'df' => '2',
+)2014-12-26 11:01:25
+array (
+  'sign' => '62abe5f166c32023bb17b1576813669d',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a2f898a93de80c114fa49d4_c',
+  'df' => '1',
+)2014-12-26 11:01:32
+array (
+  'sign' => '3cbe839605807fd44daa355603e67af3',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a2f898a93de80c114fa49d4_c',
+  'df' => '1',
+)2014-12-26 11:01:32
+array (
+  'sign' => '023e7dd6223d91416dbea9af9fbccf6e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a451c1af54eb6edd9d4270d_c',
+  'df' => '1',
+)2014-12-26 11:01:44
+array (
+  'sign' => 'b72187f72ebc8f4f551e02c4d0a4b42e',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a451c1af54eb6edd9d4270d_c',
+  'df' => '1',
+)2014-12-26 11:01:48
+array (
+  'sign' => 'de171e87e63851e9a3370f885f1f6abb',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aa5c67676da494269b96b16_c',
+)2014-12-26 11:04:34
+array (
+  'sign' => 'd52e964287e8faec3ed2d452dcb9261c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aa5c67676da494269b96b16_c',
+  'df' => '1',
+)2014-12-26 11:05:07
+array (
+  'sign' => '14d70d41989b606f5b022f41bb4e34ed',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aa5c67676da494269b96b16_c',
+  'df' => '1',
+)2014-12-26 11:05:08
+array (
+  'sign' => 'bd0a3aff6b84ce4d47d6ac2e6649912c',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ac64327a35b1b4bd493790c_c',
+)2014-12-26 11:07:03
+array (
+  'sign' => '8f4d6f5c7956d2d929775771a4f792f2',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac64327a35b1b4bd493790c_c',
+  'df' => '2',
+)2014-12-26 11:07:38
+array (
+  'sign' => '84ac51352ee62120fff5a11c350c445d',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac64327a35b1b4bd493790c_c',
+  'df' => '1',
+)2014-12-26 11:08:09
+array (
+  'sign' => '540b5084b8915e9babbe389b98cb84ed',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ac64327a35b1b4bd493790c_c',
+  'df' => '1',
+)2014-12-26 11:08:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a2f898a93de80c114fa49d4_c',
+  'df' => '-1',
+)2014-12-26 11:09:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a451c1af54eb6edd9d4270d_c',
+  'df' => '-1',
+)2014-12-26 11:09:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac64327a35b1b4bd493790c_c',
+  'df' => '-1',
+)2014-12-26 11:09:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aa5c67676da494269b96b16_c',
+  'df' => '-1',
+)2014-12-26 11:09:57
+array (
+  'sign' => '28d82b36b696784f7e53f6a1e543a424',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a6a08f7f723fee2e44d6d85_c',
+)2014-12-26 11:28:26
+array (
+  'sign' => '39a13d0bd96bb339972c542f5c5bbd95',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a6a08f7f723fee2e44d6d85_c',
+  'df' => '1',
+)2014-12-26 11:29:00
+array (
+  'sign' => 'a19f6423cdb8460fb36b45fe0d827001',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a6a08f7f723fee2e44d6d85_c',
+  'df' => '1',
+)2014-12-26 11:29:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a6a08f7f723fee2e44d6d85_c',
+  'df' => '-1',
+)2014-12-26 11:29:23
+array (
+  'sign' => '5d72cdc264f0f37e89da40f936e0ff24',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a6a08f7f723fee2e44d6d85_c',
+  'df' => '2',
+)2014-12-26 11:30:01
+array (
+  'sign' => '5f426e30d6f45f82c40a625790a2522f',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a9a0225b392a0a8232a0cf0_c',
+)2014-12-26 11:32:17
+array (
+  'sign' => '637980f416a708a8a8d5ce184f9d79ca',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a9a0225b392a0a8232a0cf0_c',
+  'df' => '1',
+)2014-12-26 11:32:35
+array (
+  'sign' => 'e50ddf1e8780cdbbb629da822add9458',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a9a0225b392a0a8232a0cf0_c',
+  'df' => '1',
+)2014-12-26 11:32:35
+array (
+  'sign' => 'eaa66ecf656f6dd3c66cf5827e10e1c8',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a9a0225b392a0a8232a0cf0_c',
+  'df' => '2',
+)2014-12-26 11:33:09
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a9a0225b392a0a8232a0cf0_c',
+  'df' => '-1',
+)2014-12-26 11:33:56
+array (
+  'sign' => '4516a9df30c86bdceda8c5f661a548bd',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a0641d9333deef592943641_c',
+)2014-12-26 11:35:25
+array (
+  'sign' => '4de714557850888f3403bf1eccf8267c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a0641d9333deef592943641_c',
+  'df' => '1',
+)2014-12-26 11:36:18
+array (
+  'sign' => '6cefcff6865d10a7206adced2e5f5906',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a0641d9333deef592943641_c',
+  'df' => '1',
+)2014-12-26 11:36:19
+array (
+  'sign' => '50dee949b65d9206ed996760d7f50b05',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ad4dede2cbe8c0f7061c713_c',
+)2014-12-26 11:36:22
+array (
+  'sign' => 'ceb06021db84137696695554f474ee6f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a0641d9333deef592943641_c',
+  'df' => '2',
+)2014-12-26 11:36:31
+array (
+  'sign' => 'c2c8b58f3e14f4e2b69db3872e63b24d',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a0641d9333deef592943641_c',
+  'df' => '3',
+)2014-12-26 11:36:39
+array (
+  'sign' => '93f8feb9b197ee726b0e30563ea3892c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad4dede2cbe8c0f7061c713_c',
+  'df' => '1',
+)2014-12-26 11:36:49
+array (
+  'sign' => '5794d2ef8cdb630174ddd2e79e386d26',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ad4dede2cbe8c0f7061c713_c',
+  'df' => '1',
+)2014-12-26 11:36:49
+array (
+  'sign' => '27f62f764bef4cc59d58bfa6f81e5a8c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad4dede2cbe8c0f7061c713_c',
+  'df' => '2',
+)2014-12-26 11:37:03
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad4dede2cbe8c0f7061c713_c',
+  'df' => '-1',
+)2014-12-26 11:40:11
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a0641d9333deef592943641_c',
+  'df' => '-1',
+)2014-12-26 11:40:11
+array (
+  'sign' => '0827b722f830ef9ca145a60c04247ab5',
+  'type' => 'upload',
+  'vid' => 'c15d56f33af1251c520d4269b50b1e0f_c',
+)2014-12-26 11:41:16
+array (
+  'sign' => '4c9792db7e47cb1b7e0dce3abf97e941',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af1251c520d4269b50b1e0f_c',
+  'df' => '1',
+)2014-12-26 11:42:48
+array (
+  'sign' => '6f109a124a9d92b48ac0254adeb5e2a4',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33af1251c520d4269b50b1e0f_c',
+  'df' => '1',
+)2014-12-26 11:42:48
+array (
+  'sign' => '280ac3bb546e0cc538f4bb7c7a834233',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a8dc372b8a6fe7bd00c457a_c',
+)2014-12-26 11:44:06
+array (
+  'sign' => '1a3e6e62387a085333667b2ad8c4d620',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a8dc372b8a6fe7bd00c457a_c',
+  'df' => '2',
+)2014-12-26 11:44:36
+array (
+  'sign' => 'd7a55ca85c7bd87c266a1a1b7a55166b',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a8dc372b8a6fe7bd00c457a_c',
+  'df' => '1',
+)2014-12-26 11:44:43
+array (
+  'sign' => '5a573cd43142a03be8694966b0ba3cd8',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a8dc372b8a6fe7bd00c457a_c',
+  'df' => '1',
+)2014-12-26 11:44:43
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a8dc372b8a6fe7bd00c457a_c',
+  'df' => '-1',
+)2014-12-26 11:49:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af1251c520d4269b50b1e0f_c',
+  'df' => '-1',
+)2014-12-26 11:49:57
+array (
+  'sign' => 'ab47f168d3ca378b29fbc019ee074143',
+  'type' => 'upload',
+  'vid' => 'c15d56f33acc67d7db70a2926538c095_c',
+)2014-12-26 12:57:41
+array (
+  'sign' => 'cda8a890df71f2e9340453ae42986f93',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33acc67d7db70a2926538c095_c',
+  'df' => '1',
+)2014-12-26 12:58:15
+array (
+  'sign' => '814a029f4b66c1b7f21103864961bd12',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33acc67d7db70a2926538c095_c',
+  'df' => '1',
+)2014-12-26 12:58:15
+array (
+  'sign' => '0e4ac13dfdb334a94956d44a9281d8ea',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33acc67d7db70a2926538c095_c',
+  'df' => '2',
+)2014-12-26 12:58:19
+array (
+  'sign' => '1553c6b798f79b75271024db987dea17',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33acc67d7db70a2926538c095_c',
+  'df' => '3',
+)2014-12-26 12:58:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33acc67d7db70a2926538c095_c',
+  'df' => '-1',
+)2014-12-26 13:00:06
+array (
+  'sign' => 'c3fd73b0be2aff2bb7ece05a0c130636',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a5d89180c09c9a1392e855e_c',
+)2014-12-26 14:03:41
+array (
+  'sign' => 'd0feb1a1ef222bfd06446fd4d1de28d6',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a5d89180c09c9a1392e855e_c',
+  'df' => '2',
+)2014-12-26 14:03:55
+array (
+  'sign' => 'dd2ee2ca70a6b162ecb4837afb5f2448',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a5d89180c09c9a1392e855e_c',
+  'df' => '1',
+)2014-12-26 14:04:05
+array (
+  'sign' => '32756bd61de37a97bf50fca41e714b1a',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a5d89180c09c9a1392e855e_c',
+  'df' => '1',
+)2014-12-26 14:04:11
+array (
+  'sign' => 'bc29437c20973707b8fdd6305f0253fd',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a6136bfc4410c134f66ef4e_c',
+)2014-12-26 14:06:36
+array (
+  'sign' => 'c66718abd97c159162b0607ca2cec93e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a6136bfc4410c134f66ef4e_c',
+  'df' => '1',
+)2014-12-26 14:06:46
+array (
+  'sign' => '0e6cbe64cdfb030ebc6433fbb590b159',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a6136bfc4410c134f66ef4e_c',
+  'df' => '1',
+)2014-12-26 14:06:47
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a6136bfc4410c134f66ef4e_c',
+  'df' => '-1',
+)2014-12-26 14:09:50
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a5d89180c09c9a1392e855e_c',
+  'df' => '-1',
+)2014-12-26 14:09:51
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a6136bfc4410c134f66ef4e_c',
+  'df' => '-1',
+)2014-12-26 14:13:06
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a5d89180c09c9a1392e855e_c',
+  'df' => '-1',
+)2014-12-26 14:13:07
+array (
+  'sign' => '2f9cdb790d4b46d3072983ddd9929e6d',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a64aad38dda1123b0c9df69_c',
+)2014-12-26 14:14:07
+array (
+  'sign' => '06a05c95221075f49728e7894c2ff423',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a64aad38dda1123b0c9df69_c',
+  'df' => '1',
+)2014-12-26 14:14:19
+array (
+  'sign' => 'b32c4d8074bbe19329e02658147c3a6e',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a64aad38dda1123b0c9df69_c',
+  'df' => '1',
+)2014-12-26 14:14:24
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a64aad38dda1123b0c9df69_c',
+  'df' => '-1',
+)2014-12-26 14:19:52
+array (
+  'sign' => 'ba08026a4edc02d599ec47523c759343',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a3dc32a4073485bb900c0fc_c',
+)2014-12-26 15:00:59
+array (
+  'sign' => '44e57e3d707ebea125c2574434f1fbd6',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3dc32a4073485bb900c0fc_c',
+  'df' => '2',
+)2014-12-26 15:05:17
+array (
+  'sign' => 'f92f3ec319bfba30607e06777f7828da',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3dc32a4073485bb900c0fc_c',
+  'df' => '1',
+)2014-12-26 15:14:05
+array (
+  'sign' => '7af8091899634d6fa66288ceebb14a5f',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a3dc32a4073485bb900c0fc_c',
+  'df' => '1',
+)2014-12-26 15:14:10
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3dc32a4073485bb900c0fc_c',
+  'df' => '-1',
+)2014-12-26 15:19:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3dc32a4073485bb900c0fc_c',
+  'df' => '-1',
+)2014-12-26 15:21:25
+array (
+  'sign' => '69ff79eda34cb1f1cbaba94fb9aed76a',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a0f551efe8d5af7efcad37b_c',
+)2014-12-26 15:31:06
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3dc32a4073485bb900c0fc_c',
+  'df' => '-1',
+)2014-12-26 15:31:08
+array (
+  'sign' => '0f3c5991dadb2d64cb7a251bc166fa3e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a0f551efe8d5af7efcad37b_c',
+  'df' => '2',
+)2014-12-26 15:32:57
+array (
+  'sign' => '121f749af377c32a81afb5f35de5cf63',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a0f551efe8d5af7efcad37b_c',
+  'df' => '1',
+)2014-12-26 15:39:43
+array (
+  'sign' => '2a792bf87607cf3cf151ea9592e5cbde',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a0f551efe8d5af7efcad37b_c',
+  'df' => '1',
+)2014-12-26 15:39:51
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a0f551efe8d5af7efcad37b_c',
+  'df' => '-1',
+)2014-12-26 15:40:50
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a64aad38dda1123b0c9df69_c',
+  'df' => '-1',
+)2014-12-27 09:45:27
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33acc67d7db70a2926538c095_c',
+  'df' => '-1',
+)2014-12-27 09:45:54
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a8dc372b8a6fe7bd00c457a_c',
+  'df' => '-1',
+)2014-12-27 09:46:26
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af1251c520d4269b50b1e0f_c',
+  'df' => '-1',
+)2014-12-27 09:46:26
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad4dede2cbe8c0f7061c713_c',
+  'df' => '-1',
+)2014-12-27 09:47:34
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a0641d9333deef592943641_c',
+  'df' => '-1',
+)2014-12-27 09:47:34
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac64327a35b1b4bd493790c_c',
+  'df' => '-1',
+)2014-12-27 09:47:34
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aa5c67676da494269b96b16_c',
+  'df' => '-1',
+)2014-12-27 09:47:34
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a2f898a93de80c114fa49d4_c',
+  'df' => '-1',
+)2014-12-27 09:47:35
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a451c1af54eb6edd9d4270d_c',
+  'df' => '-1',
+)2014-12-27 09:47:35
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a34f6a7bb0ddb2cb64c9cad_c',
+  'df' => '-1',
+)2014-12-27 19:48:39
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad5bc32fe83409fd4848381_c',
+  'df' => '-1',
+)2014-12-27 19:49:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae30b54f18d980a6bb0c4b7_c',
+  'df' => '-1',
+)2014-12-27 19:49:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a029c5a1ab272d2e7d58d38_c',
+  'df' => '-1',
+)2014-12-27 19:49:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad733f168228b0c899b097f_c',
+  'df' => '-1',
+)2014-12-27 19:50:10
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33acb1633882c1c764a4d0c5f_c',
+  'df' => '-1',
+)2014-12-27 19:50:10
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac44db25ab30c9f733a6470_c',
+  'df' => '-1',
+)2014-12-27 19:50:11
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad733f168228b0c899b097f_c',
+  'df' => '-1',
+)2014-12-27 19:50:16
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33acb1633882c1c764a4d0c5f_c',
+  'df' => '-1',
+)2014-12-27 19:50:16
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac44db25ab30c9f733a6470_c',
+  'df' => '-1',
+)2014-12-27 19:50:16
+array (
+  'sign' => 'd2b182bf3e786d5e91ff4b6362100d20',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aac74e9c1929197af5fb1f1_c',
+)2014-12-28 19:30:30
+array (
+  'sign' => '62d24ba0526d41f6e331e56734781873',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ab123fd0584b562aa355629_c',
+)2014-12-28 19:31:30
+array (
+  'sign' => 'afdb9fd664c356a3a1872388009b84e4',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aac74e9c1929197af5fb1f1_c',
+  'df' => '3',
+)2014-12-28 19:31:32
+array (
+  'sign' => 'b89def8089173b177414dbfb84e5c85b',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aac74e9c1929197af5fb1f1_c',
+  'df' => '1',
+)2014-12-28 19:31:38
+array (
+  'sign' => 'bcfefbfb31f232e5e7bd92111156115d',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aac74e9c1929197af5fb1f1_c',
+  'df' => '1',
+)2014-12-28 19:31:38
+array (
+  'sign' => '3795e7406c8b148ac1e1d45c02f55a78',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ab6804a4fb244b6a471211f_c',
+)2014-12-28 19:32:22
+array (
+  'sign' => 'dc4929d566c41a1b7a8db97b43f78192',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ab6804a4fb244b6a471211f_c',
+  'df' => '2',
+)2014-12-28 19:32:27
+array (
+  'sign' => '6555ed89b98c8dee690141d13579326a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ab123fd0584b562aa355629_c',
+  'df' => '2',
+)2014-12-28 19:32:29
+array (
+  'sign' => '36cfc61818179abad14012b9b9dad319',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ab6804a4fb244b6a471211f_c',
+  'df' => '1',
+)2014-12-28 19:32:30
+array (
+  'sign' => '0c013096d340f97629395bbd1254d3e5',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ab6804a4fb244b6a471211f_c',
+  'df' => '1',
+)2014-12-28 19:32:30
+array (
+  'sign' => '32be54a8ed42a8390f02e7108952422a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ab123fd0584b562aa355629_c',
+  'df' => '3',
+)2014-12-28 19:32:36
+array (
+  'sign' => '114e59d1ddce532394606c5e1d2d4386',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ab123fd0584b562aa355629_c',
+  'df' => '1',
+)2014-12-28 19:32:46
+array (
+  'sign' => '6466c3bd83569f9906bdba8b6d419cf4',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ab123fd0584b562aa355629_c',
+  'df' => '1',
+)2014-12-28 19:32:46
+array (
+  'sign' => '0a9450e5703b8748a41db50b7cbf1102',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aad54322b449b9cd97c0048_c',
+)2014-12-28 19:34:01
+array (
+  'sign' => 'f56f260aafa429563a2991202ce0abde',
+  'type' => 'upload',
+  'vid' => 'c15d56f33adbb3a17ef3bd7db11b3153_c',
+)2014-12-28 19:34:13
+array (
+  'sign' => '332eb2590664fffc88b38b8e0ccddcd3',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33adbb3a17ef3bd7db11b3153_c',
+  'df' => '2',
+)2014-12-28 19:34:17
+array (
+  'sign' => 'ccd7fd1ef1231c97586b59740872824a',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aad54322b449b9cd97c0048_c',
+  'df' => '1',
+)2014-12-28 19:34:21
+array (
+  'sign' => '549ef64e4f0af013e9e41ca31f045748',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aad54322b449b9cd97c0048_c',
+  'df' => '1',
+)2014-12-28 19:34:21
+array (
+  'sign' => '28b8b9729306b70acd49bd403889be43',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aad54322b449b9cd97c0048_c',
+  'df' => '2',
+)2014-12-28 19:34:22
+array (
+  'sign' => 'b1457e5ed83e48156bc1887de560c613',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33adbb3a17ef3bd7db11b3153_c',
+  'df' => '1',
+)2014-12-28 19:34:22
+array (
+  'sign' => '3253267b8bfc8ff2755149acaaacf06f',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33adbb3a17ef3bd7db11b3153_c',
+  'df' => '1',
+)2014-12-28 19:34:23
+array (
+  'sign' => '27330322fa7094fcb9e0670eb2ac23c2',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aad54322b449b9cd97c0048_c',
+  'df' => '3',
+)2014-12-28 19:34:24
+array (
+  'sign' => '050d29ea405671f94d0c3aa0e859f0a0',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a22e2043507975d90b8409d_c',
+)2014-12-28 19:34:29
+array (
+  'sign' => '9bc376195ea66cd8542b564ec053cd55',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a22e2043507975d90b8409d_c',
+  'df' => '2',
+)2014-12-28 19:34:32
+array (
+  'sign' => '6ee4825bd542092c649dab04f278c99a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a22e2043507975d90b8409d_c',
+  'df' => '1',
+)2014-12-28 19:34:41
+array (
+  'sign' => 'c91f6b04418c90b028038f48a01bbf16',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a22e2043507975d90b8409d_c',
+  'df' => '1',
+)2014-12-28 19:34:41
+array (
+  'sign' => '4094cc575966bd52b83df7090210ff39',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a29e0592deeafeb0320b66a_c',
+)2014-12-28 19:35:52
+array (
+  'sign' => '1f18454099c42ef6f78207bbb291b601',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a3ee243340375691bc75335_c',
+)2014-12-28 19:35:59
+array (
+  'sign' => '33aa3d024ecaf4a74c38bc4721cdf5a8',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3ee243340375691bc75335_c',
+  'df' => '1',
+)2014-12-28 19:36:05
+array (
+  'sign' => '89585f8fe0d293d63796b02da594260f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a29e0592deeafeb0320b66a_c',
+  'df' => '3',
+)2014-12-28 19:36:05
+array (
+  'sign' => '9eae7c5794d97b676a446066894607cd',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a3ee243340375691bc75335_c',
+  'df' => '1',
+)2014-12-28 19:36:06
+array (
+  'sign' => 'b4d179ab09e6d35f41b82458e8cef2da',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3ee243340375691bc75335_c',
+  'df' => '3',
+)2014-12-28 19:36:07
+array (
+  'sign' => '5e2d047296936390ad8d9dcac3cad91b',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3ee243340375691bc75335_c',
+  'df' => '2',
+)2014-12-28 19:36:12
+array (
+  'sign' => 'adf9a8f4b640682e31a503499782d620',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a29e0592deeafeb0320b66a_c',
+  'df' => '1',
+)2014-12-28 19:36:25
+array (
+  'sign' => '5e09f5ef75cf08bf62d8917af6d9517c',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a29e0592deeafeb0320b66a_c',
+  'df' => '1',
+)2014-12-28 19:36:26
+array (
+  'sign' => '5b355f6806fb69c212a75a46115e1826',
+  'type' => 'upload',
+  'vid' => 'c15d56f33af550fcaf80c0406fdd33eb_c',
+)2014-12-28 19:36:26
+array (
+  'sign' => '11e43aa6fedd96b3356b7f52975b152d',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a29e0592deeafeb0320b66a_c',
+  'df' => '2',
+)2014-12-28 19:36:27
+array (
+  'sign' => '14a0084009cb19b632794561c0e6bf92',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af550fcaf80c0406fdd33eb_c',
+  'df' => '3',
+)2014-12-28 19:36:35
+array (
+  'sign' => '1e79e38938f1969b87a84fc38cd52a5a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af550fcaf80c0406fdd33eb_c',
+  'df' => '1',
+)2014-12-28 19:36:37
+array (
+  'sign' => '0205f25ea71ccb56b7f7a2f716f06861',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33af550fcaf80c0406fdd33eb_c',
+  'df' => '1',
+)2014-12-28 19:36:38
+array (
+  'sign' => '90a5d9625365ebafd8e913ef1b54ee88',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af550fcaf80c0406fdd33eb_c',
+  'df' => '2',
+)2014-12-28 19:36:49
+array (
+  'sign' => '3b03855ad3061b8e81c9030e3f1ad30a',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ac92b7abf6eac76c5e7561b_c',
+)2014-12-28 19:37:35
+array (
+  'sign' => '9c2af57d95d67a9f17f8099139a2a2fa',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac92b7abf6eac76c5e7561b_c',
+  'df' => '3',
+)2014-12-28 19:37:38
+array (
+  'sign' => '6ba9805476af47e4cac0abf7805b86a6',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac92b7abf6eac76c5e7561b_c',
+  'df' => '1',
+)2014-12-28 19:37:47
+array (
+  'sign' => 'fb6ad232f6473f9b8d2435f952f05a71',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ac92b7abf6eac76c5e7561b_c',
+  'df' => '1',
+)2014-12-28 19:37:47
+array (
+  'sign' => 'f9fe159479e7c7e62d7a56531ea560b3',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac92b7abf6eac76c5e7561b_c',
+  'df' => '2',
+)2014-12-28 19:37:47
+array (
+  'sign' => 'c614daa783b092f95464cf84c8af1c72',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a73416356d9326733349398_c',
+)2014-12-28 19:37:54
+array (
+  'sign' => 'ec023490297adeb8629be90f9db6339a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a73416356d9326733349398_c',
+  'df' => '2',
+)2014-12-28 19:37:58
+array (
+  'sign' => 'ffd0922a3d76f17ac94ec880d76525b4',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a73416356d9326733349398_c',
+  'df' => '1',
+)2014-12-28 19:38:03
+array (
+  'sign' => '8c7b74e5f2244d9d8a05b04fed05cd58',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a73416356d9326733349398_c',
+  'df' => '1',
+)2014-12-28 19:38:08
+array (
+  'sign' => '606e6bc58419e628f3823cdf7c39b63f',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aefc309202f16124eee1c02_c',
+)2014-12-28 19:38:43
+array (
+  'sign' => '9b3cf65da5657c0bb878baf30521a43a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aefc309202f16124eee1c02_c',
+  'df' => '2',
+)2014-12-28 19:38:49
+array (
+  'sign' => 'ea42a3d34d5ed5dd89194983d9dcc32e',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aef43f5f3f5fbaa7536bd18_c',
+)2014-12-28 19:39:01
+array (
+  'sign' => '3a16a741726f456164216a4340ebbde8',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aef43f5f3f5fbaa7536bd18_c',
+  'df' => '1',
+)2014-12-28 19:39:08
+array (
+  'sign' => 'd1aba8188d49ac8b0f4a29471a82b32f',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aefc309202f16124eee1c02_c',
+  'df' => '1',
+)2014-12-28 19:39:09
+array (
+  'sign' => 'bc19ab417c9bd9936a74b48ace6d99d9',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aefc309202f16124eee1c02_c',
+  'df' => '1',
+)2014-12-28 19:39:09
+array (
+  'sign' => '53d5c7023fd6123d0198a30538fc11cf',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aef43f5f3f5fbaa7536bd18_c',
+  'df' => '2',
+)2014-12-28 19:39:10
+array (
+  'sign' => '97110683737ee3052da804afcc1d79a2',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aef43f5f3f5fbaa7536bd18_c',
+  'df' => '1',
+)2014-12-28 19:39:19
+array (
+  'sign' => '63b07e155a92abcae1423f12d3d2d881',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a7d992c1de6a9579f469afa_c',
+  'df' => '2',
+)2014-12-28 19:39:36
+array (
+  'sign' => 'd8658762962657e4bedbb644c9bbd82c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a7d992c1de6a9579f469afa_c',
+  'df' => '1',
+)2014-12-28 19:39:47
+array (
+  'sign' => '43d36008f4c3339ea286b17bd6352310',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a7d992c1de6a9579f469afa_c',
+  'df' => '1',
+)2014-12-28 19:39:47
+array (
+  'sign' => '485ad78aafde789b68a28085ae8dd763',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a7d992c1de6a9579f469afa_c',
+)2014-12-28 19:39:51
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a7d992c1de6a9579f469afa_c',
+  'df' => '-1',
+)2014-12-28 19:39:59
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aef43f5f3f5fbaa7536bd18_c',
+  'df' => '-1',
+)2014-12-28 19:39:59
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aefc309202f16124eee1c02_c',
+  'df' => '-1',
+)2014-12-28 19:39:59
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a73416356d9326733349398_c',
+  'df' => '-1',
+)2014-12-28 19:39:59
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac92b7abf6eac76c5e7561b_c',
+  'df' => '-1',
+)2014-12-28 19:39:59
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af550fcaf80c0406fdd33eb_c',
+  'df' => '-1',
+)2014-12-28 19:40:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3ee243340375691bc75335_c',
+  'df' => '-1',
+)2014-12-28 19:40:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a29e0592deeafeb0320b66a_c',
+  'df' => '-1',
+)2014-12-28 19:40:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a22e2043507975d90b8409d_c',
+  'df' => '-1',
+)2014-12-28 19:40:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33adbb3a17ef3bd7db11b3153_c',
+  'df' => '-1',
+)2014-12-28 19:40:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aad54322b449b9cd97c0048_c',
+  'df' => '-1',
+)2014-12-28 19:40:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ab6804a4fb244b6a471211f_c',
+  'df' => '-1',
+)2014-12-28 19:40:01
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ab123fd0584b562aa355629_c',
+  'df' => '-1',
+)2014-12-28 19:40:01
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aac74e9c1929197af5fb1f1_c',
+  'df' => '-1',
+)2014-12-28 19:40:01
+array (
+  'sign' => 'e2e67726ba8e5d0a783fc50e30646eee',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a55a7c3464ebb81ca5db3ee_c',
+)2014-12-28 19:40:10
+array (
+  'sign' => '3af8a91ff96a9cf62428952adf54f6ad',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a55a7c3464ebb81ca5db3ee_c',
+  'df' => '1',
+)2014-12-28 19:40:21
+array (
+  'sign' => 'b652010355ac5684e36707e72591d6a9',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a55a7c3464ebb81ca5db3ee_c',
+  'df' => '1',
+)2014-12-28 19:40:21
+array (
+  'sign' => 'a4cd74ed2f8cb437b2bd4c9a7d04ede7',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a01221b920929dd20add1cd_c',
+)2014-12-28 19:40:23
+array (
+  'sign' => 'b6f25f3a97b8d3048431cceaf1756bb5',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a01221b920929dd20add1cd_c',
+  'df' => '2',
+)2014-12-28 19:40:27
+array (
+  'sign' => '9ad4c6b87de8f002991fa5a12caf503b',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a55a7c3464ebb81ca5db3ee_c',
+  'df' => '2',
+)2014-12-28 19:40:33
+array (
+  'sign' => 'b36f99961f1633a087e88e3e22e1728f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a01221b920929dd20add1cd_c',
+  'df' => '1',
+)2014-12-28 19:40:41
+array (
+  'sign' => '70563feb267df33799a5288c4c4f2198',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a01221b920929dd20add1cd_c',
+  'df' => '1',
+)2014-12-28 19:40:41
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a55a7c3464ebb81ca5db3ee_c',
+  'df' => '-1',
+)2014-12-28 19:50:25
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a01221b920929dd20add1cd_c',
+  'df' => '-1',
+)2014-12-28 19:50:25
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ab123fd0584b562aa355629_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a29e0592deeafeb0320b66a_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac92b7abf6eac76c5e7561b_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af550fcaf80c0406fdd33eb_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aef43f5f3f5fbaa7536bd18_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a55a7c3464ebb81ca5db3ee_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aac74e9c1929197af5fb1f1_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a22e2043507975d90b8409d_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3ee243340375691bc75335_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aad54322b449b9cd97c0048_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ab6804a4fb244b6a471211f_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a73416356d9326733349398_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33adbb3a17ef3bd7db11b3153_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aefc309202f16124eee1c02_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a7d992c1de6a9579f469afa_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a01221b920929dd20add1cd_c',
+  'df' => '-1',
+)2014-12-28 21:04:36
+array (
+  'sign' => 'd0f3ebe7fd438512c0e6575c9d1c2210',
+  'type' => 'upload',
+  'vid' => 'c15d56f33af6e75fcb2e256f8ac143d9_c',
+)2014-12-29 08:54:18
+array (
+  'sign' => '26144a2655bc1d1e3ff1700b2758a965',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af6e75fcb2e256f8ac143d9_c',
+  'df' => '1',
+)2014-12-29 08:55:13
+array (
+  'sign' => '29ef06cf7a741ef1e8aa99753b683b47',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33af6e75fcb2e256f8ac143d9_c',
+  'df' => '1',
+)2014-12-29 08:55:14
+array (
+  'sign' => 'f04c9b8bed1e1eeb078609ccc3f82c4e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af6e75fcb2e256f8ac143d9_c',
+  'df' => '2',
+)2014-12-29 08:55:19
+array (
+  'sign' => 'c48594693e3fb58df4af31afa451a700',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aba283a0bf5b5365f45e6e8_c',
+)2014-12-29 08:55:20
+array (
+  'sign' => '8ac6f5e9556547d0d66c25efa13a2ff5',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aba283a0bf5b5365f45e6e8_c',
+  'df' => '2',
+)2014-12-29 08:55:37
+array (
+  'sign' => '3382cab05e73dca4294e92b55d372700',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aba283a0bf5b5365f45e6e8_c',
+  'df' => '1',
+)2014-12-29 08:55:37
+array (
+  'sign' => '554cfb5c7e1c0d999a37feba393425a0',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aba283a0bf5b5365f45e6e8_c',
+  'df' => '1',
+)2014-12-29 08:55:37
+array (
+  'sign' => 'd6859ab24a8239fb3b429ce062f732ae',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aba283a0bf5b5365f45e6e8_c',
+  'df' => '3',
+)2014-12-29 08:55:58
+array (
+  'sign' => 'd1108650f57e7132a16ce9c43cb7d74b',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af6e75fcb2e256f8ac143d9_c',
+  'df' => '3',
+)2014-12-29 08:55:58
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af6e75fcb2e256f8ac143d9_c',
+  'df' => '-1',
+)2014-12-29 08:58:44
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aba283a0bf5b5365f45e6e8_c',
+  'df' => '-1',
+)2014-12-29 08:58:44
+array (
+  'type' => 'del',
+  'vid' => 'c15d56f33aba283a0bf5b5365f45e6e8_c',
+  'df' => '-1',
+)2014-12-29 08:58:44
+array (
+  'sign' => 'f37a766ba144c022a68c0444c06ea9e0',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a89bd62908d76098ea0e688_c',
+)2014-12-29 09:00:36
+array (
+  'sign' => '8149c74fef94ccd2ac9076827572d58f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a89bd62908d76098ea0e688_c',
+  'df' => '1',
+)2014-12-29 09:01:15
+array (
+  'sign' => '5171a4d2ad60c658356b23814ad05537',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a89bd62908d76098ea0e688_c',
+  'df' => '1',
+)2014-12-29 09:01:15
+array (
+  'sign' => '6265f3b307eec9fd96e0004be3783c18',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a89bd62908d76098ea0e688_c',
+  'df' => '2',
+)2014-12-29 09:01:28
+array (
+  'sign' => 'f161e41af62d1229caf106717b4e9f3f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a89bd62908d76098ea0e688_c',
+  'df' => '3',
+)2014-12-29 09:01:33
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a89bd62908d76098ea0e688_c',
+  'df' => '-1',
+)2014-12-29 09:08:27
+array (
+  'sign' => '53d02c143cb6a5fa756ba821fc31cf7a',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a617be7c60e7bee51ce5915_c',
+)2014-12-29 09:09:45
+array (
+  'sign' => '1be1ae7a2088b8033770b283a4b4c170',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a617be7c60e7bee51ce5915_c',
+  'df' => '3',
+)2014-12-29 09:09:53
+array (
+  'sign' => '511e8ed6c794124d1d7382fe5e6e97a7',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a617be7c60e7bee51ce5915_c',
+  'df' => '1',
+)2014-12-29 09:09:53
+array (
+  'sign' => 'd286ed0c167d59657e3e581a6bba03c6',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a617be7c60e7bee51ce5915_c',
+  'df' => '1',
+)2014-12-29 09:09:54
+array (
+  'sign' => '96a8221bb1f89d9a06274ab9c5254147',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a617be7c60e7bee51ce5915_c',
+  'df' => '2',
+)2014-12-29 09:10:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a617be7c60e7bee51ce5915_c',
+  'df' => '-1',
+)2014-12-29 09:10:13
+array (
+  'sign' => 'fdc2932255fd237590cd23580c783254',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a07105a5a1a02f6261d8b76_c',
+)2014-12-29 09:11:42
+array (
+  'sign' => '946586540ed25d8f1c8f208402f15bf9',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a07105a5a1a02f6261d8b76_c',
+  'df' => '2',
+)2014-12-29 09:11:56
+array (
+  'sign' => 'e548590be18766b942bf587cdf7b3c09',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a07105a5a1a02f6261d8b76_c',
+  'df' => '1',
+)2014-12-29 09:12:00
+array (
+  'sign' => '9ba671f97800422d9ea50094eb94a26c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a07105a5a1a02f6261d8b76_c',
+  'df' => '1',
+)2014-12-29 09:12:01
+array (
+  'sign' => '63c9bee69e44a9d94ac3ddac61abc173',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a07105a5a1a02f6261d8b76_c',
+  'df' => '3',
+)2014-12-29 09:12:44
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a07105a5a1a02f6261d8b76_c',
+  'df' => '-1',
+)2014-12-29 09:14:46
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a617be7c60e7bee51ce5915_c',
+  'df' => '-1',
+)2014-12-29 09:18:28
+array (
+  'sign' => '8827edfffc15043acbc5d82b092afc70',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a99f1004441d325bfd52437_c',
+)2014-12-29 09:28:40
+array (
+  'sign' => '45ac44c4e6b036a3a9e1a54220a9e907',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a99f1004441d325bfd52437_c',
+  'df' => '1',
+)2014-12-29 09:28:44
+array (
+  'sign' => '15872e2353a9d380031a8c9e9fd4dc11',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a99f1004441d325bfd52437_c',
+  'df' => '1',
+)2014-12-29 09:28:44
+array (
+  'sign' => 'e14f22847893c38a2f062e80f3080040',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ae155fdd5ae2878e8891c45_c',
+)2014-12-29 09:28:47
+array (
+  'sign' => '353a251f9c64751432b805401d730508',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae155fdd5ae2878e8891c45_c',
+  'df' => '1',
+)2014-12-29 09:28:56
+array (
+  'sign' => '2eda3c136ae8914aad3da916496ce71c',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ae155fdd5ae2878e8891c45_c',
+  'df' => '1',
+)2014-12-29 09:28:56
+array (
+  'sign' => 'f9d005b2b1877114ef59285c5774da90',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae155fdd5ae2878e8891c45_c',
+  'df' => '2',
+)2014-12-29 09:28:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a99f1004441d325bfd52437_c',
+  'df' => '-1',
+)2014-12-29 09:29:16
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae155fdd5ae2878e8891c45_c',
+  'df' => '-1',
+)2014-12-29 09:29:16
+array (
+  'sign' => '936591ac16003a6206317adffadcf3b4',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a3facdcf3a3770637202872_c',
+)2014-12-29 10:42:52
+array (
+  'sign' => '1db06ef3d9b7a7ddd17d1ceb8a175d73',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3facdcf3a3770637202872_c',
+  'df' => '1',
+)2014-12-29 10:43:09
+array (
+  'sign' => '116dbb604599c1cefd1b1189da3c6417',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3facdcf3a3770637202872_c',
+  'df' => '2',
+)2014-12-29 10:43:09
+array (
+  'sign' => 'b5e7fdc14e5f758f51911660e6b41c21',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a3facdcf3a3770637202872_c',
+  'df' => '1',
+)2014-12-29 10:43:09
+array (
+  'sign' => '8db4a41e4ba7376a2dd0a2b59811245c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3facdcf3a3770637202872_c',
+  'df' => '3',
+)2014-12-29 10:43:44
+array (
+  'sign' => 'a573252e890f5a0151171b7aa91c6f70',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a1595f5f3c43582efb3899b_c',
+)2014-12-29 10:45:07
+array (
+  'sign' => 'fa7f76210692732686ce7a604563cea9',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a85e3375181e0b9947adfcb_c',
+)2014-12-29 10:45:07
+array (
+  'sign' => 'f4acbc52efc823c163741973d48f3c58',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a85e3375181e0b9947adfcb_c',
+  'df' => '1',
+)2014-12-29 10:45:16
+array (
+  'sign' => '90f460c808347f2689fb0747f93c6c9a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a1595f5f3c43582efb3899b_c',
+  'df' => '2',
+)2014-12-29 10:45:19
+array (
+  'sign' => '8192046403c2d6435f0131cb98dcf1d2',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a85e3375181e0b9947adfcb_c',
+  'df' => '1',
+)2014-12-29 10:45:22
+array (
+  'sign' => 'b86468131d4f78fedf4431593b2fcb78',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a85e3375181e0b9947adfcb_c',
+  'df' => '2',
+)2014-12-29 10:45:32
+array (
+  'sign' => '9bba2abaf6d6d4bbe6f0cd139e69e89e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a1595f5f3c43582efb3899b_c',
+  'df' => '1',
+)2014-12-29 10:46:07
+array (
+  'sign' => '570571f83b37a7ce1beba2b260b86119',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a1595f5f3c43582efb3899b_c',
+  'df' => '1',
+)2014-12-29 10:46:07
+array (
+  'sign' => 'e66929d88732861d95c7ca0cb86af8ae',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a1595f5f3c43582efb3899b_c',
+  'df' => '3',
+)2014-12-29 10:47:52
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a85e3375181e0b9947adfcb_c',
+  'df' => '-1',
+)2014-12-29 10:50:14
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a1595f5f3c43582efb3899b_c',
+  'df' => '-1',
+)2014-12-29 10:50:14
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3facdcf3a3770637202872_c',
+  'df' => '-1',
+)2014-12-29 10:50:14
+array (
+  'sign' => '318548258a6c448bdc5f0db041b442ea',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ab52ef36206f56c816bf35b_c',
+)2014-12-29 10:57:31
+array (
+  'sign' => '0c78bef71ca66b1d1073823a210da991',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ab52ef36206f56c816bf35b_c',
+  'df' => '2',
+)2014-12-29 10:57:38
+array (
+  'sign' => '6a35631d767ee74dfcba68af74924df7',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ab52ef36206f56c816bf35b_c',
+  'df' => '1',
+)2014-12-29 10:57:42
+array (
+  'sign' => '7aebeeb4fcb3937bd13df7aa0512a21c',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ab52ef36206f56c816bf35b_c',
+  'df' => '1',
+)2014-12-29 10:57:43
+array (
+  'sign' => '53de654295689a495799b1afe51edc7c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ab52ef36206f56c816bf35b_c',
+  'df' => '3',
+)2014-12-29 10:57:56
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ab52ef36206f56c816bf35b_c',
+  'df' => '-1',
+)2014-12-29 10:59:58
+array (
+  'sign' => '0fb99d409ed9176fa38e6cb0e37c1b09',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ad684f8a7ab1f5f93585556_c',
+)2014-12-29 11:10:21
+array (
+  'sign' => '0900242c0c2b26edffd2daf2206148c5',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad684f8a7ab1f5f93585556_c',
+  'df' => '1',
+)2014-12-29 11:10:31
+array (
+  'sign' => '14f8a5fa8dde14465d57ab978f8e65ec',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ad684f8a7ab1f5f93585556_c',
+  'df' => '1',
+)2014-12-29 11:10:31
+array (
+  'sign' => 'c1c880a817292b4f552f216f597f5b05',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad684f8a7ab1f5f93585556_c',
+  'df' => '2',
+)2014-12-29 11:10:44
+array (
+  'sign' => 'fe0da2bf6866e516f62c2ca2677ea0b1',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad684f8a7ab1f5f93585556_c',
+  'df' => '3',
+)2014-12-29 11:11:04
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad684f8a7ab1f5f93585556_c',
+  'df' => '-1',
+)2014-12-29 11:20:03
+array (
+  'sign' => 'e4c91778374e98225435b066805f9597',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a2b67d83155ca977d743799_c',
+)2014-12-29 11:29:12
+array (
+  'sign' => '0bce0144b6ab1619ffff1db9caeb6413',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a2b67d83155ca977d743799_c',
+  'df' => '2',
+)2014-12-29 11:30:40
+array (
+  'sign' => 'abcbf5f758f3b898ab3b2b35aabbd774',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a2b67d83155ca977d743799_c',
+  'df' => '1',
+)2014-12-29 11:36:34
+array (
+  'sign' => 'af41ba6e8896d2268931fda4157d0167',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a2b67d83155ca977d743799_c',
+  'df' => '1',
+)2014-12-29 11:36:34
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a2b67d83155ca977d743799_c',
+  'df' => '-1',
+)2014-12-29 11:38:44
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a85e3375181e0b9947adfcb_c',
+  'df' => '-1',
+)2014-12-29 13:04:48
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ab52ef36206f56c816bf35b_c',
+  'df' => '-1',
+)2014-12-29 13:04:49
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a1595f5f3c43582efb3899b_c',
+  'df' => '-1',
+)2014-12-29 13:04:49
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad684f8a7ab1f5f93585556_c',
+  'df' => '-1',
+)2014-12-29 13:04:49
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3facdcf3a3770637202872_c',
+  'df' => '-1',
+)2014-12-29 13:04:49
+array (
+  'sign' => 'b406c986cd3354a495a776ba78550404',
+  'type' => 'upload',
+  'vid' => 'c15d56f33abe2653a49999941798b0c6_c',
+)2014-12-30 10:24:43
+array (
+  'sign' => '436532ff015283c2e5e05a09104ee477',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33abe2653a49999941798b0c6_c',
+  'df' => '2',
+)2014-12-30 10:28:29
+array (
+  'sign' => 'b7e43d870daae9f2ddd24b15c93df9b5',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33abe2653a49999941798b0c6_c',
+  'df' => '1',
+)2014-12-30 10:32:51
+array (
+  'sign' => '00d75626dd0795cbbe5adb219aa778c3',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33abe2653a49999941798b0c6_c',
+  'df' => '1',
+)2014-12-30 10:32:55
+array (
+  'sign' => '289b13f90086889ef3bf878d565a4113',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a5ccf95d182716341e2af52_c',
+)2014-12-30 10:38:27
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33abe2653a49999941798b0c6_c',
+  'df' => '-1',
+)2014-12-30 10:40:15
+array (
+  'sign' => '165803b64f13c844d4c499301a227b77',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a5ccf95d182716341e2af52_c',
+  'df' => '2',
+)2014-12-30 10:41:45
+array (
+  'sign' => 'a6092a3ca3977983b7b0bf8032302a3a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a5ccf95d182716341e2af52_c',
+  'df' => '1',
+)2014-12-30 10:51:56
+array (
+  'sign' => 'c4fd3186430e5b97c3fc10b5fba74913',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a5ccf95d182716341e2af52_c',
+  'df' => '1',
+)2014-12-30 10:52:16
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a5ccf95d182716341e2af52_c',
+  'df' => '-1',
+)2014-12-30 10:59:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33abe2653a49999941798b0c6_c',
+  'df' => '-1',
+)2014-12-30 13:34:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a5ccf95d182716341e2af52_c',
+  'df' => '-1',
+)2014-12-30 13:34:28
+array (
+  'sign' => 'a1837095de67db1cc8d3449a46742df8',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a4dab7521ff8db95b630780_c',
+)2014-12-30 15:47:33
+array (
+  'sign' => '5bfac0da153b90748f192e662cbc75ac',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4dab7521ff8db95b630780_c',
+  'df' => '2',
+)2014-12-30 15:49:50
+array (
+  'sign' => '7f9a54dd65e606ba443858ecc59f81e0',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4dab7521ff8db95b630780_c',
+  'df' => '1',
+)2014-12-30 16:01:27
+array (
+  'sign' => '68f257c95bd962014aed539c96899239',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a4dab7521ff8db95b630780_c',
+  'df' => '1',
+)2014-12-30 16:01:32
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4dab7521ff8db95b630780_c',
+  'df' => '-1',
+)2014-12-30 16:09:58
+array (
+  'sign' => 'd257f10098dfe5d3b3b2d173126640ad',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ad11fd38582b069e9ae09e3_c',
+)2014-12-30 17:19:32
+array (
+  'sign' => '07308c6bab6f3d8a8a7e7bb8ed03f939',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad11fd38582b069e9ae09e3_c',
+  'df' => '1',
+)2014-12-30 17:20:01
+array (
+  'sign' => 'e4249d2e973ea78f6e08d25b36f2f1f8',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ad11fd38582b069e9ae09e3_c',
+  'df' => '1',
+)2014-12-30 17:20:06
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad11fd38582b069e9ae09e3_c',
+  'df' => '-1',
+)2014-12-30 17:23:23
+array (
+  'sign' => '4a15da8a6503b67cc96cff75c912d871',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac55bc623e1ab1f626446d3_c',
+  'df' => '1',
+)2014-12-30 17:29:02
+array (
+  'sign' => '34cfe8ad5d481c7f583ea787bda55be4',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ac55bc623e1ab1f626446d3_c',
+  'df' => '1',
+)2014-12-30 17:29:02
+array (
+  'sign' => '8b7ee8a4c717819a498a58dfb6617aa8',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ac55bc623e1ab1f626446d3_c',
+)2014-12-30 17:29:02
+array (
+  'sign' => '601f38ce84526674c3b739e5528ca4cb',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac55bc623e1ab1f626446d3_c',
+  'df' => '2',
+)2014-12-30 17:29:07
+array (
+  'sign' => '3cabe9b77c787264df08778812f8ddc3',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ace903ddd34535ce3452b51_c',
+)2014-12-30 17:29:16
+array (
+  'sign' => 'a7746584bb221322df86f2486b9aae65',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ace903ddd34535ce3452b51_c',
+  'df' => '1',
+)2014-12-30 17:29:27
+array (
+  'sign' => '80be03943b127d8dd09a7e26a90854aa',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ace903ddd34535ce3452b51_c',
+  'df' => '1',
+)2014-12-30 17:29:27
+array (
+  'sign' => '13c2ebfe2d05851461a49754995ebe95',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ace903ddd34535ce3452b51_c',
+  'df' => '2',
+)2014-12-30 17:29:30
+array (
+  'sign' => '9be6641d47203c322c0098b73d1f6ae5',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aec6f9e04f6eeeea23cdd04_c',
+)2014-12-30 17:29:41
+array (
+  'sign' => '5f8f10719ba23837c2c98a1cdea282d6',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aec6f9e04f6eeeea23cdd04_c',
+  'df' => '1',
+)2014-12-30 17:29:57
+array (
+  'sign' => '9ff5edf819679fff9ce0e78d9c60fb89',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aec6f9e04f6eeeea23cdd04_c',
+  'df' => '1',
+)2014-12-30 17:29:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aec6f9e04f6eeeea23cdd04_c',
+  'df' => '-1',
+)2014-12-30 17:30:01
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ace903ddd34535ce3452b51_c',
+  'df' => '-1',
+)2014-12-30 17:30:01
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac55bc623e1ab1f626446d3_c',
+  'df' => '-1',
+)2014-12-30 17:30:01
+array (
+  'sign' => 'c6c647b693d0ae38aa90844439a77803',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aec6f9e04f6eeeea23cdd04_c',
+  'df' => '3',
+)2014-12-30 17:30:04
+array (
+  'sign' => '829750980ee30aa2099269b4215f8b3c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aec6f9e04f6eeeea23cdd04_c',
+  'df' => '2',
+)2014-12-30 17:30:16
+array (
+  'sign' => '538b819529ca14043c36ea732aa8ff09',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aeac737ea213c96e14184dc_c',
+)2014-12-30 17:30:17
+array (
+  'sign' => '2075c724af45f5024ed8f9b0b97aa075',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aeac737ea213c96e14184dc_c',
+  'df' => '1',
+)2014-12-30 17:30:32
+array (
+  'sign' => 'f2323bd033350b655ad50dc658c6fe33',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aeac737ea213c96e14184dc_c',
+  'df' => '1',
+)2014-12-30 17:30:33
+array (
+  'sign' => '8729ab4a5787b4411608b4a34d1fb9da',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aeac737ea213c96e14184dc_c',
+  'df' => '2',
+)2014-12-30 17:30:50
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aeac737ea213c96e14184dc_c',
+  'df' => '-1',
+)2014-12-30 17:32:19
+array (
+  'sign' => 'a4c7afaadf0e85080038c405dfea587f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ace903ddd34535ce3452b51_c',
+  'df' => '3',
+)2014-12-30 17:32:57
+array (
+  'sign' => '873e621c61813e6d1d23f55a8f39b118',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac55bc623e1ab1f626446d3_c',
+  'df' => '3',
+)2014-12-30 17:32:58
+array (
+  'sign' => '4d91466265963847634751df815bf488',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad11fd38582b069e9ae09e3_c',
+  'df' => '3',
+)2014-12-30 17:34:04
+array (
+  'sign' => '8f12f827da144fb0efc69631ccf10431',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a323220d75e1de97c5b8302_c',
+)2014-12-30 17:34:58
+array (
+  'sign' => 'b6ff7c79e189d3ebbfcc17dda5d34b3b',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a323220d75e1de97c5b8302_c',
+  'df' => '1',
+)2014-12-30 17:35:11
+array (
+  'sign' => '88d15a8c9ea049e018857cf1700b1394',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a323220d75e1de97c5b8302_c',
+  'df' => '1',
+)2014-12-30 17:35:11
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aec6f9e04f6eeeea23cdd04_c',
+  'df' => '-1',
+)2014-12-30 17:35:50
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4dab7521ff8db95b630780_c',
+  'df' => '-1',
+)2014-12-30 17:35:50
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac55bc623e1ab1f626446d3_c',
+  'df' => '-1',
+)2014-12-30 17:35:50
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ace903ddd34535ce3452b51_c',
+  'df' => '-1',
+)2014-12-30 17:35:50
+array (
+  'sign' => 'd665bd8744fc73e01fb453a2f57e667d',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a323220d75e1de97c5b8302_c',
+  'df' => '2',
+)2014-12-30 17:35:52
+array (
+  'sign' => '9feeebf65875e5071b5d6db8ede75f2a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aeac737ea213c96e14184dc_c',
+  'df' => '3',
+)2014-12-30 17:37:34
+array (
+  'sign' => '2cd55e4839de791c0fa942d7a927dbaa',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a323220d75e1de97c5b8302_c',
+  'df' => '3',
+)2014-12-30 17:37:52
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a323220d75e1de97c5b8302_c',
+  'df' => '-1',
+)2014-12-30 17:40:02
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a323220d75e1de97c5b8302_c',
+  'df' => '-1',
+)2014-12-30 17:41:13
+array (
+  'sign' => '5f1a9f98fae4b4dd74c31e5f97a6c831',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a48c4e48685ad79c0389a10_c',
+  'df' => '1',
+)2014-12-31 08:35:48
+array (
+  'sign' => '7100a49c43822d456be92f7a42b18314',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a48c4e48685ad79c0389a10_c',
+  'df' => '1',
+)2014-12-31 08:35:48
+array (
+  'sign' => 'bbfd02400bf8b0371da27ed0567350a0',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a48c4e48685ad79c0389a10_c',
+)2014-12-31 08:35:50
+array (
+  'sign' => '6ba66779bb655cd0fef0e4227ef221f7',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a48c4e48685ad79c0389a10_c',
+  'df' => '3',
+)2014-12-31 08:36:02
+array (
+  'sign' => 'd7eda0d7a3e82b568ff8774d48587399',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a48c4e48685ad79c0389a10_c',
+  'df' => '2',
+)2014-12-31 08:36:06
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a48c4e48685ad79c0389a10_c',
+  'df' => '-1',
+)2014-12-31 08:40:10
+array (
+  'sign' => '7754d4ce58d2d01daeb1ae89fb418d3d',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ade6e5d85a98a6e66cd958d_c',
+)2014-12-31 08:50:23
+array (
+  'sign' => 'bcd2f479125aa4f09bd0337a576c0b4e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ade6e5d85a98a6e66cd958d_c',
+  'df' => '1',
+)2014-12-31 08:50:51
+array (
+  'sign' => '1fa0450f12348badf1dbf0db82baf7cd',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ade6e5d85a98a6e66cd958d_c',
+  'df' => '1',
+)2014-12-31 08:50:51
+array (
+  'sign' => 'f1ad97d5aa53b9810fd62572475b0976',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ade6e5d85a98a6e66cd958d_c',
+  'df' => '2',
+)2014-12-31 08:51:31
+array (
+  'sign' => '0b9ccc772d8103d5ffd936195e75bc08',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ade6e5d85a98a6e66cd958d_c',
+  'df' => '3',
+)2014-12-31 08:52:49
+array (
+  'sign' => '5a5a95c554d8aca850d6f615b1ea40a4',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a795aa64e639082226fc786_c',
+  'df' => '1',
+)2014-12-31 08:53:00
+array (
+  'sign' => 'ceaf721e7eb98fd0f4b6673b4e6f3540',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a795aa64e639082226fc786_c',
+  'df' => '1',
+)2014-12-31 08:53:00
+array (
+  'sign' => 'ef7245f5f1eb837c460f2f1c079760fb',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a795aa64e639082226fc786_c',
+  'df' => '2',
+)2014-12-31 08:53:01
+array (
+  'sign' => '9951fde548ae131e19b33d7f36c117fb',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a795aa64e639082226fc786_c',
+)2014-12-31 08:53:01
+array (
+  'sign' => '286a7391fcc456f568cfcb6b65a082ad',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a7f24699789c100c9206379_c',
+)2014-12-31 08:53:01
+array (
+  'sign' => 'b06cb977f5808d0b788c6e8a9add4e65',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a7f24699789c100c9206379_c',
+  'df' => '1',
+)2014-12-31 08:53:15
+array (
+  'sign' => 'c3eedae85209d908bcdc8c0d55d5c7df',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a7f24699789c100c9206379_c',
+  'df' => '1',
+)2014-12-31 08:53:15
+array (
+  'sign' => 'e96578b71a64a2d4bc8c030f0232a43d',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a7f24699789c100c9206379_c',
+  'df' => '2',
+)2014-12-31 08:53:21
+array (
+  'sign' => 'b783bcb2a11abaa070ea365799c464f1',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a795aa64e639082226fc786_c',
+  'df' => '3',
+)2014-12-31 08:53:36
+array (
+  'sign' => '44b113fd3d18bc806ff29f0442b44287',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a7f24699789c100c9206379_c',
+  'df' => '3',
+)2014-12-31 08:53:46
+array (
+  'sign' => 'a6bb6dd8bd57569d861d190ca7ef8c89',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a4969e646b61e457d3cade9_c',
+)2014-12-31 08:53:50
+array (
+  'sign' => '3865cb1d6692c86d903121348acfe841',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a73826012fc0af1852cb248_c',
+)2014-12-31 08:53:59
+array (
+  'sign' => 'ba612ebd0e8201000284276db12ca6ac',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4969e646b61e457d3cade9_c',
+  'df' => '1',
+)2014-12-31 08:54:01
+array (
+  'sign' => 'c6b65d739c0bc065bc6d4eb44b45474a',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a4969e646b61e457d3cade9_c',
+  'df' => '1',
+)2014-12-31 08:54:02
+array (
+  'sign' => '0e9d57943a6112b633f0e0d53d3b664e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a73826012fc0af1852cb248_c',
+  'df' => '2',
+)2014-12-31 08:54:03
+array (
+  'sign' => '1e9d49c0a5c9d42ce14bdd935ee9ece8',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a73826012fc0af1852cb248_c',
+  'df' => '1',
+)2014-12-31 08:54:04
+array (
+  'sign' => 'e90e3a5d2d0e652dfd9246e06e87547f',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a73826012fc0af1852cb248_c',
+  'df' => '1',
+)2014-12-31 08:54:04
+array (
+  'sign' => '21f20ba15e641ba46ca37b5b6af4661d',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4969e646b61e457d3cade9_c',
+  'df' => '3',
+)2014-12-31 08:54:06
+array (
+  'sign' => '9582f00901748be17961d1f8bce5787f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4969e646b61e457d3cade9_c',
+  'df' => '2',
+)2014-12-31 08:54:10
+array (
+  'sign' => '1c381188d917a69127331ac7108006dd',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a50afa3143b27784da58c9a_c',
+)2014-12-31 08:54:11
+array (
+  'sign' => '5de4e73dbdbca8a857a5d7492757005d',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a50afa3143b27784da58c9a_c',
+  'df' => '1',
+)2014-12-31 08:54:29
+array (
+  'sign' => 'e6cdb4235b59b70425528115bb8f99c2',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a50afa3143b27784da58c9a_c',
+  'df' => '1',
+)2014-12-31 08:54:30
+array (
+  'sign' => '6396465dbdb620420b34c3c56e04a0d4',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a50afa3143b27784da58c9a_c',
+  'df' => '2',
+)2014-12-31 08:54:30
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a50afa3143b27784da58c9a_c',
+  'df' => '-1',
+)2014-12-31 08:59:37
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a73826012fc0af1852cb248_c',
+  'df' => '-1',
+)2014-12-31 08:59:37
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4969e646b61e457d3cade9_c',
+  'df' => '-1',
+)2014-12-31 08:59:37
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a7f24699789c100c9206379_c',
+  'df' => '-1',
+)2014-12-31 08:59:37
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a795aa64e639082226fc786_c',
+  'df' => '-1',
+)2014-12-31 08:59:37
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ade6e5d85a98a6e66cd958d_c',
+  'df' => '-1',
+)2014-12-31 08:59:37
+array (
+  'sign' => '847f84834baf96069d41770a32ef2d2f',
+  'type' => 'upload',
+  'vid' => 'c15d56f33af14f7103ef66c1f965d02c_c',
+)2014-12-31 09:54:37
+array (
+  'sign' => '115adac0dc4a1a688ec505e65953e265',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af14f7103ef66c1f965d02c_c',
+  'df' => '2',
+)2014-12-31 09:58:04
+array (
+  'sign' => 'e1a5cfc6835f97cf0ca5e1dea6a2c75a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33af14f7103ef66c1f965d02c_c',
+  'df' => '1',
+)2014-12-31 10:04:17
+array (
+  'sign' => 'dd955b5931b674256a0121882b784774',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33af14f7103ef66c1f965d02c_c',
+  'df' => '1',
+)2014-12-31 10:04:17
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33af14f7103ef66c1f965d02c_c',
+  'df' => '-1',
+)2014-12-31 10:05:39
+array (
+  'sign' => '36a4dbfaaee0d9733020d21643f2de1d',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a532fee0aeb89a8bac2bb86_c',
+)2014-12-31 16:06:30
+array (
+  'sign' => 'fa0cdd5fa2f9312c78f52e843db02d54',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ae6e5660740649f6bb1ee22_c',
+)2014-12-31 16:07:01
+array (
+  'sign' => 'fc5eb070350c3325a0d73032b4bd1b31',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a532fee0aeb89a8bac2bb86_c',
+  'df' => '1',
+)2014-12-31 16:07:10
+array (
+  'sign' => 'afbd7f6a7b8ef62f254341372aaec658',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a532fee0aeb89a8bac2bb86_c',
+  'df' => '1',
+)2014-12-31 16:07:10
+array (
+  'sign' => 'bfca0f69b696bf7e7a904559c1d95961',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae6e5660740649f6bb1ee22_c',
+  'df' => '2',
+)2014-12-31 16:07:28
+array (
+  'sign' => 'e88475c0f515dc4a639b6bad6eefe075',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae6e5660740649f6bb1ee22_c',
+  'df' => '1',
+)2014-12-31 16:07:38
+array (
+  'sign' => '53cadc9864059e269448ce1e5bf294cf',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ae6e5660740649f6bb1ee22_c',
+  'df' => '1',
+)2014-12-31 16:07:38
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae6e5660740649f6bb1ee22_c',
+  'df' => '-1',
+)2014-12-31 16:10:14
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a532fee0aeb89a8bac2bb86_c',
+  'df' => '-1',
+)2014-12-31 16:10:14
+array (
+  'sign' => '8ffdd018aa0317d51e8fe57af485a873',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a5b647c937ec64c7e36ebf7_c',
+)2014-12-31 16:10:15
+array (
+  'sign' => '945b92880e1ad1647483a8b982d970a9',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a5b647c937ec64c7e36ebf7_c',
+  'df' => '2',
+)2014-12-31 16:10:24
+array (
+  'sign' => 'd9e1a8cda6f0b4add9d7d27720fdc66f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a5b647c937ec64c7e36ebf7_c',
+  'df' => '1',
+)2014-12-31 16:11:13
+array (
+  'sign' => '3f818e98dfdaedf60d0a108a114be73f',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a5b647c937ec64c7e36ebf7_c',
+  'df' => '1',
+)2014-12-31 16:11:14
+array (
+  'sign' => 'f22b9458b091efd3446afd8942f9aa67',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aba932555dcd72c98fea63e_c',
+)2014-12-31 16:12:26
+array (
+  'sign' => '3cc9ae31a4335376840956cb0b4a9c9e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aba932555dcd72c98fea63e_c',
+  'df' => '2',
+)2014-12-31 16:12:40
+array (
+  'sign' => 'f66e7f4ff8ecbf2ed02e1111703418e2',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a563f8a98bbcc87040cb657_c',
+)2014-12-31 16:13:11
+array (
+  'sign' => '9df0d9cbf3ca531d4e65afca0a074871',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aba932555dcd72c98fea63e_c',
+  'df' => '1',
+)2014-12-31 16:13:15
+array (
+  'sign' => 'a6388fab3a656343a809909c82a6e8d4',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aba932555dcd72c98fea63e_c',
+  'df' => '1',
+)2014-12-31 16:13:15
+array (
+  'sign' => '955b745789f6fbbe4108b04e8aff1ff2',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a563f8a98bbcc87040cb657_c',
+  'df' => '2',
+)2014-12-31 16:13:24
+array (
+  'sign' => '45f50b9413fbdb584dfb2742069077ef',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a563f8a98bbcc87040cb657_c',
+  'df' => '1',
+)2014-12-31 16:13:47
+array (
+  'sign' => '390add5cfa57a87bf46c8c27f139f4a7',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a563f8a98bbcc87040cb657_c',
+  'df' => '1',
+)2014-12-31 16:13:48
+array (
+  'sign' => '0e73e14cc36f658576471c639e11a2f6',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a73d626a1aa81769ffcaf59_c',
+)2014-12-31 16:14:32
+array (
+  'sign' => '1fbc4073be56813d9d97bf7315c77b19',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a73d626a1aa81769ffcaf59_c',
+  'df' => '2',
+)2014-12-31 16:14:49
+array (
+  'sign' => 'a1655e342bc3f71cc61aaaa39e3660fe',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a73d626a1aa81769ffcaf59_c',
+  'df' => '1',
+)2014-12-31 16:15:16
+array (
+  'sign' => 'ec3437ff519d06871a8475321fa6bc1b',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a73d626a1aa81769ffcaf59_c',
+  'df' => '1',
+)2014-12-31 16:15:17
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a563f8a98bbcc87040cb657_c',
+  'df' => '-1',
+)2014-12-31 16:20:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a73d626a1aa81769ffcaf59_c',
+  'df' => '-1',
+)2014-12-31 16:20:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aba932555dcd72c98fea63e_c',
+  'df' => '-1',
+)2014-12-31 16:20:00
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a5b647c937ec64c7e36ebf7_c',
+  'df' => '-1',
+)2014-12-31 16:20:02
+array (
+  'sign' => 'c7a5fdc64d140d7016b0b8f745bf278d',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ae7e84228e18ffb71715e2f_c',
+)2014-12-31 16:21:24
+array (
+  'sign' => '931ed8bf084fffc53661aae62390f79b',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a66851e25b39dcf6131453c_c',
+)2014-12-31 16:21:37
+array (
+  'sign' => '40752f59df59d12cc41a6f0d00f65929',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae7e84228e18ffb71715e2f_c',
+  'df' => '2',
+)2014-12-31 16:21:44
+array (
+  'sign' => 'edd25c64d314b5654c466f3a26245b36',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a66851e25b39dcf6131453c_c',
+  'df' => '1',
+)2014-12-31 16:21:50
+array (
+  'sign' => 'ad36b2b8091168c6105984a8ac02df26',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a66851e25b39dcf6131453c_c',
+  'df' => '1',
+)2014-12-31 16:21:50
+array (
+  'sign' => '4f4781025e72e08161427c75b38f96ee',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a66851e25b39dcf6131453c_c',
+  'df' => '2',
+)2014-12-31 16:21:52
+array (
+  'sign' => '03e0ee5fe9091f11ead8489e1909819a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae7e84228e18ffb71715e2f_c',
+  'df' => '1',
+)2014-12-31 16:22:06
+array (
+  'sign' => '6cc31902bcfcd0357ca1aef34519fcbd',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ae7e84228e18ffb71715e2f_c',
+  'df' => '1',
+)2014-12-31 16:22:06
+array (
+  'sign' => '4853fcde2892dee70ec7371f6668413d',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a373458eb567363eebe2a42_c',
+)2014-12-31 16:22:33
+array (
+  'sign' => '3a712a4be2c25ded8bda45cc5c264103',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a373458eb567363eebe2a42_c',
+  'df' => '2',
+)2014-12-31 16:23:25
+array (
+  'sign' => '1057548e56ea6bcabfd902c6758448ee',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ad57873f5b903266ba200e5_c',
+)2014-12-31 16:23:30
+array (
+  'sign' => '91999819e00a0546c1ecbbb3a26727df',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad57873f5b903266ba200e5_c',
+  'df' => '2',
+)2014-12-31 16:23:51
+array (
+  'sign' => '874b92c0e80cdfcab988d946dc9bf7f1',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad57873f5b903266ba200e5_c',
+  'df' => '1',
+)2014-12-31 16:23:52
+array (
+  'sign' => 'aaa4d14f7cffd70cd68b524fa2916dd1',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ad57873f5b903266ba200e5_c',
+  'df' => '1',
+)2014-12-31 16:23:53
+array (
+  'sign' => '9b9bdafdd2fa47d764cdd9f0a5f9c8ca',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a3c71c9834dc800d78c3a50_c',
+)2014-12-31 16:24:15
+array (
+  'sign' => '1b8a666451cd46d4ee679757fb918eaa',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a24c14acdf1db734548299d_c',
+)2014-12-31 16:24:30
+array (
+  'sign' => 'd720fff466b5ba817d2c538cae002c79',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ae6fc060237663c1265097b_c',
+)2014-12-31 16:24:46
+array (
+  'sign' => '661fe3648d223b280c8530efa96529a4',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a373458eb567363eebe2a42_c',
+  'df' => '1',
+)2014-12-31 16:24:49
+array (
+  'sign' => '9f5f46bcfcf15827ad345d45bf01748a',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a373458eb567363eebe2a42_c',
+  'df' => '1',
+)2014-12-31 16:24:50
+array (
+  'sign' => '656fad7108a4792c3492dc7101786fcf',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a24c14acdf1db734548299d_c',
+  'df' => '2',
+)2014-12-31 16:24:52
+array (
+  'sign' => '0d214048707a89640e8e79347145d31d',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a4b4128d1a0aad8d7cdc815_c',
+)2014-12-31 16:25:09
+array (
+  'sign' => '7a52aeb4a8274db84577afe53f57ad5c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae6fc060237663c1265097b_c',
+  'df' => '2',
+)2014-12-31 16:25:11
+array (
+  'sign' => 'a6bb1648b50cea754a64013d0ba379a1',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a24c14acdf1db734548299d_c',
+  'df' => '1',
+)2014-12-31 16:25:28
+array (
+  'sign' => 'be1820989bbd6c50473307067f1f25bf',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a24c14acdf1db734548299d_c',
+  'df' => '1',
+)2014-12-31 16:25:28
+array (
+  'sign' => 'c7d91f9d3d4546ff9bbccb57db8d6d85',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3c71c9834dc800d78c3a50_c',
+  'df' => '2',
+)2014-12-31 16:25:28
+array (
+  'sign' => 'e70e4b9f3c3b3b1636442c38b83d083f',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4b4128d1a0aad8d7cdc815_c',
+  'df' => '2',
+)2014-12-31 16:25:47
+array (
+  'sign' => 'c8f76a47c392106f1106a3c66b617acc',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ae7612b6c0701a91fbe0767_c',
+)2014-12-31 16:26:11
+array (
+  'sign' => '1ca4ddeb5da5fab96cb32d0acb5f5dd4',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a179dee804f231c21dbe3c9_c',
+)2014-12-31 16:26:16
+array (
+  'sign' => '5dc2e5d67938156e78c809eee282a609',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a4b4128d1a0aad8d7cdc815_c',
+  'df' => '1',
+)2014-12-31 16:26:22
+array (
+  'sign' => 'fd7ba78c0f11cbd1f69b199b1de621fd',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a4b4128d1a0aad8d7cdc815_c',
+  'df' => '1',
+)2014-12-31 16:26:22
+array (
+  'sign' => 'ace78efb6cea25075367be5de3834908',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae7612b6c0701a91fbe0767_c',
+  'df' => '1',
+)2014-12-31 16:26:25
+array (
+  'sign' => '9cdd4cd1879171506d53576d7395ce93',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a179dee804f231c21dbe3c9_c',
+  'df' => '2',
+)2014-12-31 16:26:25
+array (
+  'sign' => '44d5679433002043549d0f3f5db7416e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a179dee804f231c21dbe3c9_c',
+  'df' => '1',
+)2014-12-31 16:26:27
+array (
+  'sign' => 'cb8cb6dda47cb189035410edf3a226f1',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a179dee804f231c21dbe3c9_c',
+  'df' => '1',
+)2014-12-31 16:26:27
+array (
+  'sign' => 'a1aa89352e4650b92904540cd6fb2e41',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae6fc060237663c1265097b_c',
+  'df' => '1',
+)2014-12-31 16:26:28
+array (
+  'sign' => '36e41062c5b5d0a2834193b8c2e06346',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ae6fc060237663c1265097b_c',
+  'df' => '1',
+)2014-12-31 16:26:28
+array (
+  'sign' => 'c85973e12db6f3e9feda91fa6d308810',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ae7612b6c0701a91fbe0767_c',
+  'df' => '1',
+)2014-12-31 16:26:30
+array (
+  'sign' => 'cbe246f2bd8d6131d0d50c616fc7e7b6',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aca6a935f5af9f80e1cd90a_c',
+)2014-12-31 16:26:56
+array (
+  'sign' => 'd0218987468d1d2454cf7feba6e46210',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aca6a935f5af9f80e1cd90a_c',
+  'df' => '1',
+)2014-12-31 16:27:06
+array (
+  'sign' => '941f03144ebf4c21fe3ad90e500d6566',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aca6a935f5af9f80e1cd90a_c',
+  'df' => '1',
+)2014-12-31 16:27:06
+array (
+  'sign' => 'dc94b877cc2a27505f110a68419d61db',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a3b0c3a80b1ca2522938846_c',
+)2014-12-31 16:27:11
+array (
+  'sign' => '1874e22ef3916755300a734ab4e09d98',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3c71c9834dc800d78c3a50_c',
+  'df' => '1',
+)2014-12-31 16:27:16
+array (
+  'sign' => 'fa0e167da2dda4c49b27bab45cfa904e',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a3c71c9834dc800d78c3a50_c',
+  'df' => '1',
+)2014-12-31 16:27:17
+array (
+  'sign' => '08c404f3f49020d5bbada3e60223b180',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3b0c3a80b1ca2522938846_c',
+  'df' => '1',
+)2014-12-31 16:27:19
+array (
+  'sign' => '11860b6edf387b4f2d94bdcb35e70ac7',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a3b0c3a80b1ca2522938846_c',
+  'df' => '1',
+)2014-12-31 16:27:20
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3b0c3a80b1ca2522938846_c',
+  'df' => '-1',
+)2014-12-31 16:29:55
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aca6a935f5af9f80e1cd90a_c',
+  'df' => '-1',
+)2014-12-31 16:29:55
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a179dee804f231c21dbe3c9_c',
+  'df' => '-1',
+)2014-12-31 16:29:55
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae7612b6c0701a91fbe0767_c',
+  'df' => '-1',
+)2014-12-31 16:29:55
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4b4128d1a0aad8d7cdc815_c',
+  'df' => '-1',
+)2014-12-31 16:29:55
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae6fc060237663c1265097b_c',
+  'df' => '-1',
+)2014-12-31 16:29:56
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a24c14acdf1db734548299d_c',
+  'df' => '-1',
+)2014-12-31 16:29:56
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3c71c9834dc800d78c3a50_c',
+  'df' => '-1',
+)2014-12-31 16:29:56
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad57873f5b903266ba200e5_c',
+  'df' => '-1',
+)2014-12-31 16:29:56
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a373458eb567363eebe2a42_c',
+  'df' => '-1',
+)2014-12-31 16:29:56
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a66851e25b39dcf6131453c_c',
+  'df' => '-1',
+)2014-12-31 16:29:57
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae7e84228e18ffb71715e2f_c',
+  'df' => '-1',
+)2014-12-31 16:29:57
+array (
+  'sign' => 'f9ed1cbe196fe6c15fffc2696f30a9bf',
+  'type' => 'upload',
+  'vid' => 'c15d56f33adc20b7d27f886d260701b4_c',
+)2014-12-31 16:30:25
+array (
+  'sign' => '5e32b78f45f4ef20fb21e4bd3a90e343',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a59796fdcff37c0567c23bd_c',
+)2014-12-31 16:30:30
+array (
+  'sign' => 'e9a67786ed769a3c5cfd5dce89c06711',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33adc20b7d27f886d260701b4_c',
+  'df' => '1',
+)2014-12-31 16:30:36
+array (
+  'sign' => 'd88800a18d61a49551149de93d9e23e8',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a938167255b66ec4df555d6_c',
+)2014-12-31 16:30:36
+array (
+  'sign' => 'fa4f6ee98b4cc9ef4b3575d9c6bcfce3',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33adc20b7d27f886d260701b4_c',
+  'df' => '1',
+)2014-12-31 16:30:37
+array (
+  'sign' => '9640462b74860626b1889422fbf024d0',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a59796fdcff37c0567c23bd_c',
+  'df' => '2',
+)2014-12-31 16:30:38
+array (
+  'sign' => '8fc81f694f57710fca40d393e38c0196',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a59796fdcff37c0567c23bd_c',
+  'df' => '1',
+)2014-12-31 16:30:39
+array (
+  'sign' => 'a2e42ea65cca6db02ab6e2d9d8ebf6a3',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a9215be27c6d3382935fd4f_c',
+)2014-12-31 16:30:41
+array (
+  'sign' => '729fe530ed83cf53a260bb78209e47f0',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33adc20b7d27f886d260701b4_c',
+  'df' => '2',
+)2014-12-31 16:30:44
+array (
+  'sign' => '4b6c6585e9eeb606ba23ca411b47bd01',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a59796fdcff37c0567c23bd_c',
+  'df' => '1',
+)2014-12-31 16:30:44
+array (
+  'sign' => '1eaafc55795df3819ef561034139e077',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a938167255b66ec4df555d6_c',
+  'df' => '2',
+)2014-12-31 16:30:46
+array (
+  'sign' => 'cd19cfc459fe34dd6dc6c8dd89efbecc',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a9215be27c6d3382935fd4f_c',
+  'df' => '2',
+)2014-12-31 16:30:58
+array (
+  'sign' => '50c35f88dfd32558e371e114f010c097',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a9215be27c6d3382935fd4f_c',
+  'df' => '1',
+)2014-12-31 16:31:01
+array (
+  'sign' => 'b17eead69f92b338fda385e1faaf512e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a938167255b66ec4df555d6_c',
+  'df' => '1',
+)2014-12-31 16:31:06
+array (
+  'sign' => '08e565046ed3da2ac39a7acc3347223d',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a938167255b66ec4df555d6_c',
+  'df' => '1',
+)2014-12-31 16:31:06
+array (
+  'sign' => '66192f90ab8e76e582a66731758e4c76',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a9215be27c6d3382935fd4f_c',
+  'df' => '1',
+)2014-12-31 16:31:06
+array (
+  'sign' => '818540e0269872f14044e636f38dacbc',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a2bde42c2f59cc8aa8cce92_c',
+)2014-12-31 16:33:38
+array (
+  'sign' => '318215d2f4a783497c79b007a6864a70',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a6b16d098360d578be0bee1_c',
+)2014-12-31 16:33:45
+array (
+  'sign' => 'a1624543d7b912a2caf1a99b5da04b12',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a2bde42c2f59cc8aa8cce92_c',
+  'df' => '2',
+)2014-12-31 16:33:56
+array (
+  'sign' => '87b6b28c9ae7636ad972e060a12144e7',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a2bde42c2f59cc8aa8cce92_c',
+  'df' => '1',
+)2014-12-31 16:34:00
+array (
+  'sign' => '77c2f82fd139b4c1551a1c80c5756f1d',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a2bde42c2f59cc8aa8cce92_c',
+  'df' => '1',
+)2014-12-31 16:34:00
+array (
+  'sign' => '0b70385140d556227795415717d4d2ac',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a6b16d098360d578be0bee1_c',
+  'df' => '1',
+)2014-12-31 16:34:31
+array (
+  'sign' => 'c1ee4f5a3eec8139bd279fbcc82262ac',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a6b16d098360d578be0bee1_c',
+  'df' => '1',
+)2014-12-31 16:34:31
+array (
+  'sign' => 'b9a9cf35a715db31634955e35daded43',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a6b16d098360d578be0bee1_c',
+  'df' => '2',
+)2014-12-31 16:34:36
+array (
+  'sign' => 'f448ac82412db8dc57b0a1f1763b9563',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a0ad4ad440f07a84b22bc9e_c',
+)2014-12-31 16:35:10
+array (
+  'sign' => 'dd74fc6abcc53b84fc2a5b72ebf58c81',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a0ad4ad440f07a84b22bc9e_c',
+  'df' => '1',
+)2014-12-31 16:35:55
+array (
+  'sign' => '765675ec1286b3963c6b9459132ff3c2',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a0ad4ad440f07a84b22bc9e_c',
+  'df' => '1',
+)2014-12-31 16:35:55
+array (
+  'sign' => '4a35ab8f350958984efc8e00b2f20db8',
+  'type' => 'upload',
+  'vid' => 'c15d56f33ac1a2dc785178ae61761d9a_c',
+)2014-12-31 16:36:22
+array (
+  'sign' => '08536105e48292902bb07010a5aad12b',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac1a2dc785178ae61761d9a_c',
+  'df' => '2',
+)2014-12-31 16:36:31
+array (
+  'sign' => 'aabd611fdca165ccce049d15f810bc2c',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ac1a2dc785178ae61761d9a_c',
+  'df' => '1',
+)2014-12-31 16:36:41
+array (
+  'sign' => '0db9f841c1a594e51a2d1a27c54b3d19',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33ac1a2dc785178ae61761d9a_c',
+  'df' => '1',
+)2014-12-31 16:36:41
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a6b16d098360d578be0bee1_c',
+  'df' => '-1',
+)2014-12-31 16:40:10
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a0ad4ad440f07a84b22bc9e_c',
+  'df' => '-1',
+)2014-12-31 16:40:10
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac1a2dc785178ae61761d9a_c',
+  'df' => '-1',
+)2014-12-31 16:40:10
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a2bde42c2f59cc8aa8cce92_c',
+  'df' => '-1',
+)2014-12-31 16:40:10
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a9215be27c6d3382935fd4f_c',
+  'df' => '-1',
+)2014-12-31 16:40:14
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a938167255b66ec4df555d6_c',
+  'df' => '-1',
+)2014-12-31 16:40:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a59796fdcff37c0567c23bd_c',
+  'df' => '-1',
+)2014-12-31 16:40:15
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33adc20b7d27f886d260701b4_c',
+  'df' => '-1',
+)2014-12-31 16:40:15
+array (
+  'sign' => 'fa1444a5699a4f53a56eb6dec1d90ea4',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae7e84228e18ffb71715e2f_c',
+  'df' => '3',
+)2014-12-31 17:50:32
+array (
+  'sign' => 'a99e289383e9d18ffff4b89c2da1e99e',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a73d626a1aa81769ffcaf59_c',
+  'df' => '3',
+)2014-12-31 17:50:33
+array (
+  'sign' => 'f1091b554193dcfb5db565c3234e4b82',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a373458eb567363eebe2a42_c',
+  'df' => '3',
+)2014-12-31 17:50:38
+array (
+  'sign' => 'fbabb6b5afe3423b70629fe8ed12b58a',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a66851e25b39dcf6131453c_c',
+  'df' => '3',
+)2014-12-31 17:51:30
+array (
+  'sign' => '479ce2d56dcfa90008c09d0adf0f0d01',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ad57873f5b903266ba200e5_c',
+  'df' => '3',
+)2014-12-31 17:52:22
+array (
+  'sign' => '0e6ab7dbc03af669cc2348f023805b19',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33ae6fc060237663c1265097b_c',
+  'df' => '3',
+)2014-12-31 17:52:51
+array (
+  'sign' => '0c1c862347a05d2629b833fbbd5113eb',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33adc20b7d27f886d260701b4_c',
+  'df' => '3',
+)2014-12-31 17:53:42
+array (
+  'sign' => 'd24026673a290e22d2f7d89bc559b998',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a24c14acdf1db734548299d_c',
+  'df' => '3',
+)2014-12-31 17:53:55
+array (
+  'sign' => 'c7b24954a65f53e68ce341a64c8493eb',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a3c71c9834dc800d78c3a50_c',
+  'df' => '3',
+)2014-12-31 17:56:40
+array (
+  'sign' => '24ac1e84566fb675a33aaf01562ff165',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a2bde42c2f59cc8aa8cce92_c',
+  'df' => '3',
+)2014-12-31 17:58:27
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ac1a2dc785178ae61761d9a_c',
+  'df' => '-1',
+)2014-12-31 18:51:27
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a0ad4ad440f07a84b22bc9e_c',
+  'df' => '-1',
+)2014-12-31 18:51:27
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a6b16d098360d578be0bee1_c',
+  'df' => '-1',
+)2014-12-31 18:51:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a2bde42c2f59cc8aa8cce92_c',
+  'df' => '-1',
+)2014-12-31 18:51:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a9215be27c6d3382935fd4f_c',
+  'df' => '-1',
+)2014-12-31 18:51:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a938167255b66ec4df555d6_c',
+  'df' => '-1',
+)2014-12-31 18:51:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a59796fdcff37c0567c23bd_c',
+  'df' => '-1',
+)2014-12-31 18:51:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33adc20b7d27f886d260701b4_c',
+  'df' => '-1',
+)2014-12-31 18:51:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3b0c3a80b1ca2522938846_c',
+  'df' => '-1',
+)2014-12-31 18:51:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aca6a935f5af9f80e1cd90a_c',
+  'df' => '-1',
+)2014-12-31 18:51:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a179dee804f231c21dbe3c9_c',
+  'df' => '-1',
+)2014-12-31 18:51:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae7612b6c0701a91fbe0767_c',
+  'df' => '-1',
+)2014-12-31 18:51:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a4b4128d1a0aad8d7cdc815_c',
+  'df' => '-1',
+)2014-12-31 18:51:28
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae6fc060237663c1265097b_c',
+  'df' => '-1',
+)2014-12-31 18:51:29
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a24c14acdf1db734548299d_c',
+  'df' => '-1',
+)2014-12-31 18:51:29
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a3c71c9834dc800d78c3a50_c',
+  'df' => '-1',
+)2014-12-31 18:51:29
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ad57873f5b903266ba200e5_c',
+  'df' => '-1',
+)2014-12-31 18:51:29
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a373458eb567363eebe2a42_c',
+  'df' => '-1',
+)2014-12-31 18:51:29
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a66851e25b39dcf6131453c_c',
+  'df' => '-1',
+)2014-12-31 18:51:29
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae7e84228e18ffb71715e2f_c',
+  'df' => '-1',
+)2014-12-31 18:51:29
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a73d626a1aa81769ffcaf59_c',
+  'df' => '-1',
+)2014-12-31 18:51:29
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a563f8a98bbcc87040cb657_c',
+  'df' => '-1',
+)2014-12-31 18:53:23
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aba932555dcd72c98fea63e_c',
+  'df' => '-1',
+)2014-12-31 18:53:23
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a5b647c937ec64c7e36ebf7_c',
+  'df' => '-1',
+)2014-12-31 18:53:23
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33ae6e5660740649f6bb1ee22_c',
+  'df' => '-1',
+)2014-12-31 18:53:23
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a532fee0aeb89a8bac2bb86_c',
+  'df' => '-1',
+)2014-12-31 18:53:23
+array (
+  'sign' => '00f645ba4b039e617196baa947185d79',
+  'type' => 'upload',
+  'vid' => 'c15d56f33aabb8d7d754d5c8c7f561f5_c',
+)2015-01-04 17:26:09
+array (
+  'sign' => '40746f3310e98be064900a85318cbbb0',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aabb8d7d754d5c8c7f561f5_c',
+  'df' => '2',
+)2015-01-04 17:27:39
+array (
+  'sign' => '36e952da1668b1a7c1841ab8568e4021',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33aabb8d7d754d5c8c7f561f5_c',
+  'df' => '1',
+)2015-01-04 17:36:40
+array (
+  'sign' => '1a5d5a59eb60f7e30c79a8b94176b3fd',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33aabb8d7d754d5c8c7f561f5_c',
+  'df' => '1',
+)2015-01-04 17:36:40
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aabb8d7d754d5c8c7f561f5_c',
+  'df' => '-1',
+)2015-01-04 17:40:04
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33aabb8d7d754d5c8c7f561f5_c',
+  'df' => '-1',
+)2015-01-04 19:12:16
+array (
+  'sign' => '61b640df860b85806f65f57575ed9779',
+  'type' => 'upload',
+  'vid' => 'c15d56f33a6a0256d092b0a3645ddfcf_c',
+)2015-01-05 13:11:15
+array (
+  'sign' => 'cd127124635bc5f74b4fc02c0ffd4e24',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a6a0256d092b0a3645ddfcf_c',
+  'df' => '2',
+)2015-01-05 13:13:39
+array (
+  'sign' => '109d10d466aa5c4c20a65deec9077005',
+  'type' => 'encode',
+  'format' => 'flv',
+  'vid' => 'c15d56f33a6a0256d092b0a3645ddfcf_c',
+  'df' => '1',
+)2015-01-05 13:18:59
+array (
+  'sign' => '0066dee69fae56e2cb325fbe6c7efc61',
+  'type' => 'encode',
+  'format' => 'mp4',
+  'vid' => 'c15d56f33a6a0256d092b0a3645ddfcf_c',
+  'df' => '1',
+)2015-01-05 13:19:05
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a6a0256d092b0a3645ddfcf_c',
+  'df' => '-1',
+)2015-01-05 13:20:02
+array (
+  'type' => 'pass',
+  'vid' => 'c15d56f33a6a0256d092b0a3645ddfcf_c',
+  'df' => '-1',
+)2015-01-05 14:05:24

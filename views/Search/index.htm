@@ -1,0 +1,122 @@
+ <!--主内容开始-->
+ <div class="main">
+      <div class="warp">
+       <div class="mainlef">
+       <div class="selectNav">
+           <ul class="f-fl">
+             <li><a href="/search/key/{$key}/type/{$type}/order/4" {if $order ==4} class="cur" {/if}>筛选</a></li>  
+             <li style="margin-left:480px"
+ ><a href="/search/key/{$key}/type/{$type}/order/1" {if $order ==1} class="cur" {/if} >最新</a></li>
+             <li><a href="/search/key/{$key}/type/{$type}/order/2" {if $order ==2} class="cur" {/if}>评分高</a> </li> 
+             <li><a href="/search/key/{$key}/type/{$type}/order/3" {if $order ==3} class="cur" {/if}>资源大小</a></li>
+          </ul>
+        </div>
+		
+           <div id="select-all"  {if $order != 4}style="display:none;"{/if}>
+                <div class="trangle"></div>
+                  <dl>
+                      <dt>资源类型：</dt>
+                      <dd>
+                          <div class="sel-list" name="current_type">
+                              <ul>
+                                  <li><a {if !$file_type} class="selected" {/if} href="?file_type=0" >全部</a></li>
+                                  <li><a {if $file_type==1} class="selected" {/if} href="?file_type=1"  >文档</a></li>
+                                  <li><a {if $file_type==2} class="selected" {/if} href="?file_type=2"  >视频</a></li>
+                                  <li><a {if $file_type==3} class="selected" {/if} href="?file_type=3"  >素材</a></li> 
+                              </ul>
+                          </div>
+                      </dd>
+                  </dl>
+				  {if $file_type==1}
+                  <dl>
+                      <dt>文档页数： </dt>
+                      <dd><div class="sel-list" name="current_class">
+                          <ul>
+                              <li><a {if !$file_page} class="selected" {/if} href="?file_type={$file_type}&file_page=0" >全部</a></li>
+                              <li><a {if $file_page==1} class="selected" {/if} href="?file_type={$file_type}&file_page=1"> 1-5页  </a></li>
+                              <li><a {if $file_page==2} class="selected" {/if} href="?file_type={$file_type}&file_page=2"> 6-10页 </a></li>
+                              <li><a {if $file_page==3} class="selected" {/if} href="?file_type={$file_type}&file_page=3">10页以上</a></li> 
+                          </ul>
+                      </div>
+                      </dd>
+                  </dl>
+				  {/if}
+				  {if $file_type==2}
+                  <dl>
+                      <dt>视频时长：</dt>
+                      <dd>
+                          <div class="sel-list" name="current_phase">
+                              <ul>
+                                  <li><a {if !$play_time} class="selected" {/if} href="?file_type={$file_type}&play_time=0">全部</a></li>
+                                  <li><a {if $play_time==1} class="selected" {/if} href="?file_type={$file_type}&play_time=1">一分钟内</a></li>
+                                  <li><a {if $play_time==2} class="selected" {/if} href="?file_type={$file_type}&play_time=2">五分钟内</a></li>
+                                  <li><a {if $play_time==3} class="selected" {/if} href="?file_type={$file_type}&play_time=3">半小时内</a></li>
+                                   <li><a {if $play_time==4} class="selected" {/if} href="?file_type={$file_type}&play_time=4">一小时内</a></li>
+                                  <li><a {if $play_time==5} class="selected" {/if} href="?file_type={$file_type}&play_time=5">一小时以上</a></li>
+                              </ul>
+                          </div>
+                      </dd>
+                  </dl>
+				  {/if}
+                  <dl>
+                      <dt>发布时间：</dt>
+                      <dd>
+                          <div class="sel-list" name="current_phase">
+                              <ul>
+                                  <li><a {if !$on_time} class="selected" {/if} href="?file_type={$file_type}&file_page={$file_page}&play_time={$play_time}&on_time=0">全部</a></li>
+                                  <li><a {if $on_time==1} class="selected" {/if} href="?file_type={$file_type}&file_page={$file_page}&play_time={$play_time}&on_time=1">一周内</a></li>
+                                  <li><a {if $on_time==2} class="selected" {/if} href="?file_type={$file_type}&file_page={$file_page}&play_time={$play_time}&on_time=2">一个月内</a></li>
+                                  <li><a {if $on_time==3} class="selected" {/if} href="?file_type={$file_type}&file_page={$file_page}&play_time={$play_time}&on_time=3">三个月内</a></li>
+                                   <li><a {if $on_time==4} class="selected" {/if} href="?file_type={$file_type}&file_page={$file_page}&play_time={$play_time}&on_time=4">一年内</a></li> 
+                              </ul>
+                          </div>
+                      </dd>
+                  </dl>
+           </div>
+		   
+             <div class="con">
+                          <div class="wk_docCell">
+                              <!-- txt+img-->
+                              	{if $resources} 
+                                	{$resource_list}
+								 {else}
+									<div class="ct">
+									    <div class="wk_docCell" id="list_content">
+									    	 <div class="list-empty">没有资源！</div>
+									    </div>
+									</div>
+								  {/if}
+                              <!-- txt-->
+                                                       
+                          </div>
+
+                            <div id="pageNum" class="page">
+                                {$page_html}
+                            </div>    
+                    
+                      </div> 
+
+       </div> 
+      <div class="mainrig">  
+        <div class="module_titLine newActive activeTop">
+              <h2>
+              <span>热搜词汇</span>  
+              </h2>  
+              <ul class="list_pic40">
+              {loop $words $k $v}	
+              <li>
+              <a title="{$k}" class="grayDefHover" href="/search/key/{$k}" >{$k}</a>              
+              </li> 
+			  {/loop}
+			  
+                
+                
+              </ul>
+              <div class="f-cb"></div>  
+
+        </div>
+      </div>      
+      <div class="f-cb f-mb10"></div> 
+      </div> 
+ </div>
+<!--主内容结束-->

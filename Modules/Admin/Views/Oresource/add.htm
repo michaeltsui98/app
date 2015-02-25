@@ -1,0 +1,71 @@
+<script type="text/javascript" src="/Modules/Admin/static/script/adminResUpload.js"></script>
+
+<input type="hidden" name="param" data-sid="{$sid}" data-type='{$file_type}'>
+<div id="tab1" class="tabcontent">
+    <div class="form">
+       <form action="<!--{$addDoUrl}-->" method="post" id="res_add_form" name="res_add_form" class="ui-form">
+
+
+			 <div class="form_row">
+                <label><span class="ui-form-required">*</span>基础分类：</label>
+
+                <input id="add_nodelist" name="data[node_id]" class="easyui-combotree"
+					   data-options="url:'{$get_node_url}',method:'get',required:true" style="width:300px;">
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+
+			
+            <div class="form_row">
+                <label><span class="ui-form-required">*</span>资源类型：</label>
+				<select name="data[cate_id]" id="cate_id"  datatype="*">
+					<option value="0" selected="selected"  >请选择</option>
+					 {loop $cate_arr $k $v}
+					   <option value="{$k}" >{$v}</option>
+					 {/loop}
+				</select>
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+			
+            <div class="form_row">
+                <label><span class="ui-form-required"></span>资源上传：</label>
+                <input type="hidden"  name="data[file]" id="input2" />
+				<input type="hidden"  name="data[file_size]" id="file_size" />
+				<DIV id="demo2"></DIV><div id="tip2"></div>
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+			
+            <div class="form_row">
+                <label><span class="ui-form-required">*</span>资源名称：</label>
+                <input type="text" class="form_input_300" id="doc_title" name="data[doc_title]"  placeholder="知识节点名称"  datatype="*"  />
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+			
+            <div class="form_row">
+                <label><span class="ui-form-required"></span>资源描述：</label>
+				<textarea name="data[doc_summery]"  data-default ="非必填项，最多200字。" placeholder="非必填项，最多200字。" maxLength="200"
+ 						cols="40" rows="5" ></textarea>
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+            <div class="form_row">
+                <label><span class="ui-form-required"></span>是否为原始：</label>
+				<input type="checkbox"  class=""  name="data[doc_source]">
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+
+           
+           
+			
+            <div class="ui-form-item">
+                <input type="submit" id="btn_submit" value="保存"/>
+            </div> 
+        </form>
+       <script type="text/javascript">
+				$(function(){
+					syform_val('res_add_form');
+                    SetValue(res_add_form["data[node_show]"],"1");
+				});
+		</script>
+    </div>
+</div>
+
+    

@@ -1,0 +1,148 @@
+     <div class="formItem" name="vfrom_item">
+       <div class="content">
+         <!--<div class="reloadingImg"></div>
+		 -->
+         <div class="form">
+           <div name="item-category-1" class="category-panel visuallyhidden" tabindex="17" hidefocus="true">
+                  <div name="wkCategory" class="clearfix ui-category">
+                  <ul style="display: none; ">
+                      <li class="js-category-item" style="display: block; ">
+                          {loop $data $k $v}
+							  <p class="" data-cid="{$v['id']}" data-level="{$v['level']}">{$v['name']}</p>
+						 {/loop}
+                      </li>
+                  </ul>
+                  </div>
+			</div>
+		 <form action="{STATIC_PATH}/upload/resUploadPost" method="post" name="v_upload_from" >
+            <input type="hidden"  name="data[file]" value="{$vars['file_path2']},{$vars['fileName']}" id="input1" />
+			<input type="hidden"  name="data[file_size]"  value="{$vars['file_size']}" />
+			<input type="hidden"  name="is_jsonp"  value="1" />
+			<input type="hidden"  name="data[obj_id]"  value="{$obj_id}" />
+			<input type="hidden"  name="data[obj_type]"  value="{$obj_type}" />
+			
+           <table cellpadding="0"  cellspacing="0" width="">
+             <tr>
+               <td class="formTit">
+                 资源标题
+                 <span>*</span>
+                 ：
+               </td>
+               <td>
+                 <input type="text" name="data[doc_title]" value="{$vars['title_name']}" class="customForm_inputBoxDefault customForm_txtInput width252" datatype="*"></td>
+             </tr>
+             <tr>
+               <td  class="formTit">资源简介：</td>
+               <td >
+                 <textarea class="customForm_textarea customForm_inputBoxDefault width252" name="data[doc_summery]" data-default="非必填项，最多200字。" placeholder="非必填项，最多200字。" maxlength="200"></textarea>
+               </td>
+             </tr>
+ 			<tr style="display:;" name="tr_cate">
+              <td class="formTit">资源类型<span>*</span>：</td>
+              <td>
+                  <select name="data[cate_id]">
+                        <option value="">请选择</option>
+                        {loop $resource_type $k $v}
+						{if $k<4}
+                        <option value="{$k}">{$v}</option>
+						{/if}
+						{/loop}
+                  </select> 
+                  
+              </td> 
+            </tr>
+			{if !$is_xb}
+             <tr>
+               <td class="formTit">
+                 资源分类
+                 <span>*</span>
+                 ：
+               </td>
+               <td class="mod-upload">
+				 <input type="hidden" name="data[node_id]" >
+                 <span class="btn-category" tabindex="-1" hidefocus="true" >
+                 	<span class="category-text width252">请选择分类</span>
+					<b class="ic ic-btn"></b></span>
+              </td> 
+             </tr>
+			<input type="hidden" name="data[cus_id]" value="{$cus_id}">
+			 {else}
+			 <tr>
+               <td class="formTit">
+                 自定分类<span>*</span>：
+               </td>
+               <td >
+               	
+				<select name="data[cus_id]" id="cus_id">
+					{loop $cus_cate['rows'] $v}
+					<option value="{$v['id']}" {if $cus_id==$v['id']}selected="selected"{/if}>{$v['ext']}{$v['name']}</option>
+					{/loop}
+				</select>
+				 
+              </td> 
+             </tr>
+			 {/if}
+			  
+           </table>
+           <table cellpadding="0" cellspacing="0">
+             <tr>
+               <td  class="formTit">分类：</td>
+               <td  rowspan="2" width="284">
+               	
+				<ul>
+	                <li>
+	                   <label > <input type="radio" name="data[is_hidden]" value="0" checked="checked">&nbsp;&nbsp;普通资源</label><span>任何人可以搜索预览</span>
+	                </li> 
+	                 <li>
+	                   <label> <input type="radio" name="data[is_hidden]" value="1">&nbsp;&nbsp;私有资源</label><span>仅自己可见</span> 
+	                </li> 
+	            </ul> 
+                
+               </td>
+             </tr>
+             <tr>
+               <td>&nbsp;</td>
+             </tr>
+   
+            
+             <tr>
+               <td  class="formTit">来源：</td>
+               <td  rowspan="2">
+                 <ul>
+                    <li>
+                       <label> <input type="radio" name="data[doc_source]" value="1">&nbsp;&nbsp;原创资源</label> 
+                    </li> 
+                     <li>
+                       <label> <input type="radio" name="data[doc_source]" value="2" checked="checked">&nbsp;&nbsp;转载资源</label> 
+                    </li> 
+                </ul>
+               </td>
+             </tr>
+			 <tr>
+               <td>&nbsp;</td>
+             </tr>
+			<tr>
+               <td class="formTit">资源标签：</td>
+               <td rowspan="2">
+                 <script type="text/javascript" src="{HTTP_UI}/tag/tag.public.js"></script>
+				  <div data-target="doc" data-autorender="false" name="data[doc_tag]" class="input-tags">
+				  	<div style="width:252px;" class="tagBox floatL">
+					<div class="recText floatL">
+						<input name="blogTag" type="text" autocomplete="off" style="width: 100%; display: inline-block;"></div>
+						<ul class="associateWrap" style="display: none;"></ul></div>
+						<span class="clearFloat"><div></div><span style="display: inline;padding: 0;" class="recTag"></span></span>
+					</div>
+				  <div name="tag_content"></div>
+				</td>
+             </tr>
+           </table>
+		   </form> 
+         </div>
+         <div class="f-cb"></div>
+       </div>
+     </div> 
+     <div class="popbutn">
+       <a class="colourDarkGreen" href="javascript:;" name="confirm" style="display:;">确认</a>
+       <a class="marginR10" href="javascript:;" name="cancel">取消</a>
+     </div>
+ 

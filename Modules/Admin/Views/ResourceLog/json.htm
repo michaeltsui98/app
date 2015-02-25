@@ -1,0 +1,20 @@
+<!--{loop $data['rows'] $key $value}-->
+	<!--{eval $data['rows'][$key]['trindex']=$key+1;}-->
+	<!--{eval $data['rows'][$key]['trid']=$value['id'];}-->
+	
+
+
+{if $value['op']=='delete'}
+<!--{eval $data['rows'][$key]['title']= "<a href=\"javascript:;\" >{$value['title']}</a>";}-->
+{else}
+<!--{eval $data['rows'][$key]['title']= "<a href=\"/info/{$value['doc_id']}\" target=\"_blank\">{$value['title']}</a>";}-->
+{/if}
+
+<!--{eval $data['rows'][$key]['created_at']= date('Y-m-d H:i:s',$value['created_at']);}-->
+
+
+
+
+<!--{/loop}-->
+ 
+<!--{eval echo json_encode($data)}-->

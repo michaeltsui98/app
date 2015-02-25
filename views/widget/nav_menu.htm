@@ -1,0 +1,32 @@
+{if $vars['ct1_arr']}
+<ul class="sobjectList floatL" name="nav_li_a_first">
+	{loop $vars['ct1_arr'] $k $v}
+	<li><a href="javascript:void(0);" 
+	data-url="{BASE_PATH}/Widget/nav?ct0={$vars['ct0']}&ct1={$v['id']}"
+	title="{$v['base_title']}" 
+	{if $v['id']==$vars['ct1']} class="current" {/if}>{$v['base_title']}</a></li>
+	{/loop}
+</ul>
+{/if}
+{if $vars['ct2_arr']}
+<ul class="gradeList floatL" name="nav_li_a_first">
+	{loop $vars['ct2_arr'] $k $v}
+	<li><a href="javascript:void(0);"
+	data-url="{BASE_PATH}/Widget/nav?ct0={$vars['ct0']}&ct1={$vars['ct1']}&ct2={$v['id']}" 
+	title="{$v['base_title']}" 
+	{if $v['id']==$vars['ct2']} class="current" {/if}>{$v['base_title']}</a></li>
+	{/loop}
+</ul>
+{/if}
+{if $vars['ct3_arr']}
+<ul class="versionList floatL" name="nav_li_a_first">
+	{loop $vars['ct3_arr'] $k $v}
+	<li><a href="javascript:void(0);"
+	data-url="{BASE_PATH}/Widget/nav?ct0={$vars['ct0']}&ct1={$vars['ct1']}&ct2={$vars['ct2']}&ct3={$v['id']}"
+	title="{$v['base_title']}" 
+	{if $v['id']==$vars['ct3']} class="current" {/if}>{$v['base_title']}</a></li>
+	{/loop}
+</ul>
+{/if}
+<div class="floatL"><a href="{BASE_PATH}/List/ct0-{$vars['ct0']}_ct1-{$vars['ct1']}_ct2-{$vars['ct2']}_ct3-{$vars['ct3']}"  class="confirmBtn font14"><span class="icon_confirmBtn"></span><strong>确定</strong></a></div>
+<div class="clearFloat"></div>

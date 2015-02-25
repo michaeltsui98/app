@@ -1,0 +1,58 @@
+<div id="ajaxpage" class="easyui-panel" style="padding:5px;" data-options="fit:true">
+	<table id="users-dg" title="<!--{$title}-->" class="easyui-datagrid" 
+	data-options="rownumbers:true,fit:true,fitColumns:true,singleSelect:true,pagination:true,url:'<!--{$getJsonDataUrl}-->',
+	method:'get',pageSize:20,toolbar:'#users-tb'">
+	  <thead>
+		<tr>
+          <th field='user_name' width='50'>用户姓名</th>
+          <th field='resources' width='50'>资源数</th>
+          <th field='files' width='50'>文件数</th>
+ 
+		</tr>
+	  </thead>
+	</table>
+	 
+		<div id="users-tb" style="padding:5px;height:auto">
+			从<input class="easyui-datebox" data-options="formatter:myformatter,parser:myparser"  required="required"  style="width:200px" id="start_date" name="start_date"   />&nbsp;
+        	到<input class="easyui-datebox"   data-options="formatter:myformatter,parser:myparser" required="required"   style="width:200px" id="end_date" name="end_date"   />&nbsp;
+        	<a href="javascript:;" class="easyui-linkbutton" iconCls="icon-search" plain="true" onclick="javascript:searchActivityStatistics();" >搜索</a>
+	</div>
+	 
+</div>
+<script type="text/javascript">
+    function searchActivityStatistics(){
+        var start_date_val = $("input[name='start_date']").val();
+        var end_date_val = $("input[name='end_date']").val();
+        gridload('users',{start_date:start_date_val,end_date:end_date_val});
+		//var uri = "/start_date/"+start_date_val+"/end_date/"+end_date_val;
+ 
+    }
+	   function myformatter(date){
+            var y = date.getFullYear();
+            var m = date.getMonth()+1;
+            var d = date.getDate();
+            return y+'-'+(m<10?('0'+m):m)+'-'+(d<10?('0'+d):d);
+        }
+        function myparser(s){
+            if (!s) return new Date();
+            var ss = (s.split('-'));
+            var y = parseInt(ss[0],10);
+            var m = parseInt(ss[1],10);
+            var d = parseInt(ss[2],10);
+            if (!isNaN(y) && !isNaN(m) && !isNaN(d)){
+                return new Date(y,m-1,d);
+            } else {
+                return new Date();
+            }
+        }
+</script>
+<script type="text/javascript">
+		$(function(){
+			var obj = document.getElementById("grouplist");
+			SetValue(obj,"<!--{$group_id}-->");
+		});
+		function user(){
+			var obj = document.getElementById("grouplist");
+			gridload('users',{group_id:obj.options[obj.selectedIndex].value});
+		}
+</script>

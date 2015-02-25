@@ -1,0 +1,116 @@
+
+<script> 
+	var sid = "{$sid}";
+	var file_type = "{$file_type}";
+    var cus_id  = "{$cus_id}";
+    var source  = "{$source}";
+    var cate_id  = "{$cate_id}";
+    var key  = "{$key}";
+</script>
+ <!--主内容开始-->
+<div class="main">
+    <div class="warp">
+        <div class="g-bd">
+            <div class="wk_classList">
+                <div class="sidebar width252 f-fl">
+
+                    <div class="m-ulWrap s-bsdStyle1 f-mb10">
+                        <div class="m-ui clearfix">
+                            <div class="uf f-fl">
+                                <a href="{HTTP_DODOEDU}/{$user_info['user_id']}/Space/index" title="" target="_blank">
+                                    <img src="{$user_info['user_avatar_160']}" width="72"></a>
+                            </div>
+                            <ul class="uilst f-fl">
+                                <li class="item"><a href="{HTTP_DODOEDU}/{$user_info['user_id']}/Space/index" title="" target="_blank">
+                                    <strong class="f-fs14 f-vam f-mr10">{$user_info['user_realname']}</strong></a>
+                                    <i class="icon-level" title="目前等级{$user_info['user_level']}级"><i class="num{$user_info['user_level']}"></i></i>
+                                </li>
+                                <li class="item"><a href="{HTTP_DODOEDU}/school/{$user_info['school_id']}" title="" target="_blank" class="a-thil">{$user_info['school_name']}</a></li>
+                            </ul>
+                            <div class="f-cb"></div>
+                        </div>
+                        <div class="BVer">
+                            <strong> </strong>
+                        </div>
+                        <div class="m-rsourceSelect">
+                            <h2 class="clearfix">
+                                <span class="f-fl">全部资源</span>
+                                <a href="javascript:;" data-url="/user/add_cus" id="add_cus"  class="f-fr">+添加分类</a>
+                            </h2>
+                            {if !empty($cus_cate)}
+                                <ul class="m-ullst s-fcGray">
+                                    <li class="item">
+                                        <a {if !$cus_id} class="select" {/if} href="/user/index"><span></span>全部
+                                        </a>
+                                    </li>
+                                   {loop $cus_cate $k $v}
+                                    <li class="item" data-options='{"cus_id":"{$v['id']}"}'>
+                                        <a {if $v['id']==$cus_id} class="select" {/if} href="/user/index/cus_id/{$v['id']}/source/{$source}/cate_id/{$cate_id}/key/{$key}"><span></span>{$v['name']}
+                                            <i data-url="/user/del_cus/cus_id/{$v['id']}">&times;</i>
+                                        </a>
+                                    </li>
+                                    {/loop}
+
+                                </ul>
+                             {else}
+                                <ul class="m-ullst s-fcGray">
+                                    <li class="item item_empty">
+                                        暂无分类，请添加新的分类。
+                                    </li>
+                                </ul>
+                            {/if}
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="g-mn f-fr">
+                    <div class="m-screen clearfix">
+                        <div class="f-fl">
+                            <span>筛选：</span>
+                            <select name="source" id="screen_item">
+                                <option value="0" {if !$source} selected="selected" {/if}>全部来源</option>
+                                <option value="fav" {if 'fav'== $source} selected="selected" {/if} >来自我收藏的</option>
+                                <option value="upload" {if 'upload'== $source} selected="selected" {/if}>来自我上传的</option>
+                                <option value="down" {if 'down'== $source} selected="selected" {/if}>来自我下载的</option>
+                            </select>
+                            <select name="cate_id" id="screen_type">
+                                <option value="0" id="0" {if !$cate_id} selected="selected" {/if}>按类型筛选</option>
+                                 {loop $resource_type $k $v}
+                                <option  value="{$k}" {if $k==$cate_id}selected="selected" {/if}>{$v}</option>
+                                {/loop}
+
+                            </select>
+                        </div>
+                        <div class="f-fr">
+                            <input type="text" name="txt_my_search" value="{$key}" class="text" placeholder=
+                                    '搜索我的资源'>
+                            <input type="button" name="btn_my_search" data-url= "/user/index/cus_id/{$cus_id}/source/{$source}/cate_id/{$cate_id}/key/{$key}" value="搜索" class="customBtn colourDarkGreen customBtnNormal f-mr10">
+                        </div>
+                    </div>
+                    <div class="con">
+                        <div class="wk_docCell wk_doclist">
+                            <!-- txt+img-->
+                            {$resource_list}
+                            <!-- txt-->
+
+                        </div>
+
+                        <div id="pageNum" class="page">
+                            {$page_html}
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <div class="f-cb">
+            </div>
+        </div>
+    </div>
+</div>
+<div class="f-cb f-mb10"></div>
+</div>
+</div>
+
+
+<!--主内容结束-->

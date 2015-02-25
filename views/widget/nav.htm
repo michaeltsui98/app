@@ -1,0 +1,19 @@
+<div class="wk_navWrap" >
+	<div class="inner">
+        <ul class="wk_nav font14">
+            <li><a href="{BASE_PATH}/Index"  {if $c =='index'}class="current"{/if} ><strong>文库首页</strong></a></li>
+			{loop $pdata $v}
+            <li name="nav_li">
+            	<a href="javascript:void(0)"
+            	 data-id="{$v['id']}" data-url="{BASE_PATH}/Widget/nav?ct0={$v['id']}&ct1={$vars['ct1']}&ct2={$vars['ct2']}&ct3={$vars['ct3']}" {if v('ct0')==$v['id']}class="current" {/if} ><strong>{$v['base_title']}</strong>
+				<em class="upArr"></em>
+				</a>
+			</li>
+			{/loop}
+            <li><a href="{BASE_PATH}/User" title="我的文库"><strong>我的文库</strong></a></li>
+        </ul>
+        <div class="wk_sobNav width805" id="ajax_nav" >
+             
+        </div>
+    </div>
+</div>

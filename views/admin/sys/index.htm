@@ -1,0 +1,27 @@
+	<div id="ajaxpage">
+			<p>
+			<button class="btn btn-small" onclick="javascript:show_float_box( 'add');" type="button"> 增加 </button>
+			</p>
+			<table class="table table-bordered table-striped table-condensed table-hover">
+			  <thead>
+				<tr>
+				  <th>Uid</th>
+				  <th>用户名</th>
+				  <th>状态</th>
+				  <th>操作</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				{loop $user $k $v} 
+				<tr>
+				  <td>{$v['uid']}</td>
+				  <td> {$v['username']}({$v['realname']})</td>
+				  <td><span class="badge badge-success">{if $v['is_admin']==1} 管理员{else} 普通用户 {/if}</span></td>
+				  <td><button onclick="javascript:show_float_box('edit?id=$v['uid']');" class="btn-mini">编辑</button> <button onclick="javascript:show_float_box( 'del?id=$v['uid']' );" class="btn-mini">删除</button></td>
+				</tr>
+				{/loop}
+				 
+			  </tbody>
+			</table>
+			 
+		</div>

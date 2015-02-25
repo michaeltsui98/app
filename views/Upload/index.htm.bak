@@ -1,0 +1,55 @@
+<script> 
+var sid = "{$vars['sid']}";
+var obj_type = "{$vars['obj_type']}";
+var obj_id = "{$vars['obj_id']}";
+var ct0 = "{$vars['ct0']}";
+var ct1 = "{$vars['ct1']}";
+</script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/common.js"></script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/jscroll.js"></script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/swfupload/swfupload.js"></script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/swfupload/uploader.js"></script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/Dialog/artDialog.js?skin=default"></script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/Dialog/iframeTools.js"></script>
+<div class="wk_wrapper">
+	<div class="wk_uploadOperate wk_box">
+    	<div class="wk_title whiteTxt">
+            <h2 class="font14 floatL">当前位置：上传文档</h2>
+            <span class="floatR whiteTxt mR15">文库与<a href="{HTTP_DODOEDU}/disk" target="_blank" class="orangeA">多多网盘</a>共享空间，当前空间容量：{$vars['disk_use_size']}/{$vars['disk_size']}</span>
+            <div class="clearFloat"></div>
+        </div>
+		<div class="wk_uploadOperateCon" id="upload_befor">
+        	<div class="leftInfo floatL">
+            	<div class="tips blueTxt">
+                	<strong class="font14">上传须知！</strong>
+                    <ol>
+                    	<li>多多文库不欢迎带有色情、激进话题、意识形态等色彩的内容，并保留删除此类文件的权利。</li>
+                    	<li>1.&#12288;每次最多上传5份文档，每份文档不超过20M（TXT不超过10M）</li>
+                        <li>2.&#12288;多多文库是开放的在线分享教育文档的平台，用户上传文档的真实性责任由用户自行承担</li>
+                        <li>3.&#12288;上传有问题或者需要帮助？请去<a class="yellowA" title="" href=""><strong>多多文库小站</strong></a>、<a title="" href=""><strong>查看帮助说明</strong></a>或<a title="" href=""><strong>提交问题</strong></a></li>
+                        <li>4.&#12288;为了保证文档能正常阅读，我们支持以下格式的文档上传
+                        	<ol>
+                            	<li><div class="floatL"><em class="floatR">文档</em>4.1&#12288;MS&#12288;Office</div>文件后缀名为 doc，docx，ppt，pptx，xls，xlsx，vsd，pot，pps，rtf<div class="clearFloat"></div></li>
+                                <li><div class="floatL"><em class="floatR">系列</em>4.2&#12288;WPS Office</div>文件后缀名为 wps，et，dps<div class="clearFloat"></div></li>
+                                <li><div class="floatL"><em class="floatR">格式</em>4.3&#12288;PDF</div>文件后缀名为 pdf<div class="clearFloat"></div></li>
+                                <li><div class="floatL"><em class="floatR">格式</em>4.4&#12288;纯文本</div>文件后缀名为 txt <div class="clearFloat"></div></li>
+                                <li><div class="floatL"><em class="floatR">格式</em>4.5&#12288;EPUB</div>文件后缀名为 epub<div class="clearFloat"></div></li>
+                            </ol>
+                        </li>
+                    </ol>
+                </div>
+                <!--<p class="tips font14">添加文档的相关帮助信息，例如什么格式的文件。</p>-->
+                <ul class="wk_uploadFileList" style="display:none;">
+                	<li class="font14 blueTxt" id="uploading"><p class="mL35"><strong>正在上传文档:</strong></p>
+                    	<div class="loadingStatus"><span class="icon_loading floatL"></span><div class="progressBar floatL"><div style="width:0%;"></div></div><span id="percent">0%</span></div><div class="clearFloat"></div>
+                    </li>
+                </ul>
+			</div>
+            <div class="rightInfo floatR mT35">
+            	<span id="upload_span" style="display: inline-block;vertical-align: middle;"><a title="上传文档" href="" class="uploadBtn1 font16" id="spanSWFUploadButton">上传文档</a></span>
+				<a class="blueBtn font16" href="javascript:void(0)" title="完成上传" id="upload_ok" style="display:none;vertical-align: middle;">完成上传</a>
+                <p class="grayTxt">*最多一次添加五篇</p>
+            </div>
+            <div class="clearFloat"></div>
+        </div>
+    </div>

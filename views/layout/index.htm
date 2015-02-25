@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+	<title>{$page_title}</title>
+	<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta charset="utf-8">	
+	
+	<link href="{STATIC_PATH}/static/public/css/reset.css" rel="stylesheet">	
+	<link href="{STATIC_PATH}/static/public/css/public.css" rel="stylesheet">
+	<link href="{STATIC_PATH}/static/public/css/component.css" rel="stylesheet">
+	{if isset($css)}
+    {loop $css $cfile}
+    <link  href="{STATIC_PATH}/static/{$cfile}" rel="stylesheet" type="text/css"/>
+    {/loop}
+    {/if} 
+	<script src="{STATIC_PATH}/static/script/jquery.js"></script>
+	<script type="text/javascript">
+		document.domain = "dodoedu.com";
+	</script>	 
+</head>
+<body> 
+<!--顶部开始-->
+{if !isset($hidden_top)}
+	<!--{eval  echo Cola_Tpl::widget_out("Index",'top')}-->
+{/if}
+<!--顶部结束-->
+
+<!--logo&搜索开始-->
+{if !isset($hidden_search)}
+	<!--{eval  echo Cola_Tpl::widget_out("Index",'search')}-->
+{/if}  
+<!--logo&搜索结束-->
+
+<!--导航开始-->
+{if !isset($hidden_nav)}
+	<!--{eval  echo Cola_Tpl::widget_out("Index",'nav')}-->
+{/if}  
+<!--导航结束-->
+
+<!--主内容开始-->
+<!--{eval include Cola_Tpl::template($_tpl);}-->
+<!--主内容结束-->
+
+ <!--版权开始-->
+ {if !isset($hidden_footer)}	
+ 	{include public/footer}
+ {/if}
+<!--版权结束-->
+
+	<script type="text/javascript" src="{STATIC_PATH}/static/script/common.js" ></script>
+	<script type="text/javascript" src="{STATIC_PATH}/static/script/dialog.js" ></script>
+	<script type="text/javascript" src="{STATIC_PATH}/static/script/search.js" ></script>
+	{if isset($js)}
+	{loop $js $jfile}
+	<script type="text/javascript" src="{STATIC_PATH}/static/{$jfile}" ></script>
+	{/loop}
+	{/if}
+</body> 
+</html>
+

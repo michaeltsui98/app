@@ -1,0 +1,28 @@
+	<div id="ajaxpage">
+			<table class="table table-bordered table-striped table-condensed table-hover">
+			  <thead>
+				<tr>
+				  
+				  <th>用户名</th>
+				  <th>类型</th>
+				  <th>链接</th>
+				  <th>描述</th>
+				  <th>操作</th>
+				</tr>
+			  </thead>
+			  <tbody>
+				{loop $ts $k $v} 
+				<tr>
+				  
+				  <td> {$v['username']}({$v['user_name']})</td>
+				  <td>{$type[$v['type']]}</td>
+				  <td>{$v['url']}</td>
+				  <td>{$v['desc']}</td>
+				  <td><button onclick="javascript:show_float_box( 'del?id=$v['id']' );" class="btn-mini">删除</button></td>
+				</tr>
+				{/loop}
+				 
+			  </tbody>
+			</table>
+			 
+		</div>

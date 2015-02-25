@@ -1,0 +1,23 @@
+<div id="ajaxpage" class="easyui-panel" style="padding:5px;" data-options="fit:true">
+	<table id="cate-dg" title="<!--{$title}-->" class="easyui-treegrid" 
+	data-options="rownumbers:true,fit:true,fitColumns:true,singleSelect:true,
+	pagination:true,
+	url:'<!--{eval echo $getJsonDataUrl."?is_ok=0"}-->',
+	method:'get',
+	
+	idField:'id',
+	treeField:'name',
+	toolbar:'#cate-tb'">
+	  <thead>
+		<tr>
+          <th field='name' width='50'>节点名称</th>
+          <th field="is_ok" width="50">状态</th>
+          <th field="node_order" width="50">排序</th>
+          <th field="cz" width="50">操作</th>
+		</tr>
+	  </thead>
+	</table>
+	<div id="cate-tb" style="padding:5px;height:auto">
+		<a href="javascript:;" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="javascript:ui_dialog( '<!--{$addUrl}-->?pid=0',this );">增加</a>
+	</div>
+</div>

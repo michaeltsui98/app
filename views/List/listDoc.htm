@@ -1,0 +1,24 @@
+ <div class="doclist">
+  <ul>
+  	
+  	{loop $resources  $k $v}
+      <li>
+          <div class="doc_commet">
+              <div class="docRate ">
+				 <!--{eval echo Models_ResourceFile::init()->getStar($v['remark']);}-->{$v['remark']}
+				 <em class="f-fs12 s-fcGray">(浏览量 {$v['views']})</em>
+              </div>
+          </div>
+          <div class="doc_name"><a href="/info/{$v['id']}" target="_blank">{$v['title']}</a></div>
+          <div class="doc_previewimg"><i class="icon_{$v['file_type']}"></i><img width="76px" height="78px" src="{HTTP_MFS_IMG}{$v['page_key']}" alt="{$v['title']}" /></div>
+           <div class="doc_intro"><strong>文档概要：</strong>{$v['summery']}</div>
+          
+          <div class="doc_desc">上传 <a href="{HTTP_DODOEDU}/{$v['user_id']}/Space/Index" target="_blank">{$v['user_name']}</a>  |  
+		  <!--{eval echo Models_ResourceFile::init()->dateSpan($v['on_time'])}-->上传  |  
+		  大小:<!--{eval echo Models_Resource::init()->bytesToSize($v['file_size'])}-->  | 
+		   页数：{$v['pages']}  </div> 
+      </li>
+	  {/loop}
+	  
+  </ul>
+</div> 

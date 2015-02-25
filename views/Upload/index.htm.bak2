@@ -1,0 +1,164 @@
+<script> 
+var sid = "{$sid}";
+var file_type = {$file_type};
+</script>
+ <!--主内容开始-->
+ <div class="main">
+ <div class="warp"> 
+   <!--面剥削开始--> 
+    <div class="topNavLink">  
+        <a href="/">首页</a>
+        <span>></span>
+        <a href="javascript:;">资源上传</a>
+        
+    </div>     
+   <!--面剥削结束-->
+    <div class="module_titLine">
+      <div class="tit">
+          <span>上传资源</span>  
+          <p><a href="" class="add"></a><a href="" class="allSub"></a></p>
+          <div class="f-cb"></div>
+      </div>  
+      <!--提交表单 开始-->
+      <div class="subFrom">
+           <div class="formItem">
+               <div class="operate">
+               <a href="javascript:;" class="open"><i></i>收起</a>
+               <a href="javascript:;" class="hide"><i></i>展开</a>
+               <a href="javascript:;" class="close"></a>
+               </div>
+               <div class="content">
+               <!--单个开始-->
+				<form action="/upload/resUploadPost"  method="post">			   
+                 <div class="itemFrom">
+                    <div class="num">1</div>
+                    <div class="form" name="form_down">
+					  <input type="hidden" name="data[obj_type]" value="{$obj_type}">
+					  <input type="hidden" name="data[obj_id]" value="{$obj_id}">
+                      <table cellpadding="0"  cellspacing="0" width="">
+                        <tr>
+                          <td class="formTit">资源类型<span>*</span>：</td>
+                          <td>
+                              <select name="data[cate_id]" id="select_cate">
+								{loop $resource_type $key $value}
+                                	<option  value="{$key}" >{$value}</option>
+								{/loop}
+                              </select> 
+                              <a  id="demo1">上传资源</a>
+							  <input type="hidden"  name="data[file]" id="input1" />
+							  <input type="hidden"  name="data[file_size]"   />
+							  <div id="tip1"></div>
+                          </td> 
+                        </tr>
+                        <tr> 
+                          <td class="formTit">资源标题<span>*</span>：</td>
+                          <td>
+                              <input type="text" name="data[doc_title]" class="customForm_inputBoxDefault customForm_txtInput width330" datatype="*">
+                          </td> 
+                        </tr>
+                        <tr>
+                          <td  class="formTit">资源简介：</td>
+                          <td >
+                            <textarea class="customForm_textarea customForm_inputBoxDefault width330" name="data[doc_summery]" data-default="非必填项，最多200字。" placeholder="非必填项，最多200字。" maxlength="200"></textarea>
+                          </td>  
+                        </tr>  
+                        <tr>
+                          <td class="formTit">资源分类<span>*</span>：</td>
+                          <td>
+                            <select id="node_id1" name="data[node_id]" class="easyui-combotree width330"></select>    
+							                 
+                          </td> 
+                        </tr>
+                        <tr>
+                         <td class="formTit">资源标签：</td>
+                          <td>
+                              <script type="text/javascript" src="{HTTP_UI}/tag/tag.public.js"></script>
+							  <div data-target="doc" data-autorender="false" name="data[doc_tag]" class="input-tags">
+							  	<div style="width:330px;" class="tagBox floatL">
+								<div class="recText floatL">
+									<input name="blogTag" type="text" autocomplete="off" style="width: 100%; display: inline-block;"></div>
+									<ul class="associateWrap" style="display: none;"></ul></div><span class="clearFloat"><div></div><span style="display: inline;padding: 0;" class="recTag"></span></span></div>
+							  <div name="tag_content"></div>
+                          </td>  
+                        </tr> 
+                      </table>
+                      <table cellpadding="0" cellspacing="0">
+                        <tr> 
+                          <td  class="formTit">分类：</td>
+                          <td  rowspan="2" width="284">
+                            <ul>
+                                <li>
+                                   <label > <input type="radio" name="data[is_hidden]" value="0" checked="checked">&nbsp;&nbsp;普通资源</label><span>任何人可以搜索预览</span>
+                                </li> 
+                                 <li>
+                                   <label> <input type="radio" name="data[is_hidden]" value="1">&nbsp;&nbsp;私有资源</label><span>仅自己可见</span> 
+                                </li> 
+                            </ul> 
+                          </td>
+                        </tr> 
+                         <tr><td>&nbsp;</td></tr>
+                        <tr>
+                          <td class="formTit">积分：</td>
+                          <td> 
+                              <select name="data[doc_credit]">
+                                    <option value="0">请选择</option>
+                                    <option value="1" >1 分</option>
+                                    <option value="5">5 分</option>
+                                    <option value="10">10 分</option>
+                              </select>   
+                          </td> 
+                        </tr> 
+                         <td  class="formTit">来源：</td>
+                          <td  rowspan="2">
+                            <ul>
+                                <li>
+                                   <label> <input type="radio" name="data[doc_source]" value="1">&nbsp;&nbsp;原创资源</label> 
+                                </li> 
+                                 <li>
+                                   <label> <input type="radio" name="data[doc_source]" value="2" checked="checked">&nbsp;&nbsp;转载资源</label> 
+                                </li> 
+                            </ul> 
+                          </td>
+                        </tr> 
+                        <tr><td>&nbsp;</td></tr>
+                        <tr><td>&nbsp;</td> <td rowspan="2"><a href="javascript:void(0)" class="singleSub" name="a_submit"></a></td></tr>
+                        <tr><td>&nbsp;</td></tr>
+                      </table> 
+                    </div> 
+					<div class="form" name="form_up" style="display:none;" >
+                      <table cellpadding="0" cellspacing="0" width=""> 
+                        <tbody><tr> 
+                          <td class="formTit">资源标题<span>*</span>：</td>
+                          <td>
+                              <label name="lbl1"></label>
+                          </td> 
+                        </tr> 
+                      </tbody></table> 
+                  </div>
+                    <div class="f-cb"></div>
+                 </div>
+				  
+				 </form>
+               <!--单个结束-->
+                </div>
+           </div>
+ 
+      </div>  
+      <!--提交表单 结束-->             
+  </div>
+                    
+
+ </div>
+ </div>
+<!--主内容结束-->
+<script type="text/javascript" >
+	$(function(){
+		
+	    $('#node_id1').combotree({
+		    url: '{$get_node_url}',
+			method:'get',
+		    required: true
+			
+		});
+	});
+</script>

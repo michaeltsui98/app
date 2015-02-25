@@ -1,0 +1,46 @@
+						<!--{eval $x = v('x');
+							$l = v('l');
+							$g = v('g');
+							$b = v('b');
+							$s = v('s');
+							$c = v('c'); }-->
+						<table class="table table-striped table-bordered table-condensed">
+						  <thead>
+							<tr>
+							  <th width="20%">学段</th>
+							  <th width="20%">学科</th>
+							  <th width="20%">年级</th>
+							  <th width="20%">教材版本</th>
+							  <th width="20%">专题</th>
+							</tr>
+						  </thead>
+						  <tbody>
+							<tr>
+							  <td>
+								{loop $xd $key $val}
+								<span class="badge {if $val['id']==$x}badge-info{/if} badges"><a href="?pid=<?=v('pid')?>&x={$val['id']}">{$val['base_title']}</a></span>
+								{/loop}
+							  </td>
+							  <td>
+								{loop $xk $val}
+								<span class="badge {if $val['id']==$l}badge-info{/if} badges"><a href="?pid=<?=v('pid')?>&x={$x}&l={$val['id']}">{$val['base_title']}</a></span>
+								{/loop}	
+							  </td>
+							  <td>
+								{loop $nj $val}
+								<span class="badge {if $val['id']==$g}badge-info{/if} badges"><a href="?pid=<?=v('pid')?>&x={$x}&l={$l}&g={$val['id']}">{$val['base_title']}</a></span>
+								{/loop}
+							  </td>
+							  <td>
+								{loop $bb $val}
+								<span class="badge {if $val['id']==$b}badge-info{/if} badges"><a href="?pid=<?=v('pid')?>&x={$x}&l={$l}&g={$g}&b={$val['id']}">{$val['base_title']}</a></span>
+								{/loop}
+							  </td>
+							  <td>
+								{loop $special $value}
+								<span class="badge {if $value['id']==$s}badge-info{/if} badges"><a href="?pid=<?=v('pid')?>&x={$x}&l={$l}&g={$g}&b={$b}&s={$value['id']}">{$value['sp_name']}</a></span>
+								{/loop}
+							  </td>
+							</tr>
+						  </tbody>
+						</table>

@@ -1,0 +1,49 @@
+			<form action="edit_post" onsubmit="return onsubmits(this);" method="post" id="user_form" name="user_form" class="form-horizontal">
+				<fieldset>
+					  <input type="hidden" id="uid" name="uid" value="<?=$user['uid']?>" />
+				  <div class="control-group">
+					<label for="user_name" class="control-label">用户名</label>
+					<div class="controls">
+					  <input type="text" name="username" value="<?=$user['username']?>" id="username" class="input-xlarge">
+					  <p class="help-block"></p>
+					</div>
+				  </div>
+				  <div class="control-group">
+					<label for="user_pass" class="control-label">用户密码</label>
+					<div class="controls">
+					  <input type="text" name="pwd" value="<?=$user['pwd']?>" id="pwd" class="input-xlarge">
+					  <p class="help-block"></p>
+					</div>
+				  </div>
+				  <div class="control-group">
+					<label for="user_realname" class="control-label">真实姓名</label>
+					<div class="controls">
+					  <input type="text" name="realname" value="<?=$user['realname']?>" id="realname" class="input-xlarge">
+					  <p class="help-block"></p>
+					</div>
+				  </div>
+				  
+				  <div class="control-group">
+					<label class="control-label">是否管理员</label>
+					<div class="controls">
+                      <label class="radio">
+						<input type="radio" value="1" {if $user['is_admin']==1} checked="checked" {/if} id="user_isadmin" name="is_admin">是
+					  </label>
+                      <label class="radio">
+						<input type="radio" value="0" {if $user['is_admin']==0} checked="checked" {/if} id="user_isadmin" name="is_admin">否
+					  </label>
+					  <p class="help-block">处于关闭状态的用户不可登陆</p>
+					</div>
+				  </div>
+					<input type="hidden" name="avatar" value="<?=$user['avatar']?>" id="avatar" class="input-xlarge">
+				  <div class="form-actions">
+					<button type="submit" class="btn btn-primary">保存更改</button>
+				  </div>
+				</fieldset>
+			</form>
+			<script type="text/javascript">
+					function onsubmits(obj){
+						send_form_in(obj);
+						return false;
+					}
+			</script>

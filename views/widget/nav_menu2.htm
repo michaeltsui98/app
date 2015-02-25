@@ -1,0 +1,12 @@
+{if $vars['ct1_arr']}
+<ul class="versionList floatL" name="nav_li_a_second">
+	{loop $vars['ct1_arr'] $k $v}
+	<li><a href="javascript:void(0);" 
+	data-url="{BASE_PATH}/List2/ct0-{$vars['ct0']}_ct1-{$vars['ct1']}_ct2-{$vars['ct2']}_ct3-{$vars['ct3']}"
+	data-p="{$v['is_p']}" data-id="{$v['id']}">
+		{if $v['is_p']}<i class="icon_arrRight floatR"></i>{/if}{$v['base_title']}</a>
+	</li>
+	{/loop}
+</ul>
+{/if}
+

@@ -1,0 +1,53 @@
+<div class="doclist">
+    <ul>
+    	{loop $resources  $k $v}
+        <li>
+            <div class="doc_name"><a href="/info/{$v['id']}" title="{$v['title']}" target="_blank">
+            	{cutstr($v['title'],50)}
+			</a></div>
+            <div class="doc_previewimg">
+            	<a href="/info/{$v['id']}" title="{$v['title']}" target="_blank">
+            	<i class="icon_{$v['file_type']}"></i><img width="76px" height="78px" src="{HTTP_MFS_IMG}{$v['page_key']}" alt="{$v['title']}" />
+				</a>
+				</div>
+             <div class="doc_intro"><strong>文档概要：</strong>{$v['summery']} </div>
+            <div class="doc_desc">上传 <a href="{HTTP_DODOEDU}/{$v['user_id']}/Space/Index" target="_blank">{$v['user_name']}</a>  |  
+			<!--{eval echo Models_ResourceFile::init()->dateSpan($v['on_time'])}-->上传  
+			|  大小:<!--{eval echo Models_Resource::init()->bytesToSize($v['file_size'])}-->  |  页数：{$v['pages']}  
+			{if $s == 'down'}
+			| 下载时间：{date('Y-m-d',$v['down_time'])}
+			{elseif $s=='fav'}
+			| 收藏时间：{date('Y-m-d',$v['fav_time'])}
+			{/if}
+			{if $s=='upload'}
+			 |  
+			 <span style="color:{$color[$v['doc_status']]}">
+			 {$status[$v['doc_status']]}
+			 </span>
+			 {/if}
+			</div>
+            <div class="doc_commet">
+                <div class="docRate ">
+                    <!--{eval echo Models_ResourceFile::init()->getStar($v['remark']);}-->{$v['remark']} <em class="f-fs12 s-fcGray">
+						{if $s=='down'}
+						(下载量{$v['downs']})
+						{elseif $s=='fav'}
+						(收藏量 {$v['favs']})
+						{else}
+						(阅读 {$v['views']})
+						{/if}
+						</em>
+					{if $s=='upload' and $v['doc_status']!=0}
+					  <a href="javascript:;" data-url="/user/del/s/upload/id/{$v['id']}" class="del" title="删除"></a>
+					  {if $v['doc_status']==1 or $v['doc_status']==3 }
+					  <a href="javascript:;" data-url="/user/editResoruce/id/{$v['id']}" class="updata" title="编辑"></a>
+					  {/if}
+					  {elseif $s == 'fav'  or $s=='down'}
+					  <a href="javascript:;" data-url="/user/del/s/{$s}/id/{$v['id']}" class="del" title="删除"></a>
+					  {/if}
+                </div>
+            </div>
+        </li>
+		{/loop}
+    </ul>
+</div> 

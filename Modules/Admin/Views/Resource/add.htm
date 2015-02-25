@@ -1,0 +1,106 @@
+<script>
+            var writetoken = '{POLY_WRITETOKEN}';
+            var readtoken = '{POLY_READTOKEN}';
+</script>
+<script src='/Modules/Admin/static/script/adminResUpload.js'></script>
+
+<input type="hidden" name="param" data-sid="{$sid}" data-type='{$file_type}'>
+<div id="tab1" class="tabcontent">
+    <div class="form">
+       <form action="<!--{$addDoUrl}-->" method="post" id="res_add_form" name="res_add_form" class="ui-form">
+
+		   <div class="form_row">
+			   <label><span class="ui-form-required">*</span>基础节点：</label>
+			   <input id="res_add_nodelist" name="data[node_id]" class="easyui-combotree" data-options="url:'{$get_node_url}',method:'get',required:true" style="width:300px;">
+			   <div class="info"><span class="ui-form-other"></span></div>
+		   </div>
+
+			 <div class="form_row">
+                <label><span class="ui-form-required"></span>知识节点：</label>
+                <input id="res_add_unitlist" name="data[zs]" class="easyui-combotree"
+					   data-options="url:'{$get_unit_url}?node_id={$node_id}',method:'get'" style="width:300px;">
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+
+            <div class="form_row">
+                <label><span class="ui-form-required">*</span>资源类型：</label>
+				<select name="data[cate_id]" id="cate_id"  datatype="*">
+					<option value="0" selected="selected"  >请选择</option>
+					 {loop $cate_arr $k $v}
+					   <option value="{$k}" >{$v}</option>
+					 {/loop}
+				</select>
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+			
+            <div class="form_row">
+                <label><span class="ui-form-required"></span>资源上传：</label>
+                <input type="hidden"  name="data[file]" id="input2" />
+				<input type="hidden"  name="data[file_size]" id="file_size" />
+				 
+				<div id="parent_demo">
+					<div id="demo2"></div>
+				</div>
+				<div id="tip2"></div>
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+			
+            <div class="form_row">
+                <label><span class="ui-form-required">*</span>资源名称：</label>
+                <input type="text" class="form_input_300" id="doc_title" name="data[doc_title]"  placeholder="知识节点名称"  datatype="*"  />
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+			<div class="form_row" style="display:none;" id="div_vid">
+                <label><span class="ui-form-required">*</span>关联视频Vid：</label>
+				<input type="text" name="data[vid]" id="vid" class="form_input_300" data-default ="必填项，最多34字。" placeholder="视频Vid" maxLength="34"
+ 						datatype="*" />
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+            <div class="form_row">
+                <label><span class="ui-form-required"></span>资源描述：</label>
+				<textarea name="data[doc_summery]" type="text"   rows="5"  cols="40"  data-default ="非必填项，最多200字。" placeholder="非必填项，最多200字。"
+						  maxLength="200"
+ 						  class="grayTxt1 textareaStyle width541 height70"></textarea>
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+           
+			<div class="form_row">
+                <label><span class="ui-form-required"></span>是否为原始：</label>
+				<input type="checkbox"  class=""  name="data[doc_source]">
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+           <div class="ui-form-item">
+                <input type="submit" id="btn_submit" value="保存"/>
+            </div> 
+        </form>
+       <script type="text/javascript">
+				$(function(){
+					syform_val('res_add_form');
+                    SetValue(res_add_form["data[node_show]"],"1");
+				});
+
+				$('#res_add_nodelist').combotree({
+					url: '{$get_node_url}',
+					method:'get',
+					required: true,
+					onChange:function(){
+						var node_id =  $(this).combotree('getValue');
+						var url = '{$get_unit_url}?node_id='+node_id;
+						$('#res_add_unitlist').combotree('reload', url);
+						$.getJSON(url,function(data){
+							if (data.length) {
+								$('#res_unitlist').combotree('setValue', data[0].id);
+							}else{
+								$('#res_unitlist').combotree('setValue', '');
+							}
+							//get_resource();
+						})
+
+
+					},
+				});
+		</script>
+    </div>
+</div>
+
+    

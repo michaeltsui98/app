@@ -1,0 +1,74 @@
+<div id="ajaxpage" class="easyui-panel" style="padding:5px;" data-options="fit:true">
+<script type="text/javascript" src="/Models/Ofc/Base/static/js/swfobject.js"></script>
+<script type="text/javascript">
+$(function(){
+
+
+swfobject.embedSWF(
+"/Models/Ofc/Base/static/open-flash-chart.swf", "chart1",
+"700", "300", "9.0.0", "/Models/Ofc/Base/static/expressInstall.swf",
+{"data-file":"{$getChart1}"} );
+
+swfobject.embedSWF(
+"/Models/Ofc/Base/static/open-flash-chart.swf", "chart2",
+"700", "300", "9.0.0", "/Models/Ofc/Base/static/expressInstall.swf",
+{"data-file":"{$getChart2}"} );
+
+});
+
+</script>	 
+
+	<div id="resourceStatis-tb" style="padding:5px;height:auto">
+		从<input class="easyui-datebox" data-options="formatter:myformatter,parser:myparser"  required="required"  style="width:200px" id="start_date" name="start_date"   />&nbsp;
+        到<input class="easyui-datebox"   data-options="formatter:myformatter,parser:myparser" required="required"   style="width:200px" id="end_date" name="end_date"   />&nbsp;
+        <a href="javascript:;" class="easyui-linkbutton" iconCls="icon-search" plain="true" onclick="javascript:searchActivityStatistics();" >搜索</a>
+	</div>
+	<table width="100%">
+		<tr>
+			<td>
+			<div class="easyui-panel"  title="统计图表" style="height:400px">
+				 		<div id="chart1"></div>
+						<div id="chart2"></div>
+		    </div>
+			</td>
+			
+		</tr>
+		 
+	</table>
+</div>
+<script type="text/javascript">
+    function searchActivityStatistics(){
+        var start_date_val = $("input[name='start_date']").val();
+        var end_date_val = $("input[name='end_date']").val();
+       // gridload('resourceStatis',{start_date:start_date_val,end_date:end_date_val});
+		var uri = "/start_date/"+start_date_val+"/end_date/"+end_date_val;
+		 
+		swfobject.embedSWF(
+"/Models/Ofc/Base/static/open-flash-chart.swf", "chart1",
+"700", "300", "9.0.0", "/Models/Ofc/Base/static/expressInstall.swf",
+{"data-file":'{$getChart1}'+uri} );
+
+swfobject.embedSWF(
+"/Models/Ofc/Base/static/open-flash-chart.swf", "chart2",
+"700", "300", "9.0.0", "/Models/Ofc/Base/static/expressInstall.swf",
+{"data-file":"{$getChart2}"+uri} );
+    }
+	   function myformatter(date){
+            var y = date.getFullYear();
+            var m = date.getMonth()+1;
+            var d = date.getDate();
+            return y+'-'+(m<10?('0'+m):m)+'-'+(d<10?('0'+d):d);
+        }
+        function myparser(s){
+            if (!s) return new Date();
+            var ss = (s.split('-'));
+            var y = parseInt(ss[0],10);
+            var m = parseInt(ss[1],10);
+            var d = parseInt(ss[2],10);
+            if (!isNaN(y) && !isNaN(m) && !isNaN(d)){
+                return new Date(y,m-1,d);
+            } else {
+                return new Date();
+            }
+        }
+</script>

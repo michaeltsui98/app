@@ -1,0 +1,60 @@
+<form action="<!--{$editDoUrl}-->" method="post" id="edu_edit_form" name="edu_edit_form" class="ui-form">
+		<input type="hidden" id="id" name="id" value="<!--{$info['id']}-->"  />
+	     <div class="form_row">
+                <label><span class="ui-form-required">*</span>学段：</label>
+				<select  name="data[xd]" style="width:200px;" datatype="*" >
+			        {loop $xd $k $v}
+					<option value="{$k}" >{$v}</option>
+					{/loop}
+				</select>
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+            <div class="form_row">
+                <label><span class="ui-form-required">*</span>学科：</label>
+				<select  name="data[xk]" style="width:200px;" datatype="*" >
+			        {loop $xk $k $v}
+					<option value="{$k}" >{$v}</option>
+					{/loop}
+				</select>
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+            <div class="form_row">
+                <label><span class="ui-form-required">*</span>版本：</label>
+				<select  name="data[bb]" style="width:200px;" datatype="*" >
+			        {loop $bb $k $v}
+					<option value="{$k}" >{$v}</option>
+					{/loop}
+				</select>
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+            <div class="form_row">
+                <label><span class="ui-form-required">*</span>年级：</label>
+				<select  name="data[nj]" style="width:200px;" datatype="*" >
+			        {loop $nj $k $v}
+					<option value="{$k}" >{$v}</option>
+					{/loop}
+				</select>
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+ 
+
+<div class="ui-form-item">
+        <input type="submit" id="btn_submit" value="保存"/>
+    </div> 
+</form>
+
+
+			<script type="text/javascript">
+				$(function(){
+					syform_val('edu_edit_form');
+                    SetValue(edu_edit_form["data[is_ok]"],"<!--{$info['is_ok']}-->");
+                    SetValue(edu_edit_form["data[code]"],"<!--{$info['code']}-->");
+                    SetValue(edu_edit_form["data[xd]"],"<!--{$info['xd']}-->");
+                    SetValue(edu_edit_form["data[xk]"],"<!--{$info['xk']}-->");
+                    SetValue(edu_edit_form["data[bb]"],"<!--{$info['bb']}-->");
+                    SetValue(edu_edit_form["data[nj]"],"<!--{$info['nj']}-->");
+				});
+			</script>
+ 
+
+  

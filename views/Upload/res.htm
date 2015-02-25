@@ -1,0 +1,154 @@
+<script> 
+var sid = "{$vars['sid']}";
+var obj_type = "{$vars['obj_type']}";
+var obj_id = "{$vars['obj_id']}";
+var ct0 = "{$vars['ct0']}";
+var ct1 = "{$vars['ct1']}";
+var file_type = {$file_type};
+</script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/common.js"></script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/jscroll.js"></script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/resUpload.js"></script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/syup/syup.js"></script>
+
+<script type="text/javascript" src="{BASE_PATH}/statics/script/Dialog/artDialog.js?skin=default"></script>
+<script type="text/javascript" src="{BASE_PATH}/statics/script/Dialog/iframeTools.js"></script>
+<div class="wk_wrapper">
+	
+<form action="/Upload/resUploadPost" method="post" name="{$vars['frm_id']}" >
+
+	<input type="hidden" name="data[obj_type]" value="{$vars['obj_type']}"/>
+	<input type="hidden" name="data[obj_id]" value="{$vars['obj_id']}"/>
+	
+	 <div class="wk_uploadFileCell wk_box">
+    	<div class="wk_title blueTxt">
+            <h2 class="floatL"><strong class="font14">资源文件上传</strong></h2>
+            <div class="clearFloat"></div>
+        </div>
+        <div class="wk_uploadFileCellCon">
+        	<div class="leftInfo floatL">
+            	<dl class=" mB30" >
+                	<dt><strong class="blueTxt font14">资源类型：</strong><span class="redTxt">*</span></dt>
+                    <dd>
+                    	<select name="data[cate_id]" id="select_cate">
+                    		{loop $cate_arr $k $v}
+							 <option value="{$k}">{$v}</option>
+							{/loop}
+                    	</select>
+						 
+                    </dd>
+					 
+                </dl>
+				<dl class=" mB30" >
+                	<dt><input type="hidden"  name="data[file]" id="input2" />
+						<input type="hidden"  name="data[file_size]" id="file_size" />
+						<DIV id="demo2"></DIV><div id="tip2"></div>
+					</dt>
+                </dl>
+				<dl class="mB30"> 
+                	<dt><strong class="blueTxt font14">资源标题：</strong><span class="redTxt">*</span></dt>
+                    <dd><input type="text" name="data[doc_title]" value="" class="inputBoxStyle width541" /></dd>
+                </dl>
+            	
+               
+                <dl class="floatL mB30" name="dl_node">
+                	<dt><strong class="blueTxt font14">选择分类：</strong><span class="redTxt">*</span></dt>
+                    <dd>
+                    	<select name="data[xd]" id="slt_xd">
+                    		<option value="">请选择</option>
+                    		{loop $xd_arr $k $v}
+							 <option id="{$v['id']}" value="{$v['code']}" {if $init_xd==$v['code']} selected="selected"{/if} >{$xd_name[$v['code']]}</option>
+							{/loop}
+                    	</select>
+                    	<select name="data[xk]" id="slt_xk">
+                    		<option value="">请选择</option>
+                    		{loop $xk_arr $k $v}
+							 <option id="{$v['id']}" value="{$v['code']}" {if $init_xk==$v['code']} selected="selected"{/if}>{$xd_name[$v['code']]}</option>
+							{/loop}
+                    	</select>
+                    	<select name="data[bb]" id="slt_bb">
+                    		<option value="">请选择</option>
+                    		{loop $bb_arr $k $v}
+							 <option id="{$v['id']}" value="{$v['code']}">{$xd_name[$v['code']]}</option>
+							{/loop}
+                    	</select>
+                    	<select name="data[nj]" id="slt_nj">
+                    		<option value="">请选择</option>
+                    		{loop $nj_arr $k $v}
+							 <option id="{$v['id']}" value="{$v['code']}">{$xd_name[$v['code']]}</option>
+							{/loop}
+                    	</select>
+                    </dd>
+                </dl>
+                <dl name="dl_kn" class="floatL mL35 mB30" style="display:;">
+                	<dt><strong class="blueTxt font14">知识点：</strong><span class="redTxt"></span></dt>
+                    <dd>
+                    	<select name="data[zs]" id="slt_zs">
+                    		 <option value="">请选择</option>
+                    	</select>
+                    	 
+                    </dd>
+                </dl>
+                 
+                <div class="clearFloat"></div>
+                <dl class="mB30">
+                	<dt><strong class="blueTxt font14">文档简介：<span></span></strong></dt>
+                    <dd><textarea name="data[doc_summery]" data-default ="非必填项，最多200字。" placeholder="非必填项，最多200字。" maxLength="200"
+ 						cols="" rows="" class="grayTxt1 textareaStyle width541 height70"></textarea></dd>
+                </dl>
+				
+                <dl class="mB30">
+                    <dd>
+                	<script type="text/javascript" src="{HTTP_APP_IMG}shequPage/tag/tag.public.js"></script>
+				  <div data-target="doc" name="data[doc_tag]" class='input-tags'> </div>
+				  <div name="tag_content"></div>
+				  </dd>
+				  <dd>
+				  	
+				  <a class="grayTxt mT5" name="btn_get_tag" style="line-height:26px;height:26px" href="javascript:void(0)">使用智能推荐</a>
+				  </dd>
+				</dl>
+				
+            </div>
+            <div class="rightInfo floatL">
+            	<dl class="mB30">
+                	<dt><strong class="blueTxt font14">定价：</strong></dt>
+                    <dd>
+                    	<input type="hidden" name="data[doc_credit]" value="0">
+                        <div class="selectStyle width248" name="sign_select"><em class="icon_selectBtn floatR"></em><span>免费</span><div class="clearFloat"></div>
+                        	<ul class="selectListStyle">
+                            	<li><a href="javascript:void(0)" data-id="0" data-title="免费" >免费</a></li>
+                            	<li><a href="javascript:void(0)" data-id="1" data-title="1金币" >1金币</a></li>
+                            	<li><a href="javascript:void(0)" data-id="3" data-title="3金币" >3金币</a></li>
+                            	<li><a href="javascript:void(0)" data-id="5" data-title="5金币" >5金币</a></li>
+                            </ul>
+                        </div>
+                    </dd>
+                    <dd class="grayTxt mT5">免费可以让更多的用户来分享你的文档；<br />收费可以赚取社区金币，很多地方需要哦！</dd>
+                </dl>
+ 
+                <dl class="mB30">
+                	<dt ><strong class="blueTxt font14">文档来源：</strong></dt>
+                    <dd >
+                    	<input type="hidden" name="data[doc_source]" value="repost">
+                        <div name="sign_select" class="selectStyle width248"><em class="icon_selectBtn floatR"></em><span>转载</span><div class="clearFloat"></div>
+                        	<ul class="selectListStyle" style="display:none;">
+                            	<li><a href="javascript:void(0)" data-id="2" data-title="转载">转载</a></li>
+                            	<li><a href="javascript:void(0)" data-id="1" data-title="原创">原创</a></li>
+                            </ul>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="mB20">
+                	<dt class="blueTxt"><input type="checkbox" name="data[is_ts]"  value="1"  checked="checked"  class="verM" id="ckb_{$vars['frm_id']}" /> <label class="verM"  for="ckb_{$vars['frm_id']}">推送到我的多多社区</label></dt>
+                    <dd class="grayTxt mT5">*默认只作为自己的消息，勾选广播到多多社区</dd>
+                </dl>
+                <a href="javascript:void(0)" name="a_submit" title="提交信息" class="blueBtn">提交信息</a>
+            </div>
+            <div class="clearFloat"></div>
+            
+        </div>
+    </div>
+</form>
+</div>
+	

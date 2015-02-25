@@ -1,0 +1,142 @@
+<form action="/Upload/thirdPost" method="post" name="{$vars['frm_id']}" >
+	<input type="hidden" name="is_post" />
+	<input type="hidden" name="file_info[disk_id]"  value="{$vars['disk_info']['disk_id']}" />
+	<input type="hidden" name="file_info[file_key]" value="{$vars['file_info']['file_key']}" />
+	<input type="hidden" name="file_info[file_ori_size]" value="{$vars['file_info']['file_ori_size']}"/>
+	<input type="hidden" name="file_info[file_name]" value="{$vars['file_info']['file_name']}"/>
+	<input type="hidden" name="file_info[file_ext]" value="{$vars['file_info']['file_ext']}"/>
+	<input type="hidden" name="file_info[file_path]" value="{$vars['file_info']['file_path']}"/>
+	<input type="hidden" name="file_info[obj_type]" value="{$vars['obj_type']}"/>
+	<input type="hidden" name="file_info[obj_id]" value="{$vars['obj_id']}"/>
+	 <div class="wk_uploadFileCell wk_box">
+    	<div class="wk_title blueTxt">
+            <h2 class="floatL"><strong class="font14"><i class="icon_{$vars['file_info']['file_ext']}"></i>{$vars['file_info']['file_name']}</strong><br />
+			<strong class="greenTxt"><i class="icon_uploadOk"></i>文档已上传！ 请提交 !</strong>
+			</h2>
+            <span class="floatR"><a class="icon_upArr" href="" title="收起"></a><a class="icon_downArr" href="" title="展开"></a><a class="icon_delB" href="" title="删除"></a></span>
+            <div class="clearFloat"></div>
+        </div>
+        <div class="wk_uploadFileCellCon">
+        	<div class="leftInfo floatL">
+            	<dl class="mB30"> 
+				     <!--您的标题不符合规范，请修改后提交。-->
+                	<dt><strong class="blueTxt font14">文档标题：</strong><span class="redTxt">*</span></dt>
+                    <dd><input type="text" name="file_info[doc_title]" value="{$vars['title_name']}" class="inputBoxStyle width541" /></dd>
+                </dl>
+                <dl class="floatL mB30" name="dl_node">
+                	<dt><strong class="blueTxt font14">选择分类：</strong><span class="redTxt">*</span></dt>
+                    <dd>
+                    	<input type="hidden" id="ct0" name="file_info[ct0]" value="">
+                    	<input type="hidden" id="ct1" name="file_info[ct1]">
+                    	<input type="hidden" id="ct2" name="file_info[ct2]">
+                    	<input type="hidden" id="ct3" name="file_info[ct3]">
+                        <div class="selectStyle height228" style="width:220px" name="mulit_select"><em class="icon_selectBtn floatR"></em><span name="span_ct_name">请选择</span><div class="clearFloat"></div>
+                        	<div class="selectListStyle" style="width:140px;">
+                        		<ul class="floatL borderRBlue width140 height228" name="ul_cate1">
+                                    {loop $vars['ct0_arr'] $v}
+									<li name="node"><a href="javascript:void(0);" data-id="{$v['id']}" >{$v['base_title']}</a></li>
+									{/loop}
+                                </ul>
+                        		<ul class="floatL borderRBlue width140 height228" name="ul_cate2" style="display:none;"></ul>
+                        		<ul class="floatL borderRBlue width140 height228" name="ul_cate3" style="display:none;"></ul>
+                        		<ul class="floatL width140 height228" name="ul_cate4" style="display:none;"></ul>
+                                <div class="clearFloat"></div>
+                            </div>
+							 
+                        </div>
+                    </dd>
+                </dl>
+                <dl name="dl_kn" class="floatL mL35 mB30" style="display:none;">
+                	<dt><strong class="blueTxt font14">知识点：</strong><span class="redTxt">*</span></dt>
+                    <dd>
+                    	<input type="hidden" name="file_info[nid]" value="{$doc['nid']}">
+                        <div class="selectStyle width98" name="sign_select"><em class="icon_selectBtn floatR"></em>
+						<span name="span_kn_name">请选择</span><div class="clearFloat"></div>
+                        	<ul class="selectListStyle height228">
+								{loop $vars['temp_arr'] $k $v}
+                            	<li><a href="javascript:void(0)" data-id="{$v['id']}" title="{$v['base_title']}"><!--{Cola_View::truncate($v['base_title'],9)}--></a></li>
+								{/loop}
+                            </ul>
+                        </div>
+                    </dd>
+                </dl>
+                <dl name="dl_cate" class="floatL mL35 mB30" style="display:none;">
+                	<dt><strong class="blueTxt font14">类型：</strong></dt>
+                    <dd>
+                    	<input type="hidden" name="file_info[cate_id]" value="1" >
+                        <div class="selectStyle" style="width:70px" name="sign_select"><em class="icon_selectBtn floatR"></em><span name="span_type_name">请选择</span><div class="clearFloat"></div>
+                        	<ul class="selectListStyle">
+                        		{loop $vars['cate'] $k $v}
+                            	<li><a href="javascript:void(0)" data-id="{$k}" data-title="{$v}">{$v}</a></li>
+								{/loop}
+                            </ul>
+                        </div>
+                    </dd>
+                </dl>
+                <div class="clearFloat"></div>
+                <dl class="mB30">
+                	<dt><strong class="blueTxt font14">文档简介：<span></span></strong></dt>
+                    <dd><textarea name="file_info[doc_summery]" data-default ="非必填项，最多200字。" maxLength="200"
+ 						cols="" rows="" class="grayTxt1 textareaStyle width541 height70">非必填项，最多200字。</textarea></dd>
+                </dl>
+                <dl class="mB30">
+                	<dt><strong class="blueTxt font14">标签（关键字）：</strong></dt>
+                    <dd>
+                	<script type="text/javascript" src="{HTTP_APP_IMG}shequPage/tag/tag.public.js"></script>
+				  <div data-target="doc" name="file_info[doc_tag]" class='input-tags'> </div>
+				  <div name="tag_content"></div>
+				  <a class="blueBtn" name="btn_get_tag" style="line-height:26px;height:26px" href="javascript:void(0)">使用智能推荐</a>
+				  </dd>
+				</dl>
+            </div>
+            <div class="rightInfo floatL">
+            	<dl class="mB30">
+                	<dt><strong class="blueTxt font14">定价：</strong></dt>
+                    <dd>
+                    	<input type="hidden" name="file_info[doc_credit]" value="0">
+                        <div class="selectStyle width248" name="sign_select"><em class="icon_selectBtn floatR"></em><span>免费</span><div class="clearFloat"></div>
+                        	<ul class="selectListStyle">
+                            	<li><a href="javascript:void(0)" data-id="0" data-title="免费" >免费</a></li>
+                            	<li><a href="javascript:void(0)" data-id="1" data-title="1金币" >1金币</a></li>
+                            	<li><a href="javascript:void(0)" data-id="3" data-title="3金币" >3金币</a></li>
+                            	<li><a href="javascript:void(0)" data-id="5" data-title="5金币" >5金币</a></li>
+                            </ul>
+                        </div>
+                    </dd>
+                    <dd class="grayTxt mT5">免费可以让更多的用户来分享你的文档；<br />收费可以赚取社区金币，很多地方需要哦！</dd>
+                </dl>
+                <dl class="mB30">
+                	<dt><strong class="blueTxt font14">保存到：</strong></dt>
+                    <dd>
+                    	<input type="hidden" name="file_info[save_disk]" value="1">
+                        <div class="selectStyle width248"><em class="icon_selectBtn floatR"></em><span>我的网盘</span><div class="clearFloat"></div>
+                        	<ul class="selectListStyle">
+                            	<li><a href="" title="">我的网盘</a></li>
+                            </ul>
+                        </div>
+                    </dd>
+                    <dd class="grayTxt mT5">当前文档大小：{$vars['file_bytes_size']}</dd>
+                </dl>
+                <dl class="mB30">
+                	<dt ><strong class="blueTxt font14">文档来源：</strong></dt>
+                    <dd >
+                    	<input type="hidden" name="file_info[doc_source]" value="repost">
+                        <div name="sign_select" class="selectStyle width248"><em class="icon_selectBtn floatR"></em><span>转载</span><div class="clearFloat"></div>
+                        	<ul class="selectListStyle" style="display:none;">
+                            	<li><a href="javascript:void(0)" data-id="repost" data-title="转载">转载</a></li>
+                            	<li><a href="javascript:void(0)" data-id="own" data-title="原创">原创</a></li>
+                            </ul>
+                        </div>
+                    </dd>
+                </dl>
+                <dl class="mB20">
+                	<dt class="blueTxt"><input type="checkbox" name="file_info[is_ts]"  value="1"  checked="checked"  class="verM" id="ckb_{$vars['frm_id']}" /> <label class="verM"  for="ckb_{$vars['frm_id']}">推送到我的多多社区</label></dt>
+                    <dd class="grayTxt mT5">*默认只作为自己的消息，勾选广播到多多社区</dd>
+                </dl>
+                <a href="javascript:void(0)" name="a_submit" title="提交信息" class="blueBtn">提交信息</a>
+            </div>
+            <div class="clearFloat"></div>
+            
+        </div>
+    </div>
+</form>

@@ -1,0 +1,123 @@
+
+ <!--主内容开始-->
+ <div class="main">
+      <div class="warp">           
+      <div class="g-bd">  
+          <div class="wk_classList">
+              <div class="sidebar width252 f-fl"> 
+                  <div class="wk_classCon f-mt10">
+                      <ul class="unitList" style="overflow: hidden; position: relative;">
+                          <!-- js滚动条 内容包含区域 -->
+                          <div class="jscroll-c">
+                              <!-- 标题区域 -->
+                              {if $unit} 
+						   <!-- 标题区域 -->
+                            <li class="unitCell">
+                                <div class="lesson_name lesson_all"  >
+                                    <a href="/professional/id/{$id}/nid/0?order={$order}"><strong>全部分类</strong></a>
+                                </div>
+                                <div class="f-cb">
+                                </div>
+                            </li>
+                            <!-- ==标题区域== -->
+								
+                            <!-- 课程列表详情 -->
+							
+                            {loop $unit $k $v}
+								{if $v['level']==0}
+								   {if $k != 0}
+								    	</ul></li>
+								   {/if}
+								   <li class="unitCell">
+	                                <a data-id="{$v['id']}" href="/professional/id/{$id}/nid/{$v['id']}?order={$order}" class="lesson_name lesson_point {if $v['id']==$nid} cur {/if}" title="{$v['name']}">
+	                                    <strong>{$v['name']}</strong></a>
+	                                <ul class="lessonList lesson_line " style=" position: relative;">
+								{else}
+                                        <li><a data-id="{$v['id']}" href="/professional/id/{$id}/nid/{$v['id']}?order={$order}" {if $v['id']==$nid} class="cur" {/if} title="{$v['name']}">{$v['name']}</a></li>
+								{/if}
+                            {/loop}
+							</ul></li>
+							 <!-- 课程列表详情 -->
+                            <li class="unitCellEnd">
+                                <i class="lesson_end"></i>
+                            </li>
+							{else}
+							<ul class="unitList" style=" position: relative;">
+								<li class="list-empty">没有发现分类</li>
+							</ul>
+							{/if}
+                          </div>
+                          <!-- ==js滚动条 内容包含区域== -->
+                          <!-- js滚动条-->
+                          <div class="jscroll-e" unselectable="on" style="">
+                              <div class="jscroll-h" unselectable="on" style=""></div>
+                          </div>
+                          <!-- ==js滚动条==-->
+                  </ul>
+                  </div>
+              </div>
+
+              <div class="g-mn f-fr">
+              <div class="main"> 
+   
+                      </div>
+                      <div class="con">
+                          <div class="wk_docCell"> 
+                              <div class="listTitle">
+                              <ul>
+                                <li class="row1">格式</li>
+                                <li class="row2">资源名称</li>
+                                <li class="row3">上传者</li>
+                                <li class="row4">
+									{if $order == 1}
+									<strong class="cur">最新<i class="icon-orderdown"></i></strong>
+									{else}
+			                        	<a href="?order=1" class="whiteA">最新<i class="icon-orderdown-nocur"></i></a>
+									{/if}
+								</li>
+                                <li class="row5">
+                                	{if $order == 2}
+									<strong class="cur">浏览量<i class="icon-orderdown"></i></strong>
+									{else}
+			                        	<a href="?order=2" class="whiteA">浏览量<i class="icon-orderdown-nocur"></i></a>
+									{/if}
+ 								</li>
+                              </ul>
+                              <div class="f-cb"></div>
+                                
+                              </div>
+                              <div class="doclist1">
+                                  <ul>
+                                  	
+                                  	{loop $resources $v}
+                                      <li>
+                                          <div class="doc_typeIcon"><i class="iconL_{$v['file_type']}"></i></div>
+                                          <div class="doc_name f-fl"><a href="/info/{$v['id']}" target="_blank">{$v['title']}</a></div>
+                                          <div class="doc_uploaded f-fl f-fs16"><a href="{HTTP_DODOEDU}/{$v['user_id']}/Space/Index" target="_blank">{$v['user_name']}</a></div>
+                                          <div class="doc_time f-fl  f-fs16"><!--{eval echo Models_ResourceFile::init()->dateSpan($v['on_time'])}--></div>
+                                          <div class="doc_download f-fl  f-fs16">{$v['views']}</div> 
+                                          <div class="f-cb"></div>
+                                      </li> 
+									 {/loop}
+                                                                             
+                                  </ul>
+                              </div> 
+                              <!-- ==txt==-->          
+                          </div>
+
+                            <div id="pageNum" class="page">
+                                 {$page_html}
+                            </div>    
+                    
+                      </div>
+                  </div>
+              </div>
+              <div class="f-cb">
+              </div>
+              </div>
+          </div>
+      </div>
+      <div class="f-cb f-mb10"></div> 
+      </div> 
+ </div>
+<!--主内容结束-->

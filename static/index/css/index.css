@@ -1,0 +1,292 @@
+﻿ .mainlef{
+ 	width:750px; 
+ 	float: left;
+}
+.module_titLine{
+	margin-top: 30px;
+}
+/*newUpload*/
+.newUpload .newUploadTab{  
+	height: 37px;
+	width: 100%; 
+}
+.newUpload .newUploadTab ul li{
+	float: left;
+	height: 30px;
+	line-height: 30px; 
+	text-align: center;
+	margin-right: 10px;
+}
+.newUpload .newUploadTab ul li a{
+	display: block;
+	padding: 0 12px;
+	color: #3a3a3a;
+	font-size: 16px;
+	background: #e8e8e8;
+}
+.newUpload .newUploadTab ul li a:hover,.newUpload .newUploadTab ul li .cur{
+	display: block;
+	color: #fff;
+	background-color: #7193c3;
+	text-decoration: none;
+}
+.newUpload .newUploadContent .piclist{
+	 padding-top:20px; 
+}
+.newUpload .newUploadContent .list_picUp_230  li{
+	float: left;
+	width: 240px;
+	border-radius: 0px;
+	background: white;
+	text-align: center;
+	border: 0px none;
+	box-shadow:none;
+	margin:0 5px;   
+	-margin:0 4px; 
+}
+.newUpload .newUploadContent .list_picUp_230 li span{
+	height: 42px;
+	line-height: 42px;
+	padding:0px;
+	text-align: center;  
+	background: rgba(0,0,0,0.6);
+	+background-color: #000;
+
+}
+.newUpload .newUploadContent .list_pic30{
+	margin-top: 34px;
+}
+.newUpload .newUploadContent .list_pic30 li{
+    border-bottom: 0px none;
+    float: left;
+    width: 204px;
+    padding: 0; 
+    margin:5px 19px; 
+}
+.newUpload .newUploadContent .list_pic30 li .pic{
+	float: left;
+	width: 28px;
+	height: 25px;
+	top:0px;
+	left:0px; 
+	position: relative;
+	z-index: 1; 
+} 
+.newUpload .newUploadContent .list_pic30 li dl{
+	width: 168px;
+	margin-left:5px; 
+} 
+.newUpload .newUploadContent .list_pic30 li dt a{
+ 	line-height: 30px;
+}
+
+ 
+	/*文档为一个类型*/
+	.newUpload .newUploadContent .list_pic30 li .doc{background-position: 0px 0px;}
+	.newUpload .newUploadContent .list_pic30 li .docx {background-position: 0px 0px;}
+	/*ppt为一个类型*/
+	.newUpload .newUploadContent .list_pic30 li .ppt{background-position: -120px -60px;} 
+	.newUpload .newUploadContent .list_pic30 li .pptx{background-position: -120px -60px;}
+	.newUpload .newUploadContent .list_pic30 li .pot{background-position: -120px -60px;}
+	.newUpload .newUploadContent .list_pic30 li .pps{background-position: -120px -60px;}
+	.newUpload .newUploadContent .list_pic30 li .bkj{background-position: -152px -2px;}
+	/*excel为一个类型 */
+	.newUpload .newUploadContent .list_pic30 li .xls {background-position: -60px -30px;}
+	.newUpload .newUploadContent .list_pic30 li .xlsx{background-position: -60px -30px;} 
+	/*vsd*/
+	.newUpload .newUploadContent .list_pic30 li .vsd {background-position: -120px -30px;}
+	/*通讯录*/
+	.newUpload .newUploadContent .list_pic30 li .rtf{background-position: -60px -60px;}
+	.newUpload .newUploadContent .list_pic30 li .wps{background-position: -60px -60px;}
+	/*e*/
+	.newUpload .newUploadContent .list_pic30 li .et{background-position: -90px -60px;}
+	.newUpload .newUploadContent .list_pic30 li .dps{background-position: -90px -60px;}
+	/*pdf*/
+	.newUpload .newUploadContent .list_pic30 li .pdf{background-position: -30px -30px;}
+	/*txt*/
+	.newUpload .newUploadContent .list_pic30 li .txt{background-position: -120px 0px;}
+	/*e*/
+	.newUpload .newUploadContent .list_pic30 li .epub{background-position: -90px 0px;}
+	/*图片都为一个类型*/
+	.newUpload .newUploadContent .list_pic30 li .jpg{background-position: -30px -60px;}
+	.newUpload .newUploadContent .list_pic30 li .epub{background-position: -30px -60px;}
+	.newUpload .newUploadContent .list_pic30 li .jpeg{background-position: -30px -60px;}
+	.newUpload .newUploadContent .list_pic30 li .png{background-position: -30px -60px;}
+	.newUpload .newUploadContent .list_pic30 li .gif{background-position: -30px -60px;}
+	/*压缩文件一个类型*/
+	.newUpload .newUploadContent .list_pic30 li .rar{background-position: 0px -90px;}
+	.newUpload .newUploadContent .list_pic30 li .zip{background-position: 0px -90px;}
+	/*flash单独一个类型*/
+	.newUpload .newUploadContent .list_pic30 li .swf{background-position: -30px -90px;}
+	/*视频单独一个类型*/
+	.newUpload .newUploadContent .list_pic30 li .mp4{background-position: 0px -30px;}
+	.newUpload .newUploadContent .list_pic30 li .mpeg{background-position: 0px -30px;}
+	.newUpload .newUploadContent .list_pic30 li .avi{background-position: 0px -30px;}
+	.newUpload .newUploadContent .list_pic30 li .flv{background-position: 0px -30px;}
+/*==newUpload==*/
+/*hotppt*/ 
+.hotResource  { 
+	background-color: #fff;  
+} 
+.hotResource  .hottit h2{ 
+	font-size:18px;
+	margin-bottom: 30px;
+	color: #010101;
+	font-weight: normal; 
+	background: none; 
+}  
+.hotResource .hottit h2 i{
+	display: inline-block;
+	width:9px;
+	height: 10px;
+	line-height: 0;
+	font-size: 0;
+	margin:7px 0 0 9px; 
+	vertical-align: middle;
+	background: url(../images/hotresource.png) no-repeat 0 0;
+} 
+.hotResource .hottit h2 span{
+	background: #fff; 
+	padding-left: 13px
+}
+.hotResource  .list_upPic_126 li {
+	margin:0 12px; 
+	width: 126px;
+	height: 166px;
+	-margin:0 10px; 
+}
+.hotResource  .list_upPic_126 li .pic{
+	width: 120px;
+	height: 90px; 
+	overflow: hidden; 
+	line-height: inherit;
+}
+.hotResource  .list_upPic_126 li .pic img{
+	max-width: 120px;
+	min-height:90px;
+}
+
+.hotResource .hotTex .list_upPic_126 li .pic{
+	width: 120px;
+	height: 170px;
+	overflow: hidden; 
+	line-height: inherit;
+}
+.hotResource .hotTex .list_upPic_126 li .pic img{
+	max-width: 120px;
+	max-height:170px;
+}
+.hotResource .hotTex .list_upPic_126 li{
+	height:256px;
+}
+.hotResource  .list_upPic_126 li p {
+	text-align: center;
+	height: auto;
+	line-height: auto;
+}
+.hotResource  .list_upPic_126 li p span{
+	width:  100%;
+	display: block;
+	color: #7d7d7d;
+}
+.hotResource .hottit{
+	margin-bottom: 40px;
+}
+.hotResource .hotVideo .list_upPic_126 li{
+	width: 220px;
+	height: 183px;
+}
+.hotResource .hotVideo .list_upPic_126 li .pic{
+	width: 220px;
+	height: 128px; 
+	position: relative;
+	z-index: 1;
+}
+.hotResource .hotVideo .list_upPic_126 li .pic img{
+	max-width: 220px;
+	max-height: 128px;
+}
+.hotResource .hotVideo .list_upPic_126 li .pic i{
+	position: absolute;
+	display: inline-block;
+	z-index: 5;
+	width: 42px;
+	height: 43px;
+	top: 45px;
+	left: 90px;
+	background: url(../images/hotresource.png) no-repeat -44px  0;
+}
+.hotResource .hotVideo .list_upPic_126 li .pic:hover i{ 
+	background-position:-97px  0;
+}
+/*==hotppt==*/
+/*最新动态*/
+.mainrig{
+	float: right;
+	width: 230px;
+}
+
+.mainrig .newActive .list_pic40 li{
+  padding: 40px 0  18px 25px;
+  position: relative;
+  z-index: 1;
+  border-left:1px solid #898989; 
+  border-bottom: 0px none;
+  overflow: hidden;
+  display: inline-block;
+  vertical-align: bottom; 
+}
+.mainrig .newActive .list_pic40 li i{
+	position: absolute;
+	z-index: 5;
+	left: 0px;
+	top:10px;
+	width: 5px;
+	height: 9px;
+    background: url(../images/active.jpg) no-repeat 0 0;
+}
+.mainrig .newActive .list_pic40 li .time{
+	position: absolute;
+	z-index: 5;
+	width: 100%;
+	top: 5px;
+	left: 20px;
+}
+.mainrig .newActive .list_pic40 li .defaultFont{
+  word-wrap: break-word;
+  word-break: break-all;
+}
+.mainrig .newActive .list_pic40 li .time span{
+   display: inline-block;
+   margin-bottom: 12px;
+   border: 1px solid #e6e6e6;
+   height: 18px;
+   line-height: 18px;
+   padding: 0 18px;
+   color: #898989; 
+}
+.mainrig .newActive .list_pic40 dt a{
+   font-family: '宋体';
+   font-weight: bold;
+   font-size: 12px;
+}
+.mainrig .activeTop .list_pic40 {
+   background: url(../images/num.jpg) no-repeat 0 8px;
+} 
+.mainrig .activeTop .list_pic40 li {
+	padding: 0px 0  12px 25px; 
+	border-left:1px solid #fff;  
+}
+.mainrig .activeTop .list_pic40 li .num{
+	position: absolute;
+	z-index: 5;
+	top:23px;
+	right: 5px;
+	font-size: 14px;
+	color: #555555;
+}
+.mainrig .activeTop .list_pic40 li .num span{ 
+	color: #f08767;
+}
+/*==最新动态==*/
+

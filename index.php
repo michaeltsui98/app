@@ -20,10 +20,10 @@ $cola = Cola::getInstance();
 // $benchmark = new Cola_Com_Benchmark ();
 $cola->boot();
 
-$cfg = $cola->getConfig('_sessionCache');
+/*$cfg = $cola->getConfig('_sessionCache');
 ini_set('session.cookie_domain', '.dodoedu.com');
 ini_set("session.save_handler", 'memcached');
-ini_set("session.save_path", $cfg['host']);
+ini_set("session.save_path", $cfg['host']);*/
 isset($_SESSION) || session_start();
 try {
 

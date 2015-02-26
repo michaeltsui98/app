@@ -8,10 +8,7 @@
         public function indexAction()
         {
 
-            $id = $this->getVar('id', '1277');
-
-            $data = Models_Search::inits()->indexQuery(" id:{$id} ");
-            var_dump(current($data['data'][0]));
+              phpinfo();
         }
 
         /**

@@ -7,7 +7,7 @@ define('DEBUG', TRUE);
 header("Content-Type:text/html;charset=utf-8");
 define('S_ROOT', __DIR__ . DIRECTORY_SEPARATOR);
 
-define('BASE_PATH', '/app');
+define('BASE_PATH', '');
 
 ob_start();
 

@@ -14,18 +14,10 @@ $capsule = new Capsule;
 $connect = Cola::getConfig('database');
 
 $capsule->addConnection($connect['connections']['mysql']);
-
-$capsule->getContainer()->bind('paginator', 'Cola\Paginator',true);
-$capsule->getContainer()->bind('view', 'Illuminate\View\FileViewFinder',true);
-
-
-
-
-
 // 注册分页类
-    /*Capsule::setPaginator(function() use ($cola) {
-        return new Cola\Paginator(Cola_Request, 15);
-    });*/
+$capsule->getContainer()->bind('paginator', 'Cola\Paginator',true);
+//$capsule->getContainer()->bind('view', 'Illuminate\View\FileViewFinder',true);
+
 
 // Set the event dispatcher used by Eloquent models... (optional)
 

@@ -50,13 +50,16 @@ class Controllers_Index extends Controllers_Base
      */
     function indexAction ()
     {
-        $this->view->page_title = "多多资源中心首页";
+        $this->view->page_title = "app.com首页";
 
 
-
+        $this->view->hidden_top = 1;
+        $this->view->hidden_search = 1;
+        $this->view->hidden_nav = 1;
+         //echo '111';die;
 
         $this->view->css = array('index/css/index.css');
-        $this->view->js = array('index/script/index_show.js');
+        //$this->view->js = array('index/script/index_show.js');
         $this->setLayout($this->layout);
         $this->tpl();
 

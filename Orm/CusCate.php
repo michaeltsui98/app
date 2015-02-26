@@ -13,8 +13,6 @@
     public  $timestamps = false;
 
 
-        public  function  getMyCate($obj_type,$obj_id){
 
-        }
 
 }

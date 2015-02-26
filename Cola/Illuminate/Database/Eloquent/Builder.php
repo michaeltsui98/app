@@ -273,7 +273,7 @@ class Builder {
 	 */
 	protected function ungroupedPaginate($paginator, $perPage, $columns)
 	{
-		$total = $this->query->getPaginationCount();
+		$total = $this->query->getCountForPagination();
 
 		// Once we have the paginator we need to set the limit and offset values for
 		// the query so we can get the properly paginated items. Once we have an

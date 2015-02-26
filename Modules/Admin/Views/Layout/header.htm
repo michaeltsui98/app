@@ -1,5 +1,5 @@
 <script type="text/javascript" src="http://int.dpool.sina.com.cn/iplookup/iplookup.php?format=js"></script>
-<div style="background:url(/Modules/Admin/static/logo.png) no-repeat;height:70px;">
+<div style="background:url({BASE_PATH}/Modules/Admin/static/logo.png) no-repeat;height:70px;">
 
     <div style="float:right;padding: 8px 35px 8px 14px;
          margin-bottom: 20px;
@@ -15,10 +15,10 @@
              document.writeln(remote_ip_info.isp);</script>]IP登录！</div>
 
     <div style="width:110px; position:absolute;right:0px; bottom:10px;"> 
-        <a href="javascript:;" onclick="javascript:ui_dialog("/Admin/User/edit/xk/{XK}?user_id={$user['user_id']}",this);" style="text-decoration:none; color:white; margin-left:2px;margin-right:2px;"  >修改密码</a>
+        <a href="javascript:;" onclick="javascript:ui_dialog("{BASE_PATH}/Admin/User/edit/xk/{XK}?user_id={$user['user_id']}",this);" style="text-decoration:none; color:white; margin-left:2px;margin-right:2px;"  >修改密码</a>
 
         <span class="space">|</span>
-        <a href="/Admin/Sign/exit" style="text-decoration:none; color:white; margin-left:2px;margin-right:2px;">注销</a>
+        <a href="{BASE_PATH}/Admin/Sign/exit" style="text-decoration:none; color:white; margin-left:2px;margin-right:2px;">注销</a>
 
     </div>
 </div>

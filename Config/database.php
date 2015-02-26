@@ -41,14 +41,14 @@ array('database'=>
                 'mysql' => array(
                         'driver'    => 'mysql',
                         'read' => array(
-                                'host' => '172.16.0.3',
+                                'host' => '127.0.0.1',
                         ),
                         'write' => array(
-                                'host' => '172.16.0.3'
+                                'host' => '127.0.0.1'
                         ),
-                        'database'  => 'dodowenku',
-                        'username'  => 'wenku',
-                        'password'  => 'wenku',
+                        'database'  => 'app',
+                        'username'  => 'root',
+                        'password'  => '123456',
                         'charset'   => 'utf8',
                         'collation' => 'utf8_unicode_ci',
                         'prefix'    => '',
@@ -57,14 +57,14 @@ array('database'=>
                 'dev' => array( //这里就是上面例子里的默认连接数据库名，实际上是 mysql 数据库
                         'driver'    => 'mysql',
                         'read' => array(
-                                'host' => '172.16.0.3',
+                                'host' => '127.0.0.1',
                         ),
                         'write' => array(
-                                'host' => '172.16.0.3'
+                                'host' => '127.0.0.1'
                         ),
-                        'database'  => 'dodowenku',
-                        'username'  => 'wenku',
-                        'password'  => 'wenku',
+                        'database'  => 'app',
+                        'username'  => 'root',
+                        'password'  => '123456',
                         'charset'   => 'utf8',
                         'collation' => 'utf8_unicode_ci',
                         'prefix'    => '',

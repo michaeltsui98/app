@@ -8,7 +8,10 @@
         public function indexAction()
         {
 
-              phpinfo();
+            $log =  Orm_SchLog::where("log_id",'>',1)->paginate(10);
+           echo $log->links();
+            $data =  $log->toJson();
+            var_dump($data);die;
         }
 
         /**

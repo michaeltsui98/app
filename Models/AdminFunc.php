@@ -76,7 +76,7 @@ function url($c,$a){
         $controller = next($tmp);
     }
     
-    return '/'.$controller.'/'.strtr($a,array('Action'=>''));
+    return BASE_PATH.'/'.$controller.'/'.strtr($a,array('Action'=>''));
     
 	 
 }

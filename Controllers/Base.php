@@ -65,6 +65,7 @@ class Controllers_Base extends Cola_Controller
             echo json_encode($json);
             exit();
         } else {
+            $url = BASE_PATH .$url;
             parent::messagePage($url, $message, $ms);
         }
     }

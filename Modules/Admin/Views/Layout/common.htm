@@ -27,8 +27,8 @@
 	<script src="<!--{STATIC_ADMIN_PATH}-->script/app.js"></script>
 </head>
 <body>
-<div class="easyui-layout" data-options="fit:true" style="position:relative;background:#3263a8 url(/Modules/Admin/static/image/banner_r.jpg) no-repeat right 0 ;">
-	<div data-options="region:'north',border:false" style="height:70px;background:url(/Modules/Admin/static/image/banner_f.jpg) no-repeat;">
+<div class="easyui-layout" data-options="fit:true" style="position:relative;background:#3263a8 url({BASE_PATH}/Modules/Admin/static/image/banner_r.jpg) no-repeat right 0 ;">
+	<div data-options="region:'north',border:false" style="height:70px;background:url({BASE_PATH}/Modules/Admin/static/image/banner_f.jpg) no-repeat;">
 	 {include Modules/Admin/Views/Layout/header}
 	</div>
 	<div data-options="region:'west',split:true,title:'管理导航'" style="width:150px;">
@@ -58,7 +58,7 @@
 	
     {if isset($js)}
     {loop $js $jfile}
-    <script type="text/javascript" src="/Modules/Admin/static/script/{$jfile}" ></script>
+    <script type="text/javascript" src="{BASE_PATH}/Modules/Admin/static/script/{$jfile}" ></script>
     {/loop}
     {/if}
     {if isset($root_js)}

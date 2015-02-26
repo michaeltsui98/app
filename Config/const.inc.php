@@ -2,9 +2,9 @@
 
 
 //后台管理的静态文件地址
-define('STATIC_ADMIN_PATH', '/static/');
+define('STATIC_ADMIN_PATH', BASE_PATH.'/static/');
 
-define('STATIC_PATH', 'http://'.$_SERVER['HTTP_HOST']);
+define('STATIC_PATH', 'http://'.$_SERVER['HTTP_HOST'].BASE_PATH);
 //模板缓存
 define('TPL_CACHE', 0);
 define('HTTP_DODOWENKU', 'http://dev-wenku.dodoedu.com');

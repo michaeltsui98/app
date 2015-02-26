@@ -5,7 +5,7 @@ use Illuminate\Database\Capsule\Manager as Capsule;
 use Illuminate\Events\Dispatcher;
 use Illuminate\Container\Container;
 //use Illuminate\Pagination\Factory as Pagination;
-
+use Illuminate\Pagination\Paginator as Pagination;
  
 
 require COLA_DIR.DIRECTORY_SEPARATOR.'Illuminate/support/helpers.php';
@@ -15,9 +15,17 @@ $connect = Cola::getConfig('database');
 
 $capsule->addConnection($connect['connections']['mysql']);
 
-$capsule->getContainer()->bind('paginator', 'Illuminate\Pagination\Paginator',true);
+$capsule->getContainer()->bind('paginator', 'Cola\Paginator',true);
 $capsule->getContainer()->bind('view', 'Illuminate\View\FileViewFinder',true);
 
+
+
+
+
+// 注册分页类
+    /*Capsule::setPaginator(function() use ($cola) {
+        return new Cola\Paginator(Cola_Request, 15);
+    });*/
 
 // Set the event dispatcher used by Eloquent models... (optional)
 

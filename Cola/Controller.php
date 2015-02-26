@@ -359,6 +359,7 @@ class Cola_Controller
      */
     protected function redirect($url, $code = 302)
     {
+        $url  = BASE_PATH.$url;
         $this->response->redirect($url, $code);
     }
 

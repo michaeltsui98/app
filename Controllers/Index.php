@@ -16,6 +16,7 @@ class Controllers_Index extends Controllers_Base
     }
     public function topAction() {
 
+
     	$this->tpl('public/top');
     }
     public function searchAction() {
@@ -50,6 +51,8 @@ class Controllers_Index extends Controllers_Base
     function indexAction ()
     {
         $this->view->page_title = "多多资源中心首页";
+
+
 
 
         $this->view->css = array('index/css/index.css');

@@ -4,14 +4,14 @@
  * @author michael
  * 
  */
-class Orm_SysLog extends  Cola_Orm  {
+class Orm_SchLog extends  Cola_Orm  {
 
     
     
     /**
      * @var 设置表名
      */
-    protected $table = 'sys_log';
+    protected $table = 'sch_log';
     /**
      * @var 设置主键名
      */

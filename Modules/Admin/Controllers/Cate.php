@@ -1,7 +1,7 @@
 <?php
 
 /**
- * 非标准分类管理
+ * 基础分类管理
  * 
  * @author michaeltsui98@qq.com 2014-04-17
  *
@@ -9,20 +9,27 @@
 class Modules_Admin_Controllers_Cate extends  Modules_Admin_Controllers_Base {
 	
 	public  function indexAction(){
-	    $this->view->title = '非标准分类管理-列表';
+	    $this->view->title = '基础分类管理-列表';
  	    if(!$this->request()->isAjax()){
 	        $layout = $this->getCurrentLayout('common.htm');
 	        $this->setLayout($layout);
 	    }
+        $this->view->get_obj_type_url = url($this->c,'getObjTypeAction');
 	    $this->tpl();
 	}
+
+    public function getObjTypeAction(){
+        $sql = "SELECT obj_id,obj_type FROM `cus_cate` GROUP BY obj_type";
+        $data =  Modules_Admin_Models_CusCate::init()->sql($sql);
+        $this->abort($data);
+    }
 	/**
 	 * 添加用户组
 	 */
 	public  function addAction(){
 		 
 	    $pid = $this->getVar('pid');
-	    $level = $this->getVar('l');
+
 	   
 	   
 	    $this->view->pid = $pid;
@@ -34,12 +41,10 @@ class Modules_Admin_Controllers_Cate extends  Modules_Admin_Controllers_Base {
 	public  function addDoAction(){
 	    $data = array();
 		$data = $this->getVar('data');
-		//$node_arr = Models_Public_Node::getAllNode();
-		//$data['name']  =  $node_arr[$data['code']];
-		$res = Modules_Admin_Models_NodeCate::init()->insert($data);
-		//$this->alert_page('添加成功');
-		Modules_Admin_Models_NodeCate::init()->updatePidPath($res);
-		$this->flash_page('cate', 1,'添加成功',1);
+		$res = Orm_CusCate::create($data);
+		Modules_Admin_Models_CusCate::init()->updatePidPath($res->id);
+        
+		$this->flash_page('cus_cate', 1,'添加成功',1);
 	}
 	
 	public  function checkNameAction(){
@@ -57,10 +62,8 @@ class Modules_Admin_Controllers_Cate extends  Modules_Admin_Controllers_Base {
 	 */
 	public  function editAction(){
 		$id = $this->getVar('id');
-		$level = $this->getVar('l');
-		 
- 
-		$info = Modules_Admin_Models_NodeCate::init()->load($id);
+
+		$info = Orm_CusCate::find($id)->toArray();
 		$this->view->info = $info;
 		$this->view->id = $id;
 		$this->tpl();
@@ -72,42 +75,22 @@ class Modules_Admin_Controllers_Cate extends  Modules_Admin_Controllers_Base {
 		$id = $this->getVar('id');
 		$data = array();
 		$data = $this->getVar('data');
-		 
-		$res = Modules_Admin_Models_NodeCate::init()->update($id, $data);
-		 
-		//$this->flash_page($table_id, $status);
-		//ui_tip('', json.message, json.status, success_callback)
-		$this->flash_page('cate', 1,null,1);
+		$res = Orm_CusCate::find($id)->update(array_filter($data,function($v){
+            return $v != '';
+        }));
+		$this->flash_page('cus_cate', 1,$res,1);
 	}
-	/**
-	 * 设置用户组状态
-	 */
-	public function isOkAction(){
-		$id = $this->get('id');
-		$ok = $this->get('ok');
-		$res  =  Modules_Admin_Models_NodeCate::init()->update($id, array('is_ok'=>$ok));
-		$this->flash_page('cate', 1,null,1);
-	}
-	/**
-	 * 排序
-	 */
-	public function orderAction(){
-		$id = $this->get('id');
-		$type = $this->get('type');
-		$obj_id = $this->get('obj_id');
-		$res  =  Modules_Admin_Models_NodeCate::init()->update($id, array('node_order'=>$obj_id));
-		 
-		$this->flash_page('cate', 1,null,1);
-	}
+
+
 	/**
 	 * 删除 
 	 */
 	public function delAction(){
 		$id = $this->get('id');
-		$res  =  Modules_Admin_Models_NodeCate::init()->delNodeById($id);
-		//$this->flash_page('node', $res,null,'treegrid');
-		//$this->alert_page('删除成功');
-		$this->flash_page('cate', 1,null,1);
+
+        $res = Orm_CusCate::destroy($id);
+
+		$this->flash_page('cus_cate', $res,null,1);
 	}
 	/**
 	 * json数据输出
@@ -115,17 +98,25 @@ class Modules_Admin_Controllers_Cate extends  Modules_Admin_Controllers_Base {
 	public function jsonAction() {
 	     
 	    $page =  $this->getVar('page',1);
-	    $rows =  $this->getVar('rows',20);
+
 	    $pid = $this->getVar('id',0);
-	    $is_ok = $this->getVar('is_ok',true);
-	    $data =  Modules_Admin_Models_NodeCate::init()->getList($page, 500 ,$pid,$is_ok);
+
+        $obj_type = $this->getVar('obj_type');
+        $name = $this->getVar('name');
+        $where = '';
+        if($obj_type){
+            $where  .= " and obj_type = '$obj_type'";
+        }
+        if($name){
+            $where  .= " and name like '%$name%'";
+        }
+
+	    $data =   Modules_Admin_Models_CusCate::init()->getList($page, 500 ,$pid,$where);
 	    
-	   // var_dump($data['rows']);
+
 	    $this->view->data =$data;
-	    $this->view->node_name = Modules_Admin_Models_NodeCate::init()->getAllNodeName();
-	    
-	    $this->view->isOkUrl = url($this->c,'isOkAction');
-	    $this->view->orderUrl = url($this->c,'orderAction');
+
+
 	    $this->tpl();
 	    
 	}

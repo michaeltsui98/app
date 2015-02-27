@@ -4,9 +4,9 @@
 	 * 专业资源分类
 	 */
 
-class Modules_Admin_Models_NodeCate extends Cola_Model {
+class Modules_Admin_Models_CusCate extends Cola_Model {
     
-	protected $_table = 'node_cate';
+	protected $_table = 'cus_cate';
 	
 	protected $_pk = 'id';
 	
@@ -18,19 +18,19 @@ class Modules_Admin_Models_NodeCate extends Cola_Model {
 	 * @param int $limit
 	 * @return Ambigous <boolean, multitype:Ambigous, multitype:unknown Ambigous <multitype:, boolean> >
 	 */
-	public function getList($page,$limit,$pid=0,$is_all = true){
+	public function getList($page,$limit,$pid=0,$where=''){
 	    $sql = "select * from {$this->_table} where 1 ";
-	    $where = "";
-	    if($is_all){
-	    	$where .= " and is_ok = 1 ";
-	    }
-		$arr =  $this->getListBySql($sql, $page, $limit,'cat','id','pid','code');
+	    //$where = "";
+	    //if($is_all){
+	    	//$where .= " and is_ok = 1 ";
+	   // }
+		$arr =  $this->getListBySql($sql, $page, $limit,'cat','id','pid','name');
 		$data = array();
 		foreach ($arr['rows'] as $k=>$v){
 			$data[$v['id']] = $v;
 		}
 		//var_dump($data);
-	    $arr1 =  $this->sql("SELECT * ,name as text FROM `{$this->_table}` WHERE `pid` = '$pid'  $where order by node_order ");
+	    $arr1 =  $this->sql("SELECT * ,name as text FROM `{$this->_table}` WHERE `pid` = '$pid'  $where order by corder ");
 	     
 	    foreach ($arr1 as $key =>$value) {
 	        if($data[$value['id']]['have_child']){
@@ -43,28 +43,7 @@ class Modules_Admin_Models_NodeCate extends Cola_Model {
 	    }
 	    return array('rows'=>$arr1);
 	}
-	/**
-	 * 取所有的分类
-	 */
-	public  function getAllList($selected_id=null){
-	    $sql = "select * from {$this->_table} where 1 and is_ok = 1 ";
-	    return  $this->getListBySql($sql, 1, 500,'cat','id','pid','code',null,$selected_id);
-	}
-	
-	public function buildTree(array &$elements, $parentId = 0) {
-        $branch = array();
-        foreach ($elements as $element) {
-            if ($element['pid'] == $parentId) {
-                $children = $this->buildTree($elements, $element['id']);
-                if ($children) {
-                    $element['child'] = $children;
-                }
-                $branch[$element['id']] = $element;
-                unset($elements[$element['id']]);
-            }
-        }
-        return $branch;
-    }
+
 
     
     /**
@@ -86,7 +65,7 @@ class Modules_Admin_Models_NodeCate extends Cola_Model {
 	 */
 	public function checkCodeName($name,$pid){
 		$res = false;
-		$res = $this->count("code = '$name' and pid = '$pid'");
+		$res = $this->count("name = '$name' and pid = '$pid'");
 		return $res;
 	}
 	/**
@@ -105,7 +84,7 @@ class Modules_Admin_Models_NodeCate extends Cola_Model {
 	 * @return Ambigous <multitype:, boolean>
 	 */
 	public function updatePidPath($id){
-	    return $this->sql("update {$this->_table} set pid_path = genCatePidPath($id) where id = '$id' ");
+	    return $this->sql("update {$this->_table} set pid_path = genCusPidPath($id) where id = '$id' ");
 	}
 }
 

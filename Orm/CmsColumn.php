@@ -12,6 +12,8 @@ class Orm_CmsColumn extends Cola_Orm
     protected $table = 'cms_column';
     protected $primaryKey = 'id';
     public $timestamps = false;
+   // protected $fillable = array('name', 'alias','url', 'is_ok','corder','created_at');
+    protected $guarded = array('id');
 
 
     /**

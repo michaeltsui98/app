@@ -9,9 +9,8 @@
 
 <!--{eval $data['rows'][$key]['name']= $value['name']}-->
 <!--{eval $data['rows'][$key]['text']= $value['name']}-->
-<!--{eval $data['rows'][$key]['node_order']="<a href=\"javascript:;\" onclick=\"javascript:ui_order('{$orderUrl}?id={$value['id']}&type=up',this);\"><span class=\"icon-table icon-up\"></span>升</a>";}-->
-<!--{eval $data['rows'][$key]['node_order'].=" <a href=\"javascript:;\" onclick=\"javascript:ui_order('{$orderUrl}?id={$value['id']}&type=down',this);\"><span class=\"icon-table icon-down\"></span>降</a>";}-->
-{if !$value['is_gd']}
+
+{if !$value['fixed']}
 <!--{eval $data['rows'][$key]['cz']="<a href=\"javascript:;\"  onclick=\"javascript:ui_dialog('{$editUrl}?id={$value['id']}&l={$value['level']}',this);\"><span class=\"icon-table icon-isedit\"></span>修改</a>";}-->
 {/if}
 

@@ -15,12 +15,10 @@ class Modules_Admin_Controllers_CmsColumn extends  Modules_Admin_Controllers_Bas
 	        $this->setLayout($layout);
 	    }
 
-        $col  = Orm_CmsColumn::find(8)->belongsToManyContent()->wherePivot('school_id','=','121502')->paginate(1);
-        var_dump($col->toArray());die;
 	    $this->tpl();
 	}
 	/**
-	 * 添加用户组
+	 * 添加
 	 */
 	public  function addAction(){
 		 
@@ -37,12 +35,9 @@ class Modules_Admin_Controllers_CmsColumn extends  Modules_Admin_Controllers_Bas
 	public  function addDoAction(){
 	    $data = array();
 		$data = $this->getVar('data');
-		//$node_arr = Models_Public_Node::getAllNode();
-		//$data['name']  =  $node_arr[$data['code']];
-		$res = Modules_Admin_Models_NodeCate::init()->insert($data);
-		//$this->alert_page('添加成功');
-		Modules_Admin_Models_NodeCate::init()->updatePidPath($res);
-		$this->flash_page('cate', 1,'添加成功',1);
+        $res = Orm_CmsColumn::create($data);
+        Modules_Admin_Models_CmsColumn::init()->updatePidPath($res->id);
+		$this->flash_page('cms_column', $res,'添加成功',1);
 	}
 	
 	public  function checkNameAction(){
@@ -56,31 +51,26 @@ class Modules_Admin_Controllers_CmsColumn extends  Modules_Admin_Controllers_Bas
 		$this->abort($arr);
 	}
 	/**
-	 * 编辑用户组信息
+	 * 编辑
 	 */
 	public  function editAction(){
 		$id = $this->getVar('id');
-		$level = $this->getVar('l');
-		 
- 
-		$info = Modules_Admin_Models_NodeCate::init()->load($id);
+		$info = Orm_CmsColumn::find($id)->toArray();
 		$this->view->info = $info;
 		$this->view->id = $id;
 		$this->tpl();
 	}
 	/**
-	 * 保存编辑用户组信息
+	 * 保存编辑
 	 */
 	public  function editDoAction(){
 		$id = $this->getVar('id');
 		$data = array();
 		$data = $this->getVar('data');
 		 
-		$res = Modules_Admin_Models_NodeCate::init()->update($id, $data);
-		 
-		//$this->flash_page($table_id, $status);
-		//ui_tip('', json.message, json.status, success_callback)
-		$this->flash_page('cate', 1,null,1);
+		$res = Orm_CmsColumn::find($id)->update($data);
+
+		$this->flash_page('cms_column', $res,null,1);
 	}
 	/**
 	 * 设置用户组状态
@@ -88,29 +78,32 @@ class Modules_Admin_Controllers_CmsColumn extends  Modules_Admin_Controllers_Bas
 	public function isOkAction(){
 		$id = $this->get('id');
 		$ok = $this->get('ok');
-		$res  =  Modules_Admin_Models_NodeCate::init()->update($id, array('is_ok'=>$ok));
-		$this->flash_page('cate', 1,null,1);
+
+        $res = Orm_CmsColumn::where("id",'=',$id)->update(array('is_ok'=>$ok));
+		$this->flash_page('cms_column', $res,null,1);
 	}
-	/**
-	 * 排序
-	 */
-	public function orderAction(){
-		$id = $this->get('id');
-		$type = $this->get('type');
-		$obj_id = $this->get('obj_id');
-		$res  =  Modules_Admin_Models_NodeCate::init()->update($id, array('node_order'=>$obj_id));
-		 
-		$this->flash_page('cate', 1,null,1);
-	}
+
 	/**
 	 * 删除 
 	 */
 	public function delAction(){
-		$id = $this->get('id');
-		$res  =  Modules_Admin_Models_NodeCate::init()->delNodeById($id);
-		//$this->flash_page('node', $res,null,'treegrid');
-		//$this->alert_page('删除成功');
-		$this->flash_page('cate', 1,null,1);
+        $id = $this->get('id');
+        $columns = Modules_Admin_Models_CmsColumn::init();
+        $sql = "DELETE a.*,b.*,c.*  FROM `cms_column` a left join cms_relate b
+                on a.id = b.column_id
+                left join cms_content c
+                on c.relate_id = b.id
+                where a.id = %d";
+        if(is_array($id)){
+            foreach($id as $v){
+                //删除数据库
+                $res = $columns->sql(sprintf($sql,$v));
+            }
+        }elseif(is_string($id)){
+            //删除数据库
+            $res = $columns->sql(sprintf($sql,$id));
+        }
+        $this->flash_page('cms_column', $res,null,1);
 	}
 	/**
 	 * json数据输出
@@ -118,17 +111,18 @@ class Modules_Admin_Controllers_CmsColumn extends  Modules_Admin_Controllers_Bas
 	public function jsonAction() {
 	     
 	    $page =  $this->getVar('page',1);
-	    $rows =  $this->getVar('rows',20);
+	    //$rows =  $this->getVar('rows',20);
 	    $pid = $this->getVar('id',0);
-	    $is_ok = $this->getVar('is_ok',true);
-	    $data =  Modules_Admin_Models_NodeCate::init()->getList($page, 500 ,$pid,$is_ok);
+	    //$is_ok = $this->getVar('is_ok',true);
+
+        $data =  Modules_Admin_Models_CmsColumn::init()->getList($page, 500 ,$pid);
 	    
 	   // var_dump($data['rows']);
 	    $this->view->data =$data;
-	    $this->view->node_name = Modules_Admin_Models_NodeCate::init()->getAllNodeName();
+
 	    
 	    $this->view->isOkUrl = url($this->c,'isOkAction');
-	    $this->view->orderUrl = url($this->c,'orderAction');
+	    //$this->view->orderUrl = url($this->c,'orderAction');
 	    $this->tpl();
 	    
 	}

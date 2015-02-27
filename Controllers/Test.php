@@ -7,11 +7,14 @@
 
         public function indexAction()
         {
+           // $data[pid]='1';
+            $data[name]='232332';
+            $data[alias]='232332';
+            $data[is_ok]='1';
 
-            $log =  Orm_SchLog::where("log_id",'>',1)->paginate(10);
-           echo $log->links();
-            $data =  $log->toJson();
-            var_dump($data);die;
+            $res = Orm_CmsColumn::create($data);
+            var_dump($res);die;
+
         }
 
         /**

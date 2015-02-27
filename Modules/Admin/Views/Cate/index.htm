@@ -1,23 +1,57 @@
 <div id="ajaxpage" class="easyui-panel" style="padding:5px;" data-options="fit:true">
-	<table id="cate-dg" title="<!--{$title}-->" class="easyui-treegrid" 
-	data-options="rownumbers:true,fit:true,fitColumns:true,singleSelect:true,
+	<table id="cus_cate-dg" title="<!--{$title}-->" class="easyui-treegrid"
+	data-options="rownumbers:true,fit:true,fitColumns:true,singleSelect:false,
 	pagination:true,
-	url:'<!--{eval echo $getJsonDataUrl."?is_ok=0"}-->',
+	url:'<!--{eval echo $getJsonDataUrl.""}-->',
 	method:'get',
 	
 	idField:'id',
 	treeField:'name',
-	toolbar:'#cate-tb'">
+	toolbar:'#cus_cate-tb'">
 	  <thead>
 		<tr>
-          <th field='name' width='50'>节点名称</th>
-          <th field="is_ok" width="50">状态</th>
-          <th field="node_order" width="50">排序</th>
+          <th data-options="field:'ck',checkbox:true"></th>
+          <th field='name' width='50'>名称</th>
+          <th field='obj_type' width='50'>类型</th>
+          <th field='obj_id' width='50'>id</th>
           <th field="cz" width="50">操作</th>
 		</tr>
 	  </thead>
 	</table>
-	<div id="cate-tb" style="padding:5px;height:auto">
-		<a href="javascript:;" class="easyui-linkbutton" iconCls="icon-add" plain="true" onclick="javascript:ui_dialog( '<!--{$addUrl}-->?pid=0',this );">增加</a>
+	<div id="cus_cate-tb" style="padding:5px;height:auto">
+		<a href="javascript:;" class="easyui-linkbutton" iconCls="icon-add"
+           onclick="javascript:ui_dialog( '<!--{$addUrl}-->?pid=0',this );">增加</a>
+        <a href="javascript:del();" id="cus_cate_del" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'">删除所选</a>
+        <input class="easyui-textbox" id="cus_cate_name" data-options="prompt:'输入搜索条件...'" >
+
+        <select  id="cus_cate_obj_type" class="easyui-combobox" data-options="url:'{$get_obj_type_url}',method:'get',valueField:'obj_type',textField:'obj_type',panelHeight:'auto'" style="width:80px;">
+        </select>
+        <a href="javascript:search();" id="cus_cate_search" class="easyui-linkbutton" data-options="iconCls:'icon-search'">搜索</a>
+    <script>
+        function search(){
+            var name = $("#cus_cate_name").val();
+            var obj_type = $("#cus_cate_obj_type").combobox('getValue');
+            treeload('cus_cate',{name:name,obj_type:obj_type});
+        }
+        function del(){
+            var ss = [];
+            var uri = "";
+            var rows = $('#cus_cate-dg').datagrid('getSelections');
+            for(var i=0; i<rows.length; i++){
+                var row = rows[i];
+                ss.push(row.trid);
+                uri += "id[]="+row.trid+'&';
+            }
+            var l = ss.length;
+            if(!l){
+                $.messager.alert('Info','请先选择要删除的行!','warning');
+                return false;
+            }
+            var url = "{$delUrl}?"+uri;
+            s = $("#cus_cate_del")[0];
+            ui_qr(url,s);
+            //$.messager.alert('Info', url+uri);
+        }
+    </script>
 	</div>
 </div>

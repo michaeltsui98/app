@@ -17,6 +17,76 @@
 
         }
 
+        public function getDataAction(){
+            $url = 'http://www.cpajia.com/index.php?m=index&a=search';
+            $total = '1888';
+            $pram = 'PageIndex';
+            $page = 1;
+            $limit = 20;
+            set_time_limit(0);
+            for($i=0;$i<$total;$i+=$limit){
+                $data = json_decode(Cola_Com_Http::post($url,array($pram=>$page)),1);
+                unset($data[0]);
+
+                $this->formatData($data);
+                $page++;
+               // break;
+
+
+            }
+
+        }
+
+        public function formatData($data){
+            $p = array();
+            $app = new Orm_AppProduct();
+            $m = Cola_Model::init();
+            foreach($data as $k=>$v) {
+                //var_dump($v);die;
+                $t = array();
+                $t['id'] = $v['id'];
+                $t['cate_id'] = $v['catid'];
+                $t['user_id'] = $v['userid'];
+                $t['user_name'] = $v['username'];
+                $t['title'] = $v['title'];
+                $t['title_style'] = $v['title_style'];
+                $t['thumb'] = $v['thumb'];
+                $t['keywords'] = $v['keywords'];
+                $t['desc'] = $v['description'];
+                $t['content'] = $v['content'];
+                $t['url'] = $v['url'];
+                $t['template'] = $v['template'];
+                $t['posid'] = $v['posid'];
+                $t['status'] = $v['status'];
+                $t['read_group'] = $v['readgroup'];
+                $t['listorder'] = $v['listorder'];
+                $t['hits'] = $v['hits'];
+                $t['created_at'] = $v['createtime'];
+                $t['updated_at'] = $v['updatetime'];
+                $t['lang'] = $v['lang'];
+                $t['platform'] = $v['platform'];
+                $t['balance'] = $v['balance'];
+                $t['dataview'] = $v['dataview'];
+                $t['qq'] = $v['qq'];
+                $t['phone'] = $v['phone'];
+                $t['wxh'] = $v['wxh'];
+                $t['price'] = $v['price'];
+                $t['showimg'] = $v['showimg'];
+                $t['company'] = $v['company'];
+                $t['cooperation'] = $v['cooperation'];
+                $t['official'] = $v['official'];
+                $t['website'] = $v['website'];
+                $t['tel'] = $v['tel'];
+                $t['summary'] = $v['summary'];
+                //var_dump($t);die;
+                //$p[] = $t;
+
+                $m->table('app_product')->insert($t);
+
+                //$app->create($t);
+            }
+        }
+
         /**
          * 更新全部的索引数据
          * 将mysql 的数据全部同步到全文索引上去

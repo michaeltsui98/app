@@ -1,0 +1,39 @@
+<!--{loop $data['rows'] $key $value}-->
+	<!--{eval $data['rows'][$key]['trindex']=$key+1;}-->
+	<!--{eval $data['rows'][$key]['trid']=$value['id'];}-->
+	
+
+
+{if $value['is_ok']==2}
+<!--{eval $msg = "title=\"未通过原因:{$value['msg']}\""}-->
+{/if}
+
+<!--{eval $data['rows'][$key]['is_ok']= "<span style=\"color:{$colors[$value['is_ok']]} \" {$msg}>{$is_ok_arr[$value['is_ok']]}</span>";}-->
+
+
+  
+
+<!--{eval $data['rows'][$key]['official']= $official[$value['official']];}-->
+<!--{eval $data['rows'][$key]['cate_id']= $app_type[$value['cate_id']];}-->
+<!--{eval $data['rows'][$key]['cooperation']= $cooperation[$value['cooperation']];}-->
+<!--{eval $data['rows'][$key]['updated_at']= date('Y-m-d',$value['updated_at']);}-->
+
+<!--{eval $data['rows'][$key]['cz']=
+"<a href=\"javascript:;\"    onclick=\"javascript:ui_dialog('{$editUrl}?id={$value['id']}',this);\">
+ <span class=\"icon-table icon-edit\"></span>
+修改</a>";}-->
+ 
+
+<!--{eval $data['rows'][$key]['cz'].=" <a href=\"javascript:;\"  onclick=\"javascript:ui_qr('{$delUrl}?id={$value['id']}',this,false);\">
+<span class=\"icon-table icon-cancel\"></span>删除</a>";}-->
+
+
+{if $value['is_ok']==0 and $value['doc_status']>0}
+<!--{eval $data['rows'][$key]['cz'].=" <a href=\"javascript:;\"  onclick=\"javascript:ui_qr('{$auditUrl}?id={$value['id']}&is_ok=1',this,false);\"><span class=\"icon-table icon-ok\"></span>通过</a>";}-->
+<!--{eval $data['rows'][$key]['cz'].=" <a href=\"javascript:;\"  onclick=\"javascript:prompt1('{$auditUrl}?id={$value['id']}&is_ok=2');\"><span class=\"icon-table icon-no\"></span>不通过</a>";}-->
+{/if}
+
+
+<!--{/loop}-->
+ 
+<!--{eval echo json_encode($data)}-->

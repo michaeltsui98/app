@@ -1,24 +1,25 @@
 <div id="tab1" class="tabcontent">
     <div class="form">
-       <form action="<!--{$addDoUrl}-->" method="post" id="node_form" name="node_form" class="ui-form">
+       <form action="<!--{$addDoUrl}-->" method="post" id="cms_column_add_form" name="cate_form" class="ui-form">
 	        <input type="hidden" name="data[pid]" value="{$pid}">
+
             <div class="form_row">
-                <label><span class="ui-form-required">*</span>{$text}：</label>
-				<select  name="data[code]" style="width:200px;" ajaxurl="{$check_code_url}?pid={$pid}" datatype="*" >
-			        {loop $data $k $v}
-					<option value="{$k}">{$v}</option>
-					{/loop}
-				</select>
+            	 <label><span class="ui-form-required">*</span>名称：</label>
+                <input type="text" name="data[name]" id="name" datatype="*">
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+            <div class="form_row">
+            	 <label><span class="ui-form-required"></span>别名：</label>
+                <input type="text" name="data[alias]" id="alias" >
 				<div class="info"><span class="ui-form-other"></span></div>
             </div>
 
-            
 
             <div class="form_row">
                 <label>状态：</label>
 
                 <input class="ui-radio" type="radio" name="data[is_ok]" id="is_ok" value="1"  datatype="*" />正常 
-		 <input class="ui-radio" type="radio" name="data[is_ok]" id="is_ok" value="0"  />禁用
+		        <input class="ui-radio" type="radio" name="data[is_ok]" id="is_ok" value="0"  />禁用
 
 				<div class="info"><span class="ui-form-other"></span></div>
             </div>
@@ -28,8 +29,8 @@
         </form>
        <script type="text/javascript">
 				$(function(){
-					syform_val('node_form');
-                    SetValue(node_form["data[is_ok]"],"1");
+					syform_val('cms_column_add_form');
+                    SetValue(cate_form["data[is_ok]"],"1");
 
 				});
 		</script>

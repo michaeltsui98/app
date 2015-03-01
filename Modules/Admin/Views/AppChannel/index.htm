@@ -1,10 +1,10 @@
 <div id="ajaxpage" class="easyui-panel" style="padding:5px;" data-options="fit:true">
-	<table id="oresource-dg" title="<!--{$title}-->" class="easyui-datagrid" 
+	<table id="app_channel-dg" title="<!--{$title}-->" class="easyui-datagrid"
 	data-options="rownumbers:true,fit:true,fitColumns:true,singleSelect:false,
 	pagination:true,url:'<!--{$getJsonDataUrl}-->',
 	method:'get',
 	pageSize:20,
-	toolbar:'#oresource-tb'
+	toolbar:'#app_channel-tb'
 	">
 	  <thead>
 		<tr>
@@ -23,7 +23,7 @@
 		</tr>
 	  </thead>
 	</table>
-	<div id="oresource-tb" style="padding:5px;height:auto">
+	<div id="app_channel-tb" style="padding:5px;height:auto">
 		<div>
 			<a href="javascript:;" class="easyui-linkbutton" iconCls="icon-add"    onclick="javascript:ui_dialog( '<!--{$addUrl}-->?node_id='+$('#ores_nodelist').combotree('getValue'),this );">上传资源</a>
 			<a href="javascript:del();" id="ores_del" class="easyui-linkbutton" data-options="iconCls:'icon-cancel'">删除所选</a>
@@ -51,10 +51,8 @@
 		    url: '{$get_node_url}',
 			method:'get',
 		    required: true,
-			textField:'name',
-			onChange:function(){
-				//get_oresource();
-			},
+			textField:'name'
+
 		});
 
 		$(function(){
@@ -65,19 +63,19 @@
 				var node_id = $('#ores_nodelist').combotree('getValue');
 				var cate_id = $('#ores_cate_id').combobox('getValue');
 				//node_id=0&type=0&doc_title=&attr=0&cate_id=0&is_ok=-1&page=1&rows=20
-				gridload('oresource',{node_id:node_id,type:type,doc_title:doc_title,cate_id:cate_id});
+				gridload('app_channel',{node_id:node_id,type:type,doc_title:doc_title,cate_id:cate_id});
 			})
 		})
-		function get_oresource(){
+		function get_app_channel(){
 			var val = $('#ores_nodelist').combotree('getValue');
 			var unit_id = '';
-			gridload('oresource',{node_id:val,unit_id:unit_id});
+			gridload('app_channel',{node_id:val,unit_id:unit_id});
 		}
 
 	function del(){
 		var ss = [];
 		var uri = "";
-		var rows = $('#oresource-dg').datagrid('getSelections');
+		var rows = $('#app_channel-dg').datagrid('getSelections');
 		for(var i=0; i<rows.length; i++){
 			var row = rows[i];
 			ss.push(row.trid);

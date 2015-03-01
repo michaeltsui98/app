@@ -1,9 +1,6 @@
-<script type="text/javascript" src="/Modules/Admin/static/script/adminResUpload.js"></script>
-
-<input type="hidden" name="param" data-sid="{$sid}" data-type='{$file_type}'>
 <div id="tab1" class="tabcontent">
     <div class="form">
-       <form action="<!--{$addDoUrl}-->" method="post" id="res_add_form" name="res_add_form" class="ui-form">
+       <form action="<!--{$addDoUrl}-->" method="post" id="app_channel_add_form" name="app_channel_add_form" class="ui-form">
 
 
 			 <div class="form_row">
@@ -61,8 +58,8 @@
         </form>
        <script type="text/javascript">
 				$(function(){
-					syform_val('res_add_form');
-                    SetValue(res_add_form["data[node_show]"],"1");
+					syform_val('app_channel_add_form');
+                    SetValue(app_channel_add_form["data[node_show]"],"1");
 				});
 		</script>
     </div>

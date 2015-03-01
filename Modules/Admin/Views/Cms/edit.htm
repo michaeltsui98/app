@@ -1,0 +1,44 @@
+<div id="tab1" class="tabcontent">
+
+<form action="<!--{$editDoUrl}-->" method="post" id="cms_column_edit_form" name="cms_column_edit_form" class="ui-form">
+		<input type="hidden" id="id" name="id" value="<!--{$info['id']}-->"  />
+	     <div class="form_row">
+                <label><span class="ui-form-required">*</span>名称：</label>
+				<input type="text" name="data[name]" id="name" value="{$info['name']}" datatype="*">
+				<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+            <div class="form_row">
+                <label><span class="ui-form-required"></span>别名：</label>
+                <input type="text" name="data[alias]" id="alias" value="{$info['alias']}" >
+                <div class="info"><span class="ui-form-other"></span></div>
+            </div>
+
+
+            <div class="form_row">
+                <label>排序：</label>
+                <input  class="form_input_200" type="text" name="data[corder]" id="corder" value="{$info['corder']}" />
+		 		<div class="info"><span class="ui-form-other"></span></div>
+            </div>
+            <div class="form_row">
+                <label>状态：</label>
+                <input class="ui-radio" type="radio" name="data[is_ok]" id="is_ok" value="1"  datatype="*" />正常
+                <input class="ui-radio" type="radio" name="data[is_ok]" id="is_ok" value="0"  />禁用
+                <div class="info"><span class="ui-form-other"></span></div>
+            </div>
+
+    <div class="ui-form-item">
+        <input type="submit" id="btn_submit" value="保存"/>
+    </div> 
+</form>
+</div>
+
+			<script type="text/javascript">
+				$(function(){
+					syform_val('cms_column_edit_form');
+                    SetValue(cms_column_edit_form["data[is_ok]"],"<!--{$info['is_ok']}-->");
+                    //SetValue(cate_edit_form["data[code]"],"<!--{$info['code']}-->");
+				});
+			</script>
+ 
+
+  

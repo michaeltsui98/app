@@ -44,8 +44,12 @@ define("POLY_PRIVATEKEY", 'WCfI0uRnHY');
 
 $constConfig = array(
     //产品类别
-    '_appCate'=>array(
+    '_appType'=>array(
         1=>'软件',2=>'游戏',
+    ),
+    //产品来源
+    '_official'=>array(
+        0=>'用户',1=>'官方',
     ),
     //产品平台
     '_platform'=>array(

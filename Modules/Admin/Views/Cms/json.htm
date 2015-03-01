@@ -1,0 +1,26 @@
+<!--{loop $data['rows'] $key $value}-->
+	<!--{eval $data['rows'][$key]['trindex']=$key+1;}-->
+	<!--{eval $data['rows'][$key]['trid']=$value['id'];}-->
+	<!--{if $value['is_ok']==1 }-->
+		<!--{eval $data['rows'][$key]['is_ok']="<a href=\"javascript:;\" onclick=\"javascript:ui_ajax('{$isOkUrl}?id={$value['id']}&ok=0',this);\"><span class=\"icon-table icon-isok\"></span>正常</a>";}-->
+	<!--{else}-->
+		<!--{eval $data['rows'][$key]['is_ok']="<a href=\"javascript:;\" onclick=\"javascript:ui_ajax('{$isOkUrl}?id={$value['id']}&ok=1',this);\"><span class=\"icon-table icon-isjz\"></span>禁用</a>";}-->
+	<!--{/if}-->
+
+<!--{eval $data['rows'][$key]['name']= $value['name']}-->
+<!--{eval $data['rows'][$key]['text']= $value['name']}-->
+
+{if !$value['fixed']}
+<!--{eval $data['rows'][$key]['cz']="<a href=\"javascript:;\"  onclick=\"javascript:ui_dialog('{$editUrl}?id={$value['id']}&l={$value['level']}',this);\"><span class=\"icon-table icon-isedit\"></span>修改</a>";}-->
+{/if}
+
+<!--{eval $data['rows'][$key]['cz'].=" <a href=\"javascript:;\"  onclick=\"javascript:ui_qr('{$delUrl}?id={$value['id']}',this);\"><span class=\"icon-table icon-isdel\"></span>删除</a>";}-->
+
+{if $value['level']=='0'}
+<!--{eval $data['rows'][$key]['cz'].=" <a href=\"javascript:;\"  onclick=\"javascript:ui_dialog('{$addUrl}?pid={$value['id']}&l={$value['level']}',this);\"><span class=\"icon-table icon-add\"></span>添加一级节点</a>";}-->
+{elseif $value['level']=='1' }
+<!--{eval $data['rows'][$key]['cz'].=" <a href=\"javascript:;\"  onclick=\"javascript:ui_dialog('{$addUrl}?pid={$value['id']}&l={$value['level']}',this);\"><span class=\"icon-table icon-add\"></span>添加二级节点</a>";}-->
+{/if}
+<!--{/loop}-->
+ 
+<!--{eval echo json_encode($data['rows'])}-->

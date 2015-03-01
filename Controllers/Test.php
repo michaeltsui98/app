@@ -12,8 +12,9 @@
             $data[alias]='232332';
             $data[is_ok]='1';
 
-            $res = Orm_CmsColumn::create($data);
-            var_dump($res);die;
+          //  $res = Orm_CmsColumn::create($data);
+            //var_dump($res);die;
+            $this->getDataAction();
 
         }
 
@@ -24,16 +25,16 @@
             $page = 1;
             $limit = 20;
             set_time_limit(0);
-            for($i=0;$i<$total;$i+=$limit){
+            //for($i=0;$i<$total;$i+=$limit){
                 $data = json_decode(Cola_Com_Http::post($url,array($pram=>$page)),1);
                 unset($data[0]);
 
                 $this->formatData($data);
-                $page++;
+                //$page++;
                // break;
 
 
-            }
+            //}
 
         }
 
@@ -41,10 +42,18 @@
             $p = array();
             $app = new Orm_AppProduct();
             $m = Cola_Model::init();
+
+
             foreach($data as $k=>$v) {
                 //var_dump($v);die;
+                //只取当天最先的数据
+                if($v['updatetime']<time()){
+
+                        continue;
+                }
+
                 $t = array();
-                $t['id'] = $v['id'];
+               // $t['id'] = $v['id'];
                 $t['cate_id'] = $v['catid'];
                 $t['user_id'] = $v['userid'];
                 $t['user_name'] = $v['username'];

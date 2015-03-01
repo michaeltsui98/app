@@ -1,17 +1,15 @@
-
-
 <!--{loop $data['rows'] $key $value}-->
-	<!--{eval $data['rows'][$key]['trindex']=$key+1;}-->
-	<!--{eval $data['rows'][$key]['trid']=$value['doc_id'];}-->
-	
+<!--{eval $data['rows'][$key]['trindex']=$key+1;}-->
+<!--{eval $data['rows'][$key]['trid']=$value['doc_id'];}-->
+
 <!--{if $value['doc_status']==1 }-->
-	<!--{eval $data['rows'][$key]['status']="<a href=\"javascript:;\" ><span class=\"icon-table icon-ok\"></span>{$status[$value['doc_status']]}</a>";}-->
+<!--{eval $data['rows'][$key]['status']="<a href=\"javascript:;\" ><span class=\"icon-table icon-ok\"></span>{$status[$value['doc_status']]}</a>";}-->
 <!--{elseif $value['doc_status']==3}-->
-	<!--{eval $data['rows'][$key]['status']="<a href=\"javascript:;\" ><span class=\"icon-table icon-undo\"></span>{$status[$value['doc_status']]}</a>";}-->
+<!--{eval $data['rows'][$key]['status']="<a href=\"javascript:;\" ><span class=\"icon-table icon-undo\"></span>{$status[$value['doc_status']]}</a>";}-->
 <!--{elseif $value['doc_status']==2}-->
-	<!--{eval $data['rows'][$key]['status']="<a href=\"javascript:;\" ><span class=\"icon-table icon-no\"></span>{$status[$value['doc_status']]}</a>";}-->
+<!--{eval $data['rows'][$key]['status']="<a href=\"javascript:;\" ><span class=\"icon-table icon-no\"></span>{$status[$value['doc_status']]}</a>";}-->
 <!--{else}-->
-	<!--{eval $data['rows'][$key]['status']="<a href=\"javascript:;\" ><span class=\"icon-table icon-lock\"></span>{$status[$value['doc_status']]}</a>";}-->
+<!--{eval $data['rows'][$key]['status']="<a href=\"javascript:;\" ><span class=\"icon-table icon-lock\"></span>{$status[$value['doc_status']]}</a>";}-->
 <!--{/if}-->
 
 
@@ -24,7 +22,7 @@
 <!--{eval $data['rows'][$key]['is_ok']= "<span style=\"color:{$colors[$value['is_ok']]} \" {$msg}>{$is_ok_arr[$value['is_ok']]}</span>";}-->
 
 
-  
+
 <!--{eval $data['rows'][$key]['title']= "<a href=\"/info/{$value['doc_id']}\" target=\"_blank\">{$value['doc_title']}</a>";}-->
 <!--{eval $data['rows'][$key]['cate_name']= $cate_name[$value['cate_id']];}-->
 <!--{eval $data['rows'][$key]['file_size']= Models_Resource::init()->bytesToSize($value['file_size']);}-->
@@ -35,7 +33,7 @@
 "<a href=\"javascript:;\"    onclick=\"javascript:ui_dialog('{$editUrl}?id={$value['doc_id']}',this);\">
  <span class=\"icon-table icon-edit\"></span>
 修改</a>";}-->
- 
+
 
 <!--{eval $data['rows'][$key]['cz'].=" <a href=\"javascript:;\"  onclick=\"javascript:ui_qr('{$delUrl}?id={$value['doc_id']}',this,false);\">
 <span class=\"icon-table icon-cancel\"></span>删除</a>";}-->
@@ -49,5 +47,5 @@
 
 
 <!--{/loop}-->
- 
+
 <!--{eval echo json_encode($data)}-->

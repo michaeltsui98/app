@@ -43,25 +43,57 @@ define("POLY_PRIVATEKEY", 'WCfI0uRnHY');
 //define('DEBUG', TRUE);
 
 $constConfig = array(
-    
-    '_resourceType'=>array(
-            1=>'教案',2=>"课件",3=>'题库',4=>'素材',5=>'微视频',6=>'观摩课',
-            //8=>'备课夹'
+    //产品类别
+    '_appCate'=>array(
+        1=>'软件',2=>'游戏',
     ),
-    '_resourceFileType'=>array(
-	   1=>'*.doc;*.docx;*.ppt;*.pptx;*.xls;*.xlsx;*.vsd;*.pot;*.pps;*.ppsx;*.rtf;*.wps;*.et;*.dps;*.pdf;*.txt;*.epub',
-	   2=>'*.doc;*.docx;*.ppt;*.pptx;*.xls;*.xlsx;*.vsd;*.pot;*.pps;*.ppsx;*.rtf;*.wps;*.et;*.dps;*.pdf;*.txt;*.epub',
-	   3=>'*.doc;*.docx;*.ppt;*.pptx;*.xls;*.xlsx;*.vsd;*.pot;*.pps;*.ppsx;*.rtf;*.wps;*.et;*.dps;*.pdf;*.txt;*.epub',
-	   4=>'*.jpg;*.jpeg;*.rar;*.zip;*.png;*.gif',
-	   5=>'*.mp4;*.flv',
-	   6=>'*.mp4;*.flv',
-	   7=>'*.doc;*.docx;*.ppt;*.pptx;*.xls;*.xlsx;*.vsd;*.pot;*.pps;*.ppsx;*.rtf;*.wps;*.et;*.dps;*.pdf;*.txt;*.epub',
-	   9=>'*.doc;*.docx;*.ppt;*.pptx;*.xls;*.xlsx;*.vsd;*.pot;*.pps;*.ppsx;*.rtf;*.wps;*.et;*.dps;*.pdf;*.txt;*.epub',
-    ),     
+    //产品平台
+    '_platform'=>array(
+        1=>'安卓',2=>'苹果',3=>'PC',
+    ),
+    //结算方式
+    '_balance'=>array(
+       1=>'日结',
+       2=>'周结',
+       3=>'双周结',
+       4=>'月结',
+    ),
+    //数据查看
+    '_dataview' => array(
+        '1' => '有后台',
+        '2' => '截图'
+    ),
+    //合作方式
+    '_cooperation' => array(
+        '1' => '付费',
+        '2' => '换量'
+    ),
+    //渠道类型
+    '_channelType' => array(
+        // 应用 网站 联盟 市场 预装 其它
+        '1' => '应用',
+        '2' => '网站',
+        '2' => '联盟',
+        '2' => '市场',
+        '2' => '预装',
+        '2' => '其它',
+    ),
+    //渠道量级
+    '_channelNum' => array(
+        // 0-99 100-499 500-999 1000-2999 3000以上
+        '1' => '0-99',
+        '2' => '100-499',
+        '3' => '500-999',
+        '4' => '1000-2999',
+        '5' => '3000以上',
+    ),
+
     '_userSex' => array(
         '1' => '男',
         '2' => '女'
     ),
+
+
     '_userRole' => array(
         '1' => '学生',
         '2' => '教师',

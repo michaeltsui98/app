@@ -30,17 +30,7 @@ class Models_Base extends Cola_Model
         return $array;
     }
     
-    /**
-     * 文档类型
-     */
-    function get_type_node($id=null){
-        $ls = Cola::getConfig('_resourceType');;
-        if($id){
-            return $ls[$id];
-        }else{
-            return $ls;
-        }
-    }
+
      
      
 }

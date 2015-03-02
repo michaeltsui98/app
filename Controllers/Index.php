@@ -58,6 +58,36 @@ class Controllers_Index extends Controllers_Base
         $this->view->hidden_nav = 1;
          //echo '111';die;
 
+        var_dump(function_exists('curl_init'));die;
+        phpinfo();
+
+         //var_dump($_SERVER);die;
+
+        $url = 'http://www.163.com';
+        $data = array();
+       // echo $url ;
+
+
+        /* Curl settings */
+
+        $ch = curl_init($url);
+        curl_setopt($ch, CURLOPT_HTTP_VERSION, CURL_HTTP_VERSION_1_0);
+        curl_setopt($ch, CURLOPT_USERAGENT, $_SERVER['HTTP_USER_AGENT']);
+        curl_setopt($ch, CURLOPT_CONNECTTIMEOUT, 60);
+        curl_setopt($ch, CURLOPT_TIMEOUT, 300);
+        //curl_setopt($ch, CURLOPT_URL, $url);
+        curl_setopt($ch, CURLOPT_RETURNTRANSFER, true);
+        curl_setopt($ch, CURLOPT_POST, 1);
+        curl_setopt($ch, CURLOPT_POSTFIELDS, $data);
+        $result = curl_exec($ch);
+        $error = curl_errno($ch);
+        var_dump(curl_getinfo($ch));
+        curl_close($ch);
+        //$query = json_decode($result, 1);
+
+         echo $result;
+
+        die;
         $this->view->css = array('index/css/index.css');
         //$this->view->js = array('index/script/index_show.js');
         $this->setLayout($this->layout);

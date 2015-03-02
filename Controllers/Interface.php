@@ -60,16 +60,17 @@ class Controllers_Interface extends Controllers_Base {
          }
          //$dd = new Models_DDClient();
          
-         $url = DD_API_URL."auth/checkappkey";
+         //$url = DD_API_URL."auth/checkappkey";
          
-         $res = (int)Cola_Com_Http::post($url, array('app_key'=>$app_key));
-         
-         if($res==0){
+         //$res = (int)Cola_Com_Http::post($url, array('app_key'=>$app_key));
+
+         //验证app_key
+        /* if($app_key != md5('71715.cn')){
              $this->echoJson('error', '验证 app_key 无效',array(),200);
-         }
-         if($res==2){
+         }*/
+         /*if($res==2){
              $this->echoJson('error', '验证 app_key 过期',array(),300);
-         }
+         }*/
          $this->c = $this->getVar('c');
          $this->m = $this->getVar('m');
          if(!$this->c or !$this->m){
@@ -86,12 +87,13 @@ class Controllers_Interface extends Controllers_Base {
          if(!$access_token){
              $this->echoJson('error', 'access_token is empty',array(),100);
          }
-         $url = DD_API_URL."auth/checksubappaccesstoken";
-         $json = Cola_Com_Http::post($url, array('access_token'=>$access_token));
-         $res_arr = json_decode($json,1);
-         if(isset($res_arr['errcode']) and isset($res_arr['ret'])){
+         //$url = DD_API_URL."auth/checksubappaccesstoken";
+         //$json = Cola_Com_Http::post($url, array('access_token'=>$access_token));
+         //$res_arr = json_decode($json,1);
+         /*if($access_token != hash_hmac('md5','71715.cn')){
              $this->echoJson('error', '验证 access_token 无效',array(),200);
-         }
+         }*/
+
          $this->c = $this->getVar('c');
          $this->m = $this->getVar('m');
          if(!$this->c or !$this->m){

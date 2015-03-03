@@ -25,23 +25,28 @@ class Controllers_Spider extends Cola_Controller
         if ($is_official) {
             $url = self::OFFICIAL;
         }
+        $total = 60;
         $limit = 20;
         set_time_limit(0);
-        $data = json_decode(Cola_Com_Http::post($url, array($param => $page)), 1);
-        unset($data[0]);
-        $ids = array();
-        foreach ($data as $k => $v) {
-            if (date('Y-m-d',$v['updatetime'])==date('Y-m-d',time())) {
-                $ids[] = $v['id'];
-            }
-        }
-        $dbIds = Models_AppProduct::init()->getAppIds($ids);
-        foreach($data as $k =>$v){
-            if (date('Y-m-d',$v['updatetime'])==date('Y-m-d',time())) {
-                if(!in_array($v['id'],$dbIds)){
-                    $this->saveAppToDB($v);
+        for($i=1;$i<=3;$i++){
+            $page = $i;
+            $data = json_decode(Cola_Com_Http::post($url, array($param => $page)), 1);
+            unset($data[0]);
+            $ids = array();
+            foreach ($data as $k => $v) {
+                if (date('Y-m-d',$v['updatetime'])==date('Y-m-d',time())) {
+                    $ids[] = $v['id'];
                 }
             }
+            $dbIds = Models_AppProduct::init()->getAppIds($ids);
+            foreach($data as $k =>$v){
+                if (date('Y-m-d',$v['updatetime'])==date('Y-m-d',time())) {
+                    if(!in_array($v['id'],$dbIds)){
+                        $this->saveAppToDB($v);
+                    }
+                }
+            }
+
         }
 
     }

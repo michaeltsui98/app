@@ -31,5 +31,16 @@ class Models_AppProduct extends Cola_Model
         $sql = "select id,title,price,balance,updated_at from {$this->_table}    order by updated_at  desc";
         return $this->getListBySql($sql,$page,$limit);
     }
+
+    public function getAppIds($ids){
+        $aids = implode(',',$ids);
+        $sql = "select aid from {$this->_table} where aid in ($aids)";
+        $res = Models_AppProduct::init()->sql($sql);
+        $ids = array();
+        foreach($res as $v){
+            $ids[] = $v['aid'];
+        }
+        return $ids;
+    }
 }
  

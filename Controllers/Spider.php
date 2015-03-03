@@ -29,15 +29,24 @@ class Controllers_Spider extends Cola_Controller
         set_time_limit(0);
         $data = json_decode(Cola_Com_Http::post($url, array($param => $page)), 1);
         unset($data[0]);
+        $ids = array();
         foreach ($data as $k => $v) {
-            //var_dump(date('Y-m-d',$v['updatetime'])==date('Y-m-d',time()));die;
             if (date('Y-m-d',$v['updatetime'])==date('Y-m-d',time())) {
-                $this->saveAppToDB($v);
+                $ids[] = $v['id'];
             }
-
+        }
+        $dbIds = Models_AppProduct::init()->getAppIds($ids);
+        foreach($data as $k =>$v){
+            if (date('Y-m-d',$v['updatetime'])==date('Y-m-d',time())) {
+                if(!in_array($v['id'],$dbIds)){
+                    $this->saveAppToDB($v);
+                }
+            }
         }
 
     }
+
+
 
     /**
      * 收集渠道信息
@@ -53,13 +62,22 @@ class Controllers_Spider extends Cola_Controller
         set_time_limit(0);
         $data = json_decode(Cola_Com_Http::post($url, array($param => $page)), 1);
         unset($data[0]);
+
+        $ids = array();
         foreach ($data as $k => $v) {
-
             if (date('Y-m-d',$v['updatetime'])==date('Y-m-d',time())) {
-                $this->saveChannelToDB($v);
+                $ids[] = $v['id'];
             }
-
         }
+        $dbIds = Models_AppChannel::init()->getChannelIds($ids);
+        foreach($data as $k =>$v){
+            if (date('Y-m-d',$v['updatetime'])==date('Y-m-d',time())) {
+                if(!in_array($v['id'],$dbIds)){
+                    $this->saveChannelToDB($v);
+                }
+            }
+        }
+
     }
 
     /**
